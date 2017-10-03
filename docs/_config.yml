@@ -3,8 +3,8 @@ title: P4
 email: p4@p4.org
 description: The P4 Language Consirtum
 
-baseurl: "/web/"
-url: "https://p4lang.github.io" 
+baseurl: ""
+url: "https://p4lang.github.io/web/" 
 
 data-ad-slot: ""
 data-ad-client: ""
