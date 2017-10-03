@@ -3,15 +3,7 @@ title: P4
 email: p4@p4.org
 author: The P4 Language Consirtum
 
-baseurl: "/web/"
 url: "https://p4lang.github.io/web/"
-
-data-ad-slot: ""
-data-ad-client: ""
-google_ad_client: ""
-
-google_analytics: ""
-addthis_id: ""
 
 social:
   - title: twitter
@@ -19,12 +11,10 @@ social:
   - title: github
     url: http://github.com/p4lang
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json"]
 
 gems: [jekyll-paginate, jekyll-feed]
-# Build settings
