@@ -14,29 +14,32 @@
                 </div>
             </div>
             <div class="col-sm-5">
-                <div class="device-container">
+                <div class="row">
+                  <div class="device-container">
                     <div class="device-mockup macbook">
-                        <div class="device">
-                           <div class="screen">                            
-table routing {<br />
-  key = { ipv4.dstAddr : lpm; }<br />
-  actions = {<br />
-    do_drop;<br />
-    route_ipv4;<br />
-  }<br />
-  size : 2048;<br />
-}<br />
-control ingress() {<br />
-  apply {<br />
-    routing.apply();<br />
-  }<br />
-}<br />
-                           </div>
+                      <div class="device">
+                        <div class="screen">                            
+<pre>
+<span class="purple">table</span> <span class="green">ROUTING</span> {
+<span class="margin-1 purple">key</span> = { ipv4.dstAddr : lpm; }
+<span class="margin-1 purple">actions</span> = { drop; route; }
+<span class="margin-1 purple">size</span> : <span class="blue">2048</span>;
+}
+<span class="purple">control</span> <span class="green">ingress</span>() {
+  <span class="margin-1 purple">apply</span> {
+    <span class="margin-2">routing.apply();</span>
+  <span class="margin-1">}</span>
+}
+</pre>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-                <p><a href="https://github.com/p4lang/" class="btn btn-outline btn-xl page-scroll">Try it! Get the code on Github</a></p>
             </div>
+            <div style="position:absolute; bottom:0;">
+              <p><a href="https://github.com/p4lang/" class="btn btn-outline btn-xl page-scroll">Try it! Get the code on Github</a></p>
+            </div>                            
         </div>
     </div>
 </header>

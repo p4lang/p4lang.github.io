@@ -188,10 +188,29 @@ header {
   .device-container {
     max-width: 300px;
     margin: 0 auto 100px;
-    .screen img {
+    .screen {
       border-radius: 3px;
     }
-  }
+    .screen pre {
+  	  background-color:rgba(0,0,0,0.8);
+	  color:#ffffff;
+    }
+    .margin-1 {
+      margin-left:10px;
+    }
+    .margin-2 {
+      margin-left:20px;
+    }
+    .purple {
+      color: #d76cdd;
+    }
+    .green {
+      color: #8cc63f;
+    }
+    .blue {
+      color: #7256b7;
+    }
+  }  
 }
 
 @media (min-width: 768px) {
