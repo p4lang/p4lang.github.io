@@ -1,28 +1,12 @@
-
-<section id="contact" class="contact bg-primary">
-    <div class="container">
-        <h2>We <i class="fa fa-heart"></i> new friends!</h2>
-        <ul class="list-inline list-social">
-            {% for network in site.social %}
-            <li class="social-{{ network.title }}">
-                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-</section>
 <footer>
     <div class="container">
-        <p>&copy; 2017 P4 Language Consortium.</p>
+        <p>&copy; 2017 {{ site.author }}</p>
         <ul class="list-inline">
             <li>
-                <a href="#">Privacy</a>
+                <a href="{{ site.baseurl }}/legal">Legal</a>
             </li>
             <li>
-                <a href="#">Terms</a>
-            </li>
-            <li>
-                <a href="#">FAQ</a>
+                <a href="{{ site.baseurl }}/privacy">Privacy</a>
             </li>
         </ul>
     </div>
