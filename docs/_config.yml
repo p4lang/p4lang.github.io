@@ -1,10 +1,10 @@
 # Site settings
 title: P4
 email: p4@p4.org
-description: The P4 Language Consirtum
+author: The P4 Language Consirtum
 
-baseurl: ""
-url: "https://p4lang.github.io/web/" 
+baseurl: "/web/"
+url: "https://p4lang.github.io/web/"
 
 data-ad-slot: ""
 data-ad-client: ""
