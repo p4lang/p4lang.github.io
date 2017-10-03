@@ -3,9 +3,14 @@
         <div class="row">
             <div class="col-sm-7">
                 <div class="header-content">
-                    <div class="header-content-inner">
-                        <h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-                        <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                  <div class="header-content-inner">
+                    <h1>Protocol Independent</h1>
+                    <p>P4 programs specify how a switch processes packets.</p>
+                    <h1>Target Independent</h1>
+                    <p>P4 is suitable for describing everything from high- performance forwarding ASICs to software switches.</p>
+                    <h1>Field Reconfigurable</h1>
+                    <p>P4 allows network engineers to change the way their switches process packets after they are deployed.</p>
+                        <a href="https://github.com/p4lang/" class="btn btn-outline btn-xl page-scroll">Try it! Get the code on Github</a>
                     </div>
                 </div>
             </div>
@@ -13,20 +18,21 @@
                 <div class="device-container">
                     <div class="device-mockup iphone6_plus portrait white">
                         <div class="device">
-                            <div class="screen">
-table routing {
-  key = { ipv4.dstAddr : lpm; }
-  actions = {
-    do_drop;
-    route_ipv4;
-  }
-  size : 2048;
-}
-control ingress() {
-  apply {
-    routing.apply(); 
-  }
-}
+                           <div class="screen">
+                            
+table routing {<br />
+  key = { ipv4.dstAddr : lpm; }<br />
+  actions = {<br />
+    do_drop;<br />
+    route_ipv4;<br />
+  }<br />
+  size : 2048;<br />
+}<br />
+control ingress() {<br />
+  apply {<br />
+    routing.apply();<br />
+  }<br />
+}<br />
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
