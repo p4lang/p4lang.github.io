@@ -4,7 +4,7 @@ email: p4@p4.org
 author: The P4 Language Consirtum
 
 url: "https://p4lang.github.io/web/"
-baseurl: "/web
+baseurl: "/web"
 
 social:
   - title: twitter
