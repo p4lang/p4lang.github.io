@@ -14,20 +14,19 @@
                     <div class="device-mockup iphone6_plus portrait white">
                         <div class="device">
                             <div class="screen">
-                              <pre>
-                                table routing {
-                                  key = { ipv4.dstAddr : lpm; }
-                                  actions = {
-                                    do_drop;
-                                    route_ipv4;
-                                  }
-                                  size : 2048;
-                                }
-                                control ingress() {
-                                  apply {
-                                    routing.apply(); 
-                                  }
-                                }
+table routing {
+  key = { ipv4.dstAddr : lpm; }
+  actions = {
+    do_drop;
+    route_ipv4;
+  }
+  size : 2048;
+}
+control ingress() {
+  apply {
+    routing.apply(); 
+  }
+}
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
