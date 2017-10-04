@@ -14,13 +14,11 @@
                 </div>
             </div>
             <div class="col-sm-5">
-                <div class="row">
-                  <div class="device-container">
-                    <div class="device-mockup macbook">
-                      <div class="device">
-                        <div class="screen">                            
+                <div class="header-content">
+                  <div class="header-content-inner">
+                    <div class="screen">                            
 <pre>
-<span class="purple">table</span> <span class="green">ROUTING</span> {
+<span class="purple">table</span> <span class="green">routing</span> {
 <span class="margin-1 purple">key</span> = { ipv4.dstAddr : lpm; }
 <span class="margin-1 purple">actions</span> = { drop; route; }
 <span class="margin-1 purple">size</span> : <span class="blue">2048</span>;
@@ -32,15 +30,12 @@
 }
     
 </pre>
-                        </div>
-                      </div>
                     </div>
+                    <div>
+                      <p><a href="https://github.com/p4lang/" class="btn btn-outline btn-xl page-scroll"><i class="fa fa-github" aria-hidden="true"></i> Try it! Get the code on Github</a></p>
+                    </div>                            
                   </div>
                 </div>
             </div>
-            <div style="position:absolute; bottom:0;">
-              <p><a href="https://github.com/p4lang/" class="btn btn-outline btn-xl page-scroll"><i class="fa fa-github" aria-hidden="true"></i> Try it! Get the code on Github</a></p>
-            </div>                            
         </div>
-    </div>
 </header>
