@@ -39,7 +39,13 @@ $head-secondary: #7256B9;
 $theme-primary: #fdcc52 ;
 $theme-secondary: #fdc539 ;
 $theme-dark: #222;
-    
+
+.code {
+    background-image: url('../img/code.jpg');
+    color: white;
+    padding-top: 100px;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
