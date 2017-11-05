@@ -1,0 +1,79 @@
+---
+layout: code
+title: "Code"
+description: "Starting point for developers"
+---
+
+P4.org is proud to make available a wealth of software packages that
+enable you to get started on your data-plane programming journey.
+
+A good starting point is our rich set
+of <a href="https://github.com/p4lang/tutorials">tutorials</a>. Our
+tutorials are developed as hands-on labs, and contain everything to
+get you started with experimenting in P4: an overview of the language,
+sets of exercises that increase in complexity, and a virtual machine
+pre-installed with all the software such that you can directly
+jump into data-plane programming.
+
+For the developer in you, we have made available all our software, so
+that you can start customizing it to your needs. This includes:
+- P4 code examples, including a
+    data-center <a href="https://github.com/p4lang/switch">switch</a>
+    definition. It supports a large number of features, from L2/L3
+    processing, to Multicast, MPLS, ACL, SFLOW and even In-band
+    Network Telemetry (INT).
+
+- The <a href="https://github.com/p4lang/p4c">P4C compiler</a> for both
+    P4<sub>14</sub> and P4<sub>16</sub> language variants. The
+    compiler supports several backends:
+   - p4c-bmv2 -- targets the
+        <a href="https://github.com/p4lang/behavioral-model">behavioral
+          model</a>
+   - p4c-ebpf -- targets
+    the <a href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter">Extended
+          Berkeley Packet Framework</a>
+   - p4c-graphs -- produces parser and table flow graph
+        diagrams, and
+   - p4test -- a simple frontend verifier for P4 programs.
+    The infrastructure is designed to easily integrate vendor specific
+    backends.
+
+- The <a href="https://github.com/p4lang/behavioral-model">behavioral
+    model</a>, a simulation environment to run the P4 software switch,
+    standalone or in Mininet. The behavioral model is an extensible
+    framework that currently supports a P4<sub>14</sub> pipeline
+    (simple_switch). However it allows you to easily simulate
+    new archiectures by implementing new externs and enabling you to
+    organize the forwarding elements as needed.
+
+- The specification and reference implementation
+    for <a href="https://github.com/p4lang/PI">P4 Runtime</a>, a runtime API
+    and protocol for controlling data-plane programs.
+
+- A <a href="https://github.com/p4lang/ptf">packet testing
+    framework</a> (PTF), written in Python, that enables configuring a
+    switch and creating tests that send, receive, and verify packets
+    of different formats. PTF interfaces with P4 Runtime.
+
+- <a href="https://github.com/p4lang/p4app">P4app</a>, an
+    environment to tie it all together and deploy it using simple
+    configuration rules.
+
+And much more. Please feel free to browse around
+our <a href="https://github.com/p4lang">github repositories</a>. All
+our code is released under
+the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0
+  license</a>.
+
+As your interest grows, we encourage you to participate and
+contribute your code. Please join
+the <a href="http://lists.p4.org/mailman/listinfo/p4-dev_lists.p4.org">P4
+Developer</a> mailing list to get updates, ask questions, and get
+answers.  Our <a href="projects.html">community projects</a> include a
+variety of tasks that can give you ideas on where to start
+contributing.
+
+Note that you or your organization must be a member of P4.org in order
+for us to accept your
+contributions. <a href="https://p4.org/join-us/">Membership</a> is
+free.
