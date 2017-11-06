@@ -41,7 +41,8 @@ $theme-secondary: #fdc539 ;
 $theme-dark: #222;
 
 .code {
-    background-image: url('../img/code.jpg');
+    # background-image: url('../img/code.jpg');
+    background-color: navy;
     color: white;
     padding-top: 100px;
 }
