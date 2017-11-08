@@ -71,7 +71,7 @@ p {
       font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
       font-weight: 200;
       letter-spacing: 1px;
-      color: $theme-primary;
+      color: $head-secondary;
       &:hover, &:focus {
         color: $head-primary;
       }
@@ -97,10 +97,10 @@ p {
       }
     }
     &.active > a {
-      color: $theme-primary !important;
+      color: $head-secondary !important;
       background-color: transparent;
       &:focus {
-        color: $theme-primary !important;
+        color: $head-primary !important;
         background-color: transparent;
       }
       &:hover, &:focus:hover {
@@ -156,11 +156,14 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/p4-background.png"), $head-primary;
+  background: url("../img/p4-background.png") no-repeat, $head-primary;
+  background-size: cover;
   /* fallback for old browsers */
-  background: url("../img/p4-background.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  background: url("../img/p4-background.png") no-repeat, -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  background-size: cover;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/p4-background.png"), linear-gradient(to left, $head-primary, $head-secondary);
+  background: url("../img/p4-background.png") no-repeat, linear-gradient(to left, $head-primary, $head-secondary);
+  background-size: cover;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   .header-content {
@@ -395,7 +398,7 @@ footer {
 
 .bg-primary {
   background: $theme-primary;
-  background: -webkit-linear-gradient($theme-primary, $theme-secondary);
+  background: -webkit-linear-gradient(theme-primary, $theme-secondary);
   background: linear-gradient($theme-primary, $theme-secondary);
 }
 
