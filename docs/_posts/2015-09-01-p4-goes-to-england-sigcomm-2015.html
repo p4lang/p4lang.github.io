@@ -1,0 +1,39 @@
+---
+layout: post
+title: P4 goes to England - SIGCOMM 2015
+date: 2015-09-01
+author: P4.org
+header-img: img/p4-background.png
+---
+<h5>Updated: <a href="https://github.com/p4lang/tutorials/tree/master/SIGCOMM_2015">link to the github repo</a> : contains files and setup from the August 2015 SIGCOMM tutorial</h5>
+<h5></h5>
+<p>The P4 language had a busy week! From the 15-21<sup>st</sup> of August, SIGCOMM held its annual conference in London, under shockingly blue skies and a great venue provided by Imperial College.  In addition to a great set of papers, there were two industrial demos using P4 as the forwarding plane, and the original P4 paper was awarded “Best of CCR” – a very high honor indeed.</p>
+<p>The Best of CCR award was presented to <a href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000004.pdf">the original P4 paper</a>, and Chang Kim gave a presentation outlining the original concepts and how P4 has evolved since the publication of the original CCR paper. In addition to motivating P4 and summarizing the core concepts of the language, Chang also gave a broader context and the current status of P4. The key message was clear --- P4 is not just an academic paper anymore; it has a community behind it, and the community is actively using the language to design and implement real-world data-plane protocols that can run on a variety of H/W and S/W targets, including switches, NICs, and middle-boxes. More importantly, most of this work is available as open source, so the community can access, modify, and redistribute the code freely.</p>
+<p>In the main track of the conference, papers and presentations from a wide range of research and network architectures dovetailed nicely with what P4 is trying to accomplish:  to provide programmable access to the data plane of the network and by doing so allow rapid innovation, particularly in the areas of monitoring and network visibility.  While it’s still too early to have entire research papers using P4 targets (we're looking at you, 2016!) -- a number of this year’s papers were based on methods and research that could easily have been implemented (often more accurately or efficiently!) in P4.   A few examples:</p>
+<ul>
+<li><strong><em>Pingmesh</em></strong>: a presentation by the team at Microsoft that provides a full mesh of monitoring and visualization tools to watch over the cloud:
+<ul>
+<li><a href="http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p139.pdf">http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p139.pdf</a></li>
+</ul>
+</li>
+<li><strong><em>Packet-Level Telemetry in Large Datacenter Networks</em></strong>: a description of the “Packetseer” monitoring system, which uses concepts such as classification based mirroring, dedicated probe packets, and data collection and analysis. In many cases these can be fully implemented in a P4 data plane, and in others the data plane can be used to dramatically accelerate or offload a CPU based process.  <a href="http://schd.ws/hosted_files/p4workshop2015/26/MingZ-P4-Workshop-June-04-2015.pdf">Ming Zhang’s talk</a> at the P4 workshop in June also discussed many of these same concepts.
+<ul>
+<li><a href="http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p479.pdf">http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p479.pdf</a></li>
+</ul>
+</li>
+<li><strong><em>Congestion Control for Large-Scale RDMA Deployments</em></strong>: a modification of TCP that is implemented primarily in programmable NICs. It works by monitoring queue-depths and taking actions to generate congestion notifications when certain thresholds are exceeded.
+<ul>
+<li><a href="http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p523.pdf">http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p523.pdf</a></li>
+</ul>
+</li>
+<li><strong><em>TIMELY: RTT-based Congestion Control for the Datacenter</em></strong>: TIMELY uses computed round-trip times (the rate computation engine) to adjust data flowing into the network (the rate control engine)
+<ul>
+<li><a href="http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p537.pdf">http://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p537.pdf</a></li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>In the industrial demonstration area, there were a number of demos that echoed the themes of visibility, monitoring, and measurement technology.  There were two demonstrations specifically built on running P4 code:  Microsoft demonstrated their Azure Cloud Switch, which was a demonstration leaf/spine network running the <a href="http://www.opencompute.org/wiki/Networking/SpecsAndDesigns#Switch_Abstraction_Interface">Switch Abstraction Interface</a> code on switches from multiple vendors, including one switch that was running <a href="https://github.com/p4lang/p4factory/tree/master/targets/switch/">the open-source P4 softswitch</a>.  To read more about this you can check out the <a href="https://azure.microsoft.com/en-us/blog/microsoft-showcases-the-azure-cloud-switch-acs/">Microsoft blog post</a>.  It’s great to see people implementing real forwarding models in the language, especially when they can be shown as feature complete and compatible with existing, widely deployed devices.  Barefoot Networks also demonstrated their Inband Network Telemetry visualizer, which collects and reports data such as timestamps and queueing latency through the switch, all implemented in the P4 data plane.</p>
+<p>&nbsp;</p>
+<p>As if all these were not enough, there was one more exciting P4 event on the last day of the long week. A few P4 evangelists represented P4.org and hosted the first full-day P4 tutorial. The attendance was remarkable. More than 50 participants joined the full-day program, and the room was literally and figuratively filled with the “hotness” of the language and the participants’ enthusiasm. The tutorial was particularly helpful for the potential P4 developers because it had extensive hands-on lab sessions. The materials used in the tutorial will be published on the p4.org website, including the presentation slides and P4 coding assignments. One of the sessions during the tutorial was a panel, where Nick Feamster, Minlan Yu, and Mukesh Hira shared their experiences in P4 for teaching and research projects. Nick shared his experiences of teaching P4 for one of his Coursera SDN classes. Nick also shared his perspective on P4: “<em>P4 and data-plane programmability in general promise support for fine-grained information about the performance of individual application traffic flows, which should ultimately enable dramatic improvements to the tools that operators use for network monitoring and troubleshooting, in the data center, enterprise, and wide area.</em>" Minlan and Mukesh shared their plans to prototype and evaluate their research ideas – including L4 load balancing, network monitoring and analysis, and dynamic routing – using P4.</p>
+<p>&nbsp;</p>

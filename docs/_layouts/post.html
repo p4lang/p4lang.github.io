@@ -12,7 +12,7 @@ layout: default
                 {% if page.subtitle %}
                 <h2 class="subheading">{{ page.subtitle }}</h2>
                 {% endif %}
-                <p class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</p>
+                <p class="meta">{% if page.author %}Posted by {{ page.author }}{% endif %}{% if page.date %} on {{ page.date | date: "%B %-d, %Y" }}{% endif %}</p>
                 <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
               </div>
             </div>
@@ -73,46 +73,3 @@ layout: default
 </article>
 
 <hr>
-
-{% if site.disqus_account %}
-<article>
-  <div id="disqus" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-      <h2 class="section-heading">Leave a comment! We <i style="color:red"class="fa fa-heart"></i> it!</h2>
-
-      <script id="dsq-count-scr" src="//{{ site.disqus_account }}.disqus.com/count.js" async></script>
-
-
-      <div id="disqus_thread"></div>
-      <script>
-
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = {{ post.url | prepend: site.baseurl }};  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = {{ post.title | prepend: site.baseurl }};; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '//{{ site.disqus_account }}.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-    </div>
-  </div>
-</div>
-</article>
-
-<hr>
-
-
-{% endif %}

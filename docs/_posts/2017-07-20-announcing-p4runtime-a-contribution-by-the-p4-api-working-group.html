@@ -1,0 +1,96 @@
+---
+layout: post
+title: Announcing P4Runtime - A contribution by the P4 API Working Group.
+date: 2017-07-20
+author: P4.org
+header-img: img/p4-background.png
+---
+<p><em>by Lorenzo Vicisano &amp; Antonin Bas</em></p>
+<p>The P4 community has come a long way since the first P4 Workshop in June 2015, and can be proud of the solid ecosystem it has built. Between the new <a href="https://github.com/p4lang/p4c">p4c compiler</a>, that supports both P4<sub>14</sub> and P4<sub>16</sub>, and the <a href="https://github.com/p4lang/behavioral-model">bmv2 software switch</a>, writing and running your own P4 program has never been easier. As we’ve seen at recent P4 Workshops, many people in industry and academia have used P4 to implement novel forwarding plane functionality.</p>
+<p>One of the big benefits of programmable forwarding is that different switches, built using different silicon from different vendors, can share a common forwarding behavior, because they can all run the same P4 program. Amin Vahdat (Google; P4.org Board member) proposed the goal of “silicon independence” at the second P4 Workshop in November 2015, in which a network can be built from a variety of different forwarding planes, without the network control plane needing to know all the silicon-specific details of each switch. P4.org therefore decided to launch the API Working Group, to create silicon-independent APIs for controlling P4-programmable switches.</p>
+<p>The charter of the new API WG is to create a standard method for control-plane elements to interface with P4 forwarding planes. Defining the API specifically for P4 enables designers to fully leverage the potential and flexibility of a P4-defined forwarding plane.</p>
+<p>The main goal of a P4 API is to control P4 objects at runtime and to dynamically provision switches with the appropriate P4 program. The P4 language specification defines a set of core abstractions for describing programmable forwarding planes: parsers, tables and controls. It also lets each P4-programmable architecture define its own primitives through the “extern” abstraction. Most of these elements need to be programmed at runtime to achieve the desired forwarding behavior. For example, P4 tables require a mechanism to create, delete and modify match-action entries.</p>
+<p>Standardizing runtime control of P4 forwarding elements is out-of-scope of the P4 language specification, but the need for it is clear. As a result of this, we observe a variety of attempts to fill the gap with custom control-plane interfaces, as new P4 targets (hardware or software) are emerging. Because we lack a standard control-plane interface for P4-programmable forwarding planes, each new target comes up with a new one. Some vendors have developed tools for auto-generating APIs from P4 programs, but there is little agreement about how to define these APIs and which language should be used to implement them. Other vendors use JSON files to populate tables and control other P4 objects. OpenFlow is also being considered, as application developers ask for OpenFlow support on P4 devices, or for a P4 alternative with the same qualities, especially portability.</p>
+<p>We believe that the standardization of runtime APIs for P4-programmable devices is the next big challenge for the P4 community, which is why we announced the new P4 API Working Group at P4 Workshop 2017 on May 17. We strive to define and offer standard APIs that can be implemented across all P4 targets by all vendors.</p>
+<p><b>The goals and scope of P4 runtime APIs</b></p>
+<p>We believe that a standard P4 runtime API needs to provide the following:</p>
+<ul>
+<li>Runtime management of P4 tables (adding / modifying / deleting / querying / … entries)</li>
+<li>Runtime management of the Portable Switch Architecture (PSA) externs: counters, meters, action profiles,... This allows us to guarantee portability of control-planes written for PSA across multiple P4 targets.</li>
+<li>Ability to extend the API to support vendor-specific externs.</li>
+</ul>
+<p>P4 runtime APIs can be designed for local control (e.g. integration with a switch OS) or for remote control (e.g. integration with a remote SDN controller).</p>
+<p><a href="http://p4.org/wp-content/uploads/2017/07/p4runtime.png"><img class="aligncenter size-full wp-image-528" src="{{ site.baseurl }}/assets/p4runtime.png" alt="" /></a></p>
+<p>&nbsp;</p>
+<p><b>Introducing one possible P4 runtime API: P4Runtime</b></p>
+<p>Google and Barefoot Networks have started collaborating on one possible runtime API, which is called P4Runtime. P4Runtime targets a remote controller and is defined using Protobuf (serialization protocol) and gRPC (RPC protocol).</p>
+<p>All work related to P4Runtime to date has been released as open source software on GitHub: <a href="https://github.com/p4lang/PI/blob/master/proto/p4/p4runtime.proto">https://github.com/p4lang/PI/blob/master/proto/p4/p4runtime.proto</a>.<br />
+P4Runtime was also presented at P4 Workshop 2017 and you can find the slides <a href="http://p4.org/wp-content/uploads/2017/06/p4-ws-2017-p4-program-dependent-api-for-sdn-applications.pdf">here</a>.</p>
+<p>We believe that P4Runtime is a good candidate for standardization for the following reasons:</p>
+<ul>
+<li>P4Runtime is a protocol-independent API, which facilitates adoption by vendors and enables field-reconfigurability. In particular, it provides the ability to push a new P4 forwarding plane to a device without recompiling the code running on it!</li>
+<li>P4Runtime can be used on legacy fixed-function devices, provided their forwarding behavior can be expressed in P4. This enables incremental deployment of P4-programmable devices in a network.</li>
+<li>P4Runtime supports familiar SDN abstractions like Packet-in / Packet-out and controller arbitration which is necessary for controller replication.</li>
+</ul>
+<p>To add an entry to a P4 table, a TableEntry Protobuf message is constructed by the control-plane and sent through RPC to a receiver which implements the P4Runtime gRPC service for a given P4 target. As an example, consider the following P4<sub>16</sub> table and one possible TableEntry message meant for this table:</p>
+<pre>
+action set_nhop(bit<32> nhop) {
+    …
+}
+
+table ipv4_lpm {
+    key = {
+       hdr.ipv4.dstAddr : lpm;
+       hdr.meta.vrf_id : exact;
+    }
+    actions = {
+       drop;
+       set_nhop;
+    }
+}
+</pre>
+<p>Flow to be added:</p>
+<pre>ipv4.dstAddr=12.0.0.0/8, meta.vrf_id=0x00
+    -&gt; drop()
+</pre>
+<p>Constructed TableEntry Protobuf message:</p>
+<pre>table_entry {
+  table_id: 33581985
+  match {
+    field_id: 1
+    lpm {
+      value: "\f<pre wp-pre-tag-2></pre>00<pre wp-pre-tag-2></pre>00<pre wp-pre-tag-2></pre>00"
+      prefix_len: 8
+    }
+  }
+  match {
+    field_id: 2
+    exact {
+      value: "<pre wp-pre-tag-2></pre>00<pre wp-pre-tag-2></pre>00"
+    }
+  }
+  action {
+    action {
+      action_id: 16812204
+    }
+  }
+}
+</pre>
+<p>&nbsp;</p>
+<p><b>Why not OpenFlow?</b></p>
+<p>Last year, two of our board members, Nick and Jennifer, published an <a href="http://p4.org/p4/clarifying-the-differences-between-p4-and-openflow/">excellent blog post</a> to clarify the differences between OpenFlow and P4, in which they wrote: “OpenFlow doesn’t really control the switch behavior; it gives us a way to populate a set of well-known tables.” Given that populating tables is at the core of P4 runtime management, one could make the case that OpenFlow is the answer to the missing P4 runtime API. Indeed, OpenFlow could be coerced into programming generic match-action entities for dynamically-defined P4 tables. For example, we could imagine leveraging Table Type Patterns (TTP) to target specific P4 tables. We do believe however that OpenFlow is far from a perfect fit, for example:</p>
+<ul>
+<li>Generalizing OpenFlow to support P4 would require circumventing predefined “match and action” rules that are at the core of OpenFlow. This would probably result in a sub-optimal solution, hindered by legacy “baggage”.</li>
+<li>The concept of vendor-specific externs is completely absent from OpenFlow; retrofitting it would likely be challenging, especially given the need of  easy extensibility to accommodate vendor externs. This seems hard to achieve by leveraging TTP.</li>
+<li>A P4 runtime API needs to offer the ability to push a new P4 program to the device, which is again absent from OpenFlow.</li>
+</ul>
+<p>On the contrary,</p>
+<ul>
+<li>Adopting the same terminology in the API as in the language helps with seamless integration of the control plane with the forwarding plane.</li>
+<li>Using an API derived directly from the P4 language will greatly facilitate integration with existing tools and creation of new ones, such as automated generation of runtime correctness checkers.</li>
+</ul>
+<p>These seem compelling reasons to develop a new API, designed specifically for the P4 environment.</p>
+<p><b>What about switch configuration?</b></p>
+<p>For a complete end-to-end solution, runtime management of a P4 pipeline is not enough. Switch configuration, including port management and traffic manager configuration, should also be in scope of the P4 API Working Group. The primary goal for this is to avoid everyone re-inventing the wheel for their own deployments, while providing a well-integrated solution. One way to achieve it is to define OpenConfig data models in YANG format, re-using standard models as much as possible and extending them when necessary. We plan to investigate this idea in future work.</p>
+<p><b>Join us, get involved and contribute!</b></p>
+<p>The charter of the new P4 API Working Group has been uploaded <a href="http://p4lang.github.io/p4-spec/docs/P4_API_WG_charter.html">here</a>. If this project is of interest to you or can benefit your own P4-related work, we encourage you to get involved with the Working Group. Join the conversation by subscribing to our mailing list: <a href="http://lists.p4.org/mailman/listinfo/p4-api_lists.p4.org">Subscribe</a>, we welcome all feedback and contributions! If you are not already a member of P4.org, please <a href="http://p4.org/join-us">Join Us!</a></p>

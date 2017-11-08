@@ -1,0 +1,50 @@
+---
+layout: post
+title: Paxos made switch-y
+date: 2015-11-17
+author: P4.org
+header-img: img/p4-background.png
+---
+<p><i><br />
+By Huynh Tu Dang, Marco Canini, Fernando Pedone, and Robert Soul&eacute;.<br />
+</i></p>
+<p>
+<a href="http://dl.acm.org/citation.cfm?id=279229">Paxos</a> is one of the most widely used protocols for solving <i>consensus</i>, the problem of getting a group of participants to reliably agree on some value used for computation. Paxos is used to implement state machine replication, which is the foundation for building fault-tolerant systems, including many of the core infrastructure systems and services deployed in data centers, such as <a href="http://openreplica.org">OpenReplica</a>, <a href="http://ceph.com">Ceph</a>, and Google's <a href="http://research.google.com/archive/chubby.html">Chubby</a>.  Since most data center applications critically depend<br />
+on these services, the performance of Paxos has a dramatic impact on the overall performance of the data center.</p>
+<p>
+In our <a href="http://dl.acm.org/authorize?N98817">2015 SOSR paper</a>, we argued that significant performance improvements could be gained by moving Paxos logic into network forwarding devices.  Specifically, offering consensus as a network service would both reduce the number of hops that consensus messages need to travel, and remove message-processing bottlenecks at servers. As part of that work, we identified a sufficient set of operations that a switch would need to perform in order to implement Paxos logic. However, until recently, implementing Paxos logic inside of a network switch would be challenging, potentially requiring coordination with a particular vendor, and a customized hardware implementation. The advent of flexible hardware and expressive data plane programming languages has lowered the barrier to experimenting with new network services and protocols, and created exciting opportunities for data plane applications.</p>
+<p>
+We have recently finished an implementation of Paxos in P4.  Although Paxos is a relatively simple protocol, there are many details that make an implementation challenging. Consequently, there has been a rich history of research papers that<br />
+describe Paxos implementations, including attempts to make Paxos <a href="http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf">Simple</a>, <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.143.6093">Practical</a>, <a href="http://dl.acm.org/citation.cfm?id=2673577">Moderately Complex</a>, and <a href="http://dl.acm.org/citation.cfm?id=1281103">Live</a>. This work differs from the prior attempts because implementing Paxos on packet forwarding devices introduces new practical concerns that have not, to the best of our knowledge, been previously addressed. In this blog post, we briefly describe the implementation from a high-level.</p>
+<p>
+In Paxos, the participants are processes that communicate by exchanging messages. Processes may simultaneously play one or more of fours roles: <i>proposers</i> issue requests to the distributed system (i.e., propose a value); <i>coordinators</i> establish an ordering of requests; <i>acceptors</i> choose a single value; and <i>learners</i> provide replication by learning what value has been chosen.  A Paxos <i>instance</i> is one execution of consensus. An instance begins when a proposer issues a request, and ends when learners know what value has been chosen by the acceptor.  The protocol proceeds in a sequence of rounds. Each round has two phases. Note that although the Paxos protocol has two phases, Phase 1 does not depend on any particular value, and can be run in advance for a large bounded number of values. Therefore, it is common for Paxos implementations to only implement Phase 2. Our P4 Paxos follows this same approach.</p>
+<p><img src="{{ site.baseurl }}/assets/switchpaxos.png" /></p>
+<p>
+The figure above illustrates the architecture of P4 Paxos. Switch hardware is shaded grey, and commodity servers are colored white. In a switch-based Paxos, the functionality of coordinators and acceptors is executed on forwarding devices. All packets used for communication in switch Paxos must include a Paxos-specific protocol header, which is encapsulated in a UDP packet. The header is written using P4's header_type, and includes five fields.</p>
+<p>
+<b>Proposer</b><br />
+The proposer logic, which runs on a server, is implemented as a library that exposes a simple API to the application. The API consists of a single method <i>deliver</i>, which is used by the application to submit values.  The proposer component receives requests from the application, and creates a Paxos message to be sent to the coordinator (i.e., a Phase 2A message). Messages are sent to an IP Multicast address, which allows the coordinator and acceptors to efficiently multicast messages to multiple destinations.</p>
+<p>
+<b>Coordinator</b><br />
+In Paxos, a coordinator brokers requests on behalf of proposers. Their role is to impose an ordering of messages when multiple proposers concurrently propose values. When there is a single coordinator, as is the case in our prototype, a<br />
+monotonically increasing sequence number can be used to order the messages. This sequence number is written to the message header.</p>
+<p>Thus, to implement coordinator logic in P4, the code needs to perform the following actions: (i) copy the next-in-use instance number into the message header, (ii) increment the instance number, and (iii) store the value of the new instance number. To persist the value of the instance number, we use a register.</p>
+<p>
+<b>Acceptor</b><br />
+Paxos acceptors receive messages from the coordinator, and decide whether to accept or reject a proposal. Thus, acceptors are vital to the protocol for ensuring the consistency of the whole system. To perform their functionality, acceptors must maintain and access the history of proposals that they have accepted. This state does not need to grow unbounded, though, as it may be periodically trimmed. We use three registers, indexed by consensus instance, to store the history of proposals.</p>
+<p>When an acceptor receives a message, it must read the latest round number for the current instance from its storage, and compare its round number to the round number in the arriving packet. For this comparison, we use a metadata field where<br />
+we load the round number for which the acceptor has cast a vote from storage. If the message is for a larger round number than what observed so far, the acceptor must process is according to the message type: either Phase 1A or Phase 2A.<br />
+If it receives a Phase 1A message, it must update its local round register with the contents of the arriving packet. When an acceptor receives a Phase 2A message, it must update its state and forward the message.</p>
+<p>
+<b>Learner</b><br />
+Learners are used by the protocol to provide replication by learning the result of a consensus instance. Learners must receive votes from a majority-quorum of the acceptors. This could be achieved in various ways. In the figure, and in our prototype implementation, learners are directly connected to each acceptor on a different network interface. In an alternative implementation, acceptors could add an <i>acceptor id</i> to the packet header, and an additional switch could be used to demultiplex messages from the acceptor switches.</p></p>
+<p>
+In this post, we have described an implementation of the Paxos protocol, but we believe that there is actually a range of possible consensus protocols which can be implemented that differ in the amount of computation performed on switches. A full Paxos implementation, as described here, resides at one extreme point in the design space. At the other end, are protocols such as <a href="http://dl.acm.org/citation.cfm?id=2789774">Speculative Paxos</a> and our own <a href="http://dl.acm.org/authorize?N98817">NetPaxos</a>, which use switches to enforce packet ordering assumptions. More work is needed to explore other points in the design space. As a next step, we plan to evaluate P4 Paxos on a hardware deployment. There are a number of challenges and constraints that we will need to consider, especially with regard to the size of the header fields, and potential tradeoffs with performance, storage size, and number of Paxos instances that can be pre-computed.</p>
+<p>
+Advances in data plane programming languages will have a profound impact on networks. One possible use of this emerging technology is to move logic traditionally associated with the application layer into the network itself. In the case of Paxos, and similar consensus protocols, this change could dramatically improve the performance of data center infrastructure. We have described an implementation of Paxos in the P4 language. This implementation provides an exciting use case for data plane language, that also opens the door for new research challenges in the design of consensus  protocols.</p>
+<p>
+More details are available on the <a href="http://www.inf.usi.ch/faculty/soule/netpaxos.html">project website</a>,  including our SOSR paper, a detailed tech report describing the P4 implementation, links to source code, and a demo running in a virtual machine.</p>
+<p><i><br />
+About the authors: Huynh Tu Dang is a Ph.D. student at Universit&agrave; della Svizzera italiana (USI) in Lugano, Switzerland, where he works on network support for consensus protocols. Marco Canini is an assistant professor at<br />
+Universit&eacute; catholique de Louvain (UCL), Belgium. Fernando Pedone is a full professor at USI, and Robert Soul&eacute; is an assistant professor at USI.<br />
+</i></p>

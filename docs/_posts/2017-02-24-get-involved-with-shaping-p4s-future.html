@@ -1,0 +1,56 @@
+---
+layout: post
+title: Get involved with shaping P4’s future!
+date: 2017-02-24
+author: P4.org
+header-img: img/p4-background.png
+---
+<p><em>by Gordon Brebner, Nate Foster, and Changhoon Kim.</em></p>
+<p>Following up on last week’s <a href="http://p4.org/technical-steering-committee/p4-adoption-continues-to-grow-rapidly/">blog post</a> by the P4.org board announcing the P4 Technical Steering Committee (P4-TSC), we want to briefly reflect on where we are, what we have accomplished, and identify short-term and longer-term roadmaps for the P4 language as it continues to gain adoption and momentum across the industry.</p>
+<p>Last year we released <a href="http://p4.org/wp-content/uploads/2016/12/P4_16-prerelease-Dec_16.html">P4<sub>16</sub></a>, an important update to the language that offers a number of features designed to make it easy to develop and deploy programs on a wide variety of target devices. These features include:</p>
+<h4>Portability</h4>
+<p>P4<sub>16</sub> introduces the notion of an "architecture," which cleanly separates the logical functionality needed to express a given program from the physical components used in the underlying implementation. In addition, a new "extern" mechanism offers a uniform way to incorporate non-standard functionality that may be provided on specific architectures. Many of the stateful constructs that were previously “baked in” to P4<sub>14</sub> (e.g., counters, meters, registers, checksums, etc.) have been relocated to this "extern" framework, which dramatically simplifies the language and also makes it possible to host programs on different targets that implement a common architecture.</p>
+<h4>Safety</h4>
+<p>To improve debuggability during the development process, P4<sub>16</sub> offers a strong type system—every expression in the language has a type that is checked statically by the compiler. In addition, the compiler has the capability to infer types automatically, which reduces the annotation burden for programmers.</p>
+<h4>Modularity</h4>
+<p>To support "programming in the large," P4<sub>16</sub> allows core constructs can be parameterized on arguments. For example, the following declaration captures the common logic in several tables that forward packets using IP addresses:</p>
+<pre>control fwd(in ipv4_h ipv4) {
+  table t { 
+    key = {
+      ipv4.dstAddress : ternary;
+      ipv4.version : exact;
+    }
+    ... 
+  }
+}
+</pre>
+<p>This form of parameterization eliminates the need for global variables and facilitates code reuse, since common idioms can be captured as reusable patterns that are instantiated multiple times.</p>
+<p>Our immediate focus over the next few months will be on adding to the open-source implementation of P4<sub>16</sub>, especially the <a href="https://github.com/p4lang/p4c">p4c</a> compiler. Looking ahead, we plan to continue evolving the language while ensuring that P4<sub>16</sub> is a stable target for developers and implementers.</p>
+<p>We encourage you, the P4 community, to get involved by helping develop the language and tools, as well as new applications built on top of it. Following are some areas that we believe may be ripe for innovation this year:</p>
+<h4>Language Evolution</h4>
+<p><strong>New primitives</strong><br />
+As more targets come online, we are seeing cases where it makes sense to add certain kinds of packet-processing functionality—currently realized using the “extern” functions, to be added to the language. We would like to investigate these cases and see if some of this functionality should be incorporated into the language as new primitives.</p>
+<p><strong>Modular programming</strong><br />
+As programs grow in size and complexity, the need for modular programming constructs also increases. Although P4<sub>16</sub> already provides a number of constructs designed to facilitate modular programming, we believe that it will also be useful to extend the language with additional features, such as a module system that enables expressing large programs as compositions of smaller components, as well as mechanisms for dealing with idiosyncratic differences between targets.</p>
+<h4>Architecture and APIs</h4>
+<p><strong>New architectures</strong><br />
+While most current work on P4<sub>16</sub> has focused on packet-processing pipelines inspired by <a href="http://dl.acm.org/citation.cfm?id=2486011">RMT</a>, the target-architecture separation introduced in P4<sub>16</sub> makes it possible to use the same language to program many different architectures. The P4 Architecture Working Group is currently developing a set of standard architectures, but we are also excited to see what new architectures the community proposes.</p>
+<p><strong>Control plane interactions</strong><br />
+We would like to investigate simple and flexible <a href="https://github.com/p4lang/PI">APIs</a> that can be used as the basis for building higher-level abstractions on top of programmable data planes. We are also interested in exploring how information about control plane interactions can be used to optimize data plane programs.</p>
+<p><strong>Incremental reprogramming</strong><br />
+An important advantage that programmable data planes enjoy over conventional devices is that they can be reconfigured in the field—e.g., deploying a new protocol is as simple as installing a new P4<sub>16</sub> program on each device. We would like to explore the design of reconfiguration mechanisms that allow new programs to be propagated to devices in a “hitless” manner.</p>
+<h4>Tools and Implementation</h4>
+<p><strong>New targets</strong><br />
+The P4 community has already developed <a href="https://github.com/p4lang/p4c">p4c</a>, a compiler framework that target a diverse collection of targets including software switches and engines, FPGAs, NPUs, and hardware switch ASICs. We look forward to discovering new uses of this framework for deploying P416 programs on additional hardware and software targets.</p>
+<p><strong>Automated tools</strong><br />
+We would like to develop a suite of automated testing and verification tools, based on a formal semantics for the language, that can be used by P4 programmers to efficiently validate their programs before they are deployed.</p>
+<h4>Applications</h4>
+<p><strong>P4 Programs and Examples</strong><br />
+We are especially excited to see to P4 used to develop new, innovative data plane applications. These applications will demonstrate the value of data plane programmability and will also be key drivers for future enhancements to the language. We’ve already seen some great contributions in this area and are eager to see the community contribute more P4 applications in the future.</p>
+<p>...and this is certainly only a partial list! We are sure that you will have many other good ideas.</p>
+<h4>Useful Links</h4>
+<p>Below are some useful links to help you get you started on being part of this revolution that is happening in the networking industry.</p>
+<p>If you’d like to download the compiler and write programs go here <a href="https://github.com/p4lang/p4c">https://github.com/p4lang/p4c</a><br />
+If you are not already subscribed to the mailing lists, please sign up here to stay informed <a href="http://lists.p4.org">http://lists.p4.org</a><br />
+If you or your organization would like to join P4.org, please do so here <a href="http://p4.org/join-us">http://p4.org/join-us</a></p>
+<p>We encourage you to get involved by downloading the compiler, writing programs, contributing them to the project, using the behavioral model, and joining the conversation by becoming a member of P4.org and giving back.</p>
