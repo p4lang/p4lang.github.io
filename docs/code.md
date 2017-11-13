@@ -29,9 +29,7 @@ that you can start customizing it to your needs. This includes:
    - p4c-bmv2 -- targets the
         <a href="https://github.com/p4lang/behavioral-model">behavioral
           model</a>
-   - p4c-ebpf -- targets
-    the <a href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter">Extended
-          Berkeley Packet Framework</a>
+   - p4c-ebpf -- targets the Extended Berkeley Packet Framework
    - p4c-graphs -- produces parser and table flow graph
         diagrams, and
    - p4test -- a simple frontend verifier for P4 programs.
