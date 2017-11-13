@@ -1,0 +1,62 @@
+---
+layout: post
+title: P4 FAQ
+date: 2016-11-09
+author: P4.org
+header-img: img/p4-background.png
+---
+<h1></h1>
+<p><b>What is P4 about and what is P4 not about?</b></p>
+<p><span style="font-weight: 400;">P4 is a high-level programming language for expressing how packets are processed by the </span><i><span style="font-weight: 400;">data plane</span></i><span style="font-weight: 400;"> of any programmable packet processing device like switches, network interface cards(NICs), network processing units(NPUs), field programmable gate arrays(FPGAs), software switches, etc.</span></p>
+<p><span style="font-weight: 400;">P4 programs describe the data plane behavior only. In addition to that, they allow the programmer to generate the application programming interfaces (APIs) that the control plane can use to communicate with or configure the data plane. </span></p>
+<p><b>How does a P4-programmable switch differs from a traditional switch?</b></p>
+<p><span style="font-weight: 400;">A P4-programmable switch differs from a traditional switch in two ways:</span></p>
+<p><span style="font-weight: 400;">First, the switch’s data plane is no longer fixed. P4 programs describe the data plane functionality. The data plane is configured at P4-to-target compile time. P4 itself is protocol independent; it allows programmers to express a rich set of data plane behaviors.</span></p>
+<p><span style="font-weight: 400;">Second, the control plane continues to interact with the data plane using the same channels; however, the set of tables and other objects driving the behavior of the data plane is no longer fixed, since those are derived from a specific P4 program. The P4 compiler generates the API that the control plane uses to communicate with the data plane from the P4 program.</span></p>
+<h4><b>What is the difference between P4 and OpenFlow?</b></h4>
+<p><span style="font-weight: 400;">Here is a </span><a href="http://p4.org/p4/clarifying-the-differences-between-p4-and-openflow/"><span style="font-weight: 400;">blog post</span></a><span style="font-weight: 400;"> written by Nick McKeown and Jen Rexford explaining the differences between P4 and OpenFlow. P4 addresses a much more general problem than OpenFlow.</span></p>
+<p><span style="font-weight: 400;">OpenFlow is designed for SDN networks in which we separate the control plane from the forwarding plane. It assumes the switches have a fixed, well-known behavior, typically described in the data sheet of a switch ASIC. OpenFlow gives us a way to populate a set of well-known tables. </span></p>
+<p><span style="font-weight: 400;">P4 is designed to program the behavior of any switch or router, whether it’s controlled locally from a switch operating system, or remotely by an SDN controller. P4 let us control switches “top-down” by first specifying their forwarding behavior, then populating the tables we’ve defined. In P4, OpenFlow is one of many possible programs to describe what the forwarding plane does. </span></p>
+<h4></h4>
+<h4><b>Why doesn't P4 support loops, pointers, and conditionals in an action?</b></h4>
+<p><span style="font-weight: 400;">P4 is a domain-specific language to describe packet-forwarding logic. It is designed to be implementable on a variety of platforms including programmable network cards, FPGA switches, software switches and programmable ASICs. As such the language is restricted to constructs that are efficiently implementable on </span><span style="font-weight: 400;">all</span><span style="font-weight: 400;"> these platforms.</span></p>
+<p><span style="font-weight: 400;">P4 is not a general-purpose programming language. All P4 program blocks should provably execute a constant number of operations provided that cost of table lookup cost is constant. These guarantees are necessary for enabling fast packet processing across a variety of targets.</span></p>
+<p><span style="font-weight: 400;">Pointers are absent because P4 memory model is fundamentally different. Direct access happens either via a key or via an integer index.</span></p>
+<h4></h4>
+<h4><b>Can P4 call external library functions?</b></h4>
+<p><span style="font-weight: 400;">P4 is not designed to be able to implement complex computing functions such as encryption, decryption or string manipulation in P4. However, P4 programmers can consume complex computing functions if they are already made available in the processing pipeline of the target, by using the </span><b>extern</b><span style="font-weight: 400;"> type. P4 target providers could expose a few library constructs (e.g., hardwired checksum unit on chip or C-library functions in software switch) at the P4 level as extern types. Such extern types will most likely be supported only on those special types of targets and not programmable using P4.</span></p>
+<h4></h4>
+<h4><b>Is there a quick intro to all the repositories in github.com/p4lang?</b></h4>
+<p><b>Core Software Components</b></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/behavioral-model"><b>behavioral-model</b></a> <span style="font-weight: 400;">is an architecture-independent user-space software switch to emulate P4 dataplane, nicknamed bmv2. It can be used to implement different P4-programmable targets. The repository comes with three example targets. The most important one is </span><a href="https://github.com/p4lang/behavioral-model/tree/master/targets/simple_switch"><span style="font-weight: 400;">simple_switch</span></a><span style="font-weight: 400;">, which tries to implement the abstract switch model described in the original P4 spec.</span></li>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/p4c-bm"><b>p4c-bm</b></a><span style="font-weight: 400;"> is the compiler for the </span><a href="https://github.com/p4lang/behavioral-model"><span style="font-weight: 400;">behavioral model</span></a><span style="font-weight: 400;"> (bmv2). it takes P4 program and outputs a JSON configuration which can be loaded by the behavioral model. The compiler can also generate program-dependent APIs that the control plane can use to manipulate tables and other P4 objects defined in the program.</span></li>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/p4-hlir"><b>p4-hlir</b></a><span style="font-weight: 400;"> is the frontend compiler that translates P4 code into High-Level Intermediate Representation (HLIR), currently represented as a hierarchy of Python objects. It frees backend compiler developers from the burden of syntax analysis and target-independent semantic checks.</span></li>
+</ul>
+<p><b>Reference Code</b></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/switch"><b>switch</b></a><span style="font-weight: 400;"> repository contains the switch.p4 sample P4 program along with all the library repos to manipulate the switch using SAI, SwitchAPI and switchlink. The switch.p4 program describes a data plane of an L2/L3 switch with many </span><a href="https://github.com/p4lang/switch/blob/master/p4src/README.md"><span style="font-weight: 400;">supported features</span></a><span style="font-weight: 400;">.</span></li>
+</ul>
+<p><b>Development and Test Infrastructure</b></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/p4factory"><b>p4factory</b></a><span style="font-weight: 400;"> repository maintains a sample set of the P4 programs and allows building P4 for the </span><a href="https://github.com/p4lang/behavioral-model"><span style="font-weight: 400;">behavioral model</span></a><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/ntf"><b>ntf</b></a><span style="font-weight: 400;"> is a Network Test Framework that contains sample mininet and docker infrastructure required to perform network-wide tests of various applications on the </span><a href="https://github.com/p4lang/behavioral-model"><span style="font-weight: 400;">behavioral model</span></a><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/ptf"><b>ptf</b></a><span style="font-weight: 400;"> is a Python based dataplane test framework based on unittest.</span></li>
+</ul>
+<p><b>Forks of other projects</b></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/scapy-vxlan"><b>scapy-vxlan</b></a><span style="font-weight: 400;"> : Scapy with support for additional packet headers.</span></li>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/mininet"><b>mininet</b></a><span style="font-weight: 400;"> : Mininet with p4.org enhancements</span></li>
+</ul>
+<p><b>Tutorials</b></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://github.com/p4lang/tutorials"><b>tutorials</b></a><span style="font-weight: 400;"> contains a set of example P4 programs.</span></li>
+</ul>
+<h4><b>How can one implement a simple L2 learning switch in P4?</b></h4>
+<p><span style="font-weight: 400;">MAC Learning requires interaction with the control plane and flooding involves the packet replication engine in the target. </span><span style="font-weight: 400;">bmv2</span><span style="font-weight: 400;"> has a simple example implementation of </span><a href="https://github.com/p4lang/behavioral-model/tree/master/targets/l2_switch"><span style="font-weight: 400;">L2 learning switch</span></a><span style="font-weight: 400;">. </span><a href="https://github.com/p4lang/behavioral-model/blob/master/targets/l2_switch/l2_switch.cpp"><span style="font-weight: 400;">l2_switch.cpp</span></a><span style="font-weight: 400;"> implements the switch target, </span><a href="https://github.com/p4lang/behavioral-model/blob/master/targets/l2_switch/l2_switch.p4"><span style="font-weight: 400;">l2_switch.p4</span></a><span style="font-weight: 400;"> implements the data plane, and </span><a href="https://github.com/p4lang/behavioral-model/blob/master/targets/l2_switch/learn_client/learn_client.cpp"><span style="font-weight: 400;">learn_client.cpp</span></a><span style="font-weight: 400;"> implements the control plane.</span></p>
+<h4><b>Are there any P4 syntax highlighters for popular editors?</b></h4>
+<p><span style="font-weight: 400;">Several developers have shared different P4 syntax highlighters for VIM[</span><a href="https://github.com/c3m3gyanesh/p4-syntax-highlighter-collection"><span style="font-weight: 400;">1</span></a><span style="font-weight: 400;">, </span><a href="https://github.com/TakeshiTseng/vim-language-p4"><span style="font-weight: 400;">2</span></a><span style="font-weight: 400;">], EMACS[</span><a href="https://github.com/c3m3gyanesh/p4-syntax-highlighter-collection"><span style="font-weight: 400;">1</span></a><span style="font-weight: 400;">], sublime[</span><a href="https://github.com/c3m3gyanesh/p4-syntax-highlighter"><span style="font-weight: 400;">1</span></a><span style="font-weight: 400;">] and atom[</span><a href="https://github.com/TakeshiTseng/atom-language-p4"><span style="font-weight: 400;">1</span></a><span style="font-weight: 400;">] on GitHub.</span></p>
+<h4><b>Where can I get more resources to learn P4?</b></h4>
+<p><span style="font-weight: 400;">P4 Languate Consortium's official website </span><span style="font-weight: 400;">p4.org</span><span style="font-weight: 400;"> and </span><a href="https://www.youtube.com/channel/UCOQAFkDKucJWr-KafdJsdIQ"><span style="font-weight: 400;">youtube channel</span></a><span style="font-weight: 400;"> have many useful materials.</span></p>
+<h4><b>Where can I get more help?</b></h4>
+<p><span style="font-weight: 400;">Please post on the </span><span style="font-weight: 400;">P4 Developers</span><span style="font-weight: 400;"> mailing list. We'll be glad to help!</span></p>
