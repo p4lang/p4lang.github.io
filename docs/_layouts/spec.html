@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<style>
+  .row:not(:first-child) { border-bottom: 1px solid #ccc; }
+  .spec { padding: 0 0 0 0; }
+</style>
+<!-- Post Header -->
+<header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-md-10">
+              <div class="post-heading">
+                <h1>{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <h2 class="subheading">{{ page.subtitle }}</h2>
+                {% endif %}
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Post Content -->
+<div id="no-padding" class="container-fluid">
+      {{ content }}
+</div>
