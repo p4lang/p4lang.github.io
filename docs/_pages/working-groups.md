@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working Groups
-permalink: /working-groups/
+permalink: working-groups/
 header-img: img/p4-background.png
 ---
 

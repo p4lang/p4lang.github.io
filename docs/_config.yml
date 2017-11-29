@@ -15,6 +15,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
+include: ['_pages']
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
 
 plugins: [jekyll-paginate, jekyll-feed]
