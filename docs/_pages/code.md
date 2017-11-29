@@ -2,7 +2,7 @@
 layout: post
 title: Code
 description: "Starting point for developers"
-permalink: /code/
+permalink: code/
 header-img: img/p4-background.png
 ---
 
