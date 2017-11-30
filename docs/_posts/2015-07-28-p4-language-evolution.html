@@ -17,12 +17,12 @@ header-img: img/p4-background.png
 <li>The control flow graph: Which match-action tables process a packet and in what order? For instance, the graph could specify that a packet should be processed by an Access Control List table before it is processed by an IP routing table.</li>
 </ol>
 <p>&nbsp;</p>
-<p><img src="{{ site.baseurl }}/img/p4_switch_model-600px.png" alt="" /><br />
+<p><img src="{{ site.baseurl }}/assets/p4_switch_model-600px.png" alt="" /><br />
 Figure 1: The P4 abstract switch model</p>
 <p>&nbsp;</p>
 <p>Our open-source <a href="https://github.com/p4lang/p4factory">P4 development environment</a> consists of a compiler and software switch to compile and run P4 programs. Within this development environment, we used P4 to express the forwarding behavior of a datacenter switch, with a feature set (listed in the table below) comparable to current shared-memory switches: including VLANs, ACLs, Tunnels, and ECMP. The goal of this exercise was to empirically evaluate P4's expressiveness using a common example of packet processing: the forwarding behavior of a datacenter switch. The P4 program used in the paper, DC.p4, is available in the <a href="https://github.com/p4lang/papers/tree/master/sosr15">P4 github repository</a>, and we use it to illustrate specific aspects of P4.</p>
 <p>&nbsp;</p>
-<p><img src="{{ site.baseurl }}/img/dev_diag-600px.png" alt="" /><br />
+<p><img src="{{ site.baseurl }}/assets/dev_diag-600px.png" alt="" /><br />
 Figure 2: The P4 development environment</p>
 <p>&nbsp;</p>
 <p>This exercise taught us several lessons. On a positive note, the premise of building larger actions from simple action primitives was true for over 90% of the actions in DC.p4. Second, we observed that the match-action table abstraction was an intuitive abstraction for most network engineers --- primarily because switches have really always structured packet processing as set of table lookups.</p>
@@ -34,7 +34,7 @@ At the same time though, there is room for improvement. First, P4's support for 
 We propose a simple solution to resolve this: move the abstract switch model out of the language and into a separate specification all by itself, which we call the PPE architecture. The PPE architecture specifies the interconnect between the programmable and fixed-function blocks (for instance, the fact that a programmable ingress pipeline connects to a fixed scheduler, which then connects to a programmable egress pipeline).</p>
 <p>A vendor supplying a PPE architecture for her device might also include a vendor library that details the input-output interface for all functions provided exclusively by that vendor. Action primitives such as packet cloning and digest generation, which had to be added to the P4 language specification, could now be part of vendor libraries, which are in turn part of a specific vendor PPE. If they turn out to be widely useful, they could eventually migrate into a standard P4 library. Overall, moving some P4 constructs like action primitives into library components would simplify the language core. For a more detailed look at this proposal, we refer the reader to a <a href="http://schd.ws/hosted_files/p4workshop2015/5d/MihaiB-P4-Workshop-June-04-2015.pdf">slidedeck</a> on the topic, presented by Mihai Budiu at the recent P4 workshop.</p>
 <p>&nbsp;</p>
-<figure><img src="{{ site.baseurl }}/img/evolution.png" alt="" /></p>
+<figure><img src="{{ site.baseurl }}/assets/evolution.png" alt="" /></p>
 <figcaption>Figure 3: A plan to evolve P4 </figcaption>
 </figure>
 <p>&nbsp;<br />

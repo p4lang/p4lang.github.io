@@ -12,7 +12,7 @@ header-img: img/p4-background.png
 <p>My vision for P4 in Open vSwitch is that it can be used to reconfigure the protocols and fields that OVS supports at runtime, without recompiling, reinstalling, or restarting OVS.  This is not an easy task: due to the need for backward compatibility we don't think that users would accept a new version with compatibility regressions.  Of course, performance also matters here: of particular interest is the field extraction and header parsing code.  Our profiling work has shown this is often the critical path when determining overall OVS performance, so optimization work here can provide substantial benefits.</p>
 <p>To learn whether this vision is a realistic one, I spent about a week late this spring doing some experiments.  I wrote C code for a P4 syntax lexer and, using that, a parser for a P4 language subset that included the <strong>header_type</strong>, <strong>header</strong>, and <strong>parser</strong> elements of the language.  I also wrote a compiler that accepts the P4 parser's output and emits code in a RISC-like bytecode, called "eBPF".  eBPF is increasingly used in the Linux kernel to allow user programs to safely implement sophisticated features; the Linux kernel includes an eBPF bytecode verifier and a multi-architecture JIT engine that allows eBPF to achieve near-native performance.</p>
 <p>&nbsp;</p>
-<figure><img src="{{ site.baseurl }}/img/ovs-plus-p4.png" alt="" /></p>
+<figure><img src="{{ site.baseurl }}/assets/ovs-plus-p4.png" alt="" /></p>
 <figcaption>Figure 1: Adding P4 capabilities into OvS</figcaption>
 </figure>
 <p>&nbsp;</p>
