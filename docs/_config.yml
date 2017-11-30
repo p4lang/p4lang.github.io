@@ -5,6 +5,11 @@ author: The P4 Language Consortium
 url: "https://p4lang.github.io/web"
 baseurl: "/web"
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    
 social:
   - title: twitter
     url: https://twitter.com/p4lang
@@ -15,7 +20,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-include: ['_pages']
+include: ['_pages','_events']
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
 
 plugins: [jekyll-paginate, jekyll-feed]

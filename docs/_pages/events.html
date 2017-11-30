@@ -9,7 +9,7 @@ header-img: "img/p4-background.png"
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">All events</h2>
+    <h2 class="header" itemprop="headline">All posts</h2>
     <h2 class="header categories" itemprop="headline"><small>grouped by
 
       <div class="dropdown btn-group">
@@ -20,10 +20,9 @@ header-img: "img/p4-background.png"
 
     </small></h2>
 
-      {% for event in site.events %}
+      {% for event in site.events reversed %}
       {% capture this_year %}{{ event.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ event.previous.date | date: "%Y" }}{% endcapture %}
-
       {% if forloop.first %}
       <div class="col-md-12 content-panel articles">
         <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
@@ -52,3 +51,19 @@ header-img: "img/p4-background.png"
     </div>
 
   </div>
+
+<!-- <div class="container-fluid index"> -->
+<!--   <div class="row index all-posts"> -->
+<!--     <h2 class="header" itemprop="headline">P4.org Events</h2> -->
+<!--     <ul style="list-style: none;"> -->
+<!--     {% for event in site.events reversed %} -->
+<!--     <li> -->
+<!--       <hr> -->
+<!--       <h3><a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a></h3> -->
+<!--       <small class="hidden-xs">{{ event.date | date: "%B %-d, %Y" }}</small> -->
+<!--     </li> -->
+<!--     {% endfor %} -->
+<!--     </ul> -->
+<!--     </div> -->
+
+<!--   </div> -->
