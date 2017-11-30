@@ -443,7 +443,7 @@ body {
   -o-background-size: cover;
   margin-bottom: 50px;
   .site-heading, .post-heading, .page-heading {
-    padding: 100px 0 50px;
+    padding: 80px 0 30px;
     color: white;
   }
   .site-heading, .page-heading {
@@ -483,14 +483,6 @@ body {
       a {
         color: white;
       }
-    }
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .intro-header {
-    .site-heading, .post-heading, .page-heading {
-      padding: 150px 0;
     }
   }
 }
