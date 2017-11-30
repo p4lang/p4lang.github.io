@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Announcing the P4 Applications Working Group"
+date: 2017-11-03
+author: "Mukesh Hira and Jeongkeun Lee"
+header-img: assets/p4-background.png
+---
+<p>With the maturing language and architecture support, plus the recent innovation of P4 Runtime from the API working group, writing new applications using P4 and running them in production networks has become a reality. This is backed by a set of programmable forwarding-planes ranging from software switches, SmartNICs, FPGAs, NPUs, to high-speed switching ASICs.</p>
+
+<p>These new P4 applications are changing the way people design, build, and run not just their networks, but their compute and storage infrastructure as well; these transformations are occuring without being limited by current standards or the implementation of today’s fixed-function network devices. Some applications of interest in the community are:
+<ul>
+<li>Forwarding-plane telemetry (e.g., In-band Network Telemetry [<a href="https://p4lang.github.io/p4-spec/docs/In-band%20Network%20Telemetry%20(INT).pdf">1</a>])</li>
+<li>Flow monitoring using sketches [<a href="https://dl.acm.org/citation.cfm?id=2934906">2</a>]</li>
+<li>Heavy-hitter detection in the data plane [<a href="https://dl.acm.org/citation.cfm?id=3063772">3</a>]</li>
+<li>Low latency congestion control (e.g., NDP [<a href="https://dl.acm.org/citation.cfm?id=3098825">4</a>])</li>
+<li>Big data aggregation inside the network [<a href="http://porto.polito.it/2679584/1/DAIET_SoCC.pdf">5</a>]</li>
+<li>Middlebox functions (e.g., layer-4 connection load balancing [<a href="https://dl.acm.org/citation.cfm?id=3098824">6</a>])</li>
+<li>Fast in-network cache for distributed services [<a href="https://dl.acm.org/authorize.cfm?key=N47142">7</a>]</li>
+<li>Consensus protocol at network speed [<a href="https://dl.acm.org/citation.cfm?id=2774999">8</a>]</li>
+</ul>
+While some aspects of these applications will remain proprietary, many applications work across multiple devices, layers and domain boundaries. To ensure that the P4 ecosystem is well aligned with the needs of various applications, we are launching <b>P4 Applications Working Group</b> (Apps WG in short), a new working group within P4.org focused on novel forwarding plane applications enabled by P4. This new working group will be a forum where participants can quickly and efficiently share ideas and designs, hence facilitating wider adoption and deployment of P4 applications.
+</p>
+
+<p>In particular, Apps WG aims to produce the following deliverables:
+<ol>
+<li>The design and implementation of open-source systems</li>
+<li>Specifications of standard applications, which are needed to ensure interoperability between implementations by different organizations — e.g. telemetry report formats</li>
+<li>Suggestions to the P4 design, architecture, language and API working groups to facilitate the creation of new applications.</li>
+</ol>
+</p>
+
+<p>A non-goal of the working group is to become a standardization body that defines fixed-function application protocols. We aim to deliver designs, specs and their revisions at the speed of software development, as an open-source project utilizing the power of programmable forwarding-planes. We will upload specifications and code to a GitHub repo (soon-to-be-updated) so that the community can
+<ul>
+<li>Access reference code and building blocks</li>
+<li>Download and compile packet formats expressed in P4 for interoperability</li>
+<li>Run test cases to verify their implementation of application semantics</li>
+</ul>
+If this activity is of interest to you or can benefit your P4 application developments, we encourage you to get involved with the Working Group. Join the conversation by <a href="http://lists.p4.org/mailman/listinfo/p4-apps_lists.p4.org">subscribing</a> to our mailing list. We welcome all feedback and contributions! If you are not already a member of P4.org, please <a href="{{ site.baseurl}}/join/">join us</a>!
+</p>
+
+<p>
+<ul style=" list-style:none; padding-left:0;">
+<li>[<a href="https://p4lang.github.io/p4-spec/docs/In-band%20Network%20Telemetry%20(INT).pdf">1</a>] C. Kim, et al., “In-band network telemetry (INT)”.</li>
+<li>[<a href="https://dl.acm.org/citation.cfm?id=2934906">2</a>] Z. Liu, et al., “One Sketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon,” SIGCOMM 2016.</li>
+<li>[<a href="https://dl.acm.org/citation.cfm?id=3063772">3</a>] V. Sivaraman, et al., “Heavy-Hitter Detection Entirely in the Data Plane,” SOSR 2017.</li>
+<li>[<a href="https://dl.acm.org/citation.cfm?id=3098825">4</a>] M. Handley, et al., “Re-architecting datacenter networks and stacks for low latency and high performance,” SIGCOMM 2017.</li>
+<li>[<a href="http://porto.polito.it/2679584/1/DAIET_SoCC.pdf">5</a>] A. Sapio, et al., “DAIET: A System for Data Aggregation Inside the Network,” SOCC 2017.</li>
+<li>[<a href="https://dl.acm.org/citation.cfm?id=3098824">6</a>] R. Miao, et al., “SilkRoad: Making Stateful Layer-4 Load Balancing Fast and Cheap Using Switching ASICs,” SIGCOMM 2017.</li>
+<li>[<a href="https://dl.acm.org/authorize.cfm?key=N47142">7</a>] X. Jin, et al., “NetCache: Balancing Key-Value Stores with Fast In-Network Caching.” SOSP 2017.</li>
+<li>[<a href="https://dl.acm.org/citation.cfm?id=2774999">8</a>] H. T. Dang, et al., “NetPaxos: Consensus at network speed,” SOSR 2015.</li>
+</p>
