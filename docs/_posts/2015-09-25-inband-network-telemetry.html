@@ -22,7 +22,7 @@ header-img: img/p4-background.png
 Measuring and reporting end-to-end latency between virtual switches</h3>
 <p><em>(Click figure for larger image)</em></p>
 <p><a href="http://p4.org/wp-content/uploads/fixed/INT/INT-figure-1200px.png"><br />
-<img src="{{ site.baseurl }}/img/INT-figure-800px.png" alt="INT figure" /><br />
+<img src="{{ site.baseurl }}/assets/INT-figure-800px.png" alt="INT figure" /><br />
 </a><br />
 An illustrative example of INT is described here.  Source vSwitch (vSwitch 1) embeds instructions for each network element to report the latency that the packet encounters at the network element (delta between local egress timestamp and local ingress timestamp). The receiving vSwitch (vSwitch2) can compute the end-to-end latency as a sum of the per-hop latencies (under the assumption that switching and queueing latencies dominate and propagation delays are minimal, which is typically true in today’s networks). Per-hop latencies in the packet received at the destination vSwitch can also be used to determine which network element(s) contributed most to the end-to-end latency.</p>
 <p>While the above example illustrates collection of a single piece of network state, multiple types of network state could be collected together. For example, &lt;switch-ID, input-port, output-port, egress-link-utilization&gt; may all be collected together to discover the different paths between a pair of end-points and the congestion level along each path.</p>
