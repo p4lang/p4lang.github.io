@@ -2,7 +2,7 @@
 layout: post
 title: Join Us!
 permalink: join/
-header-img: img/p4-background.png 
+header-img: assets/p4-background.png 
 ---
 
 **The P4 Language Consortium is open to participation by any individual or organization willing and able to make an active and material contribution to the following objectives:**

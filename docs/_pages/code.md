@@ -3,7 +3,7 @@ layout: post
 title: Code
 description: "Starting point for developers"
 permalink: code/
-header-img: img/p4-background.png
+header-img: assets/p4-background.png
 ---
 
 The P4 community is proud to make available a wealth of software
