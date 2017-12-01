@@ -2,7 +2,7 @@
 layout: post
 title: Working Groups
 permalink: working-groups/
-header-img: img/p4-background.png
+header-img: assets/p4-background.png
 ---
 
 The P4 working groups handle all technical activities related to the

@@ -3,14 +3,14 @@ layout: post
 title: Code
 description: "Starting point for developers"
 permalink: code/
-header-img: img/p4-background.png
+header-img: assets/p4-background.png
 ---
 
 The P4 community is proud to make available a wealth of software
 packages that enable you to get started on your data-plane programming
 journey.
 
-# Tutorials and Example Programs
+## Tutorials and Example Programs
 
 A good starting point is our rich set of <a
 href="https://github.com/p4lang/tutorials">tutorials</a>. Our
@@ -25,7 +25,7 @@ href="https://github.com/p4lang/switch">switch</a> definition. It
 supports a large number of features, from L2/L3 processing, to
 Multicast, MPLS, ACL, SFLOW and even In-band Network Telemetry (INT).
 
-# P4 Compiler
+## P4 Compiler
 
 - The <a href="https://github.com/p4lang/p4c">P4C compiler</a> for both
     P4<sub>14</sub> and P4<sub>16</sub> language variants. The
@@ -40,7 +40,7 @@ Multicast, MPLS, ACL, SFLOW and even In-band Network Telemetry (INT).
     The infrastructure is designed to easily integrate vendor specific
     backends.
 
-# Behavioral Model (BMv2)
+## Behavioral Model (BMv2)
 
 - The <a href="https://github.com/p4lang/behavioral-model">behavioral
     model</a>, a simulation environment to run the P4 software switch,
@@ -50,27 +50,27 @@ Multicast, MPLS, ACL, SFLOW and even In-band Network Telemetry (INT).
     new archiectures by implementing new externs and enabling you to
     organize the forwarding elements as needed.
 
-# P4 Runtime
+## P4 Runtime
 
 - The specification and reference implementation
     for <a href="https://github.com/p4lang/PI">P4 Runtime</a>, a runtime API
     and protocol for controlling data-plane programs.
 
-# Packet Test Framework (PTF)
+## Packet Test Framework (PTF)
 
 - A <a href="https://github.com/p4lang/ptf">packet testing
     framework</a> (PTF), written in Python, that enables configuring a
     switch and creating tests that send, receive, and verify packets
     of different formats. PTF interfaces with P4 Runtime.
 
-# P4 Container
+## P4 Container
 
 - <a href="https://github.com/p4lang/p4app">P4app</a>, a Docker
     container pre-packaged with a development environment that makes
     it easy to compile and deploy P4 programs using simple
     configuration rules.
 
-# GitHub
+## GitHub
 
 Please feel free to browse around our <a
 href="https://github.com/p4lang">github repositories</a>. All our code
@@ -78,7 +78,7 @@ is released under the <a
 href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0
 license</a>.
 
-# Getting Involved
+## Getting Involved
 
 As your interest grows, we encourage you to participate and contribute
 your code. Please join the <a
