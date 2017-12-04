@@ -34,3 +34,6 @@ $theme-dark: #eeeeee;
 	margin-bottom: 45px;
 }
     
+.dropdown-menu {
+  z-index: 25000 !important;
+}
