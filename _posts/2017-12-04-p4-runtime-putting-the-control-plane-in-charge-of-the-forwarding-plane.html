@@ -1,0 +1,72 @@
+---
+layout: post
+title: "P4 Runtime - Putting the Control Plane in Charge of the Forwarding Plane"
+date: 2017-12-04
+author: "Nick McKeown, Timon Sloane, and Jim Wanderer"
+header-img: assets/p4-background.png
+---
+<p>A few weeks ago we introduced the first demonstration of “P4 Runtime”. We invite all members of the networking community to join with us, so that together we may develop and evolve P4 Runtime to the point where it can be deployed in different networks.</p>
+
+<h2>What is P4 Runtime?</h2>
+<p>P4 Runtime is a new way for control plane software to control the forwarding plane of a switch, router, firewall, load-balancer, etc. Perhaps the most novel aspect of P4 Runtime is that it lets you control <u>any</u> forwarding plane, regardless of whether it is built from a fixed-function or programmable switch ASIC, an FPGA, NPU or a software switch running on an x86 server. The framework of P4 Runtime remains unchanged, regardless of what protocols and features the forwarding plane supports, which means the same API can be used to control a huge variety of different switches. As and when new protocols and features are added to the forwarding plane, the P4 Runtime API is automatically updated by extending the schema to describe how a new feature is to be controlled, without the need to restart or reboot the control plane. P4 Runtime is agnostic to where the control plane resides; the control plane could be a protocol stack running on a local switch operating system (switch OS), or a remote control plane running on x86 servers.</p>
+
+<h2>What problem does P4 Runtime solve?</h2>
+<p>In the past, switch chips were controlled by closed, fixed and proprietary APIs.  A fixed API written to the target chip covered the needs, and there was little or no need to extend the API over time. Furthermore, NDAs and license agreements often prohibited sharing the API with others, making it impossible for one API to be used to control switch ASICs from different chip vendors. As a result, it is hard to add new protocols and features, and it is hard for one network owner to leverage different features from another, stifling innovation.</p>
+
+<h2>What about previous attempts to create open switch APIs?</h2>
+<p>Two notable attempts have been made in the past to replace closed APIs with open interfaces. The first was <a href="https://www.opennetworking.org/software-defined-standards/specifications/">OpenFlow</a>, introduced about ten years ago, which allowed a remote control plane to control switches from different vendors using the same, open API. OpenFlow was designed for a specific set of common use cases and fixed function switches in mind.  With experience we learned it was hard to evolve OpenFlow as support for more protocols, applications and functionality was needed.  For example, OpenFlow started out matching on just twelve header fields, but today matches on over forty-five. Anyone who has looked at OpenFlow closely would agree it wasn’t designed to be extended, and as a result it has become quite unwieldy. One additional shortcoming of OpenFlow is that it only mandates the fields in a packet that we should match upon. It doesn’t always define the actions you should perform after the match, and unfortunately different switch ASICs implement the actions in different ways. OpenFlow therefore suffers from being complex, hard to extend, and ambiguous in its behavior. (For a more thorough discussion about OpenFlow, check out this <a href="https://p4lang.github.io/2016/05/18/clarifying-the-differences-between-p4-and-openflow/">blog</a>.)</p>
+
+<p>More recently, SAI was introduced to solve a similar problem to OpenFlow, but for networks in which the control plane is inside the switch. Like OpenFlow, SAI can be used to control switches based on a variety of different switch ASICs. But also like OpenFlow, SAI is a relatively fixed API that is getting more complex over time. Extending SAI requires a lot of work, and it is unclear if extensions should be standardized or kept proprietary. And it is not clear how to control switches remotely using SAI.</p>
+
+<p><i>P4 Runtime solves these problems because it is open (i.e. it can be used to control any switch ASIC), is extensible (i.e. it is designed to make it easy to add new features over time) and is customizable (i.e. different networks can use different protocols and features while still using the same API). P4 Runtime can be used to control switches from a remote control plane (ala SDN) or from a local control plane running on the same switch.</i></p>
+
+<p><i>Furthermore, P4 Runtime can be used to emulate the behavior of OpenFlow and SAI by defining the forwarding behavior of both protocols in P4 (see openflow.p4 and SAI.p4). Once defined, both can be extended more easily and naturally over time.</i></p>
+
+<h2>
+  <p>The figure below shows how a remote control plane can use P4 Runtime API to control a switch. In this example, the P4 program “tor.p4” specifies the switch pipeline. A P4 compiler generates the schema needed by the P4 Runtime API to add and delete entries into the forwarding table at runtime.</p>
+
+<p style="text-align:center;"><img style="display:block; margin:0 auto; border:1px solid #000000;" src="{{ site.baseurl }}/assets/p4-runtime-remote.png" alt="P4 Runtime Remote Control Plane" width="600" /><strong>Figure 1: Using P4 Runtime API with a <u>remote</u> control plane.</strong></p>
+
+<p>Alternatively, a local control plane can use P4 Runtime as an API (sometimes called the HAL, or hardware abstraction layer) to control the switch ASIC directly.</p>
+
+<p style="text-align:center;"><img style="display:block; margin:0 auto; border:1px solid #000000;" src="{{ site.baseurl }}/assets/p4-runtime-local.png" alt="P4 Runtime Local Control Plane" width="600" /><strong>Figure 1: Using P4 Runtime API with a <u>local</u> control plane.</strong></p>
+
+<h2>What makes P4 Runtime so flexible?</h2>
+<p>The P4 Runtime API can be used to control any switch whose behavior has been specified in the P4 language. A developer can use P4 Runtime to control existing fixed-function switches by first writing a P4 program to document the switch behavior using the P4 language. A P4 compiler (e.g. p4c) automatically identifies elements that need to be controlled, such as lookup tables specified in the P4 program for which we need to add and delete entries.</p>
+
+<p>As an example, consider the P4 program on the left below that includes an IPv4 longest-prefix-match (LPM) table. When the switch is running, we will need to add and delete entries from the LPM table, such as the 8-bit prefix shown in the middle. In anticipation, the compiler generates the general schema on the right hand side. In this example, the control plane uses the protobuf schema to encode the specific 8-bit prefix it wants to add to the table.</p>
+
+<p style="text-align:center;"><img style="display:block; margin:0 auto; border:1px solid #000000;" src="{{ site.baseurl }}/assets/p4-runtime-dataflow.png" alt="P4 Runtime Dataflow" width="600" /></p>
+
+<P>If the switch is programmable, the developer may extend the P4 program, adding new tables to be controlled at runtime; for example, an IPv6 prefix table, ACL rule table, VXLANs or a proprietary new table private to this network. For each case, the compiler will extend the schema - defined as a protobuf message - so that the new tables can be controlled through the P4 Runtime API.</p>  
+
+<h2>How is P4 Runtime different from the P4 language?</h2>
+<p>Because they both contain “P4” in the name, some people have confused P4 Runtime with the P4 language. They are in fact quite separate open-source projects. The P4 programming language is used to define how a switch processes packets. Essentially, P4 specifies the switch pipeline: Which fields does it match upon, and what actions does it perform on the packets? In which order does it perform the matches and actions? The P4 language can be used to specify the behavior of an existing device, specify a logical abstraction for the device, or it can be used to declare how a programmable switch should process packets. For example, the P4 language can be used to program switch chips from <a href="https://barefootnetworks.com/products/brief-tofino/">Barefoot</a>, smart NICs from <a href="https://www.netronome.com/products/datapath-programming-tools/">Netronome</a>, FPGAs from <a href="https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_3/ug1252-p4-sdnet-translator.pdf">Xilinx</a> and even to tell the kernel how to process packets in <a href="http://pisces.cs.princeton.edu/">Open vSwitch</a>.</p>
+
+<p>P4 Runtime is an API used to control switches whose behavior has already been specified in the P4 language, whether the switch is, fixed, semi-programmable, or completely programmable.</p>
+
+<h2>A first demo: ONOS + P4 Runtime</h2>
+<p>In November 2017, Google Cloud, Barefoot Networks and the ONF demonstrated the first physical network running P4 Runtime at the SDN NFV World Congress.</p>
+
+<p>A video of the first demo can be found <a href="https://youtu.be/BE_y-Sz0WnQ">here</a>.</p>
+
+<p>In the demo, four white-box switches were used to build a small leaf-spine data center fabric, controlled by the <a href="https://onosproject.org/">ONOS</a> open-source SDN controller from ONF using P4 Runtime. P4 and P4 Runtime creates a strong, unambiguous contract between the control plane and the data plane. The switch is based on Barefoot Tofino ASIC, but could work with with any hardware or software switch that can execute or emulate the tor.p4 pipeline and that offers a P4 Runtime agent to control it. This is true of programmable or fixed function switch chips, and requires no change to the routing applications running on top of ONOS.</p>
+
+  <p>The switch pipeline was specified by “tor.p4”, a P4 program from the Google Cloud team. ONOS, a carrier-grade control plane, was extended to use P4 Runtime as its southbound interface to the switches. The 6.5Tb/s switch pipelines are specified in tor.p4 to process the packets in a variety of ways, including IP routing, ECMP and packet in/out to the control plane.</p>
+
+<p style="text-align:center;"><img style="display:block; margin:0 auto; border:1px solid #000000;" src="{{ site.baseurl }}/assets/p4-runtime-onos-demo.png" alt="P4 Runtime ONOS Demo" width="600" /><strong>Figure 3:</strong> A P4 Runtime demo using ONOS, Tofino and tor.p4.</p>
+
+<p>The demo shows how tor.p4 and P4 Runtime enable ONOS to implement an automated data center fabric, including:
+<ul>
+<li>Discovery of links by injecting and capturing LLDP packets at each switch port (a technique popular in OpenFlow networks);</li>
+<li>Discovery of hosts by capturing ARP packets from data plane ports;</li>
+<li>Installation of table entries to provide routing of packets between hosts using ECMP.</li>
+</ul>
+</p>
+For more details, a video of the first demo can be found <a href="https://youtu.be/BE_y-Sz0WnQ">here</a>.
+
+<h2>How to learn more and get involved</h2>
+<p>P4 Runtime is a community-owned open-source project and is the first output of the new P4 API Working Group. All P4 Runtime code is available under a permissive Apache 2.0 open source license and can be used freely for any purpose. The P4 API working group meets every two weeks and meetings are open to all members of P4.org. To join P4.org, visit <a href="https://p4.org/join-us/">here</a>. You can join the P4 API Working group mailing list <a href="http://lists.p4.org/mailman/listinfo/p4-api_lists.p4.org">here</a>, and view the P4 Runtime API code repository <a href="https://github.com/p4lang/PI/tree/master/proto">here</a>. Lorenzo Vicisano and Antonin Bas wrote a more detailed blog describing P4 Runtime <a href="https://p4lang.github.io/2017/07/20/announcing-p4runtime-a-contribution-by-the-p4-api-working-group/">here</a>.</p>
+
+<p>The ONOS open source SDN controller is also actively working on extending support for P4 and P4 Runtime.  You can learn more about this work by visiting the <a href="https://onosproject.org/">ONOS Project</a> and the <a href="https://wiki.onosproject.org/display/ONOS/P4+brigade">ONOS P4 Brigade</a>.</p>
+
