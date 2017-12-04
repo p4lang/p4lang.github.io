@@ -22,8 +22,8 @@ header-img: assets/p4-background.png
 
 <p><i>Furthermore, P4 Runtime can be used to emulate the behavior of OpenFlow and SAI by defining the forwarding behavior of both protocols in P4 (see openflow.p4 and SAI.p4). Once defined, both can be extended more easily and naturally over time.</i></p>
 
-<h2>
-  <p>The figure below shows how a remote control plane can use P4 Runtime API to control a switch. In this example, the P4 program “tor.p4” specifies the switch pipeline. A P4 compiler generates the schema needed by the P4 Runtime API to add and delete entries into the forwarding table at runtime.</p>
+<h2>Remote and local control planes</h2>
+<p>The figure below shows how a remote control plane can use P4 Runtime API to control a switch. In this example, the P4 program “tor.p4” specifies the switch pipeline. A P4 compiler generates the schema needed by the P4 Runtime API to add and delete entries into the forwarding table at runtime.</p>
 
 <p style="text-align:center;"><img style="display:block; margin:0 auto; border:1px solid #000000;" src="{{ site.baseurl }}/assets/p4-runtime-remote.png" alt="P4 Runtime Remote Control Plane" width="600" /><strong>Figure 1: Using P4 Runtime API with a <u>remote</u> control plane.</strong></p>
 
