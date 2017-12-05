@@ -515,6 +515,7 @@ body {
   background-color: $theme-dark;
 }        
 
-.dropdown-menu {
-  z-index: 25000;
+dropdown-menu {
+  position: static;
+  z-index:1050;
 }
