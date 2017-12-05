@@ -7,6 +7,7 @@ header-img: "assets/p4-background.png"
 ---
 <div class="container-fluid index">
   <div class="row index all-posts">
+    <h2 class="header" itemprop="headline">All events</h2>
       {% for event in site.events reversed %}
       {% capture this_year %}{{ event.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ event.previous.date | date: "%Y" }}{% endcapture %}

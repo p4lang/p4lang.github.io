@@ -161,8 +161,8 @@ header {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   .header-content {
-    text-align: center;
-    padding: 150px 0 50px;
+    text-align: left;
+    padding: 50px 0px 0px;
     position: relative;
     .header-content-inner {
       position: relative;
@@ -514,3 +514,7 @@ body {
 .background-dark {
   background-color: $theme-dark;
 }        
+
+.dropdown-menu {
+  z-index: 25000;
+}

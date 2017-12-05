@@ -2,8 +2,9 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#p4-navbar">
         <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -13,17 +14,17 @@
         <span>Language Consortium</span>
       </a>
     </div>
-
+    
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse navbar-right" id="p4-navbar">
       <ul class="nav navbar-nav">
         <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
         <li><a href="{{ site.baseurl }}/events">Events</a></li>
         <li><a href="{{ site.baseurl }}/specs">Specifications</a></li>
         <li><a href="{{ site.baseurl }}/code">Code</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
+          <a href="#" class="dropdown-toggle" id="dd-community" data-toggle="dropdown">Community<span class="caret"></span></a>
+          <ul class="dropdown-menu">
             <li><a href="{{ site.baseurl}}/working-groups">Working Groups</a></li>
             <li class="divider"></li>
             <li><a href="{{ site.baseurl}}/board">Board</a></li>
