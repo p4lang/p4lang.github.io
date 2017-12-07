@@ -2,6 +2,7 @@
 layout: post
 title: Join Us!
 permalink: join-us/
+redirect_from: /join-us/    
 header-img: assets/p4-background.png 
 ---
 
