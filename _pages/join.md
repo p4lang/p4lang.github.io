@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join Us!
-permalink: join/
+permalink: join-us/
 header-img: assets/p4-background.png 
 ---
 
@@ -15,7 +15,7 @@ header-img: assets/p4-background.png
 #### JOIN US
 
 Becoming a member is free and easy:
-1. Download the membership agreement [/wp-content/uploads/2015/07/P4_Language_Consortium_Membership_Agreement.pdf](here). 
+1. Download the membership agreement <a href="{{ site.baseurl }}/assets/P4_Language_Consortium_Membership_Agreement.pdf">here</a>.
 2. Fill it out and sign the appropriate section, Institutional or Indivdual.<br />
 3. Scan the signed agreement and send it to <a title="P4 Membership" href="mailto:membership@p4.org"><i>membership@p4.org</i></a>.
 

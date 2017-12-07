@@ -18,9 +18,11 @@ social:
 
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+permalink: none
 paginate: 5
 include: ['_pages','_events']
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
-
-plugins: [jekyll-paginate, jekyll-feed]
+plugins:
+    - jekyll-paginate
+    - jekyll-feed
+    - jekyll-redirect-from
