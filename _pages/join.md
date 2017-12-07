@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join Us!
-permalink: join-us/
+permalink: join/
 redirect_from: /join-us/    
 header-img: assets/p4-background.png 
 ---
