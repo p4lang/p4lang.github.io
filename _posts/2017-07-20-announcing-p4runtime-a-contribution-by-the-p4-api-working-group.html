@@ -61,14 +61,14 @@ table ipv4_lpm {
   match {
     field_id: 1
     lpm {
-      value: "\f<pre wp-pre-tag-2></pre>00<pre wp-pre-tag-2></pre>00<pre wp-pre-tag-2></pre>00"
+      value: "\f000000"
       prefix_len: 8
     }
   }
   match {
     field_id: 2
     exact {
-      value: "<pre wp-pre-tag-2></pre>00<pre wp-pre-tag-2></pre>00"
+      value: "0000"
     }
   }
   action {
