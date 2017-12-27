@@ -9,6 +9,9 @@ collections:
   events:
     output: true
     permalink: /events/:path/
+  drafts:
+    output: true
+    permalink: /blog/drafts/:slug.html
     
 social:
   - title: twitter
@@ -20,7 +23,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: none
 paginate: 5
-include: ['_pages','_events']
+include: ['_drafts','_pages','_events']
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
 plugins:
     - jekyll-paginate
