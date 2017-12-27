@@ -15,16 +15,16 @@ of the progress made by the P4 community over the past year.
 In May, the [Language Design Working
 Group](https://p4.org/working-groups/) released [version
 1.0.0](https://p4.org/p4-spec/docs/P4-16-v1.0.0-spec.html) of the
-P4~16 language. P4~16 retains the core features of the original
-version of the language, now called P4~14, and adds new primitives
-designed to make it easy to write safe, portable, and modular data
-plane programs. See the [blog
+P4<sub>16</sub> language. P4<sub>16</sub> retains the core features of
+the original version of the language, now called P4<sub>14</sub>, and
+adds new primitives designed to make it easy to write safe, portable,
+and modular data plane programs. See the [blog
 post](https://p4.org/technical-steering-committee/get-involved-with-shaping-p4s-future.html)
 announcing P4<sub>16</sub> for more details.
  
 ## Portable Switch Architecture
 
-One of key innovations in P4~16 is the notion of "architecture," which
+One of key innovations in P4<sub>16</sub> is the notion of "architecture," which
 separates the logical functionality needed to express a given program
 from the components used to implement it. In November, the
 [Architecture Working Group](https://p4.org/working-groups) released a
