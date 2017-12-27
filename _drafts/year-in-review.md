@@ -16,11 +16,11 @@ In May, the [Language Design Working
 Group](https://p4.org/working-groups/) released [version
 1.0.0](https://p4.org/p4-spec/docs/P4-16-v1.0.0-spec.html) of the
 P4~16 language. P4~16 retains the core features of the original
-version of the language, now called P4~14, but adds new primitives
+version of the language, now called P4~14, and adds new primitives
 designed to make it easy to write safe, portable, and modular data
 plane programs. See the [blog
-post[(https://p4.org/technical-steering-committee/get-involved-with-shaping-p4s-future.html)
-announcing P4~16 for more details.
+post](https://p4.org/technical-steering-committee/get-involved-with-shaping-p4s-future.html)
+announcing P4<sub>16</sub> for more details.
  
 ## Portable Switch Architecture
 
@@ -40,7 +40,7 @@ To date, much of the focus in the P4 community has been on designing
 constructs for data plane programming. But in any practical
 deployment, P4 programmers will also need to write control-plane
 software. In November, the [API Working
-Group](https://p4.org/working-groups) has developed an initial
+Group](https://p4.org/working-groups) announced the initial
 implementation of [P4 Runtime](https://github.com/p4lang/PI). It
 provides a new way for control plane software to manage a huge variety
 of different programmable and fixed-function switches. See the [blog
@@ -50,20 +50,21 @@ on P4 Runtime for more details.
 ## Emerging Applications
 
 As P4 continues to mature, there is growing interest in applications
-that change the way people design, build, and run their networks. In
-November, to help nurture an ecosystem that is well aligned with the
-needs of various applications, we launched the [Applications Working
-Group](https://p4.org/working-groups) to develop specifications and
-open-source software for novel data plane applications enabled by
-P4. Initially, this working group will focus on data plane telemetry
-but it may broaden its scope in the future as new applications
-emerge. See the [blog
+that change the way people design, build, and run their networks.  To
+help nurture a P4 software ecosystem that is well aligned with the
+needs of applications, we launched the [Applications Working
+Group](https://p4.org/working-groups) in November. The goal of this
+working group is to develop specifications and open-source
+implementations of novel data plane applications enabled by
+P4. Initially, the working group plans to focus on data plane
+telemetry but it may broaden its scope to include other applications
+as they emerge. See the [blog
 post](https://p4.org/members/announcing-the-p4-applications-working-group.html)
 announcing the Applications Working Group for more details.
 
 ## Community Events
 
-We organized a number of community events including:
+The P4 community came together several times over the past year at these events:
 * A [workshop](https://p4.org/events/2017-05-09-p4-workshop/) and [developer day](https://p4.org/events/2017-05-11-p4-developer-day/) at Stanford in May,
 * Tutorials at [PLDI](https://pldi17.sigplan.org/track/pldi-2017-workshops-and-tutorials#program), [HotChips](https://www.hotchips.org/archives/2010s/hc29/), and [SIGCOMM](http://conferences.sigcomm.org/sigcomm/2017/tutorial-p4.html),
 * A [Developer Day](https://p4.org/events/2017-10-16-p4-developer-day/) at Stanford in November.
