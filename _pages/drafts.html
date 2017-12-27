@@ -1,0 +1,21 @@
+---
+layout: post
+title: "P4 Draft Blog"
+description: "P4 Draft Blog"
+permalink: blog/drafts/
+header-img: "assets/p4-background.png"
+---
+<div class="container-fluid index">
+  <div class="row index all-posts">
+    <h2 class="header" itemprop="headline">All draft posts</h2>
+    <ul style="list-style: none;">
+      {% for post in site.drafts reversed %}
+      <li>
+        <hr>
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>  
+</div>
