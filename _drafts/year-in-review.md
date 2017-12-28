@@ -10,7 +10,7 @@ header-img: assets/p4-background.png
 As 2017 winds down, we wanted to take a look back and reflect on all
 of the progress made by the P4 community over the past year.
 
-## New Version of the P4 Language
+## New Language Version
 
 In May, the [Language Design Working
 Group](https://p4.org/working-groups/) released [version
@@ -62,6 +62,13 @@ as they emerge. See the [blog
 post](https://p4.org/members/announcing-the-p4-applications-working-group.html)
 announcing the Applications Working Group for more details.
 
+## New Targets
+
+This year also saw the announcement of several new P4-enabled targets including;
+
+* [Xilinx P4-SDNet](https://forums.xilinx.com/t5/Xcell-Daily-Blog/The-P4-has-landed-SDNet-2017-1-gets-P4-to-FPGA-compilation/ba-p/766361)
+* [Barefoot Tofino](https://barefootnetworks.com/technology/)
+    
 ## Community Events
 
 The P4 community came together several times over the past year at these events:
@@ -69,14 +76,7 @@ The P4 community came together several times over the past year at these events:
 * Tutorials at [PLDI](https://pldi17.sigplan.org/track/pldi-2017-workshops-and-tutorials#program), [HotChips](https://www.hotchips.org/archives/2010s/hc29/), and [SIGCOMM](http://conferences.sigcomm.org/sigcomm/2017/tutorial-p4.html),
 * A [Developer Day](https://p4.org/events/2017-10-16-p4-developer-day/) at Stanford in November.
 
-## P4 Targets
-
-This year also saw the announcement of several new P4-enabled targets including;
-
-* [Xilinx P4-SDNet](https://forums.xilinx.com/t5/Xcell-Daily-Blog/The-P4-has-landed-SDNet-2017-1-gets-P4-to-FPGA-compilation/ba-p/766361)
-* [Barefoot Tofino](https://barefootnetworks.com/technology/)
-
-# Looking Ahead to 2018
+# Looking Ahead
 
 In the coming year we are excited to continue growing the momentum
 behind P4. We are looking forward to seeing the release of PSA and P4
