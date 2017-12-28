@@ -24,27 +24,30 @@ announcing P4<sub>16</sub> for more details.
  
 ## Portable Switch Architecture
 
-One of key innovations in P4<sub>16</sub> is the notion of "architecture," which
-separates the logical functionality needed to express a given program
-from the components used to implement it. In November, the
+One of innovations in P4<sub>16</sub> is the notion of "architecture,"
+which separates the logical functionality needed to express a given
+program from the components used to implement it. In November, the
 [Architecture Working Group](https://p4.org/working-groups) released a
 [draft specification](https://p4.org/p4-spec/docs/PSA.html) of the
-Portable Switch Architecture (PSA). It defines a collection of
-portable "extern" primitives as well as a standard packet-processing
-pipeline that can be mapped to different underlying hardware and
-software targets.
+Portable Switch Architecture (PSA). It defines a standard
+packet-processing pipeline as well as a rich "standard library" of
+`extern`s. The goal is to establish a common baseline architecture so that P4
+programs can be easily ported onto a variety of hardware and software
+targets.
 
 ## Flexible Control-Plane API
 
 To date, much of the focus in the P4 community has been on designing
-constructs for data plane programming. But in any practical
-deployment, P4 programmers will also need to write control-plane
-software. In November, the [API Working
-Group](https://p4.org/working-groups) announced the initial
-implementation of [P4 Runtime](https://github.com/p4lang/PI). It
-provides a new way for control plane software to manage a huge variety
-of different programmable and fixed-function switches. See the [blog
-post](https://p4.org/api/p4-runtime-putting-the-control-plane-in-charge-of-the-forwarding-plane.html)
+constructs for data plane programming. But in practical deployments,
+P4 programmers will also need to write control-plane software. In
+November, the [API Working Group](https://p4.org/working-groups)
+announced the initial implementation of [P4
+Runtime](https://github.com/p4lang/PI). It provides a common mechanism
+by which local and remote control planes can manage a huge variety of
+programmable and fixed-function switches. Google Cloud, Barefoot
+Networks and the ONF <a href="https://youtu.be/BE_y-Sz0WnQ">demonstrated</a>
+the first physical network running P4 Runtime at the SDN NFV World Congress. See
+the [blog post](https://p4.org/api/p4-runtime-putting-the-control-plane-in-charge-of-the-forwarding-plane.html)
 on P4 Runtime for more details.
 
 ## Emerging Applications
