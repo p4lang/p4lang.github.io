@@ -79,7 +79,7 @@ This year also saw the announcement of several new P4-enabled targets including;
 # Looking Ahead to 2018
 
 In the coming year we are excited to continue growing the momentum
-behind P4. We are look forward to seeing the release of PSA and P4
+behind P4. We are looking forward to seeing the release of PSA and P4
 Runtime, and the development of novel applications built using P4. We
 invite you to get involved. If you are not already a member of P4.org,
 please [join us](http://p4.org/join-us) and help shape the future of
