@@ -24,15 +24,16 @@ announcing P4<sub>16</sub> for more details.
  
 ## Portable Switch Architecture
 
-One of innovations in P4<sub>16</sub> is the notion of "architecture,"
-which separates the logical functionality needed to express a given
-program from the components used to implement it. In November, the
-[Architecture Working Group](https://p4.org/working-groups) released a
-[draft specification](https://p4.org/p4-spec/docs/PSA.html) of the
-Portable Switch Architecture (PSA). It defines a standard
-packet-processing pipeline as well as a rich "standard library" of
-`extern`s. The goal is to establish a common baseline architecture so that P4
-programs can be easily ported onto a variety of hardware and software
+One of the innovations in P4<sub>16</sub> is the notion of
+"architecture," which separates the logical functionality needed to
+express a given program from the components used to implement it. In
+November, the [Architecture Working
+Group](https://p4.org/working-groups) released a [draft
+specification](https://p4.org/p4-spec/docs/PSA.html) of the Portable
+Switch Architecture (PSA). It defines a standard packet-processing
+pipeline as well as a rich "standard library" of `extern`s. The goal
+is to establish a common baseline architecture so that P4 programs
+written for PSA are portable across a variety of hardware and software
 targets.
 
 ## Flexible Control-Plane API
@@ -67,8 +68,8 @@ announcing the Applications Working Group for more details.
 
 ## New Targets
 
-This year also saw the announcement of several new P4-enabled targets including;
-
+This year also saw several new P4-enabled targets including;
+* [Netcope P4](https://www.netcope.com/en/products/netcopep4)    
 * [Xilinx P4-SDNet](https://forums.xilinx.com/t5/Xcell-Daily-Blog/The-P4-has-landed-SDNet-2017-1-gets-P4-to-FPGA-compilation/ba-p/766361)
 * [Barefoot Tofino](https://barefootnetworks.com/technology/)
     
