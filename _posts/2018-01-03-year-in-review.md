@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Year in Review"
-date: 2017-12-23
+date: 2018-01-02
 author: "Nate Foster"
 category: p4
 header-img: assets/p4-background.png
 ---
 
-As 2017 winds down, we wanted to take a look back and reflect on all
-of the progress made by the P4 community over the past year.
+As the new year begins, we wanted to take a look back and reflect on
+all of the progress made by the P4 community in 2017.
 
 ## New Language Version
 
@@ -77,6 +77,7 @@ This year also saw several new P4-enabled targets including;
 
 The P4 community came together several times over the past year at these events:
 * A [workshop](https://p4.org/events/2017-05-09-p4-workshop/) and [developer day](https://p4.org/events/2017-05-11-p4-developer-day/) at Stanford in May,
+* A [summit](http://www.sdnlab.com/19186.html) in Beijing in May,
 * Tutorials at [PLDI](https://pldi17.sigplan.org/track/pldi-2017-workshops-and-tutorials#program), [HotChips](https://www.hotchips.org/archives/2010s/hc29/), and [SIGCOMM](http://conferences.sigcomm.org/sigcomm/2017/tutorial-p4.html),
 * A [Developer Day](https://p4.org/events/2017-10-16-p4-developer-day/) at Stanford in November.
 
