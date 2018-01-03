@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Year in Review"
-date: 2018-01-03
+date: 2018-01-02
 author: "Nate Foster"
 category: p4
 header-img: assets/p4-background.png
