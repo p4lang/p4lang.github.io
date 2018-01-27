@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P4 Developer Day Spring 2018
+title: East Coast P4 Developer Day, Spring 2018
 date: 2018-03-09
 header-img: assets/p4-background.png
 ---
