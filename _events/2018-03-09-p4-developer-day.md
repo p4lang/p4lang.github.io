@@ -8,10 +8,6 @@ header-img: assets/p4-background.png
 ### A presentation by the P4 Language Consortium
     
 #### Held at Cornell Tech on Friday, March 9, 2018 
-
-### Sponsors
-    
-<img src="{{ site.baseurl }}/assets/cornell-logo-p4-257x117.png" style="display:inline; height:75px; padding-left:10px" alt="Cornell Logo" />    
         
 ### Agenda 
 
