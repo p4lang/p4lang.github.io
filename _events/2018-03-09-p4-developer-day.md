@@ -7,8 +7,10 @@ header-img: assets/p4-background.png
         
 ### A presentation by the P4 Language Consortium
     
-#### Held at Cornell Tech on Friday, March 9, 2018 
-        
+### Held at Cornell Tech on Friday, March 9, 2018 
+
+### [Register now!](https://www.eventbrite.com/e/east-coast-p4-developer-day-spring-2018-tickets-42621110890)
+            
 ### Agenda 
 
 ---
@@ -132,3 +134,5 @@ header-img: assets/p4-background.png
     * Closing Remarks
 
 ---
+
+### [Register now!](https://www.eventbrite.com/e/east-coast-p4-developer-day-spring-2018-tickets-42621110890)
