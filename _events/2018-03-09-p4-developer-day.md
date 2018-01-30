@@ -59,9 +59,9 @@ header-img: assets/p4-background.png
 
 ---
     
-* 11:15 - 12:00pm
+* 11:15 - 11:50
     
-    * Software Tools and P4 Runtime
+    * Software Tools 
     
       Session 2 will cover software tools that are essential to
       developing P4 applications. Students will learn how to invoke
@@ -70,10 +70,16 @@ header-img: assets/p4-background.png
       interfaces via P4 Runtime, a protocol-independent API
       auto-generated from the definition of a packet processing
       pipeline written in P4.
+    
+
+
+* 11:50 - 12:10
+
+    * Keynote - Jennifer Rexford (Princeton University)
 
 ---
     
-* 12:00 - 1:30pm
+* 12:10 - 1:30pm
 
     * _Lunch_
 
