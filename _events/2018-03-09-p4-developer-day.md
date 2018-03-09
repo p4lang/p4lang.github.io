@@ -197,7 +197,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
 * 3:30 - 3:50
 
-    * Keynote: [Towards Self-Driving Networks](/assets/P4_D2_East_2018_jrex_keynote.pdf)
+    * Keynote: [Toward Self-Driving Networks](/assets/P4_D2_East_2018_jrex_keynote.pdf)
 
       Speaker: [Jennifer Rexford](http://www.cs.princeton.edu/~jrex) (Princeton University)
 
