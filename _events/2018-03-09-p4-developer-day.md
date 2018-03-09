@@ -116,7 +116,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
 * 9:00 - 9:10am
     
-    * Welcome and Introductions
+    * [Welcome and Introductions](/assets/P4_D2_East_2018_00_welcome.pdf)
 
       Speaker: [Nate Foster](http://www.cs.cornell.edu/~jnfoster) (Cornell University)
 
@@ -128,7 +128,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
       Instructor: [Stephen Ibanez](https://web.stanford.edu/~sibanez) (Stanford University)
     
-    * Language Basics
+    * [Language Basics](/assets/P4_D2_East_2018_01_basics.pdf)
 
       Instructor: [Stephen Ibanez](https://web.stanford.edu/~sibanez) (Stanford University)
     
