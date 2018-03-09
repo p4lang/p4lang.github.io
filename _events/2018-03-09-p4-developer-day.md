@@ -162,16 +162,8 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
       auto-generated from the definition of a packet processing
       pipeline written in P4.
     
-
-
-* 11:50 - 12:10
-
-    * Keynote
-
-      Speaker: [Jennifer Rexford](http://www.cs.princeton.edu/~jrex) (Princeton University)
-
 ---
-    
+       
 * 12:10 - 1:30pm
 
     * _Lunch_
@@ -180,7 +172,8 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
     
 * 1:30 - 3:00pm
     
-    * Monitoring and Debugging
+    * [Monitoring and Debugging](/assets/P4_D2_East_2018_03_monitoring.pdf)
+
 
       Instructor: [Mina Tahmasbi Arashloo](http://www.cs.princeton.edu/~arashloo/) (Princeton University)
     
@@ -202,7 +195,16 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
 ---
 
-* 3:30 - 4:50pm
+* 3:30 - 3:50
+
+    * Keynote
+
+      Speaker: [Jennifer Rexford](http://www.cs.princeton.edu/~jrex) (Princeton University)
+
+---
+
+    
+* 3:50 - 5:00pm
     
     * Advanced Data Structures
 
@@ -220,13 +222,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
 ---
 
-* 4:50 - 5:00pm
-    
-    * Break
-
----
-
-* 5:00 - 5:50
+* 5:00 - 5:45
     
     * Panel Discussion
 
@@ -239,7 +235,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
 ---
     
-* 5:50-6:00
+* 5:45-5:55
     
     * Closing Remarks
 
