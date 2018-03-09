@@ -35,7 +35,7 @@ header-img: assets/p4-background.png
     * Current one-way fare is $2.75.   
 * The [Red Bus](https://rioc.ny.gov/bustransportation.htm) operates in
   and around Roosevelt Island and is FREE to ride    
-    * Click here to view a copy of the Red Bus Schedule (pg 2)
+    * Click [here](https://rioc.ny.gov/bustransportation.htm) to view the Red Bus Schedule
 * [Q102 MTA Bus](https://bustime.mta.info/m/?q=Q102) is another way to
   get around within the Island and travel from other boroughs.
 * Driving is another way to and around the Roosevelt Island. You can
@@ -52,7 +52,48 @@ header-img: assets/p4-background.png
   need this badge with you at all times to navigate in & out of the
   building. After your badge is picked up, you will then proceed to
   the registration desk where you can get your P4 Developer Day badge.
-                
+
+### Virtual Machine
+
+We have created a virtual machine that has all of the software needed to complete the developer day exercises already installed. You can either download a virtual machine image or build it from source. Note that both of these procedures can take around 45 minutes depending on the speed of your network connection.
+
+* To download the virtual machine image
+    1. Install VirtualBox  
+       [https://virtualbox.org](https://virtualbox.org)
+    1. Download virtual machine image  
+       [P4 Tutorial 2018-03-05.ova](https://drive.google.com/open?id=1ACkpD66zoBJHCX2K50OO8-pssJGZhzMr)
+    1. Import virtual machine into VirtualBox  
+       Open VirtualBox, select "File > Import Appliance", and navigate to the downloaded file.
+    1. Boot virtual machine  
+       Select "P4 Tutorial 2018-03-05", and click "Start". 
+
+* To build the virtual machine from source
+    1. Install VirtualBox  
+       [https://virtualbox.org](https://virtualbox.org)
+    1. Install Vagrant  
+       [https://vagrantup.com](https://vagrantup.com)
+    1. Clone the tutorial repository  
+       `$ git clone https://github.com/p4lang/tutorials`
+    1. Navigate to the vm directory  
+      `$ cd tutorials/P4D2_2018_East/vm/`
+    1. Build the virtual machine  
+      `$ vagrant up`
+    
+* Final steps  
+  After the machine boots, you should have a graphical desktop with
+  all required software pre-installed, logged in as username "p4"
+  (with password "p4"). You may want to install the VirtualBox Guest
+  Additions to optimize the graphics and clipboard interaction with
+  your host OS. See the [VirtualBox
+  manual](https://www.virtualbox.org/manual/ch04.html) for more
+  details.
+
+### Slack
+
+We have set up a Slack to make it easy for participants to ask the TAs questions.  
+* Register at [bit.ly/join-p4-lang-slack](bit.ly/join-p4-lang-slack)
+* Join the `#east-coast-d2` channel
+    
 ### Agenda 
 
 ---
