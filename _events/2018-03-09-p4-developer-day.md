@@ -91,7 +91,7 @@ We have created a virtual machine that has all of the software needed to complet
 ### Slack
 
 We have set up a Slack to make it easy for participants to ask the TAs questions.  
-* Register at [bit.ly/join-p4-lang-slack](bit.ly/join-p4-lang-slack)
+* Register at [bit.ly/join-p4-lang-slack](https://bit.ly/join-p4-lang-slack)
 * Join the `#east-coast-d2` channel
     
 ### Agenda 
