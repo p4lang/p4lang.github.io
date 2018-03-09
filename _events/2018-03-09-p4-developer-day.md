@@ -150,7 +150,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
     
 * 11:15 - 11:50
     
-    * Software Tools
+    * [Software Tools](/assets/P4_D2_East_2018_02_p4runtime.pdf)
 
       Instructor: [Praveen Kumar](http://www.cs.cornell.edu/~praveenk) (Cornell University)
     
