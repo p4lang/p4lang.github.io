@@ -197,7 +197,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
 
 * 3:30 - 3:50
 
-    * Keynote: [Towards Self-Driving Networks](/assets/P4_D2_East_2018_jrex_keynote.pdf)
+    * Keynote: [Toward Self-Driving Networks](/assets/P4_D2_East_2018_jrex_keynote.pdf)
 
       Speaker: [Jennifer Rexford](http://www.cs.princeton.edu/~jrex) (Princeton University)
 
@@ -206,7 +206,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
     
 * 3:50 - 5:00pm
     
-    * Advanced Data Structures
+    * [Advanced Data Structures](/assets/P4_D2_East_2018_04_data_structures.pdf)
 
       Instructor: [Sean Choi](https://stanford.edu/~yo2seol/) (Stanford University)
     
@@ -237,7 +237,7 @@ We have set up a Slack to make it easy for participants to ask the TAs questions
     
 * 5:45-5:55
     
-    * Closing Remarks
+    * [Closing Remarks](/assets/P4_D2_East_2018_05_wrapup.pdf)
 
       Speaker: [Nate Foster](http://www.cs.cornell.edu/~jnfoster) (Cornell University)
     
