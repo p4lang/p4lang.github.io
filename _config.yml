@@ -12,6 +12,9 @@ collections:
   drafts:
     output: true
     permalink: /blog/drafts/:slug.html
+  minutes:
+    output: true
+    permalink: /minutes/:path.html
     
 social:
   - title: twitter
@@ -24,7 +27,7 @@ highlighter: rouge
 permalink: none
 future: true
 paginate: 5
-include: ['_drafts','_pages','_events']
+include: ['_drafts','_events','_minutes','_pages']
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
 plugins:
     - jekyll-paginate
