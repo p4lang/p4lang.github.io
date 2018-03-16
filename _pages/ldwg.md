@@ -18,8 +18,8 @@ artifacts.
 
 ## Mailing Lists
 
-* [Sign up](http://lists.p4.org/mailman/listinfo/p4-design_lists.p4.org)</li>
-* [Archive](http://lists.p4.org/pipermail/p4-design_lists.p4.org/)</li>
+* [Sign up](http://lists.p4.org/mailman/listinfo/p4-design_lists.p4.org)
+* [Archive](http://lists.p4.org/pipermail/p4-design_lists.p4.org/)
 
 ## Code
 
