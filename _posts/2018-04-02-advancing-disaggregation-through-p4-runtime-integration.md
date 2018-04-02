@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Advancing Disaggregation Through P4 Runtime Integration"
-date: 2018-03-19
+date: 2018-04-02
 author: "Nitin Kumar"
 category: p4
 header-img: assets/p4-background.png
