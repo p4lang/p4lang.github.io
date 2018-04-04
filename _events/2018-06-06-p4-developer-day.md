@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P4 Developer Day, Spring 2018
+title: P4 Developer Day
 date: 2018-06-06
 header-img: assets/p4-background.png
 ---
@@ -9,9 +9,7 @@ header-img: assets/p4-background.png
     
 #### Held at Stanford University on Wednesday, June 6, 2018 
 
-### Registration
-
-TBA    
+### [Registration](https://www.eventbrite.com/e/p4-developer-day-2018-tickets-44765855880)
     
 ### Slack
 
