@@ -52,11 +52,11 @@ TBD
 
 * Noa Zilberman (chair), University of Cambridge
 * Robert Soul&eacute; (chair), Universit&agrave; della Svizzera italiana
+* Gordon Brebner, Xilinx Labs
 * Paolo Costa, Microsoft Research
 * Andy Fingerhut, Cisco Systems
 * Nate Foster, Cornell University
 * Timothy Griffin, University of Cambridge
-* Gordon Brebner, Xilinx Labs
 * Masoud Moshref, Barefoot Networks
 
 
