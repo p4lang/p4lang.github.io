@@ -26,7 +26,8 @@ innovation.
 * All aspects of P4-based network protocol research including design, specification, verification, implementation, measurement, testing, and analysis.
 * Contributions to network architecture using P4, e.g., specific algorithms and protocols for network virtualization or future Internet architectures.
 * New applications and in-network computing enabled by P4
-* P4-based and P4-NetFPGA based programmable data planes * Tools and frameworks for development using P4
+* P4-based and P4-NetFPGA based programmable data planes
+* Tools and frameworks for development using P4
 * Performance and performance constraints of P4 based designs
 
 
@@ -40,7 +41,7 @@ innovation.
 
 #### Submission Instructions
 
-P4EU 2018 will use a double-blind review process. Papers should adhere to the IEEE formatting requirements and should not exceed 6 pages (see workshop website page for details). Authors are required to present accepted papers at the workshop, and at least one author is required to register, at the full rate, in order for the paper to appear in the proceedings and the IEEE digital library. One of the authors MUST present the accepted paper at the workshop. Exceptions from this policy for truly mitigating situations must be approved by the TPC Chairs before the beginning of the workshop.
+P4EU 2018 will use a double-blind review process. Papers should adhere to the IEEE formatting requirements and should not exceed 6 pages. Authors are required to present accepted papers at the workshop, and at least one author is required to register, at the full rate, in order for the paper to appear in the proceedings and the IEEE digital library. One of the authors MUST present the accepted paper at the workshop. Exceptions from this policy for truly mitigating situations must be approved by the TPC Chairs before the beginning of the workshop.
 
 
 #### Submission Website 
@@ -50,11 +51,12 @@ TBD
 ### Technical Program Committee
 
 * Noa Zilberman (chair), University of Cambridge
-* Robert Soul&eacute; (chair), Universit&agrave; della Svizzera italian
+* Robert Soul&eacute; (chair), Universit&agrave; della Svizzera italiana
 * Paolo Costa, Microsoft Research
 * Andy Fingerhut, Cisco Systems
 * Nate Foster, Cornell University
-* Timothy Griffin, University of Cambridge Gordon Brebner, Xilinx Labs
+* Timothy Griffin, University of Cambridge
+* Gordon Brebner, Xilinx Labs
 * Masoud Moshref, Barefoot Networks
 
 
