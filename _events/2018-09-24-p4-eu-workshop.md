@@ -23,6 +23,7 @@ The first P4EU workshop will bring together networking researchers to discuss cu
 venue for P4-based research and projects, a place to discuss P4-based tools, and the research community needs. The workshop aims to forge connections between researchers, introduce more networking researchers to the P4 community, and seed future top-tier publications and innovation.
 
 P4EU seeks three types of contributions:
+
 * Papers - 4 to 6 pages long.
 * Posters - up to 2 pages long.
 * Demos - up to 2 pages long.
