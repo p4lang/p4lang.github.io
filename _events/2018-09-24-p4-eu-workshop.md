@@ -43,10 +43,13 @@ Topics of an interest include, but are not limited to:
 
 #### Important Dates
 
-* Abstract registration: June 15th, 2018
 * Submission deadline: June 22nd, 2018
 * Acceptance notification: July 21st, 2018
 * Camera ready: August 15th, 2018
+* Late submissions **WITHOUT PROCEEDINGS** deadline: August 10th, 2018 
+* Late submissions notification: August 27th, 2018
+* Workshop date: September 24th, 2018
+
 
 
 #### Submission Instructions
@@ -55,8 +58,23 @@ P4EU 2018 will use a double-blind review process. Papers should adhere to the IE
 
 
 #### Submission Website 
-TBD
+[https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018/](https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018/)
 
+
+#### Submission Without Proceedings
+
+A limited number of talks, demos and posters will be accepted to the workshop without appearing in ICNP 2018 proceedings, in a manner similar to previous P4 events. 
+These submissions will go through the same review process as standard submissions, but can take advantage of a late submission deadline. 
+
+The submission website for submissions that will **not appear** in the proceedings is [https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/](https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/)
+
+#### Registration
+[Registration is through ICNP 2018](http://icnp18.cs.ucr.edu/registration.html) 
+
+#### Travel Grants
+[Refer to ICNP travel grants page](http://icnp18.cs.ucr.edu/grants.html)
+
+More information is TBD
 
 ### Technical Program Committee
 
@@ -69,12 +87,8 @@ TBD
 * Timothy Griffin, University of Cambridge
 * Masoud Moshref, Barefoot Networks
 
-#### Registration
-Registration is through ICNP 2018: http://icnp18.cs.ucr.edu/registration.html 
+### Sponsorship ###
 
-#### Travel Grants
-Refer to ICNP travel grants page: http://icnp18.cs.ucr.edu/grants.html
-
-More information is TBD
+Contact the workshop chairs for sponsorship opportunities. 
 
 
