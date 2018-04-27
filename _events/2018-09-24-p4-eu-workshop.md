@@ -9,13 +9,13 @@ header-img: assets/p4-background.png
     
 #### Held at Cambridge, UK on September 24, 2018
 
-P4EU 2018 is the first P4 European event. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
+P4EU 2018 is the first P4 Language Consortium event in European. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
 P4EU, which will run as a workshop at ICNP 2018, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects.
 
 ### Agenda
 
-The technical agenda will be announced closer to the workshop date but will include a keynote address, talks and lightling talks, posters and demos, and a panel discussion.
+The technical agenda will be announced closer to the workshop date but will include a keynote address, talks and lightning talks, posters and demos, and a panel discussion.
 
 ### Call for Contributions
 
@@ -66,7 +66,9 @@ P4EU 2018 will use a double-blind review process. Papers should adhere to the IE
 A limited number of talks, demos and posters will be accepted to the workshop without appearing in ICNP 2018 proceedings, in a manner similar to previous P4 events. 
 These submissions will go through the same review process as standard submissions, but can take advantage of a late submission deadline. 
 
-The submission website for submissions that will **not appear** in the proceedings is [https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/](https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/)
+The submission website for submissions that will **not appear** in the proceedings is: 
+
+[https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/](https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/)
 
 #### Registration
 [Registration is through ICNP 2018](http://icnp18.cs.ucr.edu/registration.html) 
