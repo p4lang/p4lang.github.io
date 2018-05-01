@@ -9,13 +9,13 @@ header-img: assets/p4-background.png
     
 #### Held at Cambridge, UK on September 24, 2018
 
-P4EU 2018 is the first P4 European event. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
+P4EU 2018 is the first P4 Language Consortium event in European. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
 P4EU, which will run as a workshop at ICNP 2018, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects.
 
 ### Agenda
 
-The technical agenda will be announced closer to the workshop date but will include a keynote address, talks and lightling talks, posters and demos, and a panel discussion.
+The technical agenda will be announced closer to the workshop date but will include a keynote address, talks and lightning talks, posters and demos, and a panel discussion.
 
 ### Call for Contributions
 
@@ -43,10 +43,13 @@ Topics of an interest include, but are not limited to:
 
 #### Important Dates
 
-* Abstract registration: June 15th, 2018
 * Submission deadline: June 22nd, 2018
 * Acceptance notification: July 21st, 2018
 * Camera ready: August 15th, 2018
+* Late submissions **WITHOUT PROCEEDINGS** deadline: August 10th, 2018 
+* Late submissions notification: August 27th, 2018
+* Workshop date: September 24th, 2018
+
 
 
 #### Submission Instructions
@@ -55,8 +58,25 @@ P4EU 2018 will use a double-blind review process. Papers should adhere to the IE
 
 
 #### Submission Website 
-TBD
+[https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018/](https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018/)
 
+
+#### Submission Without Proceedings
+
+A limited number of talks, demos and posters will be accepted to the workshop without appearing in ICNP 2018 proceedings, in a manner similar to previous P4 events. 
+These submissions will go through the same review process as standard submissions, but can take advantage of a late submission deadline. 
+
+The submission website for submissions that will **not appear** in the proceedings is: 
+
+[https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/](https://hotcrp-p4eu2018.cl.cam.ac.uk/p4eu2018noproc/)
+
+#### Registration
+[Registration is through ICNP 2018](http://icnp18.cs.ucr.edu/registration.html) 
+
+#### Travel Grants
+[Refer to ICNP travel grants page](http://icnp18.cs.ucr.edu/grants.html)
+
+More information is TBD
 
 ### Technical Program Committee
 
@@ -69,12 +89,8 @@ TBD
 * Timothy Griffin, University of Cambridge
 * Masoud Moshref, Barefoot Networks
 
-#### Registration
-Registration is through ICNP 2018: http://icnp18.cs.ucr.edu/registration.html 
+### Sponsorship ###
 
-#### Travel Grants
-Refer to ICNP travel grants page: http://icnp18.cs.ucr.edu/grants.html
-
-More information is TBD
+Contact the workshop chairs for sponsorship opportunities. 
 
 
