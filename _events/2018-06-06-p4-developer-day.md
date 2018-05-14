@@ -9,8 +9,11 @@ header-img: assets/p4-background.png
     
 #### Held at Stanford University on Wednesday, June 6, 2018 
 
-### [Registration](https://www.eventbrite.com/e/p4-developer-day-2018-tickets-44765855880)
-    
+### [Register Here!](https://www.eventbrite.com/e/p4-developer-day-2018-tickets-44765855880)
+
+#### Special Thanks to our Sponsors:
+<img src="/assets/att-logo.png" alt="AT&T" /> <img src="/assets/barefoot-logo.png" alt="Barefoot Networks" /> <img src="/assets/cisco-logo.png" alt="Cisco" /> <img src="/assets/Google-logo-p4-final2.png" alt="Google" /> 
+
 ### Slack
 
 We will use Slack to make it easy for participants to ask the TAs questions.  
