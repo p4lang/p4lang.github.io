@@ -103,7 +103,25 @@ We will use Slack to make it easy for participants to ask the TAs questions.
 ---
 * 1:30 - 2:00pm
     
-    * Keynote: [Arvind Krishnamurthy](https://www.cs.washington.edu/people/faculty/arvind) (Washington)
+    * Keynote: "Revisiting In-Network Control" [Arvind Krishnamurthy](https://www.cs.washington.edu/people/faculty/arvind) (Washington)
+
+      Abstract: Emerging programmable switches allow for flexible and
+      reconfigurable packet processing at line rate. These emerging
+      technologies address a key limitation with traditional SDN
+      solutions that allow for only custom-plane customization but not
+      data-plane customization needed by traffic management protocols
+      that perform "in-network" control and per-packet processing.
+
+      Despite their promising new functionality, reconfigurable
+      switches are not all-powerful; they have limited state, support
+      limited types of operations, and limit per-packet computation in
+      order to be able to operate at line rate. In this talk, I
+      describe how we can address these limitations by using novel
+      approximation techniques and implement previously unrealized
+      protocols that require in-network control. Our work thus
+      represents a modest step towards enabling a "software defined
+      data plane" that provides greater performance and isolation for
+      datacenter applications.
 
 ---
         
