@@ -19,6 +19,36 @@ header-img: assets/p4-background.png
 #### Address: 326 Galvez St, Stanford, CA 94305
     
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2722083658236!2d-122.16701278469225!3d37.43067377982362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb28416493a7%3A0x778a60994d7a5e4c!2sFrances+C.+Arrillaga+Alumni+Center!5e0!3m2!1sen!2sus!4v1526996941379" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>    
+### Virtual Machine
+
+We have created a virtual machine that has all of the software needed to complete the developer day exercises already installed. You can either download a virtual machine image or build it from source. Note that both of these procedures can take around 45 minutes depending on the speed of your network connection.
+
+* To download the virtual machine image
+    1. Install VirtualBox  
+       [https://virtualbox.org](https://virtualbox.org)
+    1. Download virtual machine image  
+       [P4 Tutorial 2018-06-01.ova](https://drive.google.com/uc?id=1f22-DYlUV33DsR88_MeMb4s7-1NX_ams&export=download)
+    1. Import virtual machine into VirtualBox  
+       Open VirtualBox, select "File > Import Appliance", and navigate to the downloaded file.
+    1. Boot virtual machine  
+       Select "P4 Tutorial 2018-06-01", and click "Start". 
+
+* To build the virtual machine from source
+    1. Install VirtualBox  
+       [https://virtualbox.org](https://virtualbox.org)
+    1. Install Vagrant  
+       [https://vagrantup.com](https://vagrantup.com)
+    1. Clone the tutorial repository  
+       `$ git clone https://github.com/p4lang/tutorials`
+    1. Navigate to the vm directory  
+      `$ cd tutorials/vm/`
+    1. Build the virtual machine  
+      `$ vagrant up`
+    
+* Final steps  
+  After the machine boots, you should have a graphical desktop with
+  all required software pre-installed, logged in as username "p4"
+  (with password "p4").
     
 ### Slack
 
