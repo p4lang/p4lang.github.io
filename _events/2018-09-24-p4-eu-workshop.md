@@ -98,7 +98,7 @@ More information is TBD
 
 A special thanks to our sponsors:
 
-![Microsoft](assets/Microsoft-logo_rgb_c-gray.pdf)
+![Microsoft](/assets/Microsoft-logo_rgb_c-gray.pdf)
 
 
 Contact the workshop chairs for sponsorship opportunities. 
