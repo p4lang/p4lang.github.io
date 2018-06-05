@@ -54,12 +54,11 @@ Topics of an interest include, but are not limited to:
 
 #### Submission Instructions
 
-P4EU 2018 will use a double-blind review process. Papers should adhere to the IEEE formatting requirements and should not exceed 6 pages for papers, and 2 pages for posters and demos. Authors are required to present accepted papers at the workshop, and at least one author is required to register, at the full rate, in order for the paper to appear in the proceedings and the IEEE digital library. One of the authors MUST present the accepted paper at the workshop. Exceptions from this policy for truly mitigating situations must be approved by the TPC Chairs before the beginning of the workshop.
+P4EU 2018 will use a double-blind review process. Papers should adhere to the IEEE formatting requirements and should not exceed 6 pages for papers, and 2 pages for posters and demos, including all figures, tables, references and any other material. Authors are required to present accepted papers at the workshop, and at least one author is required to register, at the full rate, in order for the paper to appear in the proceedings and the IEEE digital library. One of the authors MUST present the accepted paper at the workshop. Exceptions from this policy for truly mitigating situations must be approved by the TPC Chairs before the beginning of the workshop.
 
+Formatting instructions and a template file can be found on the ICNP submission website (this is not the P4EU submission website):
 
-Formatting instructions and a template file can be found on the ICNP submission website:
-
-[http://icnp18.cs.ucr.edu/submission.html](http://icnp18.cs.ucr.edu/submission.html)
+[http://icnp18.cs.ucr.edu/submission.html](http://icnp18.cs.ucr.edu/submission.html) 
 
 
 #### Submission Website 
@@ -95,6 +94,9 @@ More information is TBD
 * Masoud Moshref, Barefoot Networks
 
 ### Sponsors ###
+
+
+A special thanks to our sponsors:
 
 ![Microsoft](assets/Microsoft-logo_rgb_c-gray.pdf)
 
