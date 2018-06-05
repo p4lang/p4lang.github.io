@@ -93,12 +93,10 @@ More information is TBD
 * Timothy Griffin, University of Cambridge
 * Masoud Moshref, Barefoot Networks
 
-### Sponsors ###
 
+### Special Thanks to our Sponsors:
 
-A special thanks to our sponsors:
-
-![Microsoft](/assets/Microsoft-logo_rgb_c-gray.pdf)
+<img src="/assets/Microsoft-logo_rgb_c-gray.pdf" alt="Microsoft" />
 
 
 Contact the workshop chairs for sponsorship opportunities. 
