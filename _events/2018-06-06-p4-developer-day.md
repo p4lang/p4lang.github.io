@@ -54,7 +54,13 @@ We have created a virtual machine that has all of the software needed to complet
 
 We will use Slack to make it easy for participants to ask the TAs questions.  
 * Register at [bit.ly/join-p4-lang-slack](https://bit.ly/join-p4-lang-slack)
-* Join the `#d2` channel
+* Join the `#d2-2018-spring` channel
+
+### Pigeonhole
+
+We will use Pigeonhole to manage questions during the panel.
+* Register at [pigenhole.at](https://pigeonhole.at)
+* Enter the event code `P4D2`
     
 ### Agenda 
 
@@ -114,7 +120,7 @@ We will use Slack to make it easy for participants to ask the TAs questions.
     
     * P4 Runtime
 
-      Instructors: [Carmelo Cascone](http://ccascone.net/) (ONF) and [Brian O'Connor](https://www.linkedin.com/in/bocon/) (ON.Lab)
+      Instructor: [Brian O'Connor](https://www.linkedin.com/in/bocon/) (ONF)
     
       Session 2 will cover software tools that are essential to
       developing P4 applications. Students will learn how to invoke
