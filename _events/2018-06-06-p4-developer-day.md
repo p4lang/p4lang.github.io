@@ -61,7 +61,11 @@ We will use Slack to make it easy for participants to ask the TAs questions.
 We will use Pigeonhole to manage questions during the panel.
 * Register at [pigenhole.at](https://pigeonhole.at)
 * Enter the event code `P4D2`
-    
+
+### Slides
+
+The slides presented by the instructors at the developer day can be accessed at [bit.ly/p4d2-2018-spring](https://bit.ly/p4d2-2018-spring).
+        
 ### Agenda 
 
 ---
