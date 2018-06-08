@@ -47,6 +47,8 @@ We have created a virtual machine that has all of the software needed to complet
   After the machine boots, you should have a graphical desktop with
   all required software pre-installed, logged in as username "p4"
   (with password "p4").
+
+__P4 Cheat Sheet__(<a href="{{ site.baseurl }}/assets/P4WS_2018/p4-cheat-sheet.pdf">link</a>)
     
 ### Slack
 
