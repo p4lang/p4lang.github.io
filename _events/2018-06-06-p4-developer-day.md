@@ -47,8 +47,6 @@ We have created a virtual machine that has all of the software needed to complet
   After the machine boots, you should have a graphical desktop with
   all required software pre-installed, logged in as username "p4"
   (with password "p4").
-
-__P4 Cheat Sheet__(<a href="{{ site.baseurl }}/assets/P4WS_2018/p4-cheat-sheet.pdf">link</a>)
     
 ### Slack
 
@@ -65,6 +63,11 @@ We will use Pigeonhole to manage questions during the panel.
 ### Slides
 
 The slides presented by the instructors at the developer day can be accessed at [bit.ly/p4d2-2018-spring](https://bit.ly/p4d2-2018-spring).
+        
+### P4 Cheat Sheet    
+
+The P4 cheat sheet that was distribtued to attendees at the developer day can be accessed <a href="{{ site.baseurl }}/assets/P4WS_2018/p4-cheat-sheet.pdf">here</a>. 
+        
         
 ### Agenda 
 
