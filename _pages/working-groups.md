@@ -38,3 +38,10 @@ restricted. Please become a [member](/join-us/).
 - Co-Chairs:
     - Mukesh Hira (VMware)
     - JK Lee (Barefoot)
+
+# Education Working Group
+- Mailing list: TBD
+- GitHub: TBD
+- Co-Chairs:
+    - Noa Zilberman (University of Cambridge)
+    - Robert Soul&eacute; (Universit&agrave; della Svizzera italiana)
