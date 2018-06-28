@@ -92,6 +92,7 @@ More information is TBD
 * Andy Fingerhut, Cisco Systems
 * Nate Foster, Cornell University
 * Timothy Griffin, University of Cambridge
+* Mukesh Hira, VMWare
 * Masoud Moshref, Barefoot Networks
 * Fernando Ramos, University of Lisbon
 * Christian Esteve Rothenberg, University of Campinas 
