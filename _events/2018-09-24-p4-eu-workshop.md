@@ -86,12 +86,16 @@ More information is TBD
 
 * Noa Zilberman (chair), University of Cambridge
 * Robert Soul&eacute; (chair), Universit&agrave; della Svizzera italiana
+* Gianni Antichi, University of Cambridge
 * Gordon Brebner, Xilinx Labs
 * Paolo Costa, Microsoft Research
 * Andy Fingerhut, Cisco Systems
 * Nate Foster, Cornell University
 * Timothy Griffin, University of Cambridge
+* Mukesh Hira, VMWare
 * Masoud Moshref, Barefoot Networks
+* Fernando Ramos, University of Lisbon
+* Christian Esteve Rothenberg, University of Campinas 
 
 
 ### Special Thanks to our Sponsors:
