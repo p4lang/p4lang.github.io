@@ -100,11 +100,17 @@ More information is TBD
 
 ### Special Thanks to our Sponsors:
 
-<br/>
-<img src="/assets/WestDigi_Logo_1L_RGB_B.png" width="300" alt="Western Digital" />
-<br/>
-<img src="/assets/Microsoft-logo_rgb_c-gray.png" width="300" alt="Microsoft" />
 
+<table>
+<tr>
+<td align="center"><h3>Gold Level:</h3></td>
+<td align="center"><h3>Bronze Level:</h3></td>
+</tr>
+<tr>
+<td><img src="/assets/WestDigi_Logo_1L_RGB_B.png" width="300" alt="Western Digital" /></td>
+<td><img src="/assets/Microsoft-logo_rgb_c-gray.png" width="300" alt="Microsoft" /></td>
+</tr>
+</table>
 
 Contact the workshop chairs for sponsorship opportunities. 
 
