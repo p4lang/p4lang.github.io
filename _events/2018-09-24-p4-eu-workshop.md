@@ -100,6 +100,7 @@ More information is TBD
 
 ### Special Thanks to our Sponsors:
 
+<img src="/assets/WestDigi_Logo_1L_RGB_B.png" alt="Western Digital" />
 <img src="/assets/Microsoft-logo_rgb_c-gray.png" alt="Microsoft" />
 
 
