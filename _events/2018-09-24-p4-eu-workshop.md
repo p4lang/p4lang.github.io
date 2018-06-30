@@ -87,6 +87,7 @@ More information is TBD
 * Noa Zilberman (chair), University of Cambridge
 * Robert Soul&eacute; (chair), Universit&agrave; della Svizzera italiana
 * Gianni Antichi, University of Cambridge
+* Mario Baldi, Cisco
 * Gordon Brebner, Xilinx Labs
 * Paolo Costa, Microsoft Research
 * Andy Fingerhut, Cisco Systems
