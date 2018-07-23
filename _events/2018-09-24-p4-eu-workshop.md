@@ -105,10 +105,12 @@ More information is TBD
 <table>
 <tr>
 <td align="center"><h3>Gold Level:</h3></td>
+<td align="center"><h3>Silver Level:</h3></td>
 <td align="center"><h3>Bronze Level:</h3></td>
 </tr>
 <tr>
 <td><img src="/assets/WestDigi_Logo_1L_RGB_B.png" width="300" alt="Western Digital" /></td>
+<td><img src="/assets/barefoot-logo.png" width="300" alt="Barefoot Networks" /></td>
 <td><img src="/assets/Microsoft-logo_rgb_c-gray.png" width="300" alt="Microsoft" /></td>
 </tr>
 </table>
