@@ -7,21 +7,21 @@
 
 -
     title: "Whippersnapper: A P4 Language Benchmark Suite"
-    authors: "Huynh Tu Dang and Han Wang and Theo Jepsen and Gordon Brebner and Changhoon Kim and Jennifer Rexford, Robert Soulé and Hakim Weatherspoon"
+    authors: "Huynh Tu Dang, Han Wang, Theo Jepsen, Gordon Brebner, Changhoon Kim, Jennifer Rexford, Robert Soulé, and Hakim Weatherspoon"
     venue: "SOSR"
     date: '2018-04-03'
     url: 'https://dl.acm.org/citation.cfm?id=3050231'
 
 -
     title: "Life in the Fast Lane: A Line-Rate Linear Road"
-    authors: "Theo Jepsen and Masoud Moshref and Antonio Carzaniga and Nate Foster and Robert Soulé"
+    authors: "Theo Jepsen, Masoud Moshref, Antonio Carzaniga, Nate Foster, and Robert Soulé"
     venue: "SOSR"
     year: '2018-03-28'
     url: 'https://dl.acm.org/citation.cfm?id=3185494'
 
 -
     title: "Infinite Resources for Optimistic Concurrency Control"
-    authors: "Theo Jepsen and Leandro Pacheco de Sousa and Masoud Moshref and Fernando Pedone and Robert Soulé"
+    authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
     venue: "NetCompute"
     year: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
