@@ -16,7 +16,7 @@ The research community has published a growing number of papers on the design an
 <span class="authors">{{ paper.authors }}.</span>
 {% if paper.venue %}
 <span>
-{{ paper.month }} {{ paper.year }}. In <i>{{ paper.venue }}</i>. 
+{{ paper.date | date: "%B %Y" }}. In <i>{{ paper.venue }}</i>. 
 </span>
 {% endif %}
 </li>

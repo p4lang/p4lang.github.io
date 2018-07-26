@@ -1,8 +1,6 @@
 -
     title: "P4: Programming Protocol-Independent Packet Processors"
-    authors: "Pat Bosshart and Dan Daly and Glen Gibb and Martin Izzard and Nick McKeown and Jennifer Rexford and Cole Schlesinger and Dan Talayco and Amin Vahdat and George Varghese and David Walker"
+    authors: "Pat Bosshart, Dan Daly, Glen Gibb, Martin Izzard, Nick McKeown, Jennifer Rexford, Cole Schlesinger, Dan Talayco, Amin Vahdat, George Varghese, and David Walker"
     venue: "SIGCOMM CCR"
-    type: journal
-    year: '2014'
-    month: 'July'
-    url: 'https://dl.acm.org/citation.cfm?id=2656890'    
+    date: '2014-07-03'
+    url: 'https://dl.acm.org/citation.cfm?id=2656890'
