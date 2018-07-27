@@ -1,27 +1,31 @@
 -
     title: "P4: Programming Protocol-Independent Packet Processors"
     authors: "Pat Bosshart, Dan Daly, Glen Gibb, Martin Izzard, Nick McKeown, Jennifer Rexford, Cole Schlesinger, Dan Talayco, Amin Vahdat, George Varghese, and David Walker"
-    venue: "SIGCOMM CCR"
+    venue: "ACM SIGCOMM Computer Communication Review (CCR)"
     date: '2014-07-03'
     url: 'https://dl.acm.org/citation.cfm?id=2656890'
+    type: 'journal'
 
 -
     title: "Whippersnapper: A P4 Language Benchmark Suite"
     authors: "Huynh Tu Dang, Han Wang, Theo Jepsen, Gordon Brebner, Changhoon Kim, Jennifer Rexford, Robert Soulé, and Hakim Weatherspoon"
-    venue: "SOSR"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
     date: '2018-04-03'
     url: 'https://dl.acm.org/citation.cfm?id=3050231'
+    type: 'conference'
 
 -
     title: "Life in the Fast Lane: A Line-Rate Linear Road"
     authors: "Theo Jepsen, Masoud Moshref, Antonio Carzaniga, Nate Foster, and Robert Soulé"
-    venue: "SOSR"
-    year: '2018-03-28'
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2018-03-28'
     url: 'https://dl.acm.org/citation.cfm?id=3185494'
+    type: 'conference'
 
 -
     title: "Infinite Resources for Optimistic Concurrency Control"
     authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
-    venue: "NetCompute"
-    year: '2018-08-20'
+    venue: "ACM SIGCOMM Workshop on In-Network Computing"
+    date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
+    type: 'workshop'
