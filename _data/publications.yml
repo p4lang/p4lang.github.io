@@ -15,7 +15,7 @@
     type: 'conference'
 
 -
-    title: "NetPaxos: consensus at network speed"
+    title: "NetPaxos: Consensus at Network Speed"
     authors: "Huynh Tu Dang, Daniele Sciascia, Marco Canini, Fernando Pedone, and Robert Soulé"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
     date: '2015-06-17'
@@ -60,12 +60,4 @@
     venue: "ACM SIGCOMM Workshop on In-Network Computing"
     date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
-    type: 'workshop'
-
--
-    title: "Consensus for Non-Volatile Main Memory"
-    authors: "Huynh Tu Dang, Jaco Hofmann, Yang Liu, Marjan Radi, Dejan Vucinic, Fernando Pedone, and Robert Soulé"
-    venue: "IEEE ICNP European P4 Workshop"
-    date: '2018-09-24'
-    url: 'https://p4.org/events/2018-09-24-p4-eu-workshop/'
     type: 'workshop'
