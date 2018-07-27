@@ -1,0 +1,9 @@
+<li class="paper">
+<span class="title">
+{% if paper.url %}<a href="{{ paper.url | replace: 'BASE', site.base }}">{% endif %}&ldquo;{{ paper.title }}.&rdquo;{% if paper.url %}</a>{% endif %}
+</span>
+<span class="authors">{{ paper.authors }}.</span>
+<span>
+{{ paper.date | date: "%B %Y" }}. In <i>{{ paper.venue }}</i>. 
+</span>
+</li>
