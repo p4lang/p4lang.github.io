@@ -7,6 +7,13 @@
     type: 'journal'
 
 -
+    title: "Compiling Packet Programs to Reconfigurable Switches"
+    authors: "Lavanya Jose, Lisa Yan, George Varghese, and Nick McKeown"
+    venue: "USENIX Symposium on Networked Systems Design and Implementation (NSDI)"
+    date: '2015-05-04'
+    url: 'https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-jose.pdf'
+    type: 'conference'
+-    
     title: "Whippersnapper: A P4 Language Benchmark Suite"
     authors: "Huynh Tu Dang, Han Wang, Theo Jepsen, Gordon Brebner, Changhoon Kim, Jennifer Rexford, Robert Soulé, and Hakim Weatherspoon"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
