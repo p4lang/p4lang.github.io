@@ -7,18 +7,28 @@ header-img: assets/p4-background.png
 
 The research community has published a growing number of papers on the design and implementation of networked systems built using P4.
     
-{% for paper in site.data.publications %}
-<ul>
-<li class="paper">
-<span class="title">
-{% if paper.url %}<a href="{{ paper.url | replace: 'BASE', site.base }}">{% endif %}&ldquo;{{ paper.title }}.&rdquo;{% if paper.url %}</a>{% endif %}
-</span>
-<span class="authors">{{ paper.authors }}.</span>
-{% if paper.venue %}
-<span>
-{{ paper.date | date: "%B %Y" }}. In <i>{{ paper.venue }}</i>. 
-</span>
-{% endif %}
-</li>
-</ul>    
+{% assign journals = site.data.publications | where:'type','journal' | sort:'date' | reverse %}
+{% assign conferences = site.data.publications | where:'type','conference' | sort:'date' | reverse %}
+{% assign workshops = site.data.publications | where:'type','workshop' | sort:'date' | reverse %}
+
+<h1>Journals</h1>
+<ul>        
+{% for paper in journals %}
+{% include publication.html %}
 {% endfor %}
+</ul> 
+
+<h1>Conferences</h1>
+<ul>        
+{% for paper in conferences %}
+{% include publication.html %}
+{% endfor %}
+</ul> 
+
+<h1>Workshops</h1>
+<ul>        
+{% for paper in workshops %}
+{% include publication.html %}
+{% endfor %}
+</ul> 
+    
