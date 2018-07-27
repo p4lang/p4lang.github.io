@@ -13,7 +13,32 @@
     date: '2015-05-04'
     url: 'https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-jose.pdf'
     type: 'conference'
--    
+
+-
+    title: "NetPaxos: Consensus at Network Speed"
+    authors: "Huynh Tu Dang, Daniele Sciascia, Marco Canini, Fernando Pedone, and Robert Soulé"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2015-06-17'
+    url: 'https://dl.acm.org/citation.cfm?id=2774999'
+    type: 'conference'
+
+-
+    title: "Paxos Made Switch-y"
+    authors: "Huynh Tu Dang, Marco Canini, Fernando Pedone, and Robert Soulé"
+    venue: "ACM SIGCOMM Computer Communication Review (CCR)"
+    date: '2016-04-09'
+    url: 'https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf'
+    type: 'journal'
+
+-
+    title: "P4FPGA: A Rapid Prototyping Framework for P4"
+    authors: "Han Wang, Huynh Tu Dang, Robert Soulé, Ki Suh Lee, Vishal Shrivastav, Nate Foster and Hakim Weatherspoon"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2017-04-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3050234'
+    type: 'conference'
+
+-
     title: "Whippersnapper: A P4 Language Benchmark Suite"
     authors: "Huynh Tu Dang, Han Wang, Theo Jepsen, Gordon Brebner, Changhoon Kim, Jennifer Rexford, Robert Soulé, and Hakim Weatherspoon"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
