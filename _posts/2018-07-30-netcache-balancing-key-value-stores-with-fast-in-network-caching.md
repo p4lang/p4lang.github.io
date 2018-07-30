@@ -9,7 +9,7 @@ header-img: assets/p4-background.png
 
 *Editor's note: This guest post by [Xin
 Jin](https://www.cs.jhu.edu/~xinjin/) (The Johns Hopkins University)
-describes a next-generation in-network key-value store implemented
+describes a next-generation in-network key-value cache implemented
 using P4. It is based on a
 [paper](https://dl.acm.org/citation.cfm?id=3132747.3132764) orginally
 published at [ACM SOSP ’17](https://www.sigops.org/sosp/sosp17/), the
@@ -157,7 +157,7 @@ packets and also generates replies for applications.
 <p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/netcache-image3.png" alt="System throughput" width="500" /><strong>Figure 3: System throughput.</strong></p>
 
 <p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/netcache-image4.png" alt="Load on individual servers" width="500" /><strong>Figure 4: Load on individual servers.</strong></p>
-
+    
 We have implemented a NetCache prototype with one 6.5 Tbps Barefoot
 Tofino switch and multiple commodity servers. Figure 3 shows the
 system throughput with read-only queries and 10,000 items in the cache
