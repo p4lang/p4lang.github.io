@@ -20,13 +20,13 @@ premier venue for systems research.*
 The emergence of P4 and programmable data planes enables new use
 cases, some of which go beyond traditional packet-processing to
 application-level functionality. This post presents NetCache, a
-next-generation cloud system built wish P4 that shows how co-design of
+next-generation cloud system built with P4 that shows how co-design of
 networks and distributed systems can lead to significant performance
 benefits.
 
 ## What is NetCache?
 
-NetCache is an in-network key-value store that leverages the power and
+NetCache is an in-network key-value cache that leverages the power and
 flexibility of programmable switches to cache query results and
 balance load for frequently-accessed items. Because switches are
 optimized for data input-output, they offer orders of magnitude better
@@ -154,18 +154,18 @@ packets and also generates replies for applications.
 
 ## How well does NetCache perform?
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/netcache-image3.png" alt="NetCache throughput" width="500" /><strong>Figure 4: NetCache throughput.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/netcache-image3.png" alt="System throughput" width="500" /><strong>Figure 3: System throughput.</strong></p>
 
 <p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/netcache-image4.png" alt="Load on individual servers" width="500" /><strong>Figure 4: Load on individual servers.</strong></p>
 
 We have implemented a NetCache prototype with one 6.5 Tbps Barefoot
-Tofino switch and multiple commodity servers. Figure 1 shows the
+Tofino switch and multiple commodity servers. Figure 3 shows the
 system throughput with read-only queries and 10,000 items in the cache
 under several different workloads. In the experiment, we use one
 server as a client to generate queries, and use two servers to emulate
 a rack of 128 key-value storage servers. We compare NetCache with
 NoCache which does not have an in-network cache. In addition, we also
-show the propotion of the throughput that is provided by NetCache and
+show the portion of the throughput that is provided by NetCache and
 the storage servers respectively. We observe that NoCache performs
 poorly when the workload is skewed. Specifically, with Zipf 0.95
 (0.99) distribution, the NoCache throughput drops down to only 22.5%
