@@ -55,6 +55,13 @@
     type: 'conference'
 
 -
+    title: "NetCache: Balancing Key-Value Stores with Fast In-Network Caching"
+    authors: "Xin Jin, Xiaozhou Li, Haoyu Zhang, Robert Soulé, Jeongkeun Lee, Nate Foster, Changhoon Kim, and Ion Stoica"
+    venue: "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)"
+    date: "2017-10-29"
+    url: 'https://dl.acm.org/citation.cfm?id=3132747.3132764'
+    type: 'conference'
+-
     title: "Life in the Fast Lane: A Line-Rate Linear Road"
     authors: "Theo Jepsen, Masoud Moshref, Antonio Carzaniga, Nate Foster, and Robert Soulé"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
