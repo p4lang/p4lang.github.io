@@ -69,6 +69,13 @@
     url: 'http://doi.acm.org/10.1145/3050220.3050228'
     type: 'conference'        
 -
+    title: "Data Plane Programmability Beyond OpenFlow: Opportunities and Challenges for Network and Service Operations and Management"
+    authors: "Weverton Luis da Costa Cordeiro, Jonatas Adilson Marques, Luciano Paschoal Gaspary"
+    venue: "Journal of Network and Systems Management"
+    date: '2017-09-07'
+    url: 'https://doi.org/10.1007/s10922-017-9423-2'
+    type: 'journal'    
+-
     title: "NetCache: Balancing Key-Value Stores with Fast In-Network Caching"
     authors: "Xin Jin, Xiaozhou Li, Haoyu Zhang, Robert Soulé, Jeongkeun Lee, Nate Foster, Changhoon Kim, and Ion Stoica"
     venue: "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)"
