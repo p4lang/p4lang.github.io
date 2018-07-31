@@ -69,6 +69,13 @@
     url: 'http://doi.acm.org/10.1145/3050220.3050228'
     type: 'conference'        
 -
+    title: "Programmable Data Plane for Professional Media Networking"
+    authors: "Thomas Edwards and Nick Ciarleglio"
+    venue: "SMPTE 2017 Annual Technical Conference and Exhibition"
+    date: '2017-10-26'
+    url: 'https://doi.org/10.5594/M001765'
+    type: 'conference'
+-
     title: "NetCache: Balancing Key-Value Stores with Fast In-Network Caching"
     authors: "Xin Jin, Xiaozhou Li, Haoyu Zhang, Robert Soulé, Jeongkeun Lee, Nate Foster, Changhoon Kim, and Ion Stoica"
     venue: "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)"
