@@ -5,7 +5,6 @@
     date: '2014-07-03'
     url: 'https://dl.acm.org/citation.cfm?id=2656890'
     type: 'journal'
-
 -
     title: "Compiling Packet Programs to Reconfigurable Switches"
     authors: "Lavanya Jose, Lisa Yan, George Varghese, and Nick McKeown"
@@ -13,7 +12,6 @@
     date: '2015-05-04'
     url: 'https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-jose.pdf'
     type: 'conference'
-
 -
     title: "NetPaxos: Consensus at Network Speed"
     authors: "Huynh Tu Dang, Daniele Sciascia, Marco Canini, Fernando Pedone, and Robert Soulé"
@@ -21,7 +19,13 @@
     date: '2015-06-17'
     url: 'https://dl.acm.org/citation.cfm?id=2774999'
     type: 'conference'
-
+-
+    title: "FlowRadar: A Better NetFlow for Data Centers"
+    authors: "Yuliang Li, Rui Miao, Changhoon Kim, and Minlan Yu"
+    venue: "USENIX Symposium on Networked Systems Design and Implementation (NSDI)"
+    data: "2016-03-17"
+    url: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-li-yuliang.pdf"
+    type: "conference"    
 -
     title: "Paxos Made Switch-y"
     authors: "Huynh Tu Dang, Marco Canini, Fernando Pedone, and Robert Soulé"
@@ -29,7 +33,13 @@
     date: '2016-04-09'
     url: 'https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf'
     type: 'journal'
-
+-
+    title: "LossRadar: Fast Detection of Lost Packets in Data Center Networks"
+    authors: "Yuliang Li, Rui Miao, Changhoon Kim, and Minlan Yu"
+    venue: "ACM SIGCOMM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
+    data: "2016-12-15"
+    url: "https://dl.acm.org/citation.cfm?id=2999609"
+    type: "conference"
 -
     title: "Evaluating the Power of Flexible Packet Processing for Network Resource Allocation"
     authors: "Naveen Kr. Sharma, Antoine Kaufmann, Thomas Anderson, Changhoon Kim, Arvind Krishnamurthy, Jacob Nelson and Simon Peter"
@@ -37,7 +47,6 @@
     date: '2017-03-27'
     url: 'https://www.usenix.org/system/files/conference/nsdi17/nsdi17-sharma.pdf'
     type: 'conference'
-
 -
     title: "P4FPGA: A Rapid Prototyping Framework for P4"
     authors: "Han Wang, Huynh Tu Dang, Robert Soulé, Ki Suh Lee, Vishal Shrivastav, Nate Foster and Hakim Weatherspoon"
@@ -45,7 +54,6 @@
     date: '2017-04-03'
     url: 'https://dl.acm.org/citation.cfm?id=3050234'
     type: 'conference'
-
 -
     title: "Whippersnapper: A P4 Language Benchmark Suite"
     authors: "Huynh Tu Dang, Han Wang, Theo Jepsen, Gordon Brebner, Changhoon Kim, Jennifer Rexford, Robert Soulé, and Hakim Weatherspoon"
@@ -74,7 +82,6 @@
     date: '2018-03-28'
     url: 'https://dl.acm.org/citation.cfm?id=3185494'
     type: 'conference'
-
 -
     title: "Approximating Fair Queueing on Reconfigurable Switches"
     authors: "Naveen Kr. Sharma, Ming Liu, Kishore Atreya, and Arvind Krishnamurthy"
@@ -82,7 +89,6 @@
     date: '2018-04-09'
     url: 'https://www.usenix.org/system/files/conference/nsdi18/nsdi18-sharma.pdf'
     type: 'conference'
-
 -
     title: "Infinite Resources for Optimistic Concurrency Control"
     authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
