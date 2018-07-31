@@ -53,7 +53,13 @@
     date: '2017-04-03'
     url: 'https://dl.acm.org/citation.cfm?id=3050231'
     type: 'conference'
-
+-
+    title: "Dapper: Data Plane Performance Diagnosis of TCP"
+    authors: "Mojgan Ghasemi, Theophilus Benson, and Jennifer Rexford"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2017-04-03'
+    url: 'http://doi.acm.org/10.1145/3050220.3050228'
+    type: 'conference'        
 -
     title: "NetCache: Balancing Key-Value Stores with Fast In-Network Caching"
     authors: "Xin Jin, Xiaozhou Li, Haoyu Zhang, Robert Soulé, Jeongkeun Lee, Nate Foster, Changhoon Kim, and Ion Stoica"
