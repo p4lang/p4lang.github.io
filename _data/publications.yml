@@ -83,6 +83,13 @@
     url: 'https://dl.acm.org/citation.cfm?id=3132747.3132764'
     type: 'conference'
 -
+    title: "P4-Compatible High-Level Synthesis of Low Latency 100 Gb/s Streaming Packet Parsers in FPGAs"
+    authors: "Jeferson Santiago da Silva, François-Raymond Boyer, and J.M. Pierre Langlois"
+    venue: "2018 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA'18)"
+    date: '2018-02-26'
+    url: 'https://dl.acm.org/citation.cfm?id=3174270'
+    type: 'conference'
+-
     title: "Life in the Fast Lane: A Line-Rate Linear Road"
     authors: "Theo Jepsen, Masoud Moshref, Antonio Carzaniga, Nate Foster, and Robert Soulé"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
