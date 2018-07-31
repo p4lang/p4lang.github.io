@@ -110,3 +110,17 @@
     date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
     type: 'workshop'
+-
+    title: "Heavy-hitter detection entirely in the data plane"
+    authors: "Vibhaalakshmi Sivaraman, Srinivas Narayana, Ori Rottenstreich, S. Muthukrishnan, and Jennifer Rexford "
+    venue: "ACM SIGCOMM Symposium on Software-defined Networking Research"
+    date: '2017-03-01'
+    url: 'https://dl.acm.org/citation.cfm?id=3063772'
+    type: 'conference'
+-
+    title: "Language-directed hardware design for network performance monitoring"
+    authors: "Srinivas Narayana, Anirudh Sivaraman, Vikram Nathan, Mohammad Alizadeh, David Walker, Jennifer Rexford, Vimalkumar Jeyakumar, and Changhoon Kim "
+    venue: "ACM SIGCOMM"
+    date: '2017-08-01'
+    url: 'https://dl.acm.org/citation.cfm?doid=3098822.3098829'
+    type: 'conference'
