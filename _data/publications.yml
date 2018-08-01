@@ -124,3 +124,10 @@
     date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
     type: 'workshop'
+-
+    title: "PISCES: A Programmable, Protocol-Independent Software Switch"
+    authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
+    venue: "ACM SIGCOMM"
+    date: '2016-08-22'
+    url: 'https://dl.acm.org/citation.cfm?id=2934886'
+    type: 'conference'
