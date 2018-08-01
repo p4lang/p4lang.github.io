@@ -69,6 +69,13 @@
     url: 'http://doi.acm.org/10.1145/3050220.3050228'
     type: 'conference'        
 -
+    title: "Swing State: Consistent Updates for Stateful and Programmable Data Planes"
+    authors: "Shouxi Luo, Hongfang Yu, Laurent Vanbever"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2017-04-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3050233'
+    type: 'conference'
+-
     title: "Data Plane Programmability Beyond OpenFlow: Opportunities and Challenges for Network and Service Operations and Management"
     authors: "Weverton Luis da Costa Cordeiro, Jonatas Adilson Marques, Luciano Paschoal Gaspary"
     venue: "Journal of Network and Systems Management"
