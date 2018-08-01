@@ -103,6 +103,15 @@
     date: "2017-10-29"
     url: 'https://dl.acm.org/citation.cfm?id=3132747.3132764'
     type: 'conference'
+
+-
+    title: "In-network computation is a dumb idea whose time has come"
+    authors: "Amedeo Sapio, Ibrahim Abdelaziz, Abdulla Aldilaijan, Marco Canini, Panos Kalnis"
+    venue: "ACM Workshop on Hot Topics in Networks (HotNets)"
+    date: '2017-11-30'
+    url: 'https://dl.acm.org/citation.cfm?id=3152461'
+    type: 'workshop'
+
 -
     title: "P4-Compatible High-Level Synthesis of Low Latency 100 Gb/s Streaming Packet Parsers in FPGAs"
     authors: "Jeferson Santiago da Silva, François-Raymond Boyer, and J.M. Pierre Langlois"
