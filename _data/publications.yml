@@ -36,7 +36,7 @@
 -
     title: "PISCES: A Programmable, Protocol-Independent Software Switch"
     authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
-    venue: "ACM SIGCOMM"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
     date: '2016-08-22'
     url: 'https://dl.acm.org/citation.cfm?id=2934886'
     type: 'conference'
