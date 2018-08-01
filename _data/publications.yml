@@ -41,6 +41,13 @@
     url: 'https://dl.acm.org/citation.cfm?id=2934886'
     type: 'conference'
 -
+    title: "Generation of High-Speed Network Device from High-Level Description"
+    authors: "Pavel Benáček"
+    institution: "Czech Technical University in Prague, Faculty of Information Technology"
+    date: '2016-11-15'
+    url: 'https://fit.cvut.cz/sites/default/files/PhDThesis-Benacek.pdf'
+    type: 'dissertation'
+-
     title: "LossRadar: Fast Detection of Lost Packets in Data Center Networks"
     authors: "Yuliang Li, Rui Miao, Changhoon Kim, and Minlan Yu"
     venue: "ACM SIGCOMM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
@@ -103,6 +110,15 @@
     date: "2017-10-29"
     url: 'https://dl.acm.org/citation.cfm?id=3132747.3132764'
     type: 'conference'
+
+-
+    title: "In-network computation is a dumb idea whose time has come"
+    authors: "Amedeo Sapio, Ibrahim Abdelaziz, Abdulla Aldilaijan, Marco Canini, Panos Kalnis"
+    venue: "ACM Workshop on Hot Topics in Networks (HotNets)"
+    date: '2017-11-30'
+    url: 'https://dl.acm.org/citation.cfm?id=3152461'
+    type: 'workshop'
+
 -
     title: "P4-Compatible High-Level Synthesis of Low Latency 100 Gb/s Streaming Packet Parsers in FPGAs"
     authors: "Jeferson Santiago da Silva, François-Raymond Boyer, and J.M. Pierre Langlois"
