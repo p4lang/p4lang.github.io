@@ -117,3 +117,10 @@
     date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
     type: 'workshop'
+-
+    title: "Swing State: Consistent Updates for Stateful and Programmable Data Planes"
+    authors: "Shouxi Luo, Hongfang Yu, Laurent Vanbever"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2017-04-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3050233'
+    type: 'conference'
