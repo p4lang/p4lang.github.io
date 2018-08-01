@@ -34,6 +34,13 @@
     url: 'https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf'
     type: 'journal'
 -
+    title: "PISCES: A Programmable, Protocol-Independent Software Switch"
+    authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-22'
+    url: 'https://dl.acm.org/citation.cfm?id=2934886'
+    type: 'conference'
+-
     title: "Generation of High-Speed Network Device from High-Level Description"
     authors: "Pavel Benáček"
     institution: "Czech Technical University in Prague, Faculty of Information Technology"
