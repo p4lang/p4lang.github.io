@@ -10,6 +10,7 @@ The research community has published a growing number of papers on the design an
 {% assign journals = site.data.publications | where:'type','journal' | sort:'date' | reverse %}
 {% assign conferences = site.data.publications | where:'type','conference' | sort:'date' | reverse %}
 {% assign workshops = site.data.publications | where:'type','workshop' | sort:'date' | reverse %}
+{% assign dissertations = site.data.publications | where:'type','dissertation' | sort:'date' | reverse %}
 
 <h1>Journals</h1>
 <ul>        
@@ -31,4 +32,10 @@ The research community has published a growing number of papers on the design an
 {% include publication.html %}
 {% endfor %}
 </ul> 
-    
+
+<h1>Dissertations</h1>
+<ul>
+{% for paper in dissertations %}
+{% include publication-dissertation.html %}
+{% endfor %}
+</ul>
