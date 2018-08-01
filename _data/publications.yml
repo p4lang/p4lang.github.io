@@ -34,6 +34,13 @@
     url: 'https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf'
     type: 'journal'
 -
+    title: "Generation of High-Speed Network Device from High-Level Description"
+    authors: "Pavel Benáček"
+    institution: "Czech Technical University in Prague, Faculty of Information Technology"
+    date: '2016-11-15'
+    url: 'https://fit.cvut.cz/sites/default/files/PhDThesis-Benacek.pdf'
+    type: 'dissertation'
+-
     title: "LossRadar: Fast Detection of Lost Packets in Data Center Networks"
     authors: "Yuliang Li, Rui Miao, Changhoon Kim, and Minlan Yu"
     venue: "ACM SIGCOMM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
