@@ -34,6 +34,27 @@
     url: 'https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf'
     type: 'journal'
 -
+    title: "Programming the Network Dataplane in P4 (in Chinese)"
+    authors: "Changhoon Kim, Ron Kao, and Nick McKeown"
+    venue: 'Communications of the China Computer Federation (CCF)'
+    url: 'http://yuba.stanford.edu/~nickm/papers/cccf.pdf"
+    date: '2016-07-12'
+    type: 'journal'
+-    
+    title: "Packet Transactions: High-Level Programming for Line-Rate Switches"
+    authors: "Anirudh Sivaraman, Alvin Cheung, Mihai Budiu, Changhoon Kim, Mohammad Alizadeh, Hari Balakrishnan, George Varghese, Nick McKeown, and Steve Licking"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-23'
+    url: 'https://dl.acm.org/citation.cfm?id=2934900'
+    type: 'conference'
+-
+    title: "Programmable Packet Scheduling at Line Rate"
+    authors: "Anirudh Sivaraman, Suvinay Subramanian, Mohammad Alizadeh, Sharad Chole, Shang-Tse Chuang, Anurag Agrawal, Hari Balakrishnan, Tom Edsall, Sachin Katti, and Nick McKeown"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-23'
+    url: 'https://dl.acm.org/citation.cfm?id=2934899'
+    type: 'conference'
+-
     title: "Generation of High-Speed Network Device from High-Level Description"
     authors: "Pavel Benáček"
     institution: "Czech Technical University in Prague, Faculty of Information Technology"
