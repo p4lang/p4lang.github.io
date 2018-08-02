@@ -131,3 +131,31 @@
     date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
     type: 'workshop'
+-
+    title: "P4-to-VHDL: Automatic Generation of 100Gbps Packet Parsers"
+    authors: "Pavel Benáček, Viktor Puš, and Hana Kubátová"
+    venue: "IEEE 24th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM2016)"
+    date: '2016-05-01'
+    url: 'https://ieeexplore.ieee.org/document/7544769'
+    type: 'conference'
+-
+    title: "Line Rate Programmable Packet Processing in 100Gb Networks"
+    authors: "Pavel Benáček, Viktor Puš, Jan Kořenek, and Michal Kekely"
+    venue: "27th International Conference on Field Programmable Logic and Applications (FPL)"
+    date: '2017-09-04'
+    url: 'https://ieeexplore.ieee.org/document/8056835/'
+    type: 'conference'
+-
+    title: "P4-to-VHDL: Automatic Generation of High-Speed Input and Output Network Blocks"
+    authors: "Pavel Benáček, Viktor Puš, Hana Kubátová, and Tomáš Čejka"
+    venue: "Microprocessors and Microsystems journal (MICPRO)"
+    date: '2018-02-01'
+    url: 'https://www.sciencedirect.com/science/article/pii/S0141933117304787?via%3Dihub'
+    type: 'journal'
+-
+    title: "Configurable FPGA Packet Parser for Terabit Networks with Guaranteed Wire-Speed Throughput"
+    authors: "Jakub Cabal, Pavel Benáček, Lukáš Kekely, Michal Kekely, Viktor Puš, and Jan Kořenek"
+    venue: "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA ’18)"
+    date: '2018-02-25'
+    url: 'https://dl.acm.org/citation.cfm?doid=3174243.3174250'
+    type: 'conference'
