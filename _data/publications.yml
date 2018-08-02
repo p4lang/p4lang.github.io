@@ -41,6 +41,33 @@
     url: 'https://ieeexplore.ieee.org/document/7544769'
     type: 'conference'
 -
+    title: "Programming the Network Dataplane in P4 (in Chinese)"
+    authors: "Changhoon Kim, Ron Kao, and Nick McKeown"
+    venue: 'Communications of the China Computer Federation (CCF)'
+    url: 'http://yuba.stanford.edu/~nickm/papers/cccf.pdf"
+    date: '2016-07-12'
+    type: 'journal'
+-    
+    title: "PISCES: A Programmable, Protocol-Independent Software Switch"
+    authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-25'
+    url: 'https://dl.acm.org/citation.cfm?id=2934886'
+    type: 'conference'
+-
+    title: "Packet Transactions: High-Level Programming for Line-Rate Switches"
+    authors: "Anirudh Sivaraman, Alvin Cheung, Mihai Budiu, Changhoon Kim, Mohammad Alizadeh, Hari Balakrishnan, George Varghese, Nick McKeown, and Steve Licking"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-23'
+    url: 'https://dl.acm.org/citation.cfm?id=2934900'
+    type: 'conference'
+-
+    title: "Programmable Packet Scheduling at Line Rate"
+    authors: "Anirudh Sivaraman, Suvinay Subramanian, Mohammad Alizadeh, Sharad Chole, Shang-Tse Chuang, Anurag Agrawal, Hari Balakrishnan, Tom Edsall, Sachin Katti, and Nick McKeown"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-23'
+    url: 'https://dl.acm.org/citation.cfm?id=2934899'
+-
     title: "Generation of High-Speed Network Device from High-Level Description"
     authors: "Pavel Benáček"
     institution: "Czech Technical University in Prague, Faculty of Information Technology"
@@ -117,6 +144,13 @@
     date: "2017-10-29"
     url: 'https://dl.acm.org/citation.cfm?id=3132747.3132764'
     type: 'conference'
+-
+    title: "In-network computation is a dumb idea whose time has come"
+    authors: "Amedeo Sapio, Ibrahim Abdelaziz, Abdulla Aldilaijan, Marco Canini, Panos Kalnis"
+    venue: "ACM Workshop on Hot Topics in Networks (HotNets)"
+    date: '2017-11-30'
+    url: 'https://dl.acm.org/citation.cfm?id=3152461'
+    type: 'workshop'
 -
     title: "P4-to-VHDL: Automatic Generation of High-Speed Input and Output Network Blocks"
     authors: "Pavel Benáček, Viktor Puš, Hana Kubátová, and Tomáš Čejka"
