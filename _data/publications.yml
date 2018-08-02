@@ -127,7 +127,7 @@
 -
     title: "Configurable FPGA Packet Parser for Terabit Networks with Guaranteed Wire-Speed Throughput"
     authors: "Jakub Cabal, Pavel Benáček, Lukáš Kekely, Michal Kekely, Viktor Puš, and Jan Kořenek"
-    venue: "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA ’18)"
+    venue: "2018 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA'18)"
     date: '2018-02-26'
     url: 'https://dl.acm.org/citation.cfm?doid=3174243.3174250'
     type: 'conference'
