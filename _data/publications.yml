@@ -161,7 +161,7 @@
 -
     title: "Infinite Resources for Optimistic Concurrency Control"
     authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
-    venue: "ACM SIGCOMM Workshop on In-Network Computing"
+    venue: "ACM SIGCOMM Workshop on In-Network Computing (NetCompute)"
     date: '2018-08-20'
     url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
     type: 'workshop'
