@@ -80,7 +80,7 @@ specification from the P4 API Working Group.
 
 # Does Xilinx have any products based on P4?
 
-The May 2017 release of [SDNet](www.xilinx.com/sdnet) included support
+The May 2017 release of [SDNet](http://www.xilinx.com/sdnet) included support
 for P4<sub>16</sub>, which had just been released. Various
 improvements have been made in subsequent releases.  For example,
 Xilinx has recently demonstrated a prototype Xilinx SmartNIC
