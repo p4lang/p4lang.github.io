@@ -66,7 +66,7 @@ at the subsequent events. As a leader and pioneer with P4, [Xilinx][xilinx] has
 contributed to the Developer Days, as well as tutorials at other
 high-profile conferences for differing types of experts, such as FPGA,
 Hot Chips, and SIGCOMM. Together with Stanford and Cambridge
-Universities, [Xilinx][xilinx] has founded the P4->NetFPGA community, centered
+Universities, [Xilinx][xilinx] has founded the [P4->NetFPGA][p4-netfpga] community, centered
 around providing a “big green button” tool flow for compiling P4 to
 the NetFPGA SUME platform much used by networking researchers working
 on high line-rate systems.  [Xilinx][xilinx] has been part of the [P4 Language
@@ -100,3 +100,4 @@ and DPDK runtime software---developed in
 [xilinx]: https://xilinx.com/
 [xilinx-labs]: https://xilinx.com/about/research-labs.html
 [p4runtime-spec]: {{ site.baseurl}}/specs/
+[p4-netfpga]: https://github.com/NetFPGA/P4-NetFPGA-public/wiki
