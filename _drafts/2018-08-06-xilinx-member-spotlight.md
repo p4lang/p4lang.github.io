@@ -76,9 +76,7 @@ their establishment.  In particular, [Xilinx][xilinx] recently showcased
 an Inband Network Telemetry (INT) inter-operability demonstration with
 Barefoot Networks at the MWC and OFC conferences, based on the draft
 [INT specification][int-spec] from the [P4 Applications Working
-Group][app-wg]. [Xilinx][xilinx] has also contributed to the [P4Runtime
-specification][p4runtime-spec] being developed by the [P4 API Working
-Group][api-wg].
+Group][app-wg], to which [Xilinx][xilinx] has also made contributions.
 
 # Does [Xilinx][xilinx] have any products based on P4?
 
@@ -93,11 +91,9 @@ and DPDK runtime software---developed in
 
 [p4]: https://p4.org
 [sdnet]: http://www.xilinx.com/sdnet
-[api-wg]: {{ site.baseurl }}/working-groups/#api-working-group
 [app-wg]: {{ site.baseurl }}/working-groups/#applications-working-group
 [ld-wg]: {{ site.baseurl }}/working-groups/#language-design-working-group
 [int-spec]: {{ site.baseurl}}/specs/
 [xilinx]: https://xilinx.com/
 [xilinx-labs]: https://xilinx.com/about/research-labs.html
-[p4runtime-spec]: {{ site.baseurl}}/specs/
 [p4-netfpga]: https://github.com/NetFPGA/P4-NetFPGA-public/wiki
