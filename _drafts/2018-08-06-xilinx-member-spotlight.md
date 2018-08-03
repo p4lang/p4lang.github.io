@@ -32,7 +32,7 @@ networks, at increasingly high speeds.
     
 [Xilinx][xilinx] was one of the first companies to join [P4.org][p4]. [Xilinx][xilinx]
 already had its [SDNet][sdnet] programming environment (launched as a
-product in early 2014), for compiling the [Xilinx Labs][xilinx-labs]-created PX
+product in early 2014), for compiling the Xilinx Labs-created PX
 language to FPGA. PX had a similar level of abstraction to P4 and
 indeed a considerable intersection with P4. [Xilinx][xilinx] felt that the value
 of [SDNet][sdnet] would be increased if P4 was to become a standard
@@ -85,15 +85,14 @@ P4<sub>16</sub>, which had just been released. Various improvements
 have been made in subsequent releases.  For example, [Xilinx][xilinx]
 has recently demonstrated a prototype [Xilinx][xilinx] SmartNIC
 platform---comprising NIC card with FPGA, P4 programming environment,
-and DPDK runtime software---developed in
-[Xilinx-Labs][xilinx-labs]. This is being further developed by
-[Xilinx][xilinx] as a new board-level product, to be launched in 2019.
+and DPDK runtime software---developed in Xilinx Labs. This is being
+further developed by [Xilinx][xilinx] as a new board-level product, to
+be launched in 2019.
 
 [p4]: https://p4.org
 [sdnet]: http://www.xilinx.com/sdnet
 [app-wg]: {{ site.baseurl }}/working-groups/#applications-working-group
 [ld-wg]: {{ site.baseurl }}/working-groups/#language-design-working-group
 [int-spec]: {{ site.baseurl}}/specs/
-[xilinx]: https://xilinx.com/
-[xilinx-labs]: https://xilinx.com/about/research-labs.html
+[xilinx]: https://www.xilinx.com/
 [p4-netfpga]: https://github.com/NetFPGA/P4-NetFPGA-public/wiki
