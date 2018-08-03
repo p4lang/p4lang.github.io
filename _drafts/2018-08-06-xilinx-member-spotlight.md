@@ -74,9 +74,9 @@ has been following the other three Working Groups since their recent
 establishment.  In particular, Xilinx recently showcased an Inband
 Network Telemetry (INT) inter-operability demonstration with Barefoot
 Networks at the MWC and OFC conferences, based on the draft INT
-specification from the P4 Applications Working Group.  Xilinx is also
-a founding member of the ONF Stratum project, based on the P4 Runtime
-specification from the P4 API Working Group.
+specification from the P4 Applications Working Group. Xilinx has also
+contributed to the P4 Runtime specification being developed by the P4
+API Working Group.
 
 # Does Xilinx have any products based on P4?
 
@@ -87,6 +87,6 @@ Xilinx has recently demonstrated a prototype Xilinx SmartNIC
 platform---comprising NIC card with FPGA, P4 programming environment,
 and DPDK runtime software---developed in Xilinx Labs. This is being
 further developed by Xilinx as a new board-level product, to be
-launched later in 2018.
+launched in 2019.
  
 
