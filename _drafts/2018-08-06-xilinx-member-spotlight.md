@@ -28,7 +28,7 @@ Acceleration Platform (ACAP) technology. The important words here are
 [Xilinx][xilinx] products. This resonates with increasing programmability of
 networks, at increasingly high speeds.
 
-# What was [Xilinx][xilinx]'s motivation for joining the P4 Language Consortium?
+# What was Xilinx's motivation for joining the P4 Language Consortium?
     
 [Xilinx][xilinx] was one of the first companies to join [P4.org][p4]. [Xilinx][xilinx]
 already had its [SDNet][sdnet] programming environment (launched as a
@@ -57,7 +57,7 @@ sees interest in programmable networking more broadly: for example, in
 aerospace, defense, and industrial, markets.  Here, customization of
 protocols is often important.
 
-# How is [Xilinx][xilinx] involved with P4 community efforts?
+# How is Xilinx involved with P4 community efforts?
 
 [Xilinx][xilinx] has been involved in P4 community efforts from the very
 beginning.  This started with a presentation and a 100Gb/s rate
@@ -78,7 +78,7 @@ Barefoot Networks at the MWC and OFC conferences, based on the draft
 [INT specification][int-spec] from the [P4 Applications Working
 Group][app-wg], which [Xilinx][xilinx] has also made contributions to.
 
-# Does [Xilinx][xilinx] have any products based on P4?
+# Does Xilinx have any products based on P4?
 
 The May 2017 release of [SDNet][sdnet] included support for
 P4<sub>16</sub>, which had just been released. Various improvements
