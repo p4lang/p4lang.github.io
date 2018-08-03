@@ -76,7 +76,7 @@ their establishment.  In particular, [Xilinx][xilinx] recently showcased
 an Inband Network Telemetry (INT) inter-operability demonstration with
 Barefoot Networks at the MWC and OFC conferences, based on the draft
 [INT specification][int-spec] from the [P4 Applications Working
-Group][app-wg], to which [Xilinx][xilinx] has also made contributions.
+Group][app-wg], which [Xilinx][xilinx] has also made contributions to.
 
 # Does [Xilinx][xilinx] have any products based on P4?
 
