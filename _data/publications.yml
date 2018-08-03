@@ -71,7 +71,7 @@
 -
     title: "Heavy-Hitter Detection Entirely in the Data Plane"
     authors: "Vibhaalakshmi Sivaraman, Srinivas Narayana, Ori Rottenstreich, S. Muthukrishnan, and Jennifer Rexford "
-    venue: "ACM SIGCOMM Symposium on Software-defined Networking Research"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
     date: '2017-04-03'
     url: 'https://dl.acm.org/citation.cfm?id=3063772'
     type: 'conference'
