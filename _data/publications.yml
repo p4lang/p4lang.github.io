@@ -13,11 +13,25 @@
     url: 'https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-jose.pdf'
     type: 'conference'
 -
+    title: "DC.p4: programming the forwarding plane of a data-center switch"
+    authors: "Anirudh Sivaraman, Changhoon Kim, Ramkumar Krishnamoorthy, Advait Dixit, and Mihai Budiu"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2015-06-17'
+    url: 'https://dl.acm.org/citation.cfm?id=2775007'
+    type: 'conference'
+-
     title: "NetPaxos: Consensus at Network Speed"
     authors: "Huynh Tu Dang, Daniele Sciascia, Marco Canini, Fernando Pedone, and Robert Soulé"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
     date: '2015-06-17'
     url: 'https://dl.acm.org/citation.cfm?id=2774999'
+    type: 'conference'
+-
+    title: "HULA: Scalable Load Balancing Using Programmable Data Planes"
+    authors: "Naga Katta, Mukesh Hira, Changhoon Kim, Anirudh Sivaraman, and Jennifer Rexford"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2016-03-14'
+    url: 'https://dl.acm.org/citation.cfm?id=2890968'
     type: 'conference'
 -
     title: "FlowRadar: A Better NetFlow for Data Centers"
@@ -40,13 +54,6 @@
     url: 'http://yuba.stanford.edu/~nickm/papers/cccf.pdf'
     date: '2016-07-12'
     type: 'journal'
--    
-    title: "PISCES: A Programmable, Protocol-Independent Software Switch"
-    authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
-    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
-    date: '2016-08-25'
-    url: 'https://dl.acm.org/citation.cfm?id=2934886'
-    type: 'conference'
 -
     title: "Packet Transactions: High-Level Programming for Line-Rate Switches"
     authors: "Anirudh Sivaraman, Alvin Cheung, Mihai Budiu, Changhoon Kim, Mohammad Alizadeh, Hari Balakrishnan, George Varghese, Nick McKeown, and Steve Licking"
@@ -60,6 +67,27 @@
     venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
     date: '2016-08-23'
     url: 'https://dl.acm.org/citation.cfm?id=2934899'
+    type: 'conference'
+-
+    title: "One Sketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon"
+    authors: "Zaoxing Liu, Antonis Manousis, Gregory Vorsanger, Vyas Sekar, and Vladimir Braverman"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-23'
+    url: 'https://dl.acm.org/citation.cfm?id=2934906'
+    type: 'conference'
+-
+    title: "SNAP: Stateful Network-Wide Abstractions for Packet Processing"
+    authors: "Mina Tahmasbi Arashloo, Yaron Koral, Michael Greenberg, Jennifer Rexford, and David Walker"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-23'
+    url: 'https://dl.acm.org/citation.cfm?id=2934892'
+    type: 'conference'
+-    
+    title: "PISCES: A Programmable, Protocol-Independent Software Switch"
+    authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2016-08-25'
+    url: 'https://dl.acm.org/citation.cfm?id=2934886'
     type: 'conference'
 -
     title: "Generation of High-Speed Network Device from High-Level Description"
@@ -111,6 +139,20 @@
     url: 'https://dl.acm.org/citation.cfm?id=3050233'
     type: 'conference'
 -
+    title: "dRMT: Disaggregated Programmable Switching"
+    authors: "Sharad Chole, Andy Fingerhut, Sha Ma, Anirudh Sivaraman, Shay Vargaftik, Alon Berger, Gal Mendelson, Mohammad Alizadeh, Shang-Tse Chuang, Isaac Keslassy, Ariel Orda, and Tom Edsall"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2017-08-22'
+    url: 'https://dl.acm.org/citation.cfm?id=3098823'
+    type: 'conference'
+-
+    title: "Designing Fast and Programmable Routers"
+    authors: "Anirudh Sivaraman"
+    institution: "Massachusetts Institute of Technology"
+    date: '2017-08-31'
+    url: 'https://dspace.mit.edu/handle/1721.1/113936'
+    type: 'dissertation'
+-
     title: "Data Plane Programmability Beyond OpenFlow: Opportunities and Challenges for Network and Service Operations and Management"
     authors: "Weverton Luis da Costa Cordeiro, Jonatas Adilson Marques, Luciano Paschoal Gaspary"
     venue: "Journal of Network and Systems Management"
@@ -160,27 +202,6 @@
     url: 'https://www.usenix.org/system/files/conference/nsdi18/nsdi18-sharma.pdf'
     type: 'conference'
 -
-    title: "Infinite Resources for Optimistic Concurrency Control"
-    authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
-    venue: "ACM SIGCOMM Workshop on In-Network Computing (NetCompute)"
-    date: '2018-08-20'
-    url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
-    type: 'workshop'
--
-    title: "DC.p4: programming the forwarding plane of a data-center switch"
-    authors: "Anirudh Sivaraman, Changhoon Kim, Ramkumar Krishnamoorthy, Advait Dixit, and Mihai Budiu"
-    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
-    date: '2015-06-17'
-    url: 'https://dl.acm.org/citation.cfm?id=2775007'
-    type: 'conference'
--
-    title: "HULA: Scalable Load Balancing Using Programmable Data Planes"
-    authors: "Naga Katta, Mukesh Hira, Changhoon Kim, Anirudh Sivaraman, and Jennifer Rexford"
-    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
-    date: '2016-03-14'
-    url: 'https://dl.acm.org/citation.cfm?id=2890968'
-    type: 'conference'
--
     title: "NetChain: Scale-Free Sub-RTT Coordination"
     authors: "Xin Jin, Xiaozhou Li, Haoyu Zhang, Nate Foster, Jeongkeun Lee, Robert Soule, Changhoon Kim, and Ion Stoica"
     venue: "USENIX Symposium on Networked Systems Design and Implementation (NSDI)"
@@ -188,30 +209,9 @@
     url: 'https://www.usenix.org/system/files/conference/nsdi18/nsdi18-jin.pdf'
     type: 'conference'
 -
-    title: "One Sketch to Rule Them All: Rethinking Network Flow Monitoring with UnivMon"
-    authors: "Zaoxing Liu, Antonis Manousis, Gregory Vorsanger, Vyas Sekar, and Vladimir Braverman"
-    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
-    date: '2016-08-23'
-    url: 'https://dl.acm.org/citation.cfm?id=2934906'
-    type: 'conference'
--
-    title: "SNAP: Stateful Network-Wide Abstractions for Packet Processing"
-    authors: "Mina Tahmasbi Arashloo, Yaron Koral, Michael Greenberg, Jennifer Rexford, and David Walker"
-    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
-    date: '2016-08-23'
-    url: 'https://dl.acm.org/citation.cfm?id=2934892'
-    type: 'conference'
--
-    title: "dRMT: Disaggregated Programmable Switching"
-    authors: "Sharad Chole, Andy Fingerhut, Sha Ma, Anirudh Sivaraman, Shay Vargaftik, Alon Berger, Gal Mendelson, Mohammad Alizadeh, Shang-Tse Chuang, Isaac Keslassy, Ariel Orda, and Tom Edsall"
-    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
-    date: '2017-08-22'
-    url: 'https://dl.acm.org/citation.cfm?id=3098823'
-    type: 'conference'
--
-    title: "Designing Fast and Programmable Routers"
-    authors: "Anirudh Sivaraman"
-    institution: "Massachusetts Institute of Technology"
-    date: '2017-08-31'
-    url: 'https://dspace.mit.edu/handle/1721.1/113936'
-    type: 'dissertation'
+    title: "Infinite Resources for Optimistic Concurrency Control"
+    authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
+    venue: "ACM SIGCOMM Workshop on In-Network Computing (NetCompute)"
+    date: '2018-08-20'
+    url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
+    type: 'workshop'
