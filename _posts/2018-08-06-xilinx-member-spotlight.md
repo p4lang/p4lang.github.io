@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Member Spotlight: Xilinx"
-date: 2018-07-30
+date: 2018-08-06
 author: "P4.org"
 category: members
 header-img: assets/p4-background.png
