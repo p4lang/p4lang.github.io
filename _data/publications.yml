@@ -60,7 +60,7 @@
     venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
     date: '2016-08-23'
     url: 'http://doi.acm.org/10.1145/2934872.2959077'
-    type: 'conference'
+    type: 'poster'
 -
     title: "Packet Transactions: High-Level Programming for Line-Rate Switches"
     authors: "Anirudh Sivaraman, Alvin Cheung, Mihai Budiu, Changhoon Kim, Mohammad Alizadeh, Hari Balakrishnan, George Varghese, Nick McKeown, and Steve Licking"
