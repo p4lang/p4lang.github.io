@@ -195,6 +195,13 @@
     url: 'https://dl.acm.org/citation.cfm?id=3185494'
     type: 'conference'
 -
+    title: "Uncovering Bugs in P4 Programs with Assertion-based Verification"
+    authors: " Freire, Miguel Neves, Lucas Leal, Kirill Levchenko, Alberto Schaeffer-Filho, and Marinho Barcellos"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2018-03-28'
+    url: 'https://dl.acm.org/citation.cfm?id=3185499'
+    type: 'conference'
+-
     title: "Approximating Fair Queueing on Reconfigurable Switches"
     authors: "Naveen Kr. Sharma, Ming Liu, Kishore Atreya, and Arvind Krishnamurthy"
     venue: "USENIX Symposium on Networked Systems Design and Implementation (NSDI)"
