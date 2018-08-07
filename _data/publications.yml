@@ -139,6 +139,13 @@
     url: 'http://doi.acm.org/10.1145/3050220.3050228'
     type: 'conference'        
 -
+    title: "Heavy-Hitter Detection Entirely in the Data Plane"
+    authors: "Vibhaalakshmi Sivaraman, Srinivas Narayana, Ori Rottenstreich, S. Muthukrishnan, and Jennifer Rexford "
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2017-04-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3063772'
+    type: 'conference'
+-
     title: "Swing State: Consistent Updates for Stateful and Programmable Data Planes"
     authors: "Shouxi Luo, Hongfang Yu, Laurent Vanbever"
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
@@ -151,6 +158,13 @@
     venue: "IEEE International Conference on High Performance Switching and Routing (HPSR)"
     date: '2017-06-19'
     url: 'https://doi.org/10.1109/HPSR.2017.7968684'
+    type: 'conference'
+-
+    title: "Language-Directed Hardware Design for Network Performance Monitoring"
+    authors: "Srinivas Narayana, Anirudh Sivaraman, Vikram Nathan, Prateesh Goyal, Venkat Arun, Mohammad Alizadeh, Vimalkumar Jeyakumar, and Changhoon Kim"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2017-08-21'
+    url: 'https://dl.acm.org/citation.cfm?id=3098829'
     type: 'conference'
 -
     title: "dRMT: Disaggregated Programmable Switching"
@@ -172,7 +186,7 @@
     venue: "Journal of Network and Systems Management"
     date: '2017-09-07'
     url: 'https://doi.org/10.1007/s10922-017-9423-2'
-    type: 'journal'    
+    type: 'journal'
 -
     title: "Programmable Data Plane for Professional Media Networking"
     authors: "Thomas Edwards and Nick Ciarleglio"
