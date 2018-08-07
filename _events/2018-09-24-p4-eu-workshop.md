@@ -68,7 +68,7 @@ Formatting instructions and a template file can be found on the ICNP submission 
 #### Submission Without Proceedings
 
 A limited number of talks, demos and posters will be accepted to the workshop without appearing in ICNP 2018 proceedings, in a manner similar to previous P4 events. 
-These submissions will go through the same review process as standard submissions, but can take advantage of a late submission deadline. 
+For submissions without proceedings, an abstract is sufficient for review. The abstract will go through the same review process as standard submissions, but can take advantage of a late submission deadline.
 
 The submission website for submissions that will **not appear** in the proceedings is: 
 
@@ -105,14 +105,18 @@ More information is TBD
 <table>
 <tr>
 <td align="center"><h3>Gold Level:</h3></td>
-<td align="center"><h3>Silver Level:</h3></td>
-<td align="center"><h3>Bronze Level:</h3></td>
+<td><img src="/assets/WestDigi_Logo_1L_RGB_B.png" width="300" alt="Western Digital" /></td>
+<td><img src="/assets/exilinx-logo.png" width="300" alt="Xilinx" /></td>
 </tr>
 <tr>
-<td><img src="/assets/WestDigi_Logo_1L_RGB_B.png" width="300" alt="Western Digital" /></td>
+<td align="center"><h3>Silver Level:</h3></td>
 <td><img src="/assets/barefoot-logo.png" width="300" alt="Barefoot Networks" /></td>
+</tr>
+<tr>
+<td align="center"><h3>Bronze Level:</h3></td>
 <td><img src="/assets/Microsoft-logo_rgb_c-gray.png" width="300" alt="Microsoft" /></td>
 </tr>
+
 </table>
 
 Contact the workshop chairs for sponsorship opportunities. 
