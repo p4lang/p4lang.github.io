@@ -10,7 +10,7 @@ The research community has published a growing number of papers on the design an
 {% assign journals = site.data.publications | where:'type','journal' | sort:'date' | reverse %}
 {% assign conferences = site.data.publications | where:'type','conference' | sort:'date' | reverse %}
 {% assign workshops = site.data.publications | where:'type','workshop' | sort:'date' | reverse %}
-{% assign posters = site.data.publications | where:'type','posters' | sort:'date' | reverse %}
+{% assign posters = site.data.publications | where:'type','poster' | sort:'date' | reverse %}
 {% assign dissertations = site.data.publications | where:'type','dissertation' | sort:'date' | reverse %}
 
 <h1>Journals</h1>
