@@ -96,3 +96,4 @@ be launched in 2019.
 [int-spec]: {{ site.baseurl}}/specs/
 [xilinx]: https://www.xilinx.com/
 [p4-netfpga]: https://github.com/NetFPGA/P4-NetFPGA-public/wiki
+[wgs]: https://p4.org/working-groups/    
