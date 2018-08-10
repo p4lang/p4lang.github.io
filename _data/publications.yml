@@ -244,16 +244,17 @@
     url: 'https://www.usenix.org/system/files/conference/nsdi18/nsdi18-jin.pdf'
     type: 'conference'
 -
-    title: "Infinite Resources for Optimistic Concurrency Control"
-    authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
-    venue: "ACM SIGCOMM Workshop on In-Network Computing (NetCompute)"
-    date: '2018-08-20'
-    url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
-    type: 'workshop'
--
     title: "Distributed Network Monitoring and Debugging with SwitchPointer"
     authors: "Praveen Tammana, Rachit Agarwal, and Myungjin Lee"
     venue: "USENIX Symposium on Networked Systems Design and Implementation (NSDI)"
     date: '2018-04-09'
     url: 'https://www.usenix.org/conference/nsdi18/presentation/tammana'
     type: 'conference'
+-
+    title: "Infinite Resources for Optimistic Concurrency Control"
+    authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
+    venue: "ACM SIGCOMM Workshop on In-Network Computing (NetCompute)"
+    date: '2018-08-20'
+    url: 'https://conferences.sigcomm.org/sigcomm/2018/workshop-netcompute.html'
+    type: 'workshop'
+
