@@ -1,4 +1,11 @@
 -
+    title: "The P4-16 Programming Language"
+    authors: "Mihai Budiu, Chris Dodd"
+    venue: "ACM SIGOPS Operating Systems Review (OSR), Vol. 51, no 1"
+    date: "2017-08-01"
+    url: "https://dl.acm.org/citation.cfm?id=3139648"
+    type: "journal"
+-
     title: "P4: Programming Protocol-Independent Packet Processors"
     authors: "Pat Bosshart, Dan Daly, Glen Gibb, Martin Izzard, Nick McKeown, Jennifer Rexford, Cole Schlesinger, Dan Talayco, Amin Vahdat, George Varghese, and David Walker"
     venue: "ACM SIGCOMM Computer Communication Review (CCR)"
