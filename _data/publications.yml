@@ -39,7 +39,7 @@
     venue: "USENIX Symposium on Networked Systems Design and Implementation (NSDI)"
     date: "2016-03-17"
     url: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-li-yuliang.pdf"
-    type: "conference"    
+    type: "conference"
 -
     title: "Paxos Made Switch-y"
     authors: "Huynh Tu Dang, Marco Canini, Fernando Pedone, and Robert Soulé"
@@ -89,7 +89,7 @@
     date: '2016-08-23'
     url: 'https://dl.acm.org/citation.cfm?id=2934892'
     type: 'conference'
--    
+-
     title: "PISCES: A Programmable, Protocol-Independent Software Switch"
     authors: "Muhammad Shahbaz, Sean Choi, Ben Pfaff, Changhoon Kim, Nick Feamster, Nick McKeown, and Jennifer Rexford"
     venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
@@ -137,7 +137,7 @@
     venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
     date: '2017-04-03'
     url: 'http://doi.acm.org/10.1145/3050220.3050228'
-    type: 'conference'        
+    type: 'conference'
 -
     title: "Heavy-Hitter Detection Entirely in the Data Plane"
     authors: "Vibhaalakshmi Sivaraman, Srinivas Narayana, Ori Rottenstreich, S. Muthukrishnan, and Jennifer Rexford "
@@ -152,13 +152,20 @@
     date: '2017-04-03'
     url: 'https://dl.acm.org/citation.cfm?id=3050233'
     type: 'conference'
--    
+-
     title: "MACSAD: High performance dataplane applications on the move"
     authors: "P Gyanesh Kumar Patra, Christian Esteve Rothenberg, and Gergely Pongrácz"
     venue: "IEEE International Conference on High Performance Switching and Routing (HPSR)"
     date: '2017-06-19'
     url: 'https://doi.org/10.1109/HPSR.2017.7968684'
     type: 'conference'
+-
+    title: "The P4-16 Programming Language"
+    authors: "Mihai Budiu, and Chris Dodd"
+    venue: "ACM SIGOPS Operating Systems Review (OSR), Vol. 51, no 1"
+    date: "2017-08-01"
+    url: "https://dl.acm.org/citation.cfm?id=3139648"
+    type: "journal"
 -
     title: "Language-Directed Hardware Design for Network Performance Monitoring"
     authors: "Srinivas Narayana, Anirudh Sivaraman, Vikram Nathan, Prateesh Goyal, Venkat Arun, Mohammad Alizadeh, Vimalkumar Jeyakumar, and Changhoon Kim"
