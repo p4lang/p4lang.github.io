@@ -13,6 +13,16 @@ P4EU 2018 is the first P4 Language Consortium event in European. It aims to brin
 
 P4EU, which will run as a workshop at ICNP 2018, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects.
 
+### Venue
+
+University of Cambridge  
+Department of Computer Science and Technology  
+The Computer Laboratory  
+William Gates Building  
+15 JJ Thomson Avenue, Cambridge CB3 0FD
+
+[Maps and directions](https://www.cl.cam.ac.uk/maps/)
+
 ### Agenda
 
 The technical agenda will be announced closer to the workshop date but will include a keynote address, talks and lightning talks, posters and demos, and a panel discussion.
@@ -47,7 +57,24 @@ Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad)
 * *pcube: Primitives for network data plane programming.*
 Aniket Shirke, Akash Trehan, Rinku Shah, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay)
 
+### Accepted Posters
 
+
+* *Network Coding for Critical Infrastructure Networks.* Rakesh Kumar, Vignesh Babu, David M. Nicol (University of Illinois, Urbana-Champaign) 
+
+* *ARP-P4: A hybrid ARP-Path/P4Runtime switch.*  Isaias Martinez-Yelmo, Joaquin Alvarez-Horcajo, Miguel Briso-Montiano, Diego Lopez-Pajares, Elisa Rojas (University of Alcal&aacute;)
+
+* *One for All, All for One: A Heterogeneous Data Plane for Flexible P4 Processing.* Jeferson Santiago da Silva, Thibaut Stimpfling, Thomas Luinaud, Bachir Fradj (Polytechnique Montréal), Bochra Boughzala (Kaloom Inc.)
+
+* *Using P4 and Source Based Routing To Enable Performant Intents in Software Defined Networks.* Benjamin Lewis, Lyndon Fawcett, Dr. Matthew Broadbent, Prof. Nicholas Race (Lancaster University)
+
+* *Verification of Generated RTL from P4 Source Code.* Radek I&scaron;a, Pavel Ben&aacute;ček (CESNET a.l.e.), Viktor Pu&scaron; (Netcope Technologies)
+
+* *A P4-Based PON Architecture for 5G.* Adebanjo Haastrup, David Rincon, Sallent Sebastia, J. Ramon Piney (Universitat Polit&egrave;cnica de Catalunya)
+
+* *Implementation of Sketch-based Entropy Estimation for Network Traffic Analysis Using P4.* Ku-Yeh Shih, Yu-Kuen Lai, Theophilus Wellem, Ho-Ping Lee, Po-Yu Huang, Yu-Jau Lin (Chung Yuan Christian University)
+
+* *The P4->NetFPGA Workflow, and Experience Report from the Stanford CS344 Class.* Stephen Ibanez, Nick McKeown (Stanford University), Gordon Brebner (Xilinx Labs)
 
 
 ### Technical Program Committee
