@@ -87,6 +87,11 @@ Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox
 * *RAYMAX P4-Enabled SmartNIC: Providing Service-Driven Data Center Networking.*
 Yan Yan, Shen Tan (Raymax Technology), Reza Nejabati, Dimitra Simeonidou (University of Bristol)
 
+* *VNF offloading on a multi-vendor P4 fabric controlled by ONOS via P4Runtime.*
+Andrea Campanella, Carmelo Cascone (Open Networking Foundation) 
+
+* *Network-assisted sorting.*
+Petar Penkov, Hristo Stoyanov (Stanford University)
 
 ### Technical Program Committee
 
