@@ -40,8 +40,8 @@ restricted. Please become a [member](/join-us/).
     - JK Lee (Barefoot)
 
 # Education Working Group
-- Mailing list: TBD
-- GitHub: TBD
+- Mailing list: [Sign up](http://lists.p4.org/mailman/listinfo/p4-edu_lists.p4.org), [Archive](http://lists.p4.org/pipermail/p4-edu_lists.p4.org/)
+- GitHub: [https://github.com/p4lang/education/](https://github.com/p4lang/education)
 - Co-Chairs:
     - Noa Zilberman (University of Cambridge)
     - Robert Soul&eacute; (Universit&agrave; della Svizzera italiana)
