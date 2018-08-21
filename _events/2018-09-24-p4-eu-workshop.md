@@ -76,6 +76,17 @@ Aniket Shirke, Akash Trehan, Rinku Shah, Mythili Vutukuru, Purushottam Kulkarni 
 
 * *The P4->NetFPGA Workflow, and Experience Report from the Stanford CS344 Class.* Stephen Ibanez, Nick McKeown (Stanford University), Gordon Brebner (Xilinx Labs)
 
+### Accepted Demos
+
+* *Hardware-Accelerated Firewall for 5G Mobile Networks.*
+Ruben Ricart-Sanchez (University of the West of Scotland), Pedro Malagon (Universidad Politecnica de Madrid), Jose M. Alcaraz-Calero (University of the West of Scotland), Qi Wang (University of the West of Scotland) 
+
+* *Switch ASIC Programmability in Hybrid Mode.*
+Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox Technologies), Guohan Lu (Microsoft)
+
+* *RAYMAX P4-Enabled SmartNIC: Providing Service-Driven Data Center Networking.*
+Yan Yan, Shen Tan (Raymax Technology), Reza Nejabati, Dimitra Simeonidou (University of Bristol)
+
 
 ### Technical Program Committee
 
