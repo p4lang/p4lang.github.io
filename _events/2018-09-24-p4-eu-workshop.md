@@ -36,6 +36,10 @@ The technical agenda will be announced closer to the workshop date but will incl
 
 More information is TBD
 
+### Keynote Address
+
+* *Extending the range of P4 programmability.*
+Professor Gordon Brebner, Xilinx Labs
 
 ### Accepted Papers
 
