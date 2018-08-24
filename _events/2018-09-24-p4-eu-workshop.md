@@ -38,8 +38,69 @@ More information is TBD
 
 ### Keynote Address
 
-* *Extending the range of P4 programmability.*
-Professor Gordon Brebner, Xilinx Labs
+*Extending the range of P4 programmability* by Professor Gordon Brebner, Xilinx Labs
+
+ <details>
+  <summary>
+    Abstract
+  </summary>
+In four years, P4 has evolved from being a paper proposal to being a
+packet processing programming language with increasing adoption
+worldwide, overseen by the P4 Language Consortium (P4.org).  The talk
+will first overview developments over this period, which have brought
+the community to the current P4_16 language specification, the PSA
+(Portable Switch Architecture) specification, and the P4Runtime API
+specification.  It will then discuss some current community efforts to
+extend the reach of P4.  One of the key developments in 2017 was
+language-architecture separation, leading to the P4_16 (language) and
+PSA (architecture) threads.  In practice, NICs (Network Interface
+Cards, notably Smart NICs) are a common target, so one community goal
+is to define a PNA (portable NIC architecture) specification, to
+complement the existing PSA specification.  Then, a bigger picture is
+to extend P4 to allow the description of architectures, which is the
+goal of the Programmable Target Architecture (PTA) research project of
+Stanford and Xilinx Labs.  The talk will describe this project, and a
+current prototype that compiles extended P4 descriptions to FPGA-based
+hardware implementations.  An important test case for the new approach
+will be the expression of both PSA and PNA (when ultimately defined)
+in the extended “P4 +” rather than in English as currently.
+Currently, P4 is focused on packet processing – through parsing,
+match-action pipelines, and deparsing.  Another current research
+project, involving MIT, NYU, Stanford, and Xilinx Labs, concerns
+extending P4 (language and architecture) to cover Traffic Management –
+providing programmable scheduling, shaping, policing, queueing, etc.
+The talk will overview this project, and a current prototype based on
+the PIFO scheduling model that was presented at SIGCOMM 2016.
+Finally, the talk will consider future evolution of the open source
+community around P4, including the development of comprehensive
+reference examples for both switch and NIC architectures, for both
+software and programmable hardware implementations.
+  </details>
+
+ <details>
+  <summary>
+    Biography
+  </summary>
+  Gordon Brebner is a Distinguished Engineer at Xilinx, Inc., the
+  technology leader in highly flexible and adaptive processing
+  platforms.  He works in Xilinx Labs, leading an international group
+  researching issues surrounding networked and trusted processing
+  systems of the future. His main personal research interests concern
+  dynamically reconfigurable architectures, domain-specific languages
+  with highly concurrent implementations, and high performance
+  networking and telecommunications.  His group’s research led to the
+  Xilinx SDNet product for P4-programmable networking at scalable 1G
+  to 1T rates.  He holds around 40 patents, and has published around
+  60 papers, in the general area of networking with FPGAs.  Prior to
+  joining Xilinx in 2002, he was the Professor of Computer Systems and
+  Head of the Department of Computer Science at the University of
+  Edinburgh, and remains an Honorary Professor of Informatics there.
+  He is an active contributor to the P4 language Consortium (P4.org),
+  including co-chairing the P4 Language Design working group from its
+  inception.  He received the inaugural P4.org Distinguished Service
+  Award in 2018.
+  </details>
+
 
 ### Accepted Papers
 
