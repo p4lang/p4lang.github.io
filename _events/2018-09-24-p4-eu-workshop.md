@@ -28,13 +28,6 @@ William Gates Building
 The technical agenda will be announced closer to the workshop date but will include a keynote address, talks and lightning talks, posters and demos, and a panel discussion.
 
 
-#### Registration
-[Registration is through ICNP 2018](http://icnp18.cs.ucr.edu/registration.html) 
-
-#### Travel Grants
-[Refer to ICNP travel grants page](http://icnp18.cs.ucr.edu/grants.html)
-
-More information is TBD
 
 ### Keynote Address
 
@@ -158,6 +151,13 @@ Andrea Campanella, Carmelo Cascone (Open Networking Foundation)
 
 * *Network-assisted sorting.*
 Petar Penkov, Hristo Stoyanov (Stanford University)
+
+#### Registration
+[Registration is through ICNP 2018](http://icnp18.cs.ucr.edu/registration.html) 
+
+#### Travel Grants
+[Refer to ICNP travel grants page](http://icnp18.cs.ucr.edu/grants.html)
+
 
 ### Technical Program Committee
 
