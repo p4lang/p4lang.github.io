@@ -257,6 +257,7 @@ Petar Penkov, Hristo Stoyanov (Stanford University)
 <tr>
 <td align="center"><h3>Bronze Level:</h3></td>
 <td><img src="/assets/Microsoft-logo_rgb_c-gray.png" width="300" alt="Microsoft" /></td>
+<td><img src="/assets/stordis-slogan.png" width="300" alt="Stordis" /></td>
 </tr>
 
 </table>
