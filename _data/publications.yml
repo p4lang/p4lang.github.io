@@ -258,6 +258,41 @@
     url: 'https://www.usenix.org/system/files/conference/nsdi18/nsdi18-tammana.pdf'
     type: 'conference'
 -
+    title: "Synchronized Network Snapshots"
+    authors: "Nofel Yaseen, John Sonchack, and Vincent Liu"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2018-08-21'
+    url: 'https://dl.acm.org/citation.cfm?id=3230552'
+    type: 'conference'
+-
+    title: "p4v: Practical Verification for Programmable Data Planes"
+    authors: "Jed Liu, William Hallahan, Cole Schlesinger, Milad Sharif, Jeongkeun Lee, Robert Soulé, Han Wang, Călin Caşcaval, Nick McKeown, and Nate Foster"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2018-08-21'
+    url: 'https://dl.acm.org/citation.cfm?id=3230543.3230582'
+    type: 'conference'
+-
+    title: "Debugging P4 programs with Vera"
+    authors: "Radu Stoenescu, Dragos Dumitrescu, Matei Popovici, Lorina Negreanu, and Costin Raiciu"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2018-08-21'
+    url: 'https://dl.acm.org/citation.cfm?id=3230548'
+    type: 'conference'
+-
+    title: "Elastic Sketch: Adaptive and Fast Network-wide Measurements"
+    authors: "Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, Yang Zhou, Rui Miao, Xiaoming Li, and Steve Uhlig"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2018-08-21'
+    url: 'https://dl.acm.org/citation.cfm?id=3230544'
+    type: 'conference'
+-
+    title: "SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference"
+    authors: "Qun Huang, Patrick P. C. Lee, and Yungang Bao"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: '2018-08-21'
+    url: 'https://dl.acm.org/citation.cfm?id=3230559'
+    type: 'conference'
+-
     title: "Infinite Resources for Optimistic Concurrency Control"
     authors: "Theo Jepsen, Leandro Pacheco de Sousa, Masoud Moshref, Fernando Pedone, and Robert Soulé"
     venue: "ACM SIGCOMM Workshop on In-Network Computing (NetCompute)"
