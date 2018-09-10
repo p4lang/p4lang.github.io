@@ -258,6 +258,13 @@
     url: 'https://www.usenix.org/system/files/conference/nsdi18/nsdi18-tammana.pdf'
     type: 'conference'
 -
+    title: "NetHide: Secure and Practical Network Topology Obfuscation"
+    authors: "Roland Meier, Petar Tsankov, Vincent Lenders, Laurent Vanbever, and Martin Vechev"
+    venue: "USENIX Security Symposium"
+    date: '2018-08-15'
+    url: 'https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-meier.pdf'
+    type: 'conference'
+-
     title: "Synchronized Network Snapshots"
     authors: "Nofel Yaseen, John Sonchack, and Vincent Liu"
     venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
