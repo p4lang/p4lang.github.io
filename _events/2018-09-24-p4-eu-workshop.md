@@ -139,23 +139,16 @@ Ashkan Aghdai (NYU), Mark Huang (Huawei), David H. Dai (Huawei), Yang Xu (NYU), 
 
 ----
 
-* __13:30 - 13:50__
 
-    * _Lightning talks_
+* __13:30 - 14:40__
+
+    * _Panel: P4 Education_
 
 ----
 
-* __13:50 - 15:20__
+* __14:40 - 15:20__
 
-    * _Stateless Load-Aware Load Balancing in P4._
-Benoit Pit--Claudel (Cisco Systems, &Eacute;cole Polytechnique), Yoann Desmouceaux Cisco Systems, &Eacute;cole Polytechnique), Pierre Pfister (Cisco Systems), Marc Townsley (Cisco Systems)
-
-    * _P4LLVM: An LLVM based P4 Compiler._
-Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad)
-
-    * _pcube: Primitives for network data plane programming._
-Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay)
-
+    * _Lightning talks_
 
 ----
 
@@ -165,9 +158,16 @@ Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni 
 
 ----
 
-* __16:20 - 17:30__
+* __16:15 - 17:30__
 
-    * _Panel: P4 Education_
+    * _Stateless Load-Aware Load Balancing in P4._
+Benoit Pit--Claudel (Cisco Systems, &Eacute;cole Polytechnique), Yoann Desmouceaux Cisco Systems, &Eacute;cole Polytechnique), Pierre Pfister (Cisco Systems), Marc Townsley (Cisco Systems)
+
+    * _P4LLVM: An LLVM based P4 Compiler._
+Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad)
+
+    * _pcube: Primitives for network data plane programming._
+Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay)
 
 ----
 
