@@ -306,3 +306,10 @@
     date: '2018-08-20'
     url: 'https://dl.acm.org/citation.cfm?id=3229597'
     type: 'workshop'
+-
+    title: "Efficient Measurement on Programmable Switches Using Probabilistic Recirculation"
+    authors: "Ran Ben Basat, Xiaoqi Chen, Gil Einziger and Ori Rottenstrich"
+    venue: "IEEE International Conference on Network Protocols (ICNP)"
+    date: '2018-09-24'
+    url: 'https://arxiv.org/abs/1808.03412'
+    type: 'conference'
