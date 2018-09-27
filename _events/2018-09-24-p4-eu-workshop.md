@@ -46,7 +46,7 @@ William Gates Building
     
 * __9:15 - 10:15__
 
-    * _Keynote_: Extending the range of P4 programmability
+    * _Keynote_: Extending the range of P4 programmability (<a href="{{ site.baseurl }}/assets/P4EU_2018/Gordon_Brebner.pdf">slides</a>)    
 
       Speaker: [Professor Gordon Brebner](https://sites.google.com/site/gordonbrebner/Home) (Xilinx Labs)
 
