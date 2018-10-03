@@ -164,7 +164,8 @@ Ashkan Aghdai (NYU), Mark Huang (Huawei), David H. Dai (Huawei), Yang Xu (NYU), 
 Benoit Pit--Claudel (Cisco Systems, &Eacute;cole Polytechnique), Yoann Desmouceaux Cisco Systems, &Eacute;cole Polytechnique), Pierre Pfister (Cisco Systems), Marc Townsley (Cisco Systems) (<a href="{{ site.baseurl }}/assets/P4EW_2018/Yoann_Desmouceaux.pdf">slides</a>)    
 
     * _P4LLVM: An LLVM based P4 Compiler._
-Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad)
+Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad) (<a href="{{ site.baseurl }}/assets/P4EW_2018/Dangeti_Kumar.pdf">slides</a>)    
+
 
     * _pcube: Primitives for network data plane programming._
 Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay)
