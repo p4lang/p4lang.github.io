@@ -186,7 +186,7 @@ Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni 
 
 * *Network Coding for Critical Infrastructure Networks.* Rakesh Kumar, Vignesh Babu, David M. Nicol (University of Illinois, Urbana-Champaign) 
 
-* *ARP-P4: A hybrid ARP-Path/P4Runtime switch.*  Isaias Martinez-Yelmo, Joaquin Alvarez-Horcajo, Miguel Briso-Montiano, Diego Lopez-Pajares, Elisa Rojas (University of Alcal&aacute;)
+* *ARP-P4: A hybrid ARP-Path/P4Runtime switch.*  Isaias Martinez-Yelmo, Joaquin Alvarez-Horcajo, Miguel Briso-Montiano, Diego Lopez-Pajares, Elisa Rojas (University of Alcal&aacute;) (<a href="{{ site.baseurl }}/assets/P4EW_2018/Joaquin_Horcajo.pdf">slides</a>)    
 
 * *One for All, All for One: A Heterogeneous Data Plane for Flexible P4 Processing.* Jeferson Santiago da Silva, Thibaut Stimpfling, Thomas Luinaud, Bachir Fradj (Polytechnique Montréal), Bochra Boughzala (Kaloom Inc.) (<a href="{{ site.baseurl }}/assets/P4EW_2018/Jeferson_Santiago.pdf">slides</a>)    
 
