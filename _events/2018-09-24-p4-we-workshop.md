@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1st P4 European Workshop (P4EU)
+title: 1st P4 Workshop in Europe (P4WE)
 date: 2018-09-24
 header-img: assets/p4-background.png
 ---
@@ -9,9 +9,9 @@ header-img: assets/p4-background.png
     
 #### Held at Cambridge, UK on September 24, 2018
 
-P4EU 2018 is the first P4 Language Consortium event in European. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
+P4WE 2018 is the first P4 Language Consortium event in European. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-P4EU, which will run as a workshop at ICNP 2018, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects.
+P4WE, which will run as a workshop at ICNP 2018, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects.
 
 ### Venue
 
@@ -46,7 +46,7 @@ William Gates Building
     
 * __9:15 - 10:15__
 
-    * _Keynote_: Extending the range of P4 programmability (<a href="{{ site.baseurl }}/assets/P4EU_2018/Gordon_Brebner.pdf">slides</a>)    
+    * _Keynote_: Extending the range of P4 programmability (<a href="{{ site.baseurl }}/assets/P4WE_2018/Gordon_Brebner.pdf">slides</a>)    
 
       Speaker: [Professor Gordon Brebner](https://sites.google.com/site/gordonbrebner/Home) (Xilinx Labs)
 
@@ -125,10 +125,10 @@ William Gates Building
 Rui Muigel (University of Lisbon), Salvatore Signorello (University of Luxembourg), Fernando M. V. Ramos (University of Lisbon)
 
     * _Consensus for Non-Volatile Main Memory._
-Huynh Tu Dang (Universit&agrave; della Svizzera italiana), Jaco Hofmann (TU Darmstadt), Yang Liu (Western Digital Research), Marjan Radi (Western Digital Research), Dejan Vucinic (Western Digital Research), Fernando Pedone (Universit&agrave; della Svizzera italiana), Robert Soul&eacute; (Universit&agrave; della Svizzera italiana)
+Huynh Tu Dang (Universit&agrave; della Svizzera italiana), Jaco Hofmann (TU Darmstadt), Yang Liu (Western Digital Research), Marjan Radi (Western Digital Research), Dejan Vucinic (Western Digital Research), Fernando Pedone (Universit&agrave; della Svizzera italiana), Robert Soul&eacute; (Universit&agrave; della Svizzera italiana) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Robert_Soule.pdf">slides</a>)    
 
     * _Transparent Edge Gateway for Mobile Networks._
-Ashkan Aghdai (NYU), Mark Huang (Huawei), David H. Dai (Huawei), Yang Xu (NYU), H. Jonathan Chao (NYU)
+Ashkan Aghdai (NYU), Mark Huang (Huawei), David H. Dai (Huawei), Yang Xu (NYU), H. Jonathan Chao (NYU) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Ashkan_Aghdai.pdf">slides</a>)    
 
 
 ----
@@ -161,10 +161,11 @@ Ashkan Aghdai (NYU), Mark Huang (Huawei), David H. Dai (Huawei), Yang Xu (NYU), 
 * __16:15 - 17:30__
 
     * _Stateless Load-Aware Load Balancing in P4._
-Benoit Pit--Claudel (Cisco Systems, &Eacute;cole Polytechnique), Yoann Desmouceaux Cisco Systems, &Eacute;cole Polytechnique), Pierre Pfister (Cisco Systems), Marc Townsley (Cisco Systems)
+Benoit Pit--Claudel (Cisco Systems, &Eacute;cole Polytechnique), Yoann Desmouceaux Cisco Systems, &Eacute;cole Polytechnique), Pierre Pfister (Cisco Systems), Marc Townsley (Cisco Systems) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Yoann_Desmouceaux.pdf">slides</a>)    
 
     * _P4LLVM: An LLVM based P4 Compiler._
-Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad)
+Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Dangeti_Kumar.pdf">slides</a>)    
+
 
     * _pcube: Primitives for network data plane programming._
 Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay)
@@ -186,9 +187,9 @@ Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni 
 
 * *Network Coding for Critical Infrastructure Networks.* Rakesh Kumar, Vignesh Babu, David M. Nicol (University of Illinois, Urbana-Champaign) 
 
-* *ARP-P4: A hybrid ARP-Path/P4Runtime switch.*  Isaias Martinez-Yelmo, Joaquin Alvarez-Horcajo, Miguel Briso-Montiano, Diego Lopez-Pajares, Elisa Rojas (University of Alcal&aacute;)
+* *ARP-P4: A hybrid ARP-Path/P4Runtime switch.*  Isaias Martinez-Yelmo, Joaquin Alvarez-Horcajo, Miguel Briso-Montiano, Diego Lopez-Pajares, Elisa Rojas (University of Alcal&aacute;) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Joaquin_Horcajo.pdf">slides</a>)    
 
-* *One for All, All for One: A Heterogeneous Data Plane for Flexible P4 Processing.* Jeferson Santiago da Silva, Thibaut Stimpfling, Thomas Luinaud, Bachir Fradj (Polytechnique Montréal), Bochra Boughzala (Kaloom Inc.)
+* *One for All, All for One: A Heterogeneous Data Plane for Flexible P4 Processing.* Jeferson Santiago da Silva, Thibaut Stimpfling, Thomas Luinaud, Bachir Fradj (Polytechnique Montréal), Bochra Boughzala (Kaloom Inc.) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Jeferson_Santiago.pdf">slides</a>)    
 
 * *Using P4 and Source Based Routing To Enable Performant Intents in Software Defined Networks.* Benjamin Lewis, Lyndon Fawcett, Dr. Matthew Broadbent, Prof. Nicholas Race (Lancaster University)
 
