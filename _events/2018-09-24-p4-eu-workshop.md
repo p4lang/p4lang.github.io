@@ -168,7 +168,7 @@ Dangeti Tharun Kumar, S Venkata	Keerthy, Ramakrishna Upadrasta (IIT Hyderabad) (
 
 
     * _pcube: Primitives for network data plane programming._
-Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay)
+Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni (IIT Bombay) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Rinku_Shah.pdf">slides</a>)   
 
 ----
 
