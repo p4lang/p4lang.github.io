@@ -185,7 +185,7 @@ Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni 
 ### Accepted Posters
 
 
-* *Network Coding for Critical Infrastructure Networks.* Rakesh Kumar, Vignesh Babu, David M. Nicol (University of Illinois, Urbana-Champaign) 
+* *Network Coding for Critical Infrastructure Networks.* Rakesh Kumar, Vignesh Babu, David M. Nicol (University of Illinois, Urbana-Champaign) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Rakesh_Kumar.pdf">slides</a>)    
 
 * *ARP-P4: A hybrid ARP-Path/P4Runtime switch.*  Isaias Martinez-Yelmo, Joaquin Alvarez-Horcajo, Miguel Briso-Montiano, Diego Lopez-Pajares, Elisa Rojas (University of Alcal&aacute;) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Joaquin_Horcajo.pdf">slides</a>)    
 
@@ -193,18 +193,18 @@ Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni 
 
 * *Using P4 and Source Based Routing To Enable Performant Intents in Software Defined Networks.* Benjamin Lewis, Lyndon Fawcett, Dr. Matthew Broadbent, Prof. Nicholas Race (Lancaster University)
 
-* *Verification of Generated RTL from P4 Source Code.* Radek I&scaron;a, Pavel Ben&aacute;ček (CESNET a.l.e.), Viktor Pu&scaron; (Netcope Technologies)
-
+* *Verification of Generated RTL from P4 Source Code.* Radek I&scaron;a, Pavel Ben&aacute;ček (CESNET a.l.e.), Viktor Pu&scaron; (Netcope Technologies) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Radek_Isa.pdf">slides</a>)
+ 
 * *A P4-Based PON Architecture for 5G.* Adebanjo Haastrup, David Rincon, Sallent Sebastia, J. Ramon Piney (Universitat Polit&egrave;cnica de Catalunya)
 
-* *Implementation of Sketch-based Entropy Estimation for Network Traffic Analysis Using P4.* Ku-Yeh Shih, Yu-Kuen Lai, Theophilus Wellem, Ho-Ping Lee, Po-Yu Huang, Yu-Jau Lin (Chung Yuan Christian University)
+* *Implementation of Sketch-based Entropy Estimation for Network Traffic Analysis Using P4.* Ku-Yeh Shih, Yu-Kuen Lai, Theophilus Wellem, Ho-Ping Lee, Po-Yu Huang, Yu-Jau Lin (Chung Yuan Christian University) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Ku-Yeh-Shih.pdf">slides</a>)  
 
-* *The P4->NetFPGA Workflow, and Experience Report from the Stanford CS344 Class.* Stephen Ibanez, Nick McKeown (Stanford University), Gordon Brebner (Xilinx Labs)
+* *The P4->NetFPGA Workflow, and Experience Report from the Stanford CS344 Class.* Stephen Ibanez, Nick McKeown (Stanford University), Gordon Brebner (Xilinx Labs) (<a href="{{ site.baseurl }}/assets/P4WE_2018/CS344.pdf">slides</a>)  
 
 ### Accepted Demos
 
 * *Hardware-Accelerated Firewall for 5G Mobile Networks.*
-Ruben Ricart-Sanchez (University of the West of Scotland), Pedro Malagon (Universidad Politecnica de Madrid), Jose M. Alcaraz-Calero (University of the West of Scotland), Qi Wang (University of the West of Scotland) 
+Ruben Ricart-Sanchez (University of the West of Scotland), Pedro Malagon (Universidad Politecnica de Madrid), Jose M. Alcaraz-Calero (University of the West of Scotland), Qi Wang (University of the West of Scotland) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Ruben_Ricart.pdf">slides</a>)  
 
 * *Switch ASIC Programmability in Hybrid Mode.*
 Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox Technologies), Guohan Lu (Microsoft)
@@ -213,7 +213,7 @@ Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox
 Yan Yan, Shen Tan (Raymax Technology), Reza Nejabati, Dimitra Simeonidou (University of Bristol)
 
 * *VNF offloading on a multi-vendor P4 fabric controlled by ONOS via P4Runtime.*
-Andrea Campanella, Carmelo Cascone (Open Networking Foundation) 
+Andrea Campanella, Carmelo Cascone (Open Networking Foundation) (<a href="{{ site.baseurl }}/assets/P4WE_2018/ONF.pdf">slides</a>)    
 
 * *Network-assisted sorting.*
 Petar Penkov, Hristo Stoyanov (Stanford University)
