@@ -122,7 +122,7 @@ William Gates Building
 * __10:45 - 12:15__
 
     * _Named Data Networks using Programmable Switches._
-Rui Muigel (University of Lisbon), Salvatore Signorello (University of Luxembourg), Fernando M. V. Ramos (University of Lisbon)
+Rui Muigel (University of Lisbon), Salvatore Signorello (University of Luxembourg), Fernando M. V. Ramos (University of Lisbon) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Rui_Miguel.pdf">slides</a>)    
 
     * _Consensus for Non-Volatile Main Memory._
 Huynh Tu Dang (Universit&agrave; della Svizzera italiana), Jaco Hofmann (TU Darmstadt), Yang Liu (Western Digital Research), Marjan Radi (Western Digital Research), Dejan Vucinic (Western Digital Research), Fernando Pedone (Universit&agrave; della Svizzera italiana), Robert Soul&eacute; (Universit&agrave; della Svizzera italiana) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Robert_Soule.pdf">slides</a>)    
