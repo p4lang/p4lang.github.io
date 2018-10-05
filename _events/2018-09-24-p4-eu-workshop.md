@@ -210,7 +210,7 @@ Ruben Ricart-Sanchez (University of the West of Scotland), Pedro Malagon (Univer
 Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox Technologies), Guohan Lu (Microsoft)
 
 * *RAYMAX P4-Enabled SmartNIC: Providing Service-Driven Data Center Networking.*
-Yan Yan, Shen Tan (Raymax Technology), Reza Nejabati, Dimitra Simeonidou (University of Bristol)
+Yan Yan, Shen Tan (Raymax Technology), Reza Nejabati, Dimitra Simeonidou (University of Bristol) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Yan_Yan.pdf">slides</a>)  
 
 * *VNF offloading on a multi-vendor P4 fabric controlled by ONOS via P4Runtime.*
 Andrea Campanella, Carmelo Cascone (Open Networking Foundation) (<a href="{{ site.baseurl }}/assets/P4WE_2018/ONF.pdf">slides</a>)    
