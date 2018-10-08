@@ -306,3 +306,17 @@
     date: '2018-08-20'
     url: 'https://dl.acm.org/citation.cfm?id=3229597'
     type: 'workshop'
+-
+    title: "The Case for a Flexible Low-Level Backend for Software Data Planes"
+    authors: "Sean Choi, Xiang Long, Muhammad Shahbaz, Skip Booth, Andy Keep, John Marshall, and Changhoon Kim"
+    venue: "Asia-Pacific Workshop on Networking (APNet)"
+    date: '2017-08-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3107000'
+    type: 'workshop
+-
+    title: "PVPP: A Programmable Vector Packet Processor"
+    authors: "Sean Choi, Xiang Long, Muhammad Shahbaz, Skip Booth, Andy Keep, John Marshall, and Changhoon Kim"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2017-04-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3060609'
+    type: 'poster'
