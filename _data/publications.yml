@@ -172,7 +172,7 @@
     venue: "Asia-Pacific Workshop on Networking (APNet)"
     date: '2017-08-03'
     url: 'https://dl.acm.org/citation.cfm?id=3107000'
-    type: 'workshop
+    type: 'workshop'
 -
     title: "The P4-16 Programming Language"
     authors: "Mihai Budiu, and Chris Dodd"
