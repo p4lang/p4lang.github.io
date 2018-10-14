@@ -207,7 +207,7 @@ Rinku Shah, Aniket Shirke, Akash Trehan, Mythili Vutukuru, Purushottam Kulkarni 
 Ruben Ricart-Sanchez (University of the West of Scotland), Pedro Malagon (Universidad Politecnica de Madrid), Jose M. Alcaraz-Calero (University of the West of Scotland), Qi Wang (University of the West of Scotland) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Ruben_Ricart.pdf">slides</a>)  
 
 * *Switch ASIC Programmability in Hybrid Mode.*
-Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox Technologies), Guohan Lu (Microsoft)
+Matty Kadosh, Alan Lo, Yonatan Piasetzky, Omer Shabtai, Marian Pritsak (Mellanox Technologies), Guohan Lu (Microsoft) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Alan_Lo.pdf">slides</a>)  
 
 * *RAYMAX P4-Enabled SmartNIC: Providing Service-Driven Data Center Networking.*
 Yan Yan, Shen Tan (Raymax Technology), Reza Nejabati, Dimitra Simeonidou (University of Bristol) (<a href="{{ site.baseurl }}/assets/P4WE_2018/Yan_Yan.pdf">slides</a>)  
