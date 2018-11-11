@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Member Spotlight: Xilinx"
-date: 2018-07-30
+date: 2018-08-06
 author: "P4.org"
 category: members
 header-img: assets/p4-background.png
@@ -96,3 +96,4 @@ be launched in 2019.
 [int-spec]: {{ site.baseurl}}/specs/
 [xilinx]: https://www.xilinx.com/
 [p4-netfpga]: https://github.com/NetFPGA/P4-NetFPGA-public/wiki
+[wgs]: https://p4.org/working-groups/    
