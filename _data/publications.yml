@@ -320,3 +320,11 @@
     date: '2018-08-20'
     url: 'https://dl.acm.org/citation.cfm?id=3229597'
     type: 'workshop'
+-
+    title: "Towards a Sweet Spot of Dataplane Programmability, Portability and Performance: On the Scalability of Multi-Architecture P4 Pipelines"
+    authors: "P Gyanesh Kumar Patra, Fabricio E. Rodriguez Cesen, J. S. Mejia, D. L. Feferman, L. Csikor, C. E. Rothenberg, and G. Pongracz"
+    venue: "IEEE Journal on Selected Areas in Communications"
+    date: '2018-09-20'
+    url: 'https://ieeexplore.ieee.org/document/8469022'
+    type: 'journal'
+    
