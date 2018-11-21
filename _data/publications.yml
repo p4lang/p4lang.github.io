@@ -336,7 +336,7 @@
     type: 'conference'    
 -
     title: "Hardware-Accelerated Network Control Planes"
-    authors: "Edga Costa Molero, Stefano Vissicchio, Laurent Vanbever"
+    authors: "Edgar Costa Molero, Stefano Vissicchio, Laurent Vanbever"
     venue: "ACM Workshop on Hot Topics in Networks (HotNets)"
     date: '2018-11-15'
     url: 'https://dl.acm.org/citation.cfm?id=3286080'
