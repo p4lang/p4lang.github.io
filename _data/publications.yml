@@ -48,6 +48,13 @@
     url: 'https://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000002.pdf'
     type: 'journal'
 -
+    title: "P4-to-VHDL: Automatic Generation of 100Gbps Packet Parsers"
+    authors: "Pavel Benáček, Viktor Puš, and Hana Kubátová"
+    venue: "IEEE 24th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM2016)"
+    date: '2016-05-01'
+    url: 'https://ieeexplore.ieee.org/document/7544769'
+    type: 'conference'
+-
     title: "Programming the Network Dataplane in P4 (in Chinese)"
     authors: "Changhoon Kim, Ron Kao, and Nick McKeown"
     venue: 'Communications of the China Computer Federation (CCF)'
@@ -95,6 +102,13 @@
     venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
     date: '2016-08-25'
     url: 'https://dl.acm.org/citation.cfm?id=2934886'
+    type: 'conference'
+-
+    title: "Line Rate Programmable Packet Processing in 100Gb Networks"
+    authors: "Pavel Benáček, Viktor Puš, Jan Kořenek, and Michal Kekely"
+    venue: "27th International Conference on Field Programmable Logic and Applications (FPL)"
+    date: '2017-09-04'
+    url: 'https://ieeexplore.ieee.org/document/8056835/'
     type: 'conference'
 -
     title: "Generation of High-Speed Network Device from High-Level Description"
@@ -230,6 +244,20 @@
     url: 'https://dl.acm.org/citation.cfm?id=3152461'
     type: 'workshop'
 -
+    title: "P4-to-VHDL: Automatic Generation of High-Speed Input and Output Network Blocks"
+    authors: "Pavel Benáček, Viktor Puš, Hana Kubátová, and Tomáš Čejka"
+    venue: "Microprocessors and Microsystems journal (MICPRO)"
+    date: '2018-02-01'
+    url: 'https://www.sciencedirect.com/science/article/pii/S0141933117304787?via%3Dihub'
+    type: 'journal'
+-
+    title: "Configurable FPGA Packet Parser for Terabit Networks with Guaranteed Wire-Speed Throughput"
+    authors: "Jakub Cabal, Pavel Benáček, Lukáš Kekely, Michal Kekely, Viktor Puš, and Jan Kořenek"
+    venue: "2018 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA'18)"
+    date: '2018-02-26'
+    url: 'https://dl.acm.org/citation.cfm?doid=3174243.3174250'
+    type: 'conference'
+-
     title: "P4-Compatible High-Level Synthesis of Low Latency 100 Gb/s Streaming Packet Parsers in FPGAs"
     authors: "Jeferson Santiago da Silva, François-Raymond Boyer, and J.M. Pierre Langlois"
     venue: "2018 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA'18)"
@@ -341,4 +369,3 @@
     date: '2018-11-15'
     url: 'https://dl.acm.org/citation.cfm?id=3286080'
     type: 'workshop'
--
