@@ -62,6 +62,7 @@ showing the great flexibility and fitness of [P4][p4] to different use
 cases including server-side segment routing, [OvS][ovs] acceleration,
 and inband network telemetry.
 
+[netcope]: https://www.netcope.com/en
 [p4]: https://p4.org
 [p4-workshop-2018]: https://p4.org/events/2018-06-05-p4-workshop/
 [ovs]: https://www.openvswitch.org/
