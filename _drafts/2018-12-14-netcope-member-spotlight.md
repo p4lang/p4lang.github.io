@@ -7,9 +7,9 @@ category: members
 header-img: assets/p4-background.png
 ---
 
-<center><img alt="Netcope logo" src="{{ site.baseurl }}/assets/netcope-logo.png" /></center>
+<center><img alt="Netcope logo" src="{{ site.baseurl }}/assets/netcope-logo-p4-final.png" /></center>
     
-*Editor's note: This post is a part of our "member spotlight" series
+*Editor's note:* This post is a part of our "member spotlight" series
 that highlights the P4-related activities of various [P4 Language
 Consortium][p4] members. It is based on an interview with Netcope's
 CTO [Viktor Puš](https://twitter.com/viktorpus/).
