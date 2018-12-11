@@ -25,7 +25,7 @@ smart NICs and embedded architectures.
 
 # Can you tell us more about your P4 product?
 
-The Netcope [P4][p4] compiler is a cloud service with an easy-to-use
+The Netcope [P4 compiler][p4-to-vhdl] is a cloud service with an easy-to-use
 web interface. To compile a [P4][p4] program, the user simply uploads
 their code and selects a hardware target. When synthesis completes,
 the user downloads the generated bitstream, and loads it onto the
