@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Member Spotlight: Netcope"
-date: 2018-12-14
+date: 2018-12-10
 author: "P4.org"
 category: members
 header-img: assets/p4-background.png
@@ -18,7 +18,7 @@ CTO [Viktor Puš](https://twitter.com/viktorpus/).
 
 [Netcope][netcope] is a group of FPGA enthusiasts on a mission to
 bring the performance and power efficiency of FPGAs to developers who
-are not FPGA experts. Netcope’s main product is a cloud-hosted
+are not FPGA experts. Netcope’s main [product][p4-to-vhdl] is a cloud-hosted
 P4-to-FPGA compiler that enables [P4][p4] developers to run their code
 efficiently on a variety of FPGA platforms including 10/25/40/100 Gbps
 smart NICs and embedded architectures.
@@ -62,6 +62,7 @@ showing the great flexibility and fitness of [P4][p4] to different use
 cases including server-side segment routing, [OvS][ovs] acceleration,
 and inband network telemetry.
 
+[p4-to-vhdl]: https://www.netcope.com/en/products/p4-to-vhdl
 [netcope]: https://www.netcope.com/en
 [p4]: https://p4.org
 [p4-workshop-2018]: https://p4.org/events/2018-06-05-p4-workshop/
