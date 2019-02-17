@@ -5,7 +5,7 @@ date: 2019-03-29
 header-img: assets/p4-background.png
 ---
 
-### An event organized by the P4 Education Working Group, between EuroSys 2019 and Dagstuhl Seminar 19141 
+### An event organized by the P4 Education Working Group
     
 #### Held in Frankfurt, Germany on March 29, 2019
 
