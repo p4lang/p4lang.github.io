@@ -94,6 +94,7 @@ Everyone should feel welcome taking part in the event, and we will enforce a str
 <table cellpadding="50">
 <tr><td><a href="https://de-cix.net/"><img src="/assets/DE-CIX_Logo_2016_rgb.png" height="200" alt="DE-CIX" /></a></td><td>&nbsp;</td>
 <td><a href="https://www.stordis.com/"><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="400" alt="Stordis" /></a></td><td>&nbsp;</td>
+<td><a href="https://https://agema.deltaww.com/"><img src="/assets/delta_logo.png" width="400" alt="Delta Networks, Inc."></a></td>
 <td><a href="http://aagico.com/"><img src="/assets/aagico_small.png" alt="AAGlenn Internetworking Company" /></a></td>
 </tr>
 </table>
