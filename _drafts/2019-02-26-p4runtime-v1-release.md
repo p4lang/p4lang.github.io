@@ -10,14 +10,14 @@ header-img: assets/p4-background.png
 We are delighted to announce the release of [P4Runtime
 v1.0.0][p4runtime-spec]. Many thanks to everyone in the P4 API Working Group who
 contributed to the specification. The v1.0.0 release includes:
- * RPC service definition: Protocol buffer ("Protobuf") files which define the
-   format of the messages used to read and write from the data plane elements,
-   along with a set of RPCs that can be used to transmit these messages between
-   a remote client and server.
+ * RPC service definition: [Protocol Buffers][protobuf] ("Protobuf") files which
+   define the format of the messages used to read and write from the data plane
+   elements, along with a set of RPCs that can be used to transmit these
+   messages between a remote client and server.
  * A comprehensive specification document which describes the semantics of the
    Protobuf messages.
 
-# What is P4Runtime and why was it created?
+## What is P4Runtime and why was it created?
 
 The P4 programming language has become a popular way to specify and program the
 forwarding plane behavior of networking devices. We created the P4Runtime API as
@@ -40,7 +40,7 @@ P4Runtime is **equally well-suited to remote control planes and local ones**
 P4Runtime can look like. In this example, the switch Operating System is
 [Stratum][stratum], based on Open Networking Linux (ONL).
 
-<center><img alt="P4Runtime with Stratum" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_stratum.png" /></center>
+<center><img alt="P4Runtime with Stratum" width="800" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_stratum.png" /></center>
 
 P4Runtime is **pipeline-independent**: When new features are added to the P4
 forwarding plane, the P4Runtime API does not change; there is no need to
@@ -56,7 +56,7 @@ hand, is fixed and does not depend on the P4 program, which promotes
 extensibility (i.e. introduction of new protocols or actions), and streamlines
 client and server implementations.
 
-<center><img alt="P4Runtime messages" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_msgs.png" /></center>
+<center><img alt="P4Runtime messages" width="800" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_msgs.png" /></center>
 
 In the table above, the P4Info message (in the middle) is the data model which
 dictates the contents of the P4Runtime messages (on the right). For example, in
@@ -65,7 +65,7 @@ match entry added to the table must provide properly formatted values for the 2
 match fields (`hdr.ipv4.dstAddr` and `hdr.meta.vrf_id`) and must choose from 2
 actions (`drop` or `set_nhop`).
 
-# P4Runtime v1.0.0: the result of a collaboration between many industry professionals
+## P4Runtime v1.0.0: the result of a collaboration between many industry professionals
 
 The design of P4Runtime started in mid-2016 and picked up momentum in 2017 with
 the creation of the P4 API Working Group. Multiple implementations on different
@@ -100,7 +100,7 @@ We pride ourselves in having delivered an unambiguous API, with a comprehensive
 specification, to facilitate implementation by control plane application writer
 and silicon vendors, and to guarantee interoperability.
 
-# What are some interesting features in P4Runtime?
+## What are some interesting features in P4Runtime?
 
  * **Master-arbitration**: the P4Runtime interface allows multiple controllers
    to be connected to the P4Runtime server running on the device at the same
@@ -144,7 +144,7 @@ and silicon vendors, and to guarantee interoperability.
    defined to configure externs or stream notifications between the server and
    client(s).
 
-# Can P4Runtime and SAI complement each other?
+## Can P4Runtime and SAI complement each other?
 
 The difference between [SAI][sai] and P4Runtime was explained in a previous
 [p4.org blog
@@ -168,10 +168,11 @@ introduce the extensibility features of P4Runtime into SAI, and we'd welcome
 working with others to make this happen. Please let us know if you are
 interested in contributing to such a project.
 
-<center><img alt="P4Runtime with SAI" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_SAI.png" /></center>
+<center><img alt="P4Runtime with SAI" width="800" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_SAI.png" /></center>
 
 
 [p4runtime-spec]: https://p4.org/specs/
+[protobuf]: https://developers.google.com/protocol-buffers/
 [stratum]: https://stratumproject.org/
 [gnmi]: https://github.com/openconfig/gnmi
 [api-versioning]: https://cloud.google.com/apis/design/versioning
