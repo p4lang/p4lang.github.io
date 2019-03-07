@@ -34,29 +34,29 @@ Please note that there is a limited number of spaces available.
 
 ### Agenda
 
-This agenda is tentative, please check closer to the date!
+This agenda is tentative, and subject to change. Please check closer to the date!
 
 ---
 
-* __8:00 - 10:00am__
+* __9:00 - 10:00am__
 
     * Registration 
 
 ---
 
-* __8:30 - 10:00am__
+* __9:30 - 11:00am__
 
     * P4 crash course for beginners 
 
 ---
 
-* __10:00 - 10:15__
+* __11:00 - 11:15__
     
     * Welcome and Introductions, finding common interests to work on
 
 ---    
     
-* __10:15 - 17:25__
+* __11:15 - 17:25__
 
     * Breaking into groups, hack!
 
@@ -81,6 +81,7 @@ This agenda is tentative, please check closer to the date!
 The P4 hackathon aims to increase the diversity and inclusivity of the P4 community. 
 Everyone should feel welcome taking part in the event, and we will enforce a strict no-harrasement code of conduct.
 
+**Please contact aaron@aagico.berlin if you are unable to attend because of travel or accomodation costs**
 
 ### Organization
 
@@ -94,6 +95,7 @@ Everyone should feel welcome taking part in the event, and we will enforce a str
 <table cellpadding="50">
 <tr><td><a href="https://de-cix.net/"><img src="/assets/DE-CIX_Logo_2016_rgb.png" height="200" alt="DE-CIX" /></a></td><td>&nbsp;</td>
 <td><a href="https://www.stordis.com/"><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="400" alt="Stordis" /></a></td><td>&nbsp;</td>
+<td><a href="https://https://agema.deltaww.com/"><img src="/assets/delta_logo.png" width="400" alt="Delta Networks, Inc."></a></td>
 <td><a href="http://aagico.com/"><img src="/assets/aagico_small.png" alt="AAGlenn Internetworking Company" /></a></td>
 </tr>
 </table>
