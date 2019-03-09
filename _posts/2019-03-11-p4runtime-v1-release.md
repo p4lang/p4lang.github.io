@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Announcing the P4Runtime v1.0 release"
-date: 2019-02-26
-author: "Antonin Bas, Waqar Mohsin"
+date: 2019-03-11
+author: "Antonin Bas and Waqar Mohsin"
 category: p4
 header-img: assets/p4-background.png
 ---
