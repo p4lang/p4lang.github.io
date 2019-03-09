@@ -40,7 +40,7 @@ P4Runtime is **equally well-suited to remote control planes and local ones**
 P4Runtime can look like. In this example, the switch Operating System is
 [Stratum][stratum], based on Open Networking Linux (ONL).
 
-<center><img alt="P4Runtime with Stratum" width="800" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_stratum.png" /></center>
+<center><img alt="P4Runtime with Stratum" width="700" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_stratum.png" /></center>
 
 P4Runtime is **pipeline-independent**: When new features are added to the P4
 forwarding plane, the P4Runtime API does not change; there is no need to
@@ -56,7 +56,7 @@ hand, is fixed and does not depend on the P4 program, which promotes
 extensibility (i.e. introduction of new protocols or actions), and streamlines
 client and server implementations.
 
-<center><img alt="P4Runtime messages" width="800" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_msgs.png" /></center>
+<center><img alt="P4Runtime messages" width="700" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_msgs.png" /></center>
 
 In the table above, the P4Info message (in the middle) is the data model which
 dictates the contents of the P4Runtime messages (on the right). For example, in
@@ -168,7 +168,7 @@ introduce the extensibility features of P4Runtime into SAI, and we'd welcome
 working with others to make this happen. Please let us know if you are
 interested in contributing to such a project.
 
-<center><img alt="P4Runtime with SAI" width="800" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_SAI.png" /></center>
+<center><img alt="P4Runtime with SAI" width="700" src="{{ site.baseurl }}/assets/p4runtime-v1-blog-post/p4runtime_w_SAI.png" /></center>
 
 
 [p4runtime-spec]: https://p4.org/specs/
