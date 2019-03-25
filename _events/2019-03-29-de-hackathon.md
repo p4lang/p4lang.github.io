@@ -27,9 +27,7 @@ The event facility is managed by [Co-Work & Play GmbH](https://www.co-work-play.
 #### Registration
 
 
-[Click here to register.](https://www.eventbrite.com/e/p4-hackathon-day-in-frankfurt-tickets-56737305809)
-
-Please note that there is a limited number of spaces available.
+Please note that registration is closed. Please contact aaron@aagico.berlin with any questions or concerns.
 
 
 ### Agenda
@@ -44,27 +42,34 @@ This agenda is tentative, and subject to change. Please check closer to the date
 
 ---
 
-* __9:30 - 11:00am__
+* __9:30 - 10:00__
 
-    * P4 crash course for beginners 
+    * Welcome and Introductions
+
+
+* __10:00 - 13:00__
+
+    * P4 introductory course for beginners 
+    * Break into interest groups and hack!
 
 ---
 
-* __11:00 - 11:15__
+* __13:00 - 14:00__
     
-    * Welcome and Introductions, finding common interests to work on
+    * Lunch!
 
 ---    
     
-* __11:15 - 17:25__
+* __14:00 - 14:15__
 
-    * Breaking into groups, hack!
+    * Progress discussion & QA session
 
 ---    
         
-* __17:25 - 17:55__
+* __14:15 - 17:45__
 
-    * Project presentations
+    * Further P4/P4Runtime tutorials
+    * More hacking
 
 ----
 
@@ -94,15 +99,11 @@ Everyone should feel welcome taking part in the event, and we will enforce a str
 
 <table cellpadding="50">
 <tr><td><a href="https://de-cix.net/"><img src="/assets/DE-CIX_Logo_2016_rgb.png" height="200" alt="DE-CIX" /></a></td><td>&nbsp;</td>
-<td><a href="https://www.stordis.com/"><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="400" alt="Stordis" /></a></td><td>&nbsp;</td>
-<td><a href="https://https://agema.deltaww.com/"><img src="/assets/delta_logo.png" width="400" alt="Delta Networks, Inc."></a></td>
+<td><a href="https://www.stordis.com/"><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="400" alt="Stordis" /></a></td><td>&nbsp;</td></tr>
+<tr> <td><a href="https://https://agema.deltaww.com/"><img src="/assets/delta_logo.png" width="400" alt="Delta Networks, Inc."></a></td>
 <td><a href="http://aagico.com/"><img src="/assets/aagico_small.png" alt="AAGlenn Internetworking Company" /></a></td>
 </tr>
 </table>
-
-
-
-Contact the organizers for sponsorship opportunities. 
 
 Thank you to DE-CIX for sponsoring the event location in full.
 
