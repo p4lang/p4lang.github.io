@@ -35,7 +35,7 @@ problems in networking including:
 * Basic forwarding, tunneling, and source routing
 * Load balancing
 * Monitoring and telemetry
-* P4 Runtime
+* P4Runtime
 
 Only basic programming knowledge is required, but familiarity with
 Python and using a Linux virtual machines will be helpful.
