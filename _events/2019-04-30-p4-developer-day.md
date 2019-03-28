@@ -9,7 +9,7 @@ header-img: assets/p4-background.png
 #### *Held at Stanford University on Tuesday, April 30, 2019* 
 
 ### Registration 
-#### P4 Developer Day 2019 registration is live. To take advantage of early bird pricing, **buy tickets [here](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905).**
+#### P4 Developer Day 2019 registration is live. You can **buy tickets [here](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905).**
 
 ### Venue
 #### Address: Arrillaga Alumni Center, 326 Galvez St, Stanford, CA 94305
@@ -35,7 +35,7 @@ problems in networking including:
 * Basic forwarding, tunneling, and source routing
 * Load balancing
 * Monitoring and telemetry
-* P4 Runtime
+* P4Runtime
 
 Only basic programming knowledge is required, but familiarity with
 Python and using a Linux virtual machines will be helpful.
