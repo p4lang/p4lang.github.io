@@ -9,7 +9,7 @@ header-img: assets/p4-background.png
 #### *Held at Stanford University on Tuesday, April 30, 2019* 
 ## Special Thanks to our Sponsors:
 <img src="/assets/cisco-logo.png" alt="Cisco" /> <img src="/assets/barefoot-logo.png" alt="Barefoot Networks" />  
-&nbsp
+&nbsp;
 
 ## Registration 
 #### P4 Developer Day 2019 registration is live. You can **buy tickets [here](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905).**
