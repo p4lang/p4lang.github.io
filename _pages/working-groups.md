@@ -23,7 +23,7 @@ restricted. Please become a [member](/join-us/).
 - GitHub: [https://github.com/p4lang/PI](https://github.com/p4lang/PI)
 - Co-chairs:
     - Antonin Bas (Barefoot)
-    - Lorenzo Vicisano (Google)
+    - Waqar Mohsin (Google)
 
 # Architecture Working Group
 - Mailing list: [Sign up](http://lists.p4.org/mailman/listinfo/p4-arch_lists.p4.org), [Archive](http://lists.p4.org/pipermail/p4-arch_lists.p4.org/)
