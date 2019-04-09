@@ -23,7 +23,7 @@ transformation and innovation.
 While this is exciting news, our work and mission will remain
 business-as-usual. Specifically,
 
-* All the P4 properties are still active (like p4.org, github.com/p4lang/, etc.)
+* All the P4 properties are still active (like [p4.org](https://p4.org), [github.com/p4lang/](https://github.com/p4lang), etc.)
 * All P4 mailing lists remain active
 * All P4 working groups remain active and under the same leadership
 * All P4 members can continue to work on all P4 related activities
