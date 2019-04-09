@@ -7,10 +7,11 @@ category: p4
 header-img: assets/p4-background.png
 ---
 
-Today, we are excited to announce that P4.org has combined with the
-Open Networking Foundation ([ONF](https://www.opennetworking.org/)).
-Originally [announced](https://p4.org/p4/p4-joins-onf-and-lf.html) in
-March of 2018, we are pleased to report that the transaction has been
+Today, we are excited to [announce]({{ site.baseurl }}/p4/p4-joins-onf.html) 
+that P4.org has combined with the Open Networking Foundation
+([ONF](https://www.opennetworking.org/)). Originally
+[announced](https://p4.org/p4/p4-joins-onf-and-lf.html) in March of
+2018, we are pleased to report that the transaction has been
 completed. As of today, rather than being an independent organization,
 P4 is now an active project hosted by the ONF. The strategy of joining
 ONF is based on the synergies we see and the complementary visions we
