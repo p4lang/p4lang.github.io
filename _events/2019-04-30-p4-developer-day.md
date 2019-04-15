@@ -41,9 +41,9 @@ problems in networking including:
 * P4Runtime
 
 Only basic programming knowledge is required, but familiarity with
-Python and using a Linux virtual machines will be helpful. For a sneak peek of last year's agenda, you can find it [here](https://p4.org/events/2018-06-06-p4-developer-day/). 
+Python and using a Linux virtual machines will be helpful. For a sneak peek of last year's agenda, you can find it **[here](https://p4.org/events/2018-06-06-p4-developer-day/).** 
 
-* To [reserve a seat](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905) for this track, make sure to choose 'Beginner Track' from the drop-down menu during registration.
+* To **[reserve a seat](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905)** for this track, make sure to choose 'Beginner Track' from the drop-down menu during registration.
 
 ### Advanced Track
 
@@ -64,7 +64,7 @@ provided with a skeleton implementation of the applicationq to
 complete, filling in the relevant parts to generate run-time table
 entries and other entities to implement bridging and SRv6 capabilities. 
 
-* To [reserve a seat](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905) for this track, make sure to choose 'Advanced Track' from the drop-down menu during registration.
+* To **[reserve a seat](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905)** for this track, make sure to choose 'Advanced Track' from the drop-down menu during registration.
 
 ### Instructors
 
