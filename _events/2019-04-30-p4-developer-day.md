@@ -22,7 +22,8 @@ header-img: assets/p4-background.png
 <a href="#agenda">Program</a>
 &nbsp;   
 &nbsp;
-    
+&nbsp;
+
 ## Agenda
 
 New for this year, we are offering two tracks for the developer day: a
