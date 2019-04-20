@@ -350,22 +350,30 @@
     type: 'workshop'
 -
     title: "Towards a Sweet Spot of Dataplane Programmability, Portability and Performance: On the Scalability of Multi-Architecture P4 Pipelines"
-    authors: "P Gyanesh Kumar Patra, Fabricio E. Rodriguez Cesen, J. S. Mejia, D. L. Feferman, L. Csikor, C. E. Rothenberg, and G. Pongracz"
+    authors: "P. Gyanesh Kumar Patra, Fabricio E. Rodriguez Cesen, Juan Sebastian Mejia, Daniel Lazkani Feferman, Levente Csikor, Christian Esteve Rothenberg, and Gergely Pongracz"
     venue: "IEEE Journal on Selected Areas in Communications"
     date: '2018-09-20'
     url: 'https://ieeexplore.ieee.org/document/8469022'
     type: 'journal'
 -
     title: "Efficient Measurement on Programmable Switches Using Probabilistic Recirculation"
-    authors: "Ran Ben Basat, Xiaoqi Chen, Gil Einziger and Ori Rottenstrich"
+    authors: "Ran Ben Basat, Xiaoqi Chen, Gil Einziger, and Ori Rottenstrich"
     venue: "IEEE International Conference on Network Protocols (ICNP)"
     date: '2018-09-24'
     url: 'https://ieeexplore.ieee.org/document/8526835'
     type: 'conference'    
 -
     title: "Hardware-Accelerated Network Control Planes"
-    authors: "Edgar Costa Molero, Stefano Vissicchio, Laurent Vanbever"
+    authors: "Edgar Costa Molero, Stefano Vissicchio, and Laurent Vanbever"
     venue: "ACM Workshop on Hot Topics in Networks (HotNets)"
     date: '2018-11-15'
     url: 'https://dl.acm.org/citation.cfm?id=3286080'
     type: 'workshop'
+-
+    title: "The Case For In-Network Computing On Demand"
+    authors: "Yuta Tokusashi, Huynh Tu Dang, Fernando Pedone, Robert Soulé, and Noa Zilberman"
+    venue: "European Conference on Computer Systems (EuroSYS)"
+    date: '2019-03-25'
+    url: 'https://dl.acm.org/citation.cfm?id=3303979'
+    type: 'conference' 
+
