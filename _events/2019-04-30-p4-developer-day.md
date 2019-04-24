@@ -12,7 +12,12 @@ header-img: assets/p4-background.png
 &nbsp;
 
 ## Registration 
-#### P4 Developer Day 2019 registration is live. You can **buy tickets [here](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905).**
+#### P4 Developer Day 2019 registration is live. 
+<form>
+<input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Buy Tickets Here!"
+onclick="window.location.href='https://bit.ly/2GkNUwK'"
+/>
+</form>
 
 ## Venue
 #### Address: Arrillaga Alumni Center, 326 Galvez St, Stanford, CA 94305
@@ -45,9 +50,21 @@ problems in networking including:
 * P4Runtime
 
 Only basic programming knowledge is required, but familiarity with
-Python and using a Linux virtual machines will be helpful. For a sneak peek of last year's agenda, you can find it **[here](https://p4.org/events/2018-06-06-p4-developer-day/).** 
+Python and using a Linux virtual machines will be helpful. 
 
-* To **[reserve a seat](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905)** for this track, make sure to choose 'Beginner Track' from the drop-down menu during registration.
+<iframe src="/assets/P4WS_2019/P4D2_2019/Beginnier_Track_Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+
+&nbsp;
+
+<form>
+<input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Register Here!"
+onclick="window.location.href='https://bit.ly/2GkNUwK'"
+/>
+</form>
+
+**Make sure to choose 'Beginner Track' from the drop-down menu during registration.**
+
+---
 
 ### Advanced Track
 
@@ -82,7 +99,7 @@ onclick="window.location.href='https://bit.ly/2GkNUwK'"
 
 ### Instructors
 
-* Nate Foster (Cornell University)
-* Brian O'Connor (ONF)
-* Carmelo Cascone (ONF)
+* [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) (Cornell University)
+* [Brian O'Connor](linkedin.com/in/bocon) (Open Networking Foundation)
+* [Carmelo Cascone](https://www.linkedin.com/in/carmelocascone/) (Open Networking Foundation)
 * And others (TBA)
