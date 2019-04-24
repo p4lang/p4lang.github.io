@@ -78,7 +78,7 @@ onclick="window.location.href='https://bit.ly/2GkNUwK'"
 />
 </form>
 
-* Make sure to choose 'Advanced Track' from the drop-down menu during registration.
+**Make sure to choose 'Advanced Track' from the drop-down menu during registration.**
 
 ### Instructors
 
