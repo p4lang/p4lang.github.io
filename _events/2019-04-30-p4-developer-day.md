@@ -36,7 +36,9 @@ beginner track and an advanced track. Both tracks will be delivered by
 experienced instructors and using a software platform that will be
 made available shortly before the Developer Day itself.
 
-### Beginner Track
+&nbsp;
+
+## <p><u>Beginner Track</u></p> 
 
 This track is for developers who are new to P4 and want a
 tutorial-style introduction to the languages main features. It is
@@ -66,7 +68,7 @@ onclick="window.location.href='https://bit.ly/2GkNUwK'"
 
 ---
 
-### Advanced Track
+## <p><u>Advanced Track</u></p>
 
 This track is for developers with intermediate knowledge of the P4
 language. It is organized around a sequence of hands-on exercises that
