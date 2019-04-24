@@ -38,7 +38,7 @@ made available shortly before the Developer Day itself.
 
 &nbsp;
 
-## <p><u>Beginner Track</u></p> 
+### <u>Beginner Track</u>
 
 This track is for developers who are new to P4 and want a
 tutorial-style introduction to the languages main features. It is
@@ -68,7 +68,7 @@ onclick="window.location.href='https://bit.ly/2GkNUwK'"
 
 ---
 
-## <p><u>Advanced Track</u></p>
+### <u>Advanced Track</u>
 
 This track is for developers with intermediate knowledge of the P4
 language. It is organized around a sequence of hands-on exercises that
