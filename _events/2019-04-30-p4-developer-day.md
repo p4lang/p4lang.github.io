@@ -68,7 +68,15 @@ provided with a skeleton implementation of the applicationq to
 complete, filling in the relevant parts to generate run-time table
 entries and other entities to implement bridging and SRv6 capabilities. 
 
-* To **[reserve a seat](https://www.eventbrite.com/e/p4-developer-day-2019-tickets-55431431905)** for this track, make sure to choose 'Advanced Track' from the drop-down menu during registration.
+<embed src="/assets/P4WS_2019/P4D2_2019/Advanced Track Agenda.pdf" width="255px" height="330px" />
+
+<form>
+<input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Register Here!"
+onclick="window.location.href='https://bit.ly/2GkNUwK'"
+/>
+</form>
+
+* Make sure to choose 'Advanced Track' from the drop-down menu during registration.
 
 ### Instructors
 
