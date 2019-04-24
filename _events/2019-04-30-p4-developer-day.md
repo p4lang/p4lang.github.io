@@ -68,7 +68,9 @@ provided with a skeleton implementation of the applicationq to
 complete, filling in the relevant parts to generate run-time table
 entries and other entities to implement bridging and SRv6 capabilities. 
 
-<embed src="/assets/P4WS_2019/P4D2_2019/Advanced Track Agenda.pdf" width="255px" height="330px" />
+<iframe src="/assets/P4WS_2019/P4D2_2019/Advanced Track Agenda.pdf" width="510" height="660" frameborder="0" style="border:0" allowfullscreen></iframe> 
+
+&nbsp;
 
 <form>
 <input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Register Here!"
