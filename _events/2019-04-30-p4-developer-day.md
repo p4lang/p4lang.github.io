@@ -52,7 +52,7 @@ problems in networking including:
 Only basic programming knowledge is required, but familiarity with
 Python and using a Linux virtual machines will be helpful. 
 
-<iframe src="/assets/P4WS_2019/P4D2_2019/Beginnier_Track_Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe src="/assets/P4WS_2019/P4D2_2019/Beginner_Track_Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
 
