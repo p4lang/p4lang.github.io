@@ -40,7 +40,7 @@ made available shortly before the Developer Day itself.
 
 ### <u>Beginner Track</u> 
 
-<a href="#beginner">This track</a> is for developers who are new to P4 and want a
+This track is for developers who are new to P4 and want a
 tutorial-style introduction to the languages main features. It is
 organized around a series of programming exercises in which
 participants implement conventional and novel solutions to various
@@ -70,7 +70,7 @@ onclick="window.location.href='https://bit.ly/2GkNUwK'"
 
 ### <u>Advanced Track</u> 
 
-<a href="#advanced">This track</a> is for developers with intermediate knowledge of the P4
+This track is for developers with intermediate knowledge of the P4
 language. It is organized around a sequence of hands-on exercises that
 show how to build a leaf-spine data center fabric based on Segment
 Routing over IPv6 (SRv6), using the ONOS SDN controller:
