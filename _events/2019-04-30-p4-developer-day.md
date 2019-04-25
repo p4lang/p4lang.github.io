@@ -54,7 +54,7 @@ problems in networking including:
 Only basic programming knowledge is required, but familiarity with
 Python and using a Linux virtual machines will be helpful. 
 
-<iframe src="/assets/P4WS_2019/P4D2_2019/Beginner_Track_Agenda.v2.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe src="/assets/P4WS_2019/P4D2_2019/Beginner_Track, Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
 
@@ -87,7 +87,7 @@ provided with a skeleton implementation of the applicationq to
 complete, filling in the relevant parts to generate run-time table
 entries and other entities to implement bridging and SRv6 capabilities. 
 
-<iframe src="/assets/P4WS_2019/P4D2_2019/Advanced_Track_Agenda.v2.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe src="/assets/P4WS_2019/P4D2_2019/Advanced_Track, Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
 
