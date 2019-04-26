@@ -58,9 +58,9 @@ Python and using a Linux virtual machines will be helpful.
 
 ### Virtual Machine
 
-We have created a VM with everything needed to work on the tutorial exercises, including the P4 Compiler, Behavioral Model, starter code, and editors. We suggest downloading the VM and executing the instructions below **ahead of the tutorial.**
+We have created a VM with everything needed to work on the tutorial exercises, including the P4 Compiler, Behavioral Model, starter code, and editors. We suggest downloading the VM and executing the instructions below <b>ahead of the tutorial.</b>
 
-Use the following **[link](https://drive.google.com/uc?id=1lYF4NgFkYoRqtskdGTMxy3sXUV0jkMxo&export=download)** to download the VM image (5.2 GB).
+Use the following <u>[link](https://drive.google.com/uc?id=1lYF4NgFkYoRqtskdGTMxy3sXUV0jkMxo&export=download)</u> to download the VM image (5.2 GB).
 
 ---
 
@@ -68,9 +68,9 @@ Use the following **[link](https://drive.google.com/uc?id=1lYF4NgFkYoRqtskdGTMxy
 
 The VM is in .ova format and has been created using VirtualBox. To run the VM you can use any modern virtualization system, although we recommend using VirtualBox. For instructions on how to get VirtualBox and import the VM, use the following links:
 
-[VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
+<u>[VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)</u>
 
-[Importing a VM](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
+<u>[Importing a VM](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)</u>
 
 Login Credentials *(To access the Ubuntu system in the VM, use the following credentials with sudo privileges):*
 * User: p4
@@ -119,6 +119,45 @@ brief introduction to ONOS for beginners. Participants will be
 provided with a skeleton implementation of the applicationq to
 complete, filling in the relevant parts to generate run-time table
 entries and other entities to implement bridging and SRv6 capabilities. 
+
+---
+
+### Virtual Machine
+We have created a VM with everything needed to work on the tutorial exercises, including ONOS, stratum_bmv2, Mininet, P4Runtime, PTF, and code editors. We suggest downloading the VM and executing the instructions below <b>ahead of the tutorial.</b>
+
+Use the following <u>[link](http://bit.ly/p4d2-spring19-adv-vm)</u> to download the VM (5.3 GB). Please make note of the backup <u>[link](http://bit.ly/p4d2-spring19-adv-vm-2)</u>, as well.
+
+---
+
+#### **1.) Import and Run the VM**
+
+The VM is in .ova format and has been created using VirtualBox v6.0.6. To run the VM you can use any modern virtualization system, although we recommend using VirtualBox. For instructions on how to get VirtualBox and import the VM, use the following links:
+
+<u>[VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)</u>
+
+<u>[Importing a VM](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)</u>
+
+Login Credentials *(To access the Ubuntu system in the VM, use the following credentials with sudo privileges):*
+* User: sdn
+* Password: rocks
+
+---
+
+#### * System Requirements
+
+The current configuration of the VM is 4 GB of RAM and 4 core CPU. These are the recommended minimum system requirements to complete the exercises. When imported, the VM takes approx. 8 GB of HDD space. For a flawless experience, we recommend running the VM on a host system that has at least the double of resources.
+
+---
+
+#### **2.) Generate SSH Keys**
+
+ONOS uses SSH key-based authentication to access its command line interface (CLI). Before using ONOS, you need to generate public/private rsa key pair using the following command inside the VM:
+
+ssh-keygen -t rsa -f ~/.ssh/id_rsa -P " -q
+
+---
+
+### Agenda
 
 <iframe src="/assets/P4WS_2019/P4D2_2019/Advanced_Track, Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
