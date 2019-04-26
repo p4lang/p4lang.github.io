@@ -29,7 +29,7 @@ onclick="window.location.href='https://bit.ly/2GkNUwK'"
 &nbsp;
 &nbsp;
 
-## Agenda
+## Developer Day Tracks
 
 New for this year, we are offering two tracks for the developer day: a
 beginner track and an advanced track. Both tracks will be delivered by
@@ -53,6 +53,31 @@ problems in networking including:
 
 Only basic programming knowledge is required, but familiarity with
 Python and using a Linux virtual machines will be helpful. 
+
+&nbsp;
+
+### Virtual Machine
+
+We have created a VM with everything needed to work on the tutorial exercises, including the P4 Compiler, Behavioral Model, starter code, and editors. We suggest downloading the VM and executing the instructions below **ahead of the tutorial.**
+
+Use the following [link](https://drive.google.com/uc?id=1lYF4NgFkYoRqtskdGTMxy3sXUV0jkMxo&export=download) to download the VM image (5.2 GB).
+
+#### Import and Run the VM
+
+The VM is in .ova format and has been created using VirtualBox. To run the VM you can use any modern virtualization system, although we recommend using VirtualBox. For instructions on how to get VirtualBox and import the VM, use the following links:
+
+[VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
+[Importing a VM](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
+
+Login Credentials *(To access the Ubuntu system in the VM, use the following credentials with sudo privileges):*
+* User: p4
+* Password: p4
+
+#### System Requirements
+
+The current configuration of the VM is 2 GB of RAM and 2 CPUs. These are the recommended minimum system requirements to complete the exercises. When imported, the VM takes approximately 8 GB of disk space. For the best experience, we recommend running the VM on a host system that has at least twice as many resources.
+
+### Agenda
 
 <iframe src="/assets/P4WS_2019/P4D2_2019/Beginner_Track, Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
