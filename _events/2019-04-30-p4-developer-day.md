@@ -125,7 +125,7 @@ entries and other entities to implement bridging and SRv6 capabilities.
 ### Virtual Machine
 We have created a VM with everything needed to work on the tutorial exercises, including ONOS, stratum_bmv2, Mininet, P4Runtime, PTF, and code editors. We suggest downloading the VM and executing the instructions below ***ahead of the tutorial.***
 
-Use the following <u>[link](http://bit.ly/p4d2-spring19-adv-vm)</u> to download the VM (5.3 GB). Please make note of the backup __[link](http://bit.ly/p4d2-spring19-adv-vm-2)__, as well.
+Use the following __[link](http://bit.ly/p4d2-spring19-adv-vm)__ to download the VM (5.3 GB). Please also make note of the backup __[link](http://bit.ly/p4d2-spring19-adv-vm-2)__.
 
 ---
 
