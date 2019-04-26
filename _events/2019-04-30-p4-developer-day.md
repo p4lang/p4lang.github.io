@@ -54,11 +54,15 @@ problems in networking including:
 Only basic programming knowledge is required, but familiarity with
 Python and using a Linux virtual machines will be helpful. 
 
+---
+
 ### Virtual Machine
 
 We have created a VM with everything needed to work on the tutorial exercises, including the P4 Compiler, Behavioral Model, starter code, and editors. We suggest downloading the VM and executing the instructions below **ahead of the tutorial.**
 
-Use the following **[link](https://drive.google.com/uc?id=1lYF4NgFkYoRqtskdGTMxy3sXUV0jkMxo&export=download) to download the VM image (5.2 GB).**
+Use the following **[link](https://drive.google.com/uc?id=1lYF4NgFkYoRqtskdGTMxy3sXUV0jkMxo&export=download)** to download the VM image (5.2 GB).
+
+---
 
 #### **Import and Run the VM**
 
@@ -72,10 +76,14 @@ Login Credentials *(To access the Ubuntu system in the VM, use the following cre
 * User: p4
 * Password: p4
 
+---
+
 #### **System Requirements**
 
 The current configuration of the VM is 2 GB of RAM and 2 CPUs. These are the recommended minimum system requirements to complete the exercises. When imported, the VM takes approximately 8 GB of disk space. For the best experience, we recommend running the VM on a host system that has at least twice as many resources.
 &nbsp;
+
+---
 
 ### Agenda
 
