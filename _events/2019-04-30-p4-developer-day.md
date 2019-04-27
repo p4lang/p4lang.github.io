@@ -87,7 +87,7 @@ The current configuration of the VM is 2 GB of RAM and 2 CPUs. These are the rec
 
 ### Agenda
 
-<iframe src="/assets/P4WS_2019/P4D2_2019/Beginner_Track_Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe src="/assets/P4WS_2019/P4D2_2019/Agenda, Beginner_Track.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
 
@@ -159,7 +159,7 @@ Command: ssh-keygen -t rsa -f ~/.ssh/id_rsa -P '' -q
 
 ### Agenda
 
-<iframe src="/assets/P4WS_2019/P4D2_2019/Advanced_Track_Agenda.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe src="/assets/P4WS_2019/P4D2_2019/Agenda, Advanced_Track.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
 
