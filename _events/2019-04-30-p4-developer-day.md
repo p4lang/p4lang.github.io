@@ -11,14 +11,6 @@ header-img: assets/p4-background.png
 <img src="/assets/cisco-logo.png" alt="Cisco" /> <img src="/assets/barefoot-logo.png" alt="Barefoot Networks" />  
 &nbsp;
 
-## Registration 
-#### P4 Developer Day 2019 registration is live. 
-<form>
-<input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Buy Tickets Here!"
-onclick="window.location.href='https://bit.ly/2GkNUwK'"
-/>
-</form>
-
 ## Venue
 #### Address: Arrillaga Alumni Center, 326 Galvez St, Stanford, CA 94305
 #### Directions:
@@ -91,14 +83,6 @@ The current configuration of the VM is 2 GB of RAM and 2 CPUs. These are the rec
 
 &nbsp;
 
-<form>
-<input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Register Here!"
-onclick="window.location.href='https://bit.ly/2GkNUwK'"
-/>
-</form>
-
-**Make sure to choose 'Beginner Track' from the drop-down menu during registration.**
-
 ---
 
 ### <u>Advanced Track</u> 
@@ -162,14 +146,6 @@ Command: ssh-keygen -t rsa -f ~/.ssh/id_rsa -P '' -q
 <iframe src="/assets/P4WS_2019/P4D2_2019/Agenda, Advanced_Track.pdf" width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
-
-<form>
-<input type="button" style="font-weight:bold; background:#9370d8; color:#ffffff;" value="Register Here!"
-onclick="window.location.href='https://bit.ly/2GkNUwK'"
-/>
-</form>
-
-**Make sure to choose 'Advanced Track' from the drop-down menu during registration.**
 
 ### Instructors
 
