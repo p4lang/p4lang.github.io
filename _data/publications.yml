@@ -370,10 +370,23 @@
     url: 'https://dl.acm.org/citation.cfm?id=3286080'
     type: 'workshop'
 -
+    title: "Packet Subscriptions for Programmable ASICs"
+    authors: "Theo Jepsen, Masoud Moshref, Antonio Carzaniga, Nate Foster, Robert Soulé"
+    venue: "ACM Workshop on Hot Topics in Networks (HotNets)"
+    date: '2018-11-15'
+    url: 'https://dl.acm.org/citation.cfm?id=3286092'
+    type: 'workshop'
+-
     title: "The Case For In-Network Computing On Demand"
     authors: "Yuta Tokusashi, Huynh Tu Dang, Fernando Pedone, Robert Soulé, and Noa Zilberman"
     venue: "European Conference on Computer Systems (EuroSYS)"
     date: '2019-03-25'
     url: 'https://dl.acm.org/citation.cfm?id=3303979'
     type: 'conference' 
-
+-
+    title: "Fast String Searching on PISA"
+    authors: "Theo Jepsen, Daniel Alvarez, Nate Foster, Changhoon Kim, Jeongkeun Lee, Masoud Moshref, Robert Soulé"
+    venue: "ACM SIGCOMM Symposium on Software Defined Networking Research (SOSR)"
+    date: '2019-04-03'
+    url: 'https://dl.acm.org/citation.cfm?id=3314356'
+    type: 'conference'
