@@ -209,12 +209,12 @@
     url: 'https://dl.acm.org/citation.cfm?id=3098823'
     type: 'conference'
 -
-    title: "Designing Fast and Programmable Routers"
-    authors: "Anirudh Sivaraman"
-    institution: "Massachusetts Institute of Technology"
-    date: '2017-08-31'
-    url: 'https://dspace.mit.edu/handle/1721.1/113936'
-    type: 'dissertation'
+    title: "SilkRoad: Making Stateful Layer-4 Load Balancing Fast and Cheap Using Switching ASICs"
+    authors: "Rui Miao, Hongyi Zeng, Changhoon Kim, Jeongkeun Lee, and Minlan Yu"
+    venue: "ACM Conference of the Special Interest Group on Data Communication (SIGCOMM)"
+    date: "2017-08-22"
+    url: "https://dl.acm.org/citation.cfm?id=3098822.3098824"
+    type: "conference"
 -
     title: "Data Plane Programmability Beyond OpenFlow: Opportunities and Challenges for Network and Service Operations and Management"
     authors: "Weverton Luis da Costa Cordeiro, Jonatas Adilson Marques, Luciano Paschoal Gaspary"
