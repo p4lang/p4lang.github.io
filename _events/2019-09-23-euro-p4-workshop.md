@@ -9,7 +9,8 @@ header-img: assets/p4-background.png
     
 #### Held at Cambridge, UK on September 23, 2019
 
-EuroP4 2019 is the second P4 Language Consortium event in Europe. It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
+EuroP4 2019 is the second P4 Language Consortium event in Europe.  
+It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
 EuroP4, which will run as a workshop at ANCS 2019, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects and seeks three types of contributions:
 * Papers  - 4 to 6 pages long.
@@ -18,10 +19,10 @@ EuroP4, which will run as a workshop at ANCS 2019, will have proceedings. It aim
 
 
 ### Important Dates
-Submission (paper/poster/demo) deadline: July 19th, 2019
-Acceptance notification: August 10th, 2019
-Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2018
-Late submissions notification: August 23rd, 2018
+Submission (paper/poster/demo) deadline: July 19th, 2019  
+Acceptance notification: August 10th, 2019  
+Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2018  
+Late submissions notification: August 23rd, 2018  
 
 
 ### Venue
@@ -35,19 +36,7 @@ William Gates Building
 [Maps and directions](https://www.cl.cam.ac.uk/maps/)
 
 
-#### Registration
-[Registration is through ANCS 2019](http://http://www.ancsconf.org/) 
-
-
 ### Agenda
-
-&nbsp;&nbsp;&nbsp;TBA
-
-### Accepted Posters
-
-&nbsp;&nbsp;&nbsp;TBA
-
-### Accepted Demos
 
 &nbsp;&nbsp;&nbsp;TBA
 
