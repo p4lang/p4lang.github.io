@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P4 Hackathon in Frankfurt
+title: P4 Hackathon in Amsterdam
 date: 2019-10-18
 header-img: assets/p4-background.png
 ---
@@ -11,9 +11,7 @@ header-img: assets/p4-background.png
 
 The P4 Hackathon aims to develop novel, proof-of-concept data plane applications, and to support the open-source community through the development of tools and infrastructure.
 
-The hackathon is intended for P4 users of all levels - from beginners to experts. 
-
-We are keen to meet new people, see new faces, and create new collaborations between (and within) academia and industry!
+The hackathon is intended for P4 users of all levels - from beginners to experts. We are keen to meet new people, see new faces, and create new collaborations between (and within) academia and industry!
 
 ### Venue
 
@@ -36,18 +34,19 @@ This agenda is tentative, and subject to change. Please check closer to the date
 
 ---
 
-* __9:00 - 10:00am__
+* __9:00 - 9:15__
 
     * Registration 
+    * Coffee & Light Snacks
 
 ---
 
-* __9:30 - 10:00__
+* __9:15 - 9:30__
 
     * Welcome and Introductions
 
 
-* __10:00 - 13:00__
+* __9:30 - 13:00__
 
     * P4 introductory course for beginners 
     * Break into interest groups and hack!
@@ -90,20 +89,18 @@ Everyone should feel welcome taking part in the event, and we will enforce a str
 
 ### Organization
 
+* [Aaron A. Glenn](http://aagico.com/), AAGlenn Internetworking Company
 * [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247/) (chair), University of Cambridge \(P4 Education Working Group\)
 * [Robert Soul&eacute;](https://www.inf.usi.ch/faculty/soule/) (chair), Universit&agrave; della Svizzera italiana \(P4 Education Working Group\)
-* [Aaron A. Glenn](http://aagico.com/), AAGlenn Internetworking Company
 
 ### Special Thanks to our Sponsors:
 
 
-<table cellpadding="50">
-<tr><td><a href="https://www.kpn.com/"><img src="/assets/DE-CIX_Logo_2016_rgb.png" height="200" alt="KPN" /></a></td><td>&nbsp;</td>
-<td><a href="https://www.stordis.com/"><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="400" alt="Stordis" /></a></td><td>&nbsp;</td></tr>
-<tr> <td><a href="https://https://agema.deltaww.com/"><img src="/assets/delta_logo.png" width="400" alt="Delta Networks, Inc."></a></td>
-<td><a href="http://aagico.com/"><img src="/assets/aagico_small.png" alt="AAGlenn Internetworking Company" /></a></td>
-</tr>
+<table>
+<tr><td><a href="https://www.kpn.com/"><img src="/assets/kpn-logo.jpg" height="200" alt="KPN" /></a></td></tr>
+<tr><td><a href="https://www.stordis.com/"><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="400" alt="Stordis" /></a></td></tr>
+<tr><td><a href="http://aagico.com/"><img src="/assets/aagico_small.png" alt="AAGlenn Internetworking Company" /></a></td></tr>
 </table>
 
-Thank you to KPN for sponsoring the event location in full.
+Thank you to KPN for providing the event location and  sponsoring food & drink in full.
 
