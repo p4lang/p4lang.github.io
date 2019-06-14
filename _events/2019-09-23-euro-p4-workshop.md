@@ -48,16 +48,30 @@ William Gates Building
 
 
 ### General Chairs
-* Noa Zilberman University of Cambridge
-* Robert Soulé Università della Svizzera italiana
+* [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247/), Univeristy of Cambridge
+* [Robert Soulé](http://www.cs.yale.edu/homes/soule/), Yale University
 
 ### Program Chairs
-* Gianni Antichi, Queen Mary University of London
-* Fernando Ramos, University of Lisbon
+* [Gianni Antichi](https://gianniantichi.github.io/), Queen Mary University of London
+* [Fernando Ramos](http://fvramos.at.di.fc.ul.pt/), University of Lisbon
 
 ### Technical Program Committee
 
-&nbsp;&nbsp;&nbsp;TBA
+* [Gordon Brebner](https://sites.google.com/site/gordonbrebner/Home), Xilinx
+* [Paolo Costa](https://www.microsoft.com/en-us/research/people/pcosta/), Microsoft Research
+* [Jon Crowcroft](https://www.cl.cam.ac.uk/~jac22/), University of Cambridge
+* [Ben Pfaff](https://benpfaff.org), VMware
+* Georgios Nikolaidis, Barefoot Networks
+* [Marco Chiesa](https://marchiesa.bitbucket.io/), KTH
+* [Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari/), University of Budapest
+* [Roberto Bifulco](http://robertobifulco.it/), NEC
+* [Ran Ben Basat](http://www.bbasat.com/), Harvard University
+* [Andreas Kassler](https://www.kau.se/forskare/andreas-kassler), Karlstads University
+* [Mario Baldi](http://staff.polito.it/mario.baldi/), Cisco and Polytechnic of Turin
+* [Christian Rothenberg](http://www.dca.fee.unicamp.br/~chesteve/), University of Campinas
+* [Muhammad Shahbaz](https://mshahbaz.github.io/), Stanford University
+* [Aurojit Panda](https://cs.nyu.edu/~apanda/), New York University
+* Marcin Wojicik, University of Cambridge
 
 ### Special Thanks to our Sponsors:
 
