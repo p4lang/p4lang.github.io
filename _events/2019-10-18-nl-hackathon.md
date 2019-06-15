@@ -91,7 +91,7 @@ Everyone should feel welcome taking part in the event, and we will enforce a str
 
 * [Aaron A. Glenn](http://aagico.com/), AAGlenn Internetworking Company
 * [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247/) (chair), University of Cambridge \(P4 Education Working Group\)
-* [Robert Soul&eacute;](https://www.inf.usi.ch/faculty/soule/) (chair), Universit&agrave; della Svizzera italiana \(P4 Education Working Group\)
+* [Robert Soul&eacute;](http://www.cs.yale.edu/homes/soule/) (chair), Yale University \(P4 Education Working Group\)
 
 ### Special Thanks to our Sponsors:
 
