@@ -44,4 +44,4 @@ restricted. Please become a [member](/join-us/).
 - GitHub: [https://github.com/p4lang/education/](https://github.com/p4lang/education)
 - Co-Chairs:
     - Noa Zilberman (University of Cambridge)
-    - Robert Soul&eacute; (Universit&agrave; della Svizzera italiana)
+    - Robert Soul&eacute; (Yale)
