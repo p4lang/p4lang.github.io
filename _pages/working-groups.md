@@ -20,7 +20,7 @@ restricted. Please become a [member](/join-us/).
 
 # API Working Group
 - Mailing list: [Sign up](http://lists.p4.org/mailman/listinfo/p4-api_lists.p4.org), [Archive](http://lists.p4.org/pipermail/p4-api_lists.p4.org/)
-- GitHub: [https://github.com/p4lang/PI](https://github.com/p4lang/PI)
+- GitHub: [https://github.com/p4lang/p4runtime](https://github.com/p4lang/p4runtime)
 - Co-chairs:
     - Antonin Bas (Barefoot)
     - Waqar Mohsin (Google)
