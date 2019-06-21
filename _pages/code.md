@@ -50,11 +50,13 @@ Multicast, MPLS, ACL, SFLOW and even In-band Network Telemetry (INT).
     new archiectures by implementing new externs and enabling you to
     organize the forwarding elements as needed.
 
-## P4 Runtime
+## P4Runtime
 
-- The specification and reference implementation
-    for <a href="https://github.com/p4lang/PI">P4 Runtime</a>, a runtime API
+- The specification and Protobuf/gRPC interface definitions for
+    <a href="https://github.com/p4lang/p4runtime">P4Runtime</a>, a runtime API
     and protocol for controlling data-plane programs.
+- A <a href="https://github.com/p4lang/PI">reference implementation</a> for
+    P4Runtime.
 
 ## Packet Test Framework (PTF)
 
