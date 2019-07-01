@@ -38,7 +38,8 @@ William Gates Building
 
 ### Agenda
 
-&nbsp;&nbsp;&nbsp;TBA
+&nbsp;&nbsp;&nbsp;<b>Keynote Speaker:</b> [Costin Raiciu](http://nets.cs.pub.ro/~costin/), Universitatea Politehnica Bucuresti  
+&nbsp;&nbsp;&nbsp;Talks,Posters,Demos to be announced.
 
 #### Registration
 [Registration is through ANCS 2019](http://www.ancsconf.org/) 
