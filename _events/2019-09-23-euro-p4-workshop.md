@@ -76,7 +76,12 @@ William Gates Building
 
 ### Special Thanks to our Sponsors:
 
-
-Contact the workshop chairs for sponsorship opportunities. 
+<table>
+<tr>
+<td align="center"></td>
+<td><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="300" alt="Stordis" /></td>
+<td><img src="/assets/delta_logo.png" width="300" alt="Delta" /></td>
+</tr>
+</table>
 
 
