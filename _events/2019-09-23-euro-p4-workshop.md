@@ -56,6 +56,9 @@ William Gates Building
 * [Gianni Antichi](https://gianniantichi.github.io/), Queen Mary University of London
 * [Fernando Ramos](http://fvramos.at.di.fc.ul.pt/), University of Lisbon
 
+### Web Chair
+* [Salvatore Signorello](https://wwwfr.uni.lu/snt/people/salvatore_signorello), University of Lisbon
+
 ### Technical Program Committee
 
 * [Gordon Brebner](https://sites.google.com/site/gordonbrebner/Home), Xilinx
