@@ -13,9 +13,9 @@ EuroP4 2019 is the second P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
 EuroP4, which will run as a workshop at ANCS 2019, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects and seeks three types of contributions:
-* Papers  - 4 to 6 pages long.
-* Posters - up to 2 pages long.
-* Demos  - up to 2 pages long.
+* Papers  - up to 6 pages long (references included).
+* Posters - up to 2 pages long (references included).
+* Demos  - up to 2 pages long (references included).
 
 
 ### Important Dates
