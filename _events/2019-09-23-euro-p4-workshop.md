@@ -24,6 +24,12 @@ Acceptance notification: August 10th, 2019
 Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2018  
 Late submissions notification: August 23rd, 2018  
 
+### Submission instructions
+Papers must be formatted following the guidelines shown in the [ANCS website](http://www.ancsconf.org/home/paper-submission-2019)   
+In addition:
+* Papers submitted to EuroP4 should be of no more than six (6) single-spaced pages (including references). 
+* Posters/Demos submitted to EuroP4 should be of no more than two (2) single-spaced pages (including references).
+* All papers must be submitted electronically via the submission site: <b>TBA</b>
 
 ### Venue
 
@@ -40,9 +46,6 @@ William Gates Building
 
 &nbsp;&nbsp;&nbsp;<b>Keynote Speaker:</b> [Costin Raiciu](http://nets.cs.pub.ro/~costin/), Universitatea Politehnica Bucuresti  
 &nbsp;&nbsp;&nbsp;Talks,Posters,Demos to be announced.
-
-#### Submission instructions
-&nbsp;&nbsp;&nbsp;TBA
 
 #### Registration
 [Registration is through ANCS 2019](http://www.ancsconf.org/) 
