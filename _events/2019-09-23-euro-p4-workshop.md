@@ -29,7 +29,7 @@ Papers must be formatted following the guidelines shown in the [ANCS website](ht
 In addition:
 * Papers submitted to EuroP4 should be of no more than six (6) single-spaced pages (including references). 
 * Posters/Demos submitted to EuroP4 should be of no more than two (2) single-spaced pages (including references).
-* All papers must be submitted electronically via the submission site: <b>TBA</b>
+* All papers must be submitted electronically via the submission site: [EuroP4 HotCRP](https://europ4.hotcrp.di.fc.ul.pt/home/)
 
 ### Venue
 
