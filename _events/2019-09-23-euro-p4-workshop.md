@@ -17,9 +17,18 @@ EuroP4, which will run as a workshop at ANCS 2019, will have proceedings. It aim
 * Posters - up to 2 pages long (references included).
 * Demos  - up to 2 pages long (references included).
 
+Topics of an interest include, but are not limited to:
+* All aspects of P4-based network protocol research including design, specification, verification, implementation, measurement, testing, and analysis.
+* Contributions to network architecture using P4, e.g., specific algorithms and protocols for network virtualization or future Internet architectures.
+* New applications and in-network computing enabled by P4
+* P4-based and P4-NetFPGA based programmable data planes
+* End-host networking with P4
+* Tools and frameworks for development using P4
+* Performance analysis and measurement of P4-based designs and systems
+* Contributions to the evolution of the P4 language
 
 ### Important Dates
-Submission (paper/poster/demo) deadline: July 19th, 2019  
+Submission (paper/poster/demo) deadline: ~~July 19th, 2019~~ <font color='red'>EXTENDED DEADLINE:</font> July 22nd, 2019  
 Acceptance notification: August 10th, 2019  
 Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2018  
 Late submissions notification: August 23rd, 2018  
