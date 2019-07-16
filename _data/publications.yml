@@ -393,7 +393,7 @@
 -
     title: "How to Avoid Making a Billion-Dollar Mistake: Type-Safe Data Plane Programming with SafeP4"
     authors: "Matthias Eichholz, Eric Campbell, Nate Foster, Guido Salvaneschi, Mira Mezini"
-    venue: "European Conference on Object-Oriented Programming",
-    date: '2019-07-18',
+    venue: "European Conference on Object-Oriented Programming"
+    date: '2019-07-18'
     url: 'http://drops.dagstuhl.de/opus/volltexte/2019/10804/'
     type: 'conference'
