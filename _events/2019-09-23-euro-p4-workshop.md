@@ -34,8 +34,7 @@ Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2
 Late submissions notification: August 23rd, 2018  
 
 ### Submission instructions
-Papers must be formatted following the guidelines shown in the [ANCS website](http://www.ancsconf.org/home/paper-submission-2019)   
-In addition:
+* Papers must be formatted following the guidelines shown in the [ANCS website](http://www.ancsconf.org/home/paper-submission-2019)   
 * Papers submitted to EuroP4 should be of no more than six (6) single-spaced pages (including references). 
 * Posters/Demos submitted to EuroP4 should be of no more than two (2) single-spaced pages (including references).
 * All papers must be submitted electronically via the submission site: [EuroP4 HotCRP](https://europ4.hotcrp.di.fc.ul.pt/home/)
