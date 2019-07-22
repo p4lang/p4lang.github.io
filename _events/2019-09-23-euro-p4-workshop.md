@@ -98,6 +98,8 @@ William Gates Building
 <td align="center"></td>
 <td><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="300" alt="Stordis" /></td>
 <td><img src="/assets/delta_logo.png" width="300" alt="Delta" /></td>
+<td><img src="/assets/FCT_logo.png" width="300" alt="FCT" /></td>
+<td><img src="/assets/Lasige_Logo.jpg" width="300" alt="Lasige" /></td>
 </tr>
 </table>
 
