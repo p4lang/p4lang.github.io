@@ -41,7 +41,7 @@ Late submissions notification: August 23rd, 2019
 
 ### Late Submission instructions
 * Papers submitted to EuroP4 should be of no more than one (1) page (including references).
-* All papers must be submitted electronically via the submission site: TBA
+* All papers must be submitted electronically via the submission site: [EuroP4 Late Submission HotCRP](https://europ4.hotcrp.di.fc.ul.pt/1pageAbstracts/)
 
 
 ### Venue
