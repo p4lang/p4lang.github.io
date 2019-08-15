@@ -33,17 +33,6 @@ Acceptance notification: August 10th, 2019
 Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2019 
 Late submissions notification: August 23rd, 2019
 
-### Submission instructions
-* Papers must be formatted following the guidelines shown in the [ANCS website](http://www.ancsconf.org/home/paper-submission-2019)   
-* Papers submitted to EuroP4 should be of no more than six (6) single-spaced pages (including references). 
-* Posters/Demos submitted to EuroP4 should be of no more than two (2) single-spaced pages (including references).
-* All papers must be submitted electronically via the submission site: [EuroP4 HotCRP](https://europ4.hotcrp.di.fc.ul.pt/home/)
-
-### Late Submission instructions
-* Papers submitted to EuroP4 should be of no more than one (1) page (including references).
-* All papers must be submitted electronically via the submission site: [EuroP4 Late Submission HotCRP](https://europ4.hotcrp.di.fc.ul.pt/1pageAbstracts/)
-
-
 ### Venue
 
 University of Cambridge  
@@ -54,17 +43,140 @@ William Gates Building
 
 [Maps and directions](https://www.cl.cam.ac.uk/maps/)
 
-
-### Agenda
-
-&nbsp;&nbsp;&nbsp;<b>Keynote Speaker:</b> [Costin Raiciu](http://nets.cs.pub.ro/~costin/), Universitatea Politehnica Bucuresti  
-&nbsp;&nbsp;&nbsp;Talks,Posters,Demos to be announced.
-
 #### Registration
-[Registration is through ANCS 2019](http://www.ancsconf.org/) 
+[Registration is through ANCS 2019](http://www.ancsconf.org/)
 
 #### Travel Grants
 [Refer to ANCS travel grants page](http://www.ancsconf.org/)
+
+#### Camera Ready
+Information available soon!
+
+
+### Agenda
+
+---
+
+* __8:30 - 9:15am__
+
+    * Registration and Breakfast
+
+---
+
+* __9:15 - 9:30__
+
+    * _Welcome and Introductions_
+
+---    
+
+* __9:30 - 10:30__
+
+    * _Keynote_: Title to be announced
+
+      Speaker: [Professor Costin Raiciu](http://nets.cs.pub.ro/~costin/) (Universitatea Politehnica Bucuresti)
+
+----
+
+* __10:30 - 11:00__
+
+    * _Coffee break_
+
+----
+
+* __11:00 - 12:15__
+
+    * _Offloading data plane functions to the multi-tenant Cloud Infrastructure using P4._
+Tomasz Osi&nacute;ski (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs & Warsaw University of Technology), Halina Tarasiuk (Warsaw University of Technology), Roland Picard (Orange Labs)
+
+    * _P4DNS: In-Network DNS._
+Jackson Woodruff (University of Cambridge), Murali Ramanujam (University of Cambridge), Noa Zilberman (University of Cambridge)
+
+    * _Cryptographic Hashing in P4 Data Planes._
+Dominik Scholz (Technical University of Munich), Andreas Oeldemann (Technical University of Munich), Fabien Geyer (Technical University of Munich), Sebastian Gallenm&uuml;ller (Technical University of Munich), Henning Stubbe (Technical University of Munich), Thomas Wild (Technical University of Munich), Andreas Herkersdorf (Technical University of Munich), Georg Carle (Technical University of Munich)
+
+
+----
+
+* __12:15 - 13:45__
+
+    * _Lunch break_
+
+----
+
+* __13:45 - 15:00__
+
+    * _daPIPE - A Data Plane Incremental Programming Environment._
+Mario Baldi (Cisco Systems and Politecnico di Torino)
+
+    * _Random Linear Network Coding on Programmable Switches._
+Diogo Gon&ccedil;alves (University of Lisbon), Salvatore Signorello (University of Lisbon), Fernando M.V. Ramos (University of Lisbon), Muriel Medard (MIT)
+
+    * _Towards Understanding the Performance of P4 Programmable Hardware._
+Hasanin Harkous (Technical University of Munich/ Nokia Bell Labs), Michael Jarschel (Nokia Bell Labs), Mu He (Technical University of Munich), Rastin Pries (Nokia Bell Labs), Wolfgang Kellerer (Technical University of Munich)
+
+----
+
+* __15:00 - 15:15__
+
+    * _Posters and Demos introduction and pitch_
+
+----
+
+* __15:15 - 16:15__
+
+    * _Coffee break with Posters and Demos_
+
+----
+
+* __16:15 - 17:15__ (Non-Proceeding Track)
+
+    * _Towards Neural Network Inference on Programmable Switches._
+Jonatan Langlet (Karlstad University), Andreas Kassler (Karlstad University), Deval Bhamare (Karlstad University)
+
+    * _In-Network Traffic Redundancy Elimination over Programmable Data Plane._
+Hongrok Choi (Korea University), Seokwon Jang (Korea University), Sangheon Pack (Korea University)
+
+    * _An Analysis Framework for Programmable Networks._
+Doganalp Ergenc (University of Hamburg), G&ouml;ksel &Scedil;im&scedil;ek (METU), Ertan Onur (METU)
+
+    * _Estimation of logarithmic and exponential functions entirely in P4-programmable data planes._
+Damu Ding (FBK CREATE-NET research center), Marco Savi (FBK CREATE-NET research center), Domenico Siracusa (FBK CREATE-NET research center)
+
+    * _Resource-Efficient Service Function Chaining in Programmable Data Plane._
+Hochan Lee (Korea University), Jaewook Lee (Korea University), Haneul Ko (Korea University), Sangheon Pack (Korea University)
+
+----
+
+* __17:15 - 17:30__
+
+    * _Closing_
+
+----
+
+* __18:00 onwards
+
+    * _Social Event_
+This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 2019](http://www.ancsconf.org/) website for more information.
+
+
+### Accepted Posters
+
+* *P4MT: Multi-Tenant Support Prototype for International P4 Testbed.* Jim Hao Chen (iCAIR/Northwestern University), Buck Chung (National Chiao Tung University), Chien-Chao Tseng (National Chiao Tung University), Joe Mambretti (iCAIR/Northwestern University)
+
+* *Sketch-based Entropy Estimation for Network Traffic Analysis using Programmable Data Plane ASICs.*  Yu-Kuen Lai (Chung-Yuan Christian University), Ku-Yeh Shih (Chung-Yuan Christian University), Po-Yu Huang (Chung-Yuan Christian University), Ho-Ping Lee (Chung-Yuan Christian University), Yu-Jau Lin (Chung-Yuan Christian University), Te-Lung Liu (Narlabs), Jim Chen (Northwestern University)
+
+* *Graph-to-P4: A P4 boilerplate code generator for parse graphs.* Eder Ollora Zaballa (Technical University of Denmark), Zifan Zhou (Technical University of Denmark)
+
+* *Asynchronous Extern Functions in Programmable Software Data Planes.* Daniel Horpacsi (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Sandor Laki (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Peter Voros (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Mate Tejfel (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Gergely Pongracz (Ericsson Research), Laszlo Molnar (Ericsson Research) 
+
+### Accepted Demos
+
+* *P4-NetFPGA-based network slicing solution for 5G MEC architectures.* Ruben Ricart-Sanchez (University of the West of Scotland), Pedro Malagon (Universidad Politecnica de Madrid), Jose M. Alcaraz-Calero (University of the West of Scotland), Qi Wang (University of the West of Scotland)
+
+* *Using P4 on Fixed-Pipeline and Programmable Stratum Switches.* Brian O'Connor (ONF), Yi Tseng (ONF), Maximilian Pudelko (ONF), Alireza Ghaffarkhah (Google), Devjit Gopalpur (Google)
+
+* *How to measure the speed of light with programmable data plane hardware?.* Ralf Kundel (TU Darmstadt), Fridolin Siegmund (TU Darmstadt), Boris Koldehofe (TU Darmstadt)
+
 
 
 ### General Chairs
