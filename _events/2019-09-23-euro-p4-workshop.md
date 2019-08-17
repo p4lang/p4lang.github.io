@@ -27,12 +27,6 @@ Topics of an interest include, but are not limited to:
 * Performance analysis and measurement of P4-based designs and systems
 * Contributions to the evolution of the P4 language
 
-### Important Dates
-Submission (paper/poster/demo) deadline: ~~July 19th, 2019~~ <font color='red'>EXTENDED DEADLINE:</font> July 22nd, 2019  
-Acceptance notification: August 10th, 2019  
-Late submissions (1 page abstract, WITHOUT PROCEEDINGS) deadline: August 10th, 2019 
-Late submissions notification: August 23rd, 2019
-
 ### Venue
 
 University of Cambridge  
@@ -86,7 +80,7 @@ Information available soon!
 * __11:00 - 12:15__
 
     * _Offloading data plane functions to the multi-tenant Cloud Infrastructure using P4._
-Tomasz Osi&nacute;ski (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs & Warsaw University of Technology), Halina Tarasiuk (Warsaw University of Technology), Roland Picard (Orange Labs)
+Tomasz Osinski (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs & Warsaw University of Technology), Halina Tarasiuk (Warsaw University of Technology), Roland Picard (Orange Labs)
 
     * _P4DNS: In-Network DNS._
 Jackson Woodruff (University of Cambridge), Murali Ramanujam (University of Cambridge), Noa Zilberman (University of Cambridge)
@@ -137,7 +131,7 @@ Jonatan Langlet (Karlstad University), Andreas Kassler (Karlstad University), De
 Hongrok Choi (Korea University), Seokwon Jang (Korea University), Sangheon Pack (Korea University)
 
     * _An Analysis Framework for Programmable Networks._
-Doganalp Ergenc (University of Hamburg), G&ouml;ksel &Scedil;im&scedil;ek (METU), Ertan Onur (METU)
+Doganalp Ergenc (University of Hamburg), G&ouml;ksel Simsek (METU), Ertan Onur (METU)
 
     * _Estimation of logarithmic and exponential functions entirely in P4-programmable data planes._
 Damu Ding (FBK CREATE-NET research center), Marco Savi (FBK CREATE-NET research center), Domenico Siracusa (FBK CREATE-NET research center)
@@ -153,7 +147,7 @@ Hochan Lee (Korea University), Jaewook Lee (Korea University), Haneul Ko (Korea 
 
 ----
 
-* __18:00 onwards
+* __18:00 onwards__
 
     * _Social Event_
 This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 2019](http://www.ancsconf.org/) website for more information.
