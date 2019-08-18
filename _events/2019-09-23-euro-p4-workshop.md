@@ -122,7 +122,7 @@ Hasanin Harkous (Technical University of Munich/ Nokia Bell Labs), Michael Jarsc
 
 ----
 
-* __16:15 - 17:15__ (Non-Proceeding Track)
+* __16:15 - 17:15__ (No Proceedings Track)
 
     * _Towards Neural Network Inference on Programmable Switches._
 Jonatan Langlet (Karlstad University), Andreas Kassler (Karlstad University), Deval Bhamare (Karlstad University)
