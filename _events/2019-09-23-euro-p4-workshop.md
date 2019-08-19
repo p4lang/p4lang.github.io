@@ -65,9 +65,46 @@ Information available soon!
 
 * __9:30 - 10:30__
 
-    * _Keynote_: Title to be announced
+    * _Keynote_: Undefined behaviours in P4 progams: find them, fix them or exploit them.
 
-      Speaker: [Professor Costin Raiciu](http://nets.cs.pub.ro/~costin/) (Universitatea Politehnica Bucuresti)
+      Speaker: [Professor Costin Raiciu](http://nets.cs.pub.ro/~costin/) (University Politehnica of Bucharest)
+
+      <details>
+        <summary>
+        Abstract
+        </summary>
+	P4 programs can exhibit a series of undefined behaviours including inexistent 
+	header accesses, infinite loops, parser errors, and so forth, much like C programs 
+	can include use-after-free errors, out-of-bounds accesses and so forth. Such bugs 
+	were found in most programs examined, be they small or large. A part of my talk 
+	will discuss what might happen if buggy programs are deployed in practice by 
+	examining how different P4 targets behave when undefined behaviours are present 
+	in P4 programs, finding that a range of exploits are possible whose severity 
+	depends on the target.
+	Luckily, P4 is not Turing-complete and automated approaches at finding such bugs 
+	have been proposed and are quite promising. Works such as p4v, Vera or p4-assert 
+	can find all bugs before deployment as long as the programmer can provide table 
+	rules that will appear in practice or provide a control plane invariant which 
+	are predicates that table rules will obbey at runtime. Still, these tools place a 
+	significant verification burden on the programmer, and it the jury is still out 
+	on whether they will be used in practice.
+	In the remainder of my talk I will cover existing approaches to find bugs in P4 
+	programs, as well as presenting new work towards elliminating the need for programmer 
+	input in the verification process. 
+      </details>
+
+      <details>
+        <summary>
+        Biography
+        </summary>
+	Costin Raiciu is Associate Professor at University Politehnica of Bucharest where 
+	he leads the Netsys group. Costin finished his PhD at UCL in 2011. His current 
+	research focus is on network verification. In his past work, Costin was one of the 
+	main people behind the development, implementation and standardization of Multipath 
+	TCP, a protocol that is now deployed by Apple and Samsung on their mobile devices. 
+	Recently, Costin worked on NDP, which is a radical redesign of the datacenter networking 
+	stack (ACM SIGCOMM 2017).     
+      </details>
 
 ----
 
