@@ -2,5 +2,10 @@
 <script src="{{ site.baseurl }}/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
-(new Date().getTimezoneOffset() / 60 == -8 ? $("#youtube").hide() : $("#youku").hide());
+if (new Date().getTimezoneOffset() / 60 == -8) {
+    $("#video").hide();
+    $("#youtube").hide();
+} else {
+    $("#youku").hide();
+}
 </script>  
