@@ -176,6 +176,9 @@ Damu Ding (FBK CREATE-NET research center), Marco Savi (FBK CREATE-NET research 
     * _Resource-Efficient Service Function Chaining in Programmable Data Plane._
 Hochan Lee (Korea University), Jaewook Lee (Korea University), Haneul Ko (Korea University), Sangheon Pack (Korea University)
 
+    * _How NRENs can benefit from P4._
+Mauro Campanella (GARR), Pavel Benacek (CESNET), Ivana Golub (PSNC), Xavier Jeannin (RENATER), Damian Parniewicz (PSNC), Marco Savi (FBK), Frederic Loui (RENATER)
+
 ----
 
 * __17:15 - 17:30__
@@ -199,6 +202,7 @@ This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 
 * *Graph-to-P4: A P4 boilerplate code generator for parse graphs.* Eder Ollora Zaballa (Technical University of Denmark), Zifan Zhou (Technical University of Denmark)
 
 * *Asynchronous Extern Functions in Programmable Software Data Planes.* Daniel Horpacsi (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Sandor Laki (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Peter Voros (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Mate Tejfel (ELTE E&ouml;tv&ouml;s Lor&aacute;nd University, Budapest, Hungary), Gergely Pongracz (Ericsson Research), Laszlo Molnar (Ericsson Research) 
+
 
 ### Accepted Demos
 
