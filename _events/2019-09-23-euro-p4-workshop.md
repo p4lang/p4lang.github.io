@@ -167,9 +167,6 @@ Jonatan Langlet (Karlstad University), Andreas Kassler (Karlstad University), De
     * _In-Network Traffic Redundancy Elimination over Programmable Data Plane._
 Hongrok Choi (Korea University), Seokwon Jang (Korea University), Sangheon Pack (Korea University)
 
-    * _An Analysis Framework for Programmable Networks._
-Doganalp Ergenc (University of Hamburg), G&ouml;ksel Simsek (METU), Ertan Onur (METU)
-
     * _Estimation of logarithmic and exponential functions entirely in P4-programmable data planes._
 Damu Ding (FBK CREATE-NET research center), Marco Savi (FBK CREATE-NET research center), Domenico Siracusa (FBK CREATE-NET research center)
 
