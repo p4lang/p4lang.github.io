@@ -212,7 +212,7 @@ This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 
 
 
 ### General Chairs
-* [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247/), Univeristy of Cambridge
+* [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247/), University of Cambridge
 * [Robert Soulé](http://www.cs.yale.edu/homes/soule/), Yale University
 
 ### Program Chairs
@@ -245,7 +245,7 @@ This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 
 <table>
 <tr>
 <td align="center"></td>
-<td><img src="/assets/Stordis_logo_flat_grey+slogan.png" width="300" alt="Stordis" /></td>
+<td><img src="/assets/Stordis_Logo_Flat+slogan.png" width="300" alt="Stordis" /></td>
 <td><img src="/assets/delta_logo.png" width="300" alt="Delta" /></td>
 </tr>
 <tr>
