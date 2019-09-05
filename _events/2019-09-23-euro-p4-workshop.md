@@ -44,7 +44,7 @@ William Gates Building
 [Refer to ANCS travel grants page](http://www.ancsconf.org/)
 
 #### Camera Ready
-Information available soon!
+[Refer to ANCS Camera Ready page](http://www.ancsconf.org/home/camera-ready-instructions-2019)
 
 
 ### Agenda
