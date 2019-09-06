@@ -137,7 +137,7 @@ Dominik Scholz (Technical University of Munich), Andreas Oeldemann (Technical Un
 * __13:45 - 15:00__
 
     * _daPIPE - A Data Plane Incremental Programming Environment._
-Mario Baldi (Cisco Systems and Politecnico di Torino)
+Mario Baldi (Politecnico di Torino)
 
     * _Random Linear Network Coding on Programmable Switches._
 Diogo Gon&ccedil;alves (University of Lisbon), Salvatore Signorello (University of Lisbon), Fernando M.V. Ramos (University of Lisbon), Muriel Medard (MIT)
@@ -234,7 +234,7 @@ This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 
 * [Roberto Bifulco](http://robertobifulco.it/), NEC
 * [Ran Ben Basat](http://www.bbasat.com/), Harvard University
 * [Andreas Kassler](https://www.kau.se/forskare/andreas-kassler), Karlstads University
-* [Mario Baldi](http://staff.polito.it/mario.baldi/), Cisco and Polytechnic of Turin
+* [Mario Baldi](http://staff.polito.it/mario.baldi/), Politecnico di Torino
 * [Christian Rothenberg](http://www.dca.fee.unicamp.br/~chesteve/), University of Campinas
 * [Muhammad Shahbaz](https://mshahbaz.github.io/), Stanford University
 * [Aurojit Panda](https://cs.nyu.edu/~apanda/), New York University
