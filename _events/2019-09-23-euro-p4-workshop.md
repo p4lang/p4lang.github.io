@@ -12,11 +12,6 @@ header-img: assets/p4-background.png
 EuroP4 2019 is the second P4 Language Consortium event in Europe.  
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-EuroP4, which will run as a workshop at ANCS 2019, will have proceedings. It aims to enable researchers to publish early stage work and small scale projects and seeks three types of contributions:
-* Papers  - up to 6 pages long (references included).
-* Posters - up to 2 pages long (references included).
-* Demos  - up to 2 pages long (references included).
-
 Topics of an interest include, but are not limited to:
 * All aspects of P4-based network protocol research including design, specification, verification, implementation, measurement, testing, and analysis.
 * Contributions to network architecture using P4, e.g., specific algorithms and protocols for network virtualization or future Internet architectures.
@@ -26,6 +21,10 @@ Topics of an interest include, but are not limited to:
 * Tools and frameworks for development using P4
 * Performance analysis and measurement of P4-based designs and systems
 * Contributions to the evolution of the P4 language
+
+Papers are available [here](https://www.cl.cam.ac.uk/research/srg/netos/projects/netfpga/conf/europ42019/)
+(Please, note that papers are accessible at the moment only for EuroP4 participats)
+
 
 ### Venue
 
