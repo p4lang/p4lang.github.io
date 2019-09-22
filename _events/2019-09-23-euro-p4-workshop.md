@@ -253,6 +253,10 @@ This event will be held in conjuction with the IEEE ANCS reception. Check [ANCS 
 <td><img src="/assets/FCT_logo.png" width="300" alt="FCT" /></td>
 <td><img src="/assets/Lasige_Logo.jpg" width="300" alt="Lasige" /></td>
 </tr>
+<tr>
+<td align="center"></td>
+<td><img src="/assets/uni_cam.jpg" width="300" alt="CAM" /></td>
+</tr>
 </table>
 
 
