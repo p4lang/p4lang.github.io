@@ -465,6 +465,7 @@ In the software switch CLI use the `table_add` command to add four routes to the
 * All traffic to prefix 12.12.0.0/16 is sent to port 2
 * All traffic to prefix 20.20.20.0/24 is dropped
 * All traffic that doesn’t match any of the above prefixes is dropped as well because the default action for the table is drop.
+
 ```
 RuntimeCmd: table_add ipv4_match to_port_action 10.10.0.0/16 => 0
 Adding entry to lpm match table ipv4_match
