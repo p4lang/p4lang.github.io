@@ -31,8 +31,8 @@ Create an AWS t2.large instance running Ubuntu 18.04 LTS and assign it
 run out of disk space and/or out of memory.
 
 Use an SSH client to log in to your newly created AWS instance (here I
-use the macOS ssh client). Replace <private-key> with the name of your
-SSH private key file and replace <aws-instance> with the IPv4 address
+use the macOS ssh client). Replace `<private-key>` with the name of your
+SSH private key file and replace `<aws-instance>` with the IPv4 address
 of your AWS instance.
 ```
 ssh -i ~/.ssh/<private-key> ubuntu@<aws-instance>
