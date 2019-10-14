@@ -3,37 +3,25 @@ layout: post
 title: "Getting Started with P4"
 author: "Bruno Rijsman"
 category: p4
+date: 2019-10-14
 header-img: assets/p4-background.png
 ---
 
-*Editor Note: This post was originally published by Bruno Rijsman on his [personal blog](https://hikingandcoding.wordpress.com/). We are re-publishing it here with permission as it provides an excellent introduction to using the P4 open-source softare tools.*
+*Editor Note: This post was originally written by Bruno Rijsman for his [personal blog](https://hikingandcoding.wordpress.com/). We are re-publishing it here (with permission) as it provides an excellent introduction to getting started with the P4 language using the software tools that have been developed by the open-source community.*
 
 # Introduction
 
-I recently got serious about learning P4, a programming language for
-the data plan in networking devices such as routers, switches, and
-Network Interface Cards (NICs).
+I recently got serious about learning P4, a programming language for the data plan in networking devices such as routers, switches, and Network Interface Cards (NICs).
 
-It took me a while to figure out the exact sequence of steps for
-writing a minimal P4 program, compiling it, actually getting it to run
-on a simulated software switch, injecting some packets, and observing
-how the P4 program forwards the injected packets. To save you the
-aggravation of figuring it out for yourself, I’ve documented the
-equivalent of “hello world” for P4. 
+It took me a while to figure out the exact sequence of steps for writing a minimal P4 program, compiling it, actually getting it to run on a simulated software switch, injecting some packets, and observing how the P4 program forwards the injected packets. To save you the aggravation of figuring it out for yourself, I’ve documented the equivalent of "hello world" for P4. 
 
 # Create the server
 
-I will use an Amazon Web Services (AWS) instance to host the P4 switch
-and I assume that you already have an AWS account.
+I will use an Amazon Web Services (AWS) instance to host the P4 switch and I assume that you already have an AWS account.
 
-Create an AWS t2.large instance running Ubuntu 18.04 LTS and assign it
-20GB of disk storage. Smaller instances are not sufficient: they will
-run out of disk space and/or out of memory.
+Create an AWS t2.large instance running Ubuntu 18.04 LTS and assign it 20GB of disk storage. Smaller instances are not sufficient: they will run out of disk space and/or out of memory.
 
-Use an SSH client to log in to your newly created AWS instance (here I
-use the macOS ssh client). Replace `<private-key>` with the name of your
-SSH private key file and replace `<aws-instance>` with the IPv4 address
-of your AWS instance.
+Use an SSH client to log in to your newly created AWS instance (here I use the macOS ssh client). Replace `<private-key>` with the name of your SSH private key file and replace `<aws-instance>` with the IPv4 address of your AWS instance.
 ```
 ssh -i ~/.ssh/<private-key> ubuntu@<aws-instance>
 ```
@@ -151,10 +139,7 @@ sudo make install
 ```
 # Install the P4 software switch
 
-We will now install a P4 software switch to run our P4 program. This
-switch is also known as the "behavioral model version 2 (BMV2)" or as
-"simple_switch". The P4 architecture file for this switch is
-`v1model.p4`.
+We will now install a P4 software switch to run our P4 program. This switch is also known as the "behavioral model version 2 (BMV2)" or as "simple_switch". The P4 architecture file for this switch is `v1model.p4`.
 
 Clone the P4 behavioral model model GitHub repo:
 ```
@@ -177,17 +162,11 @@ Install the software switch:
 sudo make install
 sudo ldconfig
 ```
-The steps up until now are pretty time consuming, so it is worthwhile
-taking a snapshot of your AWS instance for future P4 projects.
+The steps up until now are pretty time consuming, so it is worthwhile taking a snapshot of your AWS instance for future P4 projects.
 
 # Write a P4 program
 
-Our minimal P4 program will only process IPv4 over Ethernet packets
-and it will contain only a single table that does a
-longest-prefix-match lookup on the destination IP address to decide
-the outgoing port. That’s it. The focus is not on producing a useful
-or interesting P4 program. Instead the focus is on documenting the
-steps required to get started with P4 programming.
+Our minimal P4 program will only process IPv4 over Ethernet packets and it will contain only a single table that does a longest-prefix-match lookup on the destination IP address to decide the outgoing port. That’s it. The focus is not on producing a useful or interesting P4 program. Instead the focus is on documenting the steps required to get started with P4 programming.
 
 Create a directory for the P4 program:
 ```
@@ -326,14 +305,9 @@ V1Switch(my_parser(),
          my_compute_checksum(),
          my_deparser()) main;
 ```
-This is an extremely simple program. It has a single lookup table,
-which does a longest-prefix-match (LPF) on the destination IP address
-in the received packet. The action is either drop the packet, or
-forward the packet to a specific output port.
+This is an extremely simple program. It has a single lookup table, which does a longest-prefix-match (LPF) on the destination IP address in the received packet. The action is either drop the packet, or forward the packet to a specific output port.
 
-Note: Personally, instead of editing the files directly on the AWS
-instance, I prefer to run the Visual Studio Code editor locally on my
-MacBook and use it to remotely edit the files on the AWS instance:
+Note: Personally, instead of editing the files directly on the AWS instance, I prefer to run the Visual Studio Code editor locally on my MacBook and use it to remotely edit the files on the AWS instance:
 
 * Install the [Visual Studio Code remote development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 * In Visual Studio Code, press F1 to open the command palette
@@ -342,35 +316,19 @@ MacBook and use it to remotely edit the files on the AWS instance:
 
 # Compile the P4 program
 
-Compile the P4 program. The `-b` option selects `bmv2` (Behavioral
-Model Version 2) as the target, which is the software switch that we
-will use to run the P4 program.
+Compile the P4 program. In the commands below, the `-b` option selects `bmv2` (Behavioral Model Version 2) as the target, which is the software switch that we will use to run the P4 program.
 ```
 p4c -b bmv2 test.p4 -o test.bmv2
 ```
-This compiler generates a directory test.bmv2 which contains a file
-test.json which the generated “executable” code which is run by the
-software switch.
+This compiler generates a directory test.bmv2 which contains a file `test.json` which the generated "executable" code which is run by the software switch.
 
 # Create virtual Ethernet interfaces
 
 We will now create three pairs of virtual Ethernet (`veth`) interfaces.
 
-A veth interface is a virtual (i.e. fake) Ethernet interface on which
-an application (the software switch in our case) can send and receive
-Ethernet packets in the same way a a real Ethernet interface. However,
-in the case of a veth interface the packets do not go out a real
-Ethernet port. Instead, veth interfaces are always created in pairs.
-We will create three pairs: `veth0-veth1`, `veth2-veth3`, and `veth4-veth5`.
-When the application sends packet on one veth interface it arrives on
-the other `veth` interface of the pair.
+A `veth` interface is a virtual (i.e. fake) Ethernet interface on which an application (the software switch in our case) can send and receive Ethernet packets in the same way a a real Ethernet interface. However, in the case of a veth interface the packets do not go out a real Ethernet port. Instead, `veth` interfaces are always created in pairs. We will create three pairs: `veth0-veth1`, `veth2-veth3`, and `veth4-veth5`. When the application sends packet on one veth interface it arrives on the other `veth` interface of the pair.
 
-Create the three pairs of virtual Ethernet interfaces. We set the
-Message Transfer Unit (MTU) of each interface to 9500 to allow us to
-send and receive jumbo packets. And we disable IPv6 on each interface
-to stop the kernel from sending router solicitation and multicast
-listener reports (this does not prevent the software switch from
-sending IPv6 packets over the interface).
+Create the three pairs of virtual Ethernet interfaces. We set the Message Transfer Unit (MTU) of each interface to 9500 to allow us to send and receive jumbo packets. And we disable IPv6 on each interface to stop the kernel from sending router solicitation and multicast listener reports (this does not prevent the software switch from sending IPv6 packets over the interface).
 ```
 # First pair: veth0-veth1
 sudo ip link add name veth0 type veth peer name veth1
@@ -576,32 +534,13 @@ This time, the packet is forwarded to port 2 (interface veth4, which is connecte
 
 # Why am I interested in P4?
 
-Given my general interest in Software Defined Networking (SDN) and
-network programmability, learning P4 has been on my TODO list for
-quite a while.
+Given my general interest in Software Defined Networking (SDN) and network programmability, learning P4 has been on my TODO list for quite a while.
 
-But the specific trigger for rolling up my sleeves and getting my
-hands dirty writing an actual P4 program was a [series of
-seminars](https://github.com/brunorijsman/qutech-seminars) that I
-presented at [QuTech](https://qutech.nl/) at the [Delft University of
-Technology](https://www.tudelft.nl/en/) (my alma mater) in the
-Netherlands.
+But the specific trigger for rolling up my sleeves and getting my hands dirty writing an actual P4 program was a [series of seminars](https://github.com/brunorijsman/qutech-seminars) that I presented at [QuTech](https://qutech.nl/) at the [Delft University of Technology](https://www.tudelft.nl/en/) (my alma mater) in the Netherlands.
 
-I presented these seminars to the physicists and mathematicians
-working on the [Quantum
-Internet](https://qutech.nl/roadmap/quantum-internet/). Most of the
-professors, postdocs, PhDs, and students working in this group have a
-very strong background in physics and quantum mechanics, but less
-practical experience in the field of networking (they call it
-"classical networks" to distinguish it from "quantum networks"). The
-purpose of these seminars was to bring them up to speed with basic
-concepts and recent developments in the field of classical networking.
+I presented these seminars to the physicists and mathematicians working on the [Quantum Internet](https://qutech.nl/roadmap/quantum-internet/). Most of the professors, postdocs, PhDs, and students working in this group have a very strong background in physics and quantum mechanics, but less practical experience in the field of networking (they call it "classical networks" to distinguish it from "quantum networks"). The purpose of these seminars was to bring them up to speed with basic concepts and recent developments in the field of classical networking.
 
-In [one of these
-seminars](https://github.com/brunorijsman/qutech-seminars/blob/master/qutech-seminar-4---data-plane-p4---2019-09-12---v1.pdf)
-I discussed the data plane in general and the possibility of using P4
-to program quantum networks (the short answer is that it looks
-promising). 
+In [one of these seminars](https://github.com/brunorijsman/qutech-seminars/blob/master/qutech-seminar-4---data-plane-p4---2019-09-12---v1.pdf) I discussed the data plane in general and the possibility of using P4 to program quantum networks (the short answer is that it looks promising). 
 
 # Further reading
 
