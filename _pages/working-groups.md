@@ -22,7 +22,7 @@ restricted. Please become a [member](/join-us/).
 - Mailing list: [Sign up](http://lists.p4.org/mailman/listinfo/p4-api_lists.p4.org), [Archive](http://lists.p4.org/pipermail/p4-api_lists.p4.org/)
 - GitHub: [https://github.com/p4lang/p4runtime](https://github.com/p4lang/p4runtime)
 - Co-chairs:
-    - Antonin Bas (Barefoot)
+    - Antonin Bas (VMware)
     - Waqar Mohsin (Google)
 
 # Architecture Working Group
@@ -44,4 +44,4 @@ restricted. Please become a [member](/join-us/).
 - GitHub: [https://github.com/p4lang/education/](https://github.com/p4lang/education)
 - Co-Chairs:
     - Noa Zilberman (University of Cambridge)
-    - Robert Soul&eacute; (Yale)
+    - Robert Soul&eacute; (Yale University)
