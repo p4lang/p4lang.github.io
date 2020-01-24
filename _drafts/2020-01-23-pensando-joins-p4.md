@@ -23,7 +23,7 @@ encryption, and relies on P4 to provide dataplane programmability at
 wire rate.
 
 <p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-naples.png" alt="Naples Distributed Services Card" width="600" /><strong>Figure 1: Naples Distributed Services Card.</strong></p>
-Pensando announces P4-programmable platform and joins P4 community
+
 ## The Power of the Network Edge
 
 Network switches have been the initial focus of P4 programming, but
