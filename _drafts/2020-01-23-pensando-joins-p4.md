@@ -22,7 +22,7 @@ accelerate computation intensive functions, such as compression and
 encryption, and relies on P4 to provide dataplane programmability at
 wire rate.
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensandi-naples.png" alt="Naples Distributed Services Card" width="600" /><strong>Figure 1: Naples Distributed Services Card.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-naples.png" alt="Naples Distributed Services Card" width="600" /><strong>Figure 1: Naples Distributed Services Card.</strong></p>
 Pensando announces P4-programmable platform and joins P4 community
 ## The Power of the Network Edge
 
@@ -116,7 +116,7 @@ fit into local cache) and avoid fetching instructions from outside
 cache (since, as a result of table matches, each stage only executes
 simple actions that are implemented by a small set of operations).
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensandi-arch.png" alt="Naples Distributed Services Card Architecture" width="600" /><strong>Figure 2: Naples Distributed Services Card Architecture.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-arch.png" alt="Naples Distributed Services Card Architecture" width="600" /><strong>Figure 2: Naples Distributed Services Card Architecture.</strong></p>
 
 The number and organization of stages in various pipelines is key to
 ensure the capability of performing complex processing and
