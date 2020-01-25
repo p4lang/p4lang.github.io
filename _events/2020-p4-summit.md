@@ -1,7 +1,7 @@
 ---
 layout: post
 title: P4 Summit 2020
-date: 2020-04-29 & 2020-04-30
+date: 2020-04-29
 header-img: assets/p4-background.png
 ---
 
