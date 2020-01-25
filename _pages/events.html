@@ -20,7 +20,7 @@ header-img: "assets/p4-background.png"
           <li>
             <hr>
             <h3><a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a></h3>
-            <small class="hidden-xs">{{ event.date | date: "%B %-d, %Y" }}</small>
+            <small class="hidden-xs">{% if event.end_date %}{{ event.date | date: "%B %-d" }}&ndash;{{ event.end_date | date: "%B %-d, %Y" }}{% else %}{{ event.date | date: "%B %-d, %Y" }}{% endif %}</small>
           </li>
       {% if forloop.last %}
         </ul>
