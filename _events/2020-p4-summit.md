@@ -1,12 +1,17 @@
 ---
 layout: post
 title: P4 Summit 2020
+date: 2020-04-29-04-30
 header-img: assets/p4-background.png
 ---
 
-## A Presentation by the P4 Language Consortium and Open Networking Foundation  
-### *Held at Stanford University on Wednesday, April 29 and Thursday, April 30, 2020* 
+## A Presentation by the P4 Language Consortium and  
+## Open Networking Foundation  
+#### *Held at Stanford University on Wednesday, April 29 and Thursday, April 30, 2020* 
 
+### **More details on the event and registration coming soon!**
+
+---
 ## Venue
 #### &nbsp;&nbsp;&nbsp;&nbsp;Address: Arrillaga Alumni Center, 326 Galvez St, Stanford, CA 94305
 #### &nbsp;&nbsp;&nbsp;&nbsp;Directions below:
