@@ -9,6 +9,10 @@ header-img: assets/p4-background.png
 ### A Presentation by the P4 Language Consortium and <br /> Open Networking Foundation  
 #### Held at Stanford University on *Wednesday, April 29 and Thursday, April 30, 2020* 
 
+### Program Chairs
+* [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/), New York University
+* [Larry Peterson](https://www.opennetworking.org/executive-team/#bio-Larry-Peterson), Open Networking Foundation
+
 ---
 
 ### **More details on the event and registration coming soon!**
