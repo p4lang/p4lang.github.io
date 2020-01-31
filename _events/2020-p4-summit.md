@@ -16,7 +16,7 @@ Put it on your calendar now and don't miss it!
 ---
 
 ### Call for Proposal
-**Submission site**: [https://summit-cfp-2020.p4.org/] <br />
+**Submission site**: <https://summit-cfp-2020.p4.org/> <br />
 **Deadline**: March 13, 2020 11:59pm PT (firm) <br />
 **Notification**: March 27, 2020
 
