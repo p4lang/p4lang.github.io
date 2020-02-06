@@ -9,20 +9,20 @@ header-img: assets/p4-background.png
 
 Pensando Systems recently introduced a Distributed Services Card (DSC)
 based on a custom, fully-programmable processor optimized to execute
-P4 programs. The Naples DSC is the centerpiece of a Distributed
+P4 programs. The DSC is the centerpiece of a Distributed
 Services Platform designed to deliver high-performance, scalable
 networking, storage and security services. This unique approach
 removes the appliance bottleneck, offers unmatched visibility on
 traffic, and provides significant benefits for various use cases in
 private, public or hybrid clouds, as well as enterprise data center
 networks where east-west security concerns are increasingly becoming
-an issue. Easily installed in standard servers, the Naples DSC, shown
+an issue. Easily installed in standard servers, the DSC, shown
 in the figure below, includes specialized hardware blocks to
 accelerate computation intensive functions, such as compression and
 encryption, and relies on P4 to provide dataplane programmability at
 wire rate.
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-naples.png" alt="Naples Distributed Services Card" width="600" /><strong>Figure 1: Naples Distributed Services Card.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-naples.png" alt="Distributed Services Card" width="600" /><strong>Figure 1: Distributed Services Card.</strong></p>
 
 ## The Power of the Network Edge
 
@@ -84,7 +84,7 @@ a viable option. Hence, P4 programmable adapters, such as the Naples
 Distributed Services Card, are a perfect fit to effectively support
 services at the network edge.
 
-P4 is a key enabler of the Naples DSC flexibility, while ensuring its
+P4 is a key enabler of the DSC flexibility, while ensuring its
 high-performance. Designing a processing architecture for the
 efficient execution of P4 programs and implementing applications on it
 offered Pensando a way of getting deeply involved with P4. While the
@@ -99,7 +99,7 @@ community into its products, as well as having the community embrace some of the
 and ideas matured within Pensando and including them into relevant
 specs.
 
-## The Naples Distributed Services Card (DSC) 
+## The Distributed Services Card (DSC) 
 
 Figure 2 shows the DSC architecture. The P4 Packet
 Processing Data Plane provides high performance packet processing
@@ -116,14 +116,14 @@ fit into local cache) and avoid fetching instructions from outside
 cache (since, as a result of table matches, each stage only executes
 simple actions that are implemented by a small set of operations).
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-arch.png" alt="Naples Distributed Services Card Architecture" width="600" /><strong>Figure 2: Naples Distributed Services Card Architecture.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/pensando-arch.png" alt="Distributed Services Card Architecture" width="600" /><strong>Figure 2: Distributed Services Card Architecture.</strong></p>
 
 The number and organization of stages in various pipelines is key to
 ensure the capability of performing complex processing and
 versatility, respectively. If the number of stages that can be
 pipelined is not large enough for implementing a given functionality,
 packet recirculation is necessary, thus affecting achievable
-throughput. In Naples, stages are organized in separate blocks of
+throughput. In the DSC, stages are organized in separate blocks of
 parallel pipelines. Since each pipeline has a maximum amount of
 packets per second it can process, the degree of parallelism in each
 block ensures wire rate operation capability. Different blocks can be
@@ -136,8 +136,8 @@ execute various complex applications (including, but not limited to,
 SSL/TLS offload, NVMe-oF/TCP, stateful firewall) at wire speed, this
 design provides impressive scale and good granularity to alternate
 processing performed in a pipeline with processing performed by the
-other processing modules. Moreover, each block of pipelines can fetch
-and deliver packets from and to Naples memory, the host, and the
+other processing modules. Moreover, pipeline blocks can fetch
+and deliver packets from and to DSC memory, the host, and the
 Packet Buffer. In order to fully leverage the versatility of the
 specialized processors deployed in the pipeline and the tight
 integration with other components of the card, programming relies on
@@ -173,22 +173,22 @@ has been designed to read and store each packet at least
 once, in addition to performing a number of table lookups and state
 updates while the packet is being processed.
 
-Configuration and management of applications that run on the
-Naples DSC can be performed through either the PCIe interface (i.e.,
+Configuration and management of applications that run on the DSC 
+can be performed through either the PCIe interface (i.e.,
 by the host) or the network interfaces (i.e., by a remote controller,
-such as Pensando’s Venice). Naples exposes a REST and a gRPC API that
+such as Pensando’s Policy and Services Manager or PSM). The DSC exposes a REST and a gRPC API that
 can be deployed by central controllers or management systems.
 
-Pensando is currently shipping two versions of the Naples DSC: one
+Pensando is currently shipping two DSC versions: one
 with two 10/25 Gb/s ports and one with two 40/100 Gb/s ports, each
 fractionable as two ports at 10, 25, or 50 Gb/s. Although available on
 the market for a short time, a few customers are already deploying the
 cards in production environments.
 
-While the Naples DSC is offered as part of a Distributed Services
+While the DSC is offered as part of a Distributed Services
 Platform on which Pensando has developed a number of applications
 (including both control and data plane components), selected customers
-are leveraging an early version of Naples development tools to
+are leveraging an early version of DSC development tools to
 implement their own applications on the card. However, opening the
 platform to programming by a wider user community will require the
 availability of an architectural model and a full set of powerful
