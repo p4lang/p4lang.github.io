@@ -31,9 +31,9 @@ the principles of P4 when applied to the endnodes at the periphery of
 the network can fulfill an even greater potential. Endnodes can
 implement network, security, and storage services in a scale-out
 model, similar to the one leveraged for cloud computing. Services
-implemented in P4 at the network edge scale naturally because as more
-hosts and workloads are added to the network, also more DSCs with
-their processing resources are added. At the same time, more
+implemented in P4 at the network edge scale naturally, because as more
+hosts and workloads are added to the network, more DSCs with
+their processing resources are also added. At the same time, more
 sophisticated processing can be performed on each packet, given that
 (i) edge devices deal with lower packet rates and (ii) the closeness
 of services to the traffic source and destination can provide added
@@ -43,7 +43,7 @@ If services are implemented in a distributed fashion at the network
 edge, traffic naturally hits them, without the need for complex and
 inefficient mechanisms to steer traffic through centralized
 appliances. This is especially true for East-West traffic (i.e., among
-workloads) that in modern cloud data centers accounts for about 90% of
+workloads), which in modern cloud data centers, accounts for about 90% of
 the overall traffic.
 
 Cloud and enterprise data centers are typically organized around Layer
@@ -51,11 +51,11 @@ Cloud and enterprise data centers are typically organized around Layer
 and spine switches are simple, high performance IP routers that
 utilize IP ECMP (Equal Cost Multi-Path) routing to spread traffic
 flows across multiple paths, thus achieving high throughput by
-leveraging all available transmission resources. In this scenario it
+leveraging all available transmission resources. In this scenario, it
 is impossible to have centralized appliances naturally on the path of
 any packet.
 
-Instead flows must be steered through the appliances, which results in
+Instead, flows must be steered through the appliances, which results in
 a phenomenon called traffic tromboning: packets have to cross the Clos
 network multiple times, disrupting the traffic optimization offered by
 the ECMP routing implemented by the spine and leaf routers across the
@@ -79,7 +79,7 @@ added.
 
 However, a pure software-based solution does not scale at cloud level
 and dedicated hardware is required in the host. Because these services
-are complex and evolve over time, also fixed function hardware is not
+are complex and evolve over time, fixed function hardware is also not
 a viable option. Hence, P4 programmable adapters, such as the Naples
 Distributed Services Card, are a perfect fit to effectively support
 services at the network edge.
@@ -94,8 +94,8 @@ would like to share the matured experience and ideas with the P4
 community through its active participation in relevant Working Groups
 with the goal of getting feedback from its very experienced members.
 This can have the valuable twofold outcome of Pensando incorporating
-into its products support for new features proposed within the
-community, as well as the community embracing some of the extensions
+support for new features proposed within the
+community into its products, as well as having the community embrace some of the extensions
 and ideas matured within Pensando and including them into relevant
 specs.
 
@@ -169,11 +169,11 @@ application layer processing.
 
 In order to enable access to full packets when operating at wire speed
 on both network interfaces (i.e., at 200~Gbps), the memory bandwidth
-has been designed to be able to read and store each packet at least
+has been designed to read and store each packet at least
 once, in addition to performing a number of table lookups and state
 updates while the packet is being processed.
 
-Configuration and management of applications that are run on the
+Configuration and management of applications that run on the
 Naples DSC can be performed through either the PCIe interface (i.e.,
 by the host) or the network interfaces (i.e., by a remote controller,
 such as Pensando’s Venice). Naples exposes a REST and a gRPC API that
