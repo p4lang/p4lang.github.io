@@ -115,13 +115,13 @@ William Gates Building
 
 * __11:00 - 12:15__
 
-    * _Offloading data plane functions to the multi-tenant Cloud Infrastructure using P4._ (<a href="https://ieeexplore.ieee.org/document/8901895">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-01.pdf">Slides</a>)
+    * _Offloading data plane functions to the multi-tenant Cloud Infrastructure using P4._ (<a href="https://ieeexplore.ieee.org/document/8901895">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-01.pdf">Slides</a>)   
 Tomasz Osinski (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs & Warsaw University of Technology), Halina Tarasiuk (Warsaw University of Technology), Roland Picard (Orange Labs)
 
-    * _P4DNS: In-Network DNS._ (<a href="https://ieeexplore.ieee.org/document/8901896">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-02.pdf">Slides</a>)
+    * _P4DNS: In-Network DNS._ (<a href="https://ieeexplore.ieee.org/document/8901896">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-02.pdf">Slides</a>)   
 Jackson Woodruff (University of Cambridge), Murali Ramanujam (University of Cambridge), Noa Zilberman (University of Cambridge)
 
-    * _Cryptographic Hashing in P4 Data Planes._ (<a href="https://ieeexplore.ieee.org/document/8901886">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-03.pdf">Slides</a>)
+    * _Cryptographic Hashing in P4 Data Planes._ (<a href="https://ieeexplore.ieee.org/document/8901886">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-03.pdf">Slides</a>)   
 Dominik Scholz (Technical University of Munich), Andreas Oeldemann (Technical University of Munich), Fabien Geyer (Technical University of Munich), Sebastian Gallenm&uuml;ller (Technical University of Munich), Henning Stubbe (Technical University of Munich), Thomas Wild (Technical University of Munich), Andreas Herkersdorf (Technical University of Munich), Georg Carle (Technical University of Munich)
 
 
@@ -135,13 +135,13 @@ Dominik Scholz (Technical University of Munich), Andreas Oeldemann (Technical Un
 
 * __13:45 - 15:00__
 
-    * _daPIPE - A Data Plane Incremental Programming Environment._ (<a href="https://ieeexplore.ieee.org/document/8901893">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-04.pdf">Slides</a>)
+    * _daPIPE - A Data Plane Incremental Programming Environment._ (<a href="https://ieeexplore.ieee.org/document/8901893">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-04.pdf">Slides</a>)   
 Mario Baldi (Politecnico di Torino)
 
-    * _Random Linear Network Coding on Programmable Switches._ (<a href="https://ieeexplore.ieee.org/abstract/document/8901883">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-05.pdf">Slides</a>)
+    * _Random Linear Network Coding on Programmable Switches._ (<a href="https://ieeexplore.ieee.org/abstract/document/8901883">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-05.pdf">Slides</a>)   
 Diogo Gon&ccedil;alves (University of Lisbon), Salvatore Signorello (University of Lisbon), Fernando M.V. Ramos (University of Lisbon), Muriel Medard (MIT)
 
-    * _Towards Understanding the Performance of P4 Programmable Hardware._ (<a href="https://ieeexplore.ieee.org/document/8901881">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-06.pdf">Slides</a>)
+    * _Towards Understanding the Performance of P4 Programmable Hardware._ (<a href="https://ieeexplore.ieee.org/document/8901881">Paper</a>) (<a href="{{ site.baseurl }}/assets/EuroP4_2019/EuroP4-2019-slides-06.pdf">Slides</a>)   
 Hasanin Harkous (Technical University of Munich/ Nokia Bell Labs), Michael Jarschel (Nokia Bell Labs), Mu He (Technical University of Munich), Rastin Pries (Nokia Bell Labs), Wolfgang Kellerer (Technical University of Munich)
 
 ----
