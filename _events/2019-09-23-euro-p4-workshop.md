@@ -64,7 +64,7 @@ William Gates Building
 
 * __9:30 - 10:30__
 
-    * _Keynote_: Undefined behaviours in P4 progams: find them, fix them or exploit them.
+    * _Keynote_: Undefined behaviours in P4 progams: find them, fix them or exploit them. (<a href="{{ site.baseurl }}/assets/EuroP4_2019/keynote-europ4.pptx">Slides</a>)
 
       Speaker: [Professor Costin Raiciu](http://nets.cs.pub.ro/~costin/) (University Politehnica of Bucharest)
 
