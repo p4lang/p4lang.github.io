@@ -3,7 +3,7 @@ layout: post
 title: "Pensando Announces P4-programmable Platform and Joins P4 Community"
 author: "Mario Baldi"
 category: p4
-date: 2020-01-23
+date: 2020-02-24
 header-img: assets/p4-background.png
 ---
 
@@ -80,7 +80,7 @@ added.
 However, a pure software-based solution does not scale at cloud level
 and dedicated hardware is required in the host. Because these services
 are complex and evolve over time, fixed function hardware is also not
-a viable option. Hence, P4 programmable adapters, such as the Naples
+a viable option. Hence, P4 programmable adapters, such as the
 Distributed Services Card, are a perfect fit to effectively support
 services at the network edge.
 
@@ -185,22 +185,26 @@ fractionable as two ports at 10, 25, or 50 Gb/s. Although available on
 the market for a short time, a few customers are already deploying the
 cards in production environments.
 
-While the DSC is offered as part of a Distributed Services
-Platform on which Pensando has developed a number of applications
-(including both control and data plane components), selected customers
-are leveraging an early version of DSC development tools to
-implement their own applications on the card. However, opening the
-platform to programming by a wider user community will require the
-availability of an architectural model and a full set of powerful
-development tools. In working towards these objectives, Pensando is
-committed to actively contribute to the Architecture Working Group
-efforts around the specification of a Portable NIC Architecture (PNA)
-and possibly propose within the Language Design Working Group
-extensions to the P4 language geared towards the interaction between
-NIC and host over a PCI bus. As a longer term objective, Pensando is
-considering to open some of the applications running on the DSC so
-that community members and customers can customize them by easily
-adding P4 code that implements their own features. In light of this,
-Pensando will work with the p4.org community to add support for P4
-incremental programming in the language and possibly architecture
-models.
+While the DSC is offered as part of a Distributed Services Platform on
+which Pensando has developed a number of applications (including both
+control and data plane components), selected customers are leveraging
+an early version of DSC development tools to implement their own
+applications on the card. However, opening the platform to programming
+by a wider user community will require the availability of an
+architectural model and a full set of powerful development tools. In
+working towards these objectives, Pensando is committed to actively
+contribute to the Architecture Working Group efforts around the
+specification of a Portable NIC Architecture (PNA) and possibly
+propose within the Language Design Working Group extensions to the P4
+language geared towards the interaction between NIC and host over a
+PCI bus. As a longer term objective, Pensando is considering to open
+some of the applications running on the DSC so that community members
+and customers can customize them by easily adding P4 code that
+implements their own features. In light of this, Pensando will work
+with the P4 community to add support for incremental programming and
+possibly new architecture models.
+
+For further information on Pensando please visit
+[https://pensando.io](https://pensando.io) or send mail to
+[info@pensando.io](mailto:info@pensando.io).
+
