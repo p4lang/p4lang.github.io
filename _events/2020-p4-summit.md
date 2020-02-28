@@ -21,6 +21,7 @@ Put it on your calendar now and don't miss it!
 **Notification**: March 27, 2020
 
 All CFP submissions will be reviewed by a technical program committee chaired by Anirudh Sivaraman (New York University) and Larry Peterson (Open Networking Foundation). To submit a proposal, please upload a one-page PDF to the submission site before the deadline. Please provide sufficient detail to help us fairly evaluate your submission, e.g., a single short paragraph will likely be insufficient. A good submission will describe the problem you’re solving, how P4 or programmable forwarding helps you solve the problem, what the solution is, how you evaluated it, and how you’ll be presenting it (poster, demo, or talk).
+_*Authors should not submit talk, poster, or demo proposals describing work that is undergoing SIGCOMM'20 review. This is to avoid violating SIGCOMM'20's author anonymity requirements._
 
 ### Program Chairs
 * [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/), New York University
