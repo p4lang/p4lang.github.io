@@ -3,7 +3,7 @@ layout: post
 title: "Network Prototyping Made Easy with P4 and Python"
 author: "Tomasz Osiński"
 category: p4
-date: 2020-02-22
+date: 2020-03-02
 header-img: assets/p4-background.png
 ---
 
