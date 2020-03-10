@@ -1,13 +1,10 @@
 ---
 layout: post
-title: P4 and Programmable Forwarding Summit (Virtual!)
-date: 2020-04-28
-end_date: 2020-04-30
+title: P4 and Programmable Forwarding Summit 
 header-img: assets/p4-background.png
 ---
 
 ### Hosted by the P4 Language Community and <br /> Open Networking Foundation  
-#### Held Virtually on *Tuesday, April 28 through Thursday, April 30, 2020* 
 
 We have made the difficult decision to cancel the "in-person" 2020 P4 P4 and Programmable Forwarding Summit at Stanford due to the potential risk of the COVID-19 virus.  We feel this is in the best interest of the entire P4 community. As an alternative, we are planning an **expert roundtable series** to bring exciting keynotes, plenary, and panel discussions.  We plan on capturing the planned presentations and discussions with technical experts using a lively roundtable format and make these sessions available as a series for on-demand consumption.
 
