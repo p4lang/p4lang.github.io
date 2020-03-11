@@ -1,18 +1,18 @@
 ---
 layout: post
-title: P4 and Programmable Forwarding Summit 
+title: P4 Expert Roundtable Series
 header-img: assets/p4-background.png
 ---
 
 ### Hosted by the P4 Language Community and <br /> Open Networking Foundation  
 
-***We have made the difficult decision to cancel the "in-person" 2020 P4 P4 and Programmable Forwarding Summit at Stanford due to the potential risk of the COVID-19 virus.***  We feel this is in the best interest of the entire P4 community. As an alternative, we are planning an expert roundtable series to bring exciting keynotes, plenary, and panel discussions.  We plan on capturing the planned presentations and discussions with technical experts using a lively roundtable format and make these sessions available as a series for on-demand consumption.
+We are planning a 'P4 expert roundtable series' to bring exciting keynotes, plenary, and panel discussions to the P4 community.  We will capture planned presentations and discussions with technical experts using a lively, roundtable format. These sessions will be available to everyone as a series for on-demand consumption, allowing us to reach a much broader audience from anywhere in the world.
 
-With this new format, we will ***continue to accept talk proposals*** through the [P4 Summit submission website](https://summit-cfp-2020.p4.org/); however, due to the change in format, we can no longer accept demo or poster proposals. The P4 Summit TPC will shortlist talks for the expert roundtable series from the submissions.  
+With this new format, we will continue accepting talk proposals (only) through the same [P4 Summit submission website](https://summit-cfp-2020.p4.org/).  This on-demand approach will replace the 'in-person' P4 Summit planned for Stanford at the end of April. However, our P4 Summit program chairs and technical program committee will continue to review all submissions and shortlist talks for the P4 expert roundtable series.
 
 ---
 
-### Call for Proposals (We have extended the deadline by one week for talk proposals)
+### Call for Proposals (Submission deadline extended by one week)
 **Submission site**: <https://summit-cfp-2020.p4.org/> <br />
 **Deadline**: March 20, 2020 11:59pm PT (firm) <br />
 **Notification**: April 3, 2020
