@@ -6,9 +6,9 @@ header-img: assets/p4-background.png
 
 ### Hosted by the P4 Language Community and <br /> Open Networking Foundation  
 
-We are planning a 'P4 expert roundtable series' to bring exciting keynotes, plenary, and panel discussions to the P4 community.  We will capture planned presentations and discussions with technical experts using a lively, roundtable format. These sessions will be available to everyone as a series for on-demand consumption, allowing us to reach a much broader audience from anywhere in the world.
+We are planning to launch a 'P4 expert roundtable series' to bring exciting keynotes, plenary, and panel discussions to the P4 community.  We will capture planned presentations and discussions with technical experts using a lively, roundtable format. These sessions will be available to everyone as a series for on-demand consumption, allowing us to reach a much broader audience from anywhere in the world.
 
-With this new format, we will continue accepting talk proposals (only) through the same [P4 Summit submission website](https://summit-cfp-2020.p4.org/).  This on-demand approach will replace the 'in-person' P4 Summit planned for Stanford at the end of April. However, our P4 Summit program chairs and technical program committee will continue to review all submissions and shortlist talks for the P4 expert roundtable series.
+We have made the difficult decision to cancel the "in-person" 2020 P4 and Programmable Forwarding Summit we had planned to host at Stanford in April, due to the potential risk of the COVID-19 virus. We feel this is in the best interest of the entire P4 community. We are enthusiastic about the new roundtable format and we expect that it will help expand our community reach and enable more extensive industry involvement. We will continue accepting talk proposals through th [P4 Summit submission website](https://summit-cfp-2020.p4.org/) and invite your participation.
 
 ---
 
