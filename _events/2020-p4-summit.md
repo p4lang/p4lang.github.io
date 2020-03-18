@@ -39,7 +39,7 @@ _*Authors should not submit talk proposals describing work that is undergoing SI
 * Vincent Liu, UPenn
 * Jeongkeun “JK” Lee, Intel
 * Ang Chen, Rice University
-* Marco  Canini, KAUST 
+* Marco Canini, KAUST 
 * Alan Liu, Carnegie Mellon University
 * Shir Landau Feibish - Princeton University
 * Praveen Tamanna, Princeton University
