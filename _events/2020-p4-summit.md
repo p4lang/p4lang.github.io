@@ -20,7 +20,27 @@ We have made the difficult decision to cancel the "in-person" 2020 P4 and Progra
 All CFP submissions will be reviewed by a technical program committee chaired by Anirudh Sivaraman (New York University) and Larry Peterson (Open Networking Foundation). To submit a talk proposal, please upload a one-page PDF to the submission site before the deadline. Please provide sufficient detail to help us fairly evaluate your submission, e.g., a single short paragraph will likely be insufficient. A good submission will describe the problem you’re solving, how P4 or programmable forwarding helps you solve the problem, what the solution is, and how you evaluated it.
 _*Authors should not submit talk proposals describing work that is undergoing SIGCOMM'20 review. This is to avoid violating SIGCOMM'20's author anonymity requirements._
 
-### Program Chairs
-* [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/), New York University
-* [Larry Peterson](https://www.opennetworking.org/executive-team/#bio-Larry-Peterson), Open Networking Foundation
+### Technical Program Committee
+* [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/) (Chair), New York University
+* [Larry Peterson](https://www.opennetworking.org/executive-team/#bio-Larry-Peterson) (Chair), Open Networking Foundation
+* Xin Jin, Johns Hopkins University
+* Dan Ports, Microsoft Research
+* Ryan Beckett, Microsoft Research
+* Srinivas Narayana, Rutgers University
+* Nate Foster, Cornell University 
+* Mina Arashloo, Cornell University
+* Andy Fingerhut, Cisco Systems
+* Mihai Budiu, VMware Research
+* Mukesh Hira, VMware
+* Gordon Brebner, Xilinx Labs
+* Robert Soule, Yale University
+* Muhammad Shahbaz, Stanford University
+* Steve Ibanez, Stanford University
+* Vincent Liu, UPenn
+* Jeongkeun “JK” Lee, Intel
+* Ang Chen, Rice University
+* Marco  Canini, KAUST 
+* Alan Liu, Carnegie Mellon University
+* Shir Landau Feibish - Princeton University
+* Praveen Tamanna, Princeton University
 
