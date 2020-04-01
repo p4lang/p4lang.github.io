@@ -15,14 +15,14 @@ We have made the difficult decision to cancel the "in-person" 2020 P4 and Progra
 ---
 ### Agenda
 
-<iframe src="/assets/2020- P4 Expert Roundtable Series Snapshot Agenda.png” width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
+<iframe src="/assets/2020_P4_Roundtable_Agenda.png” width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
 
 &nbsp;
 
 
 ### Call for Proposals
-**Closed for New Submissions
-**Notification**: April 3, 2020
+**Closed for New Submissions** <br />
+**Notification Date:** April 3, 2020
 
 All CFP submissions will be reviewed by a technical program committee chaired by Anirudh Sivaraman (New York University) and Larry Peterson (Open Networking Foundation). To submit a talk proposal, please upload a one-page PDF to the submission site before the deadline. Please provide sufficient detail to help us fairly evaluate your submission, e.g., a single short paragraph will likely be insufficient. A good submission will describe the problem you’re solving, how P4 or programmable forwarding helps you solve the problem, what the solution is, and how you evaluated it.
 _*Authors should not submit talk proposals describing work that is undergoing SIGCOMM'20 review. This is to avoid violating SIGCOMM'20's author anonymity requirements._
