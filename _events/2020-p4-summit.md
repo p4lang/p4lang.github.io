@@ -13,11 +13,6 @@ We are planning to launch a 'P4 expert roundtable series' to bring exciting keyn
 We have made the difficult decision to cancel the "in-person" 2020 P4 and Programmable Forwarding Summit we had planned to host at Stanford in April, due to the potential risk of the COVID-19 virus. We feel this is in the best interest of the entire P4 community. We are enthusiastic about the new roundtable format and we expect that it will help expand our community reach and enable more extensive industry involvement. 
 
 ---
-### Agenda
-
-<iframe src="/assets/2020_P4_Roundtable_Agenda.pdf” width="850" height="1100" frameborder="0" style="border:0" allowfullscreen></iframe> 
-
----
 
 ### Call for Proposals
 **Closed for New Submissions** <br />
