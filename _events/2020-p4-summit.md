@@ -15,7 +15,7 @@ We have made the difficult decision to cancel the "in-person" 2020 P4 and Progra
 ---
 ### Agenda
 
-<iframe width="800" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1620257474&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+<iframe width="825" height="425" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1620257474&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
 ---                                                                                                          
 ### Call for Proposals
