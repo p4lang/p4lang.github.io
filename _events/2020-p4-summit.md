@@ -15,8 +15,10 @@ We have made the difficult decision to cancel the "in-person" 2020 P4 and Progra
 ---
 ### Agenda
 
-<iframe src="/assets/2020_P4_Roundtable_Agenda2.pdf” width=“800” height=“400” frameborder="0" style="border:0" allowfullscreen></iframe>
-                                                                                                               
+  <object width="100%" height="400px" data="/assets/2020_P4_Roundtable_Agenda2.pdf" type="application/pdf">
+    <embed src="/assets/2020_P4_Roundtable_Agenda2.pdf" type="application/pdf" />
+  </object>
+
 ---                                                                                                          
 ### Call for Proposals
 **Closed for New Submissions** <br />
