@@ -15,9 +15,41 @@ We have made the difficult decision to cancel the "in-person" 2020 P4 and Progra
 ---
 ### Agenda
 
-  <object width="100%" height="400px" data="/assets/2020_P4_Roundtable_Agenda2.pdf" type="application/pdf">
-    <embed src="/assets/2020_P4_Roundtable_Agenda2.pdf" type="application/pdf" />
-  </object>
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th></th><th>Tuesday, APRIL 28</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>Wednesday, APRIL 29</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>9:00-10:30AM</td><td>"LIVE Webinar and Q&A on </td></tr>
+ <tr><td>P4 and Programmable Forwarding"</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>"LIVE Webinar and Q&A on </td></tr>
+ <tr><td>P4-Enabled Solutions"</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td> Keynote Speakers: </td><td>   Nate Foster, Cornell University</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td> Keynote Speakers: </td><td>   Changhoon Kim, Intel</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>   Stefan Huele, Google</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>   Vipin Jain, Pensando</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>PM</td><td>RECORDED</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>RECORDED</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td> Panel: How P4 as a language is evolving? (45 min)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td> Panel: P4 Uses Cases in Operator Networks (45 min)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td> Track: Sessions from CFP Submissions</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td> Panel: P4 Use Cases in Programmable NICs (45 min)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td> Panel: P4 Use Cases in Programmable Switching (45 min)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td> Panel: Fine Grain Measurements and Control (45 min)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td> Track: Sessions from CFP Submissions</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
+</tbody></table>
 
 ---                                                                                                          
 ### Call for Proposals
