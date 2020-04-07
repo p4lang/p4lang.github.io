@@ -15,32 +15,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 
 <iframe width="825" height="380" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1620257474&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
-<a href="https://www.opennetworking.org/p4-expert-roundtable-series/" class="myButton">Register here</a>
-
-.myButton {
-	box-shadow:inset 0px 1px 0px 0px #a4e271;
-	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
-	background-color:#89c403;
-	border-radius:6px;
-	border:1px solid #74b807;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #528009;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
-	background-color:#77a809;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
 ---                                                                                                          
 
 ### Technical Program Committee
