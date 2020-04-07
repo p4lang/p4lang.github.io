@@ -15,11 +15,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 
 <iframe width="825" height="380" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1620257474&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
-<form>
-<input style="width: 100px; padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #9370d8; color: #ffffff; border-radius: 10px; border: 1px solid #999; font-size: 50%;” type="button" value=“Register Here" onclick="window.location.href='https://www.opennetworking.org/p4-expert-roundtable-series/'" />
-</form>
-
----
+---                                                                                                          
 
 ### Technical Program Committee
 * [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/) (Chair), New York University
