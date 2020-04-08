@@ -14,49 +14,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 ### Agenda
 
 <iframe width="825" height="380" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1620257474&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
-<br>
-
-<a href="https://www.opennetworking.org/p4-expert-roundtable-series/" class="BUTTON_NIA"></a>
-.BUTTON_NIA {
-   background: #3D94F6;
-   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 15px;
-   font-weight: 100;
-   padding: 10px;
-   box-shadow: inset 1px 1px 20px 0px #000000;
-   -webkit-box-shadow: inset 1px 1px 20px 0px #000000;
-   -moz-box-shadow: inset 1px 1px 20px 0px #000000;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.BUTTON_NIA:hover {
-   border: solid #337FED 1px;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
-}
-
 ---                                                                                                          
 
 ### Technical Program Committee
