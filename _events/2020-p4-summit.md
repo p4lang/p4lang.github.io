@@ -44,7 +44,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    </head>
 
    <body>
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://onf.zoom.us/webinar/register/WN__wcvk1iTRMuv60ItAoL1KQ" class="button">Register for 4/28!</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <a href="https://onf.zoom.us/webinar/register/WN__wcvk1iTRMuv60ItAoL1KQ" class="button">Register for 4/28!</a>
 <a href="https://onf.zoom.us/webinar/register/WN_7B2D5SVTT9-4-g3Hc1HW1A" class="button">Register for 4/29!</a>  
  </body>
 </html>
