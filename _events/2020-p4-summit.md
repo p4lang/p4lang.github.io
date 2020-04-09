@@ -31,6 +31,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 	padding: 10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
+	margin: 0 auto;
 }
 .button:hover {
 	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
@@ -44,9 +45,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    </head>
 
    <body>
-	div{
-    text-align:center;
-}
 	<a href="https://onf.zoom.us/webinar/register/WN__wcvk1iTRMuv60ItAoL1KQ" class="button">Register Now!</a>
  </body>
 </html>
@@ -74,6 +72,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 	padding: 10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
+	margin: 0 auto;
 }
 .button:hover {
 	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
