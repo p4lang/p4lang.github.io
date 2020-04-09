@@ -10,8 +10,8 @@ header-img: assets/p4-background.png
 
 We are launching a 'P4 expert roundtable series' to bring exciting keynotes, plenary, and panel discussions to the P4 community.  This will be a 2-day event incorporating live webinars of keynote/s and Q&A, along with planned presentations and discussions with technical experts using a dynamic, roundtable format. These sessions will be available to everyone as a series for on-demand consumption, allowing us to reach a much broader audience from anywhere in the world.
 
-<iframe width="635" height="185" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1804513360&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>     
-<!DOCTYPE html>
+<iframe width="640" height="200" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1804513360&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>     
+<!--DOCTYPE html-->
 <html>
    <head>
       <style>
