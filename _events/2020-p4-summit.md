@@ -49,11 +49,10 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
  </body>
 </html>
 
-<p>
+<br />
 
 ### Recorded Sessions
 <iframe width="588" height="278" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1278004574&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
-
 
 <!--DOCTYPE html-->
 <html>
@@ -90,8 +89,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    </body>
 </html>
 
----
-                                                                                                        
+---                                                                                                   
 
 ### Technical Program Committee
 * [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/) (Chair), New York University
