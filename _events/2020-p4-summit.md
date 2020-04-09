@@ -14,7 +14,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 ### Live Keynotes
 <iframe width="635" height="185" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1804513360&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>     
 
-<!DOCTYPE html>
 <html>
    <head>
 <style>
@@ -67,13 +66,10 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    </body>
 </html>
 
-&nbsp
-
 ### Recorded Sessions
 <iframe width="583" height="273" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1278004574&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
 
-<!DOCTYPE html>
 <html>
    <head>
 <style>
