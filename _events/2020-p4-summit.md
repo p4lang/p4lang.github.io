@@ -93,7 +93,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 <br />
 
 ## Recorded Sessions
-<iframe width="730" height="370" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+<iframe width="755" height="550" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
 <!--DOCTYPE html-->
 <html>
@@ -102,12 +102,12 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
          .button2 {
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
 	background:linear-gradient(to bottom, #9778c2; 5%, #476e9e 100%);
-	background-color:#bddbfa;
+	background-color:##6184b0;
 	border-radius:10px;
 	border:2px solid #84bbbf3;
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
+	color:#ffffff;
 	font-family:Avenir;
 	font-size:16px;
 	font-weight:bold;
