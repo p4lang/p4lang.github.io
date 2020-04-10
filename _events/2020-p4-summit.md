@@ -6,7 +6,7 @@ end_date: 2020-04-29
 header-img: assets/p4-background.png
 ---
 
-### Hosted by the P4 Language Community and <br /> Open Networking Foundation  
+### Hosted by the Open Networking Foundation  
 
 We are launching a 'P4 expert roundtable series' to bring exciting keynotes, plenary, and panel discussions to the P4 community.  This will be a 2-day event incorporating live webinars of keynote/s and Q&A, along with planned presentations and discussions with technical experts using a dynamic, roundtable format. These sessions will be available to everyone as a series for on-demand consumption, allowing us to reach a much broader audience from anywhere in the world.
 
@@ -92,8 +92,8 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 
 <br />
 
-## Recorded Sessions
-<iframe width="760" height="687" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+### **Recorded Sessions**
+<iframe width="758" height="687" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
 <!--DOCTYPE html-->
 <html>
