@@ -11,7 +11,7 @@ header-img: assets/p4-background.png
 We are launching a 'P4 expert roundtable series' to bring exciting keynotes, plenary, and panel discussions to the P4 community.  This will be a 2-day event incorporating live webinars of keynote/s and Q&A, along with planned presentations and discussions with technical experts using a dynamic, roundtable format. These sessions will be available to everyone as a series for on-demand consumption, allowing us to reach a much broader audience from anywhere in the world.
 
 ## Live Keynotes
-<iframe  width="674" height="281" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=422183672&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>    
+<iframe  width="674" height="280" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=422183672&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>    
 <!--DOCTYPE html-->
 <html>
    <head>
@@ -52,7 +52,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 <br />
 
 <!--P4 Enabled Solutions-->
-<iframe  width="674" height="281" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=414977857&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+<iframe  width="674" height="280" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=414977857&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 <!--DOCTYPE html-->
 <html>
    <head>
@@ -93,7 +93,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 <br />
 
 ## Recorded Sessions
-<iframe width="755" height="550" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+<iframe width="760" height="625" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
 <!--DOCTYPE html-->
 <html>
@@ -102,7 +102,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
          .button2 {
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
 	background:linear-gradient(to bottom, #9778c2; 5%, #476e9e 100%);
-	background-color:##6184b0;
+	background-color:#6184b0;
 	border-radius:10px;
 	border:2px solid #84bbbf3;
 	display:inline-block;
