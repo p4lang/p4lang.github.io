@@ -93,7 +93,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 <br />
 
 ## Recorded Sessions
-<iframe width="588" height="278" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=1278004574&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+<iframe width="730" height="370" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdXS1YIDKrt--PtzycKIfhPQBIn5wGubSzt0CNiXyInUf9HsyO81jw5NAwZybLxw/pubhtml?gid=2091244077&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
 
 <!--DOCTYPE html-->
 <html>
@@ -102,16 +102,16 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
          .button2 {
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
 	background:linear-gradient(to bottom, #9778c2; 5%, #476e9e 100%);
-	background-color:#9778c2;
+	background-color:#bddbfa;
 	border-radius:10px;
-	border:2px solid #4e6096;
+	border:2px solid #84bbbf3;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#000000;
 	font-family:Avenir;
 	font-size:16px;
 	font-weight:bold;
-	padding: 8px 8px;
+	padding: 10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
 }
@@ -126,7 +126,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
       </style>
    </head>
    <body>
-      <a href="https://www.opennetworking.org/p4-expert-roundtable-series/" class="button2">Register in Advance!</a>
+      <a href="https://www.opennetworking.org/p4-expert-roundtable-series/" class="button2">Pre-register for On-demand Content!</a>
    </body>
 </html>
 
