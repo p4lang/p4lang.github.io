@@ -397,3 +397,10 @@
     date: '2019-07-18'
     url: 'http://drops.dagstuhl.de/opus/volltexte/2019/10804/'
     type: 'conference'
+-
+    title: "BurstRadar: Practical Real-time Microburst Monitoring for Datacenter Networks"
+    authors: "Raj Joshi, Ting Qu, Mun Choon Chan, Ben Leong, Boon Thau Loo"
+    venue: "APSys '18: Proceedings of the 9th Asia-Pacific Workshop on Systems"
+    date: '2018-08-27'
+    url: 'https://dl.acm.org/doi/10.1145/3265723.3265731'
+    type: 'conference'
