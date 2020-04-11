@@ -397,3 +397,10 @@
     date: '2019-07-18'
     url: 'http://drops.dagstuhl.de/opus/volltexte/2019/10804/'
     type: 'conference'
+-   
+    title: "Efficient File Dissemination in Data Center Networks with Priority-based Adaptive Multicast"
+    authors: "Shouxi Luo, Hongfang Yu, Ke Li, Huanlai Xing"
+    venue: "IEEE Journal on Selected Areas in Communications"
+    date: '2020-04-08'
+    url: 'https://ieeexplore.ieee.org/document/9060872'
+    type: 'journal'
