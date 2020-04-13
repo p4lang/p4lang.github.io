@@ -132,6 +132,11 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
 
 ---                                                                                                   
 
+### A Special Thanks to our Sponsors
+
+<img src="/assets/P4_Member_Logos/Barefootintel_logo_p4.png" alt="Barefoot Networks, an Intel company" /> <img src="/assets/Google-logo-p4-final2.png" alt="Google" /> <img src="/assets/P4_Member_Logos/Stordis_logo_p4.png" alt="Stordis" />
+
+---
 ### Technical Program Committee
 * [Anirudh Sivaraman](https://cs.nyu.edu/~anirudh/) (Chair), New York University
 * [Larry Peterson](https://www.opennetworking.org/executive-team/#bio-Larry-Peterson) (Chair), Open Networking Foundation
