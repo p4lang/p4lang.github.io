@@ -126,7 +126,7 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
       </style>
    </head>
    <body>
-      <a href="https://www.opennetworking.org/p4-expert-roundtable-series/" class="button2">Pre-register for On-demand Content!</a>
+      <a href="https://www.opennetworking.org/p4-expert-roundtable-series/" class="button2">Register for On-demand Content!</a>
    </body>
 </html>
 
