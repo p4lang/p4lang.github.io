@@ -85,7 +85,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    </head>
 
    <body>
-	<a href="https://onf.zoom.us/webinar/register/WN_7B2D5SVTT9-4-g3Hc1HW1A" class="button">Register Now!</a>
  </body>
 </html>
 <br />
