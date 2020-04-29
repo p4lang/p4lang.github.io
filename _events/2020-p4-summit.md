@@ -47,7 +47,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    <body>
  </body>
 </html>
-
 <br />
 
 <!--P4 Enabled Solutions-->
@@ -87,7 +86,6 @@ We are launching a 'P4 expert roundtable series' to bring exciting keynotes, ple
    <body>
  </body>
 </html>
-<br />
 <br />
 
 ### **Recorded Sessions**
