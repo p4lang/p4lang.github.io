@@ -34,7 +34,7 @@ Authors are required to present accepted papers at the workshop in order for the
 
 ### Submission website
 
-https://europ4-20.hotcrp.com
+[https://europ4-20.hotcrp.com](https://europ4-20.hotcrp.com)
 
 ### Venue
 
