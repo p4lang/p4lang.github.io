@@ -22,6 +22,15 @@ Topics of an interest include, but are not limited to:
 * Tools and frameworks for development using P4.
 * Contributions to the evolution of the P4 language.
 
+### Important Dates
+
+*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)  
+*Submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
+*Acceptance notification:* Monday, October 5th, 2020  
+*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
+*Posters and demos notification:* Monday, October 5th, 2020  
+*Camera ready:* Monday, October 26th, 2020 (11:59PM AoE)  
+
 ### Participation
 
 There are currently significant statutory lockdowns and travel restrictions in-place in many parts of the world. We are closely monitoring the situation, and working in collaboration with CoNext’20 to decide on the workshop’s mode. Please follow updates on CoNEXT 2020 and our website.
