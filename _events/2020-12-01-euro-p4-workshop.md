@@ -29,7 +29,7 @@ Topics of an interest include, but are not limited to:
 *Acceptance notification:* Monday, October 5th, 2020\
 *Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)\
 *Posters and demos notification:* Monday, October 5th, 2020\
-*Camera ready:* Monday, October 26th, 2020 (11:59PM AoE)\
+*Camera ready:* Monday, October 26th, 2020 (11:59PM AoE)
 
 ### Participation
 
