@@ -24,8 +24,8 @@ Topics of an interest include, but are not limited to:
 
 ### Important Dates
 
-*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)  
-*Submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
+~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
+*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
 *Acceptance notification:* Monday, October 5th, 2020  
 *Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
 *Posters and demos notification:* Monday, October 5th, 2020  
@@ -33,25 +33,17 @@ Topics of an interest include, but are not limited to:
 
 ### Participation
 
-There are currently significant statutory lockdowns and travel restrictions in-place in many parts of the world. We are closely monitoring the situation, and working in collaboration with CoNext’20 to decide on the workshop’s mode. Please follow updates on CoNEXT 2020 and our website.
+As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details.
 
 ### Submission instructions
 
-EuroP4 solicits full-length technical papers of 6 pages and short poster/demo papers as 2 page extended abstracts. Submissions should adhere to the ACM formatting requirements (2-column, 10pt ACM format). EuroP4 will use a double-blind review process.
+EuroP4 solicits full-length technical papers (6 pages including all references and appendices) and short poster/demo papers (extended abstracts of 2 pages at most). Submissions should adhere to the ACM formatting requirements (2-column, 10pt ACM format). EuroP4 will use a double-blind review process.
 
 Authors are required to present accepted papers at the workshop in order for the paper to appear in the proceedings and the ACM digital library. Exceptions from this policy for truly mitigating situations must be approved by the TPC Chairs before the beginning of the workshop.
 
 ### Submission website
 
 [https://europ4-20.hotcrp.com](https://europ4-20.hotcrp.com)
-
-### Venue
-
-Torre Telefónica Diagonal 00
-Plaça d'Ernest Lluch i Martin, 5,
-08019 Barcelona, Spain
-
-[Maps and directions](https://www.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Plaça+Ernest+Lluch+i+Mart%C3%AD,+5,+08019+Barcelona,+Spain&aq=&sll=41.412056,2.220692&sspn=0.006686,0.012295&ie=UTF8&hq=&hnear=Plaça+d%27Ernest+Lluch+i+Martin,+5,+08019+Barcelona,+Cataluña,+Spain&t=m&z=14&iwloc=A)
 
 ### Registration
 [Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
@@ -64,6 +56,17 @@ Plaça d'Ernest Lluch i Martin, 5,
 * [Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics
 * [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon
 
-### Technical Program Committee
+### Technical Program Committee (tentative)
 
-TBD
+Aurojit Panda, *New York University*  
+Ben Pfaff, *VMware*  
+Christian Rothenberg, *University of Campinas*  
+Gianni Antichi, *Queen Mary University of London*  
+Gordon Brebner, *Xilinx Labs*  
+Marco Chiesa, *KTH*  
+Mario Baldi, *Pensando Systems & Politecnico di Torino*  
+Mina Tahmasbi Arashloo, *Cornell University*  
+Nate Foster, *Cornell University*  
+Roberto Bifulco, *NEC Labs Europe*  
+Sandor Laki, *ELTE*  
+Shir Landau Feibish, *Princeton University*  
