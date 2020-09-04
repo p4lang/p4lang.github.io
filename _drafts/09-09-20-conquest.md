@@ -9,7 +9,7 @@ header-img: assets/p4-background.png
 
 ## ConQuest: flow-level queue analysis in P4
 
-*Editor’s note: This guest post by Xiaoqi Chen (Princeton University) describes a queue analytics data structure implemented using P4. It is based on a paper originally published at ACM CoNEXT’19.*
+*Editor’s note: This guest post by [Xiaoqi Chen](http://cs.princeton.edu/~xiaoqic/) (Princeton University) describes a queue analytics data structure implemented using P4. It is based on a [paper][conquest-paper] originally published at ACM CoNEXT’19.*
 
 ## Queuing and Microbursts
 
@@ -48,7 +48,7 @@ To evaluate ConQuest, we build a testbed experiment where bursty flows are injec
 
 As shown in the figure above, when the size of the injected bursty flow grows larger, the median Flow Completion Time of the workload flows also grows significantly, when the switch indiscriminately throttles all flows upon congestion. Using ConQuest’s estimates, the switch can selectively throttle only the bursty flows when the queue is congested, reducing the Flow Completion Time by 11%.
 
-We also performed various other experiments to see if ConQuest can accurately identify bursty flows, both under trace-based simulation and in real-world testbeds. Please refer to our [paper](https://dl.acm.org/doi/10.1145/3359989.3365408) for more details.
+We also performed various other experiments to see if ConQuest can accurately identify bursty flows, both under trace-based simulation and in real-world testbeds. Please refer to our [paper][conquest-paper] for more details.
 
 ## ConQuest in production networks
 
@@ -59,5 +59,6 @@ We have deployed ConQuest under this tapping setup in two separate production ne
 ## Conclusion
 ConQuest is a P4-based, flow-level queue analysis data structure that works entirely in the data plane. ConQuest’s implementation uses match-action tables heavily, to implement its core logic, the round-robin snapshots. ConQuest enables a programmable switch to analyze and react to microbursts and other queuing anomalies in real time, and can also be used to analyze queuing in legacy, non-programmable network devices. 
 
-Please refer to our [paper](https://dl.acm.org/doi/10.1145/3359989.3365408) for more detail about the design, evaluation, and deployment of ConQuest. Also, we have open-sourced [ConQuest’s P4 code](https://github.com/Princeton-Cabernet/p4-projects/tree/master/ConQuest-tofino) on GitHub, please check it out! 
+Please refer to our [paper][conquest-paper] for more detail about the design, evaluation, and deployment of ConQuest. Also, we have open-sourced [ConQuest’s P4 code](https://github.com/Princeton-Cabernet/p4-projects/tree/master/ConQuest-tofino) on GitHub, please check it out! 
 
+[conquest-paper]: https://dl.acm.org/doi/10.1145/3359989.3365408
