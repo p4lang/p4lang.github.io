@@ -24,7 +24,7 @@ Today’s high-speed programmable switches impose strict restrictions on data-pl
 
 To fit into the data plane’s memory access constraint, ConQuest splits the traffic into smaller, fixed-length time epochs, based on the time when a packet departs from the queue, and uses **round-robin snapshots** to record the traffic in each epoch. By aggregating a variable number of recent snapshots based on current queue length, ConQuest can estimate the size of each flow in the queue, and decide if any of them is occupying a significant fraction of the queueing buffer. Furthermore, outdated snapshots are also cleaned and recycled automatically in the data plane, as the epochs are much shorter than how fast the control plane can react.
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/conquest-blog-figure1.png" alt="Figure 1" width="600" /><strong>Figure 1.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/conquest-blog-figure1.png" srcset="{{ site.baseurl }}/assets/conquest-blog-figure1.svg" alt="Figure 1. Each snapshot records a fraction of traffic in the queue." width="600" /><strong>Figure 1. Each snapshot records a fraction of traffic in the queue.</strong></p>
 
 We illustrate the epoch and snapshot aggregation process in the above example, where we assume a simplified switch output port has only one First-In, First-Out (FIFO) queue between packet ingress and egress, and all packets have size 1. In the example, we use snapshot epoch size of four packets; each snapshot therefore records the size of flows within its corresponding four packets. Dividing the queue length (15) by 4, we get 3, which means we should aggregate three recent snapshots to estimate the size of each flow in the queue. When the queue is shorter, we can read from fewer snapshots, and vice versa.
 
@@ -38,17 +38,17 @@ ConQuest naturally fits into the programming primitives provided in P4, using on
 
 We illustrate the entire P4 program’s logic in the figure below.
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/conquest-blog-figure2.png" alt="Figure 2" width="600" /><strong>Figure 2.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/conquest-blog-figure2.png" srcset="{{ site.baseurl }}/assets/conquest-blog-figure2.svg" alt="Figure 2. Implementing ConQuest logic using match-action tables." width="600" /><strong>Figure 2. Implementing ConQuest logic using match-action tables.</strong></p>
 
 ## Evaluating ConQuest
 
 To evaluate ConQuest, we build a testbed experiment where bursty flows are injected into small-sized workload flows. ConQuest tries to detect and throttle these flows by adding the Early Congestion Notification (ECN) flag to the packets, and helps the workload flows achieve lower flow completion time compared with a traditional setup, where all flows are indiscriminately throttled once the queue length reaches certain threshold. 
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/conquest-blog-figure3.png" alt="Figure 3" width="600" /><strong>Figure 3.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="{{ site.baseurl }}/assets/conquest-blog-figure3.png" alt="Figure 3. Flow-based ECN improves flow completion time in the presence of bursty flows." width="600" /><strong>Figure 3. Flow-based ECN improves flow completion time in the presence of bursty flows.</strong></p>
 
-As shown in the figure above, when the size of the injected bursty flow grows larger, the median Flow Completion Time of the workload flows also grows significantly, when the switch indiscriminately throttles all flows upon congestion. Using ConQuest’s estimates, the switch can selectively throttle only the bursty flows when the queue is congested, reducing the Flow Completion Time by 11%.
+As shown in the figure above, when the size of the injected bursty flow grows larger, the median Flow Completion Time of the workload flows also grows significantly, when the switch indiscriminately throttles all flows upon congestion. Using ConQuest’s estimates, the switch can selectively throttle only the bursty flows when the queue is congested, reducing the Flow Completion Time by as much as 11%.
 
-We also performed various other experiments to see if ConQuest can accurately identify bursty flows, both under trace-based simulation and in real-world testbeds. Please refer to our [paper][conquest-paper] for more details.
+We also performed various other experiments to see if ConQuest can accurately identify bursty flows, both under trace-based simulation and in real-world testbeds.
 
 ## ConQuest in production networks
 
