@@ -7,7 +7,6 @@ category: p4
 header-img: assets/p4-background.png
 ---
 
-## ConQuest: flow-level queue analysis in P4
 
 *Editor’s note: This guest post by [Xiaoqi Chen](http://cs.princeton.edu/~xiaoqic/) (Princeton University) describes a queue analytics data structure implemented using P4. It is based on a [paper][conquest-paper] originally published at ACM CoNEXT’19.*
 
