@@ -397,6 +397,13 @@
     date: '2019-07-18'
     url: 'http://drops.dagstuhl.de/opus/volltexte/2019/10804/'
     type: 'conference'
+-
+    title: "Fine-Grained Queue Measurement in the Data Plane"
+    authors: "Xiaoqi Chen, Shir Landau Feibish, Yaron Koral, Jennifer Rexford, Ori Rottenstreich, Steven A Monetti, Tzuu-Yi Wang"
+    venue: "ACM SIGCOMM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
+    date: '2019-12-09'
+    url: 'https://dl.acm.org/doi/10.1145/3359989.3365408'
+    type: 'conference'
 -   
     title: "Efficient File Dissemination in Data Center Networks with Priority-based Adaptive Multicast"
     authors: "Shouxi Luo, Hongfang Yu, Ke Li, Huanlai Xing"
