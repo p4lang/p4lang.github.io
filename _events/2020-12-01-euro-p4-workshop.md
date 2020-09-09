@@ -25,7 +25,7 @@ Topics of an interest include, but are not limited to:
 ### Important Dates
 
 ~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
-*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
+~~*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
 *Acceptance notification:* Monday, October 5th, 2020  
 *Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
 *Posters and demos notification:* Monday, October 5th, 2020  
@@ -49,24 +49,30 @@ Authors are required to present accepted papers at the workshop in order for the
 [Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
 
 ### General Chairs
-* [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247), University of Cambridge
-* [Robert Soulé](http://www.cs.yale.edu/homes/soule), Yale University
+
+[Noa Zilberman](https://www.cl.cam.ac.uk/~nz247), University of Cambridge  
+[Robert Soulé](http://www.cs.yale.edu/homes/soule), Yale University  
 
 ### Program Chairs
-* [Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics
-* [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon
+
+[Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon  
+[Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
 
 ### Technical Program Committee (tentative)
 
 Aurojit Panda, *New York University*  
 Ben Pfaff, *VMware*  
+Brian O’Connor, *Open Networking Foundation*  
 Christian Rothenberg, *University of Campinas*  
 Gianni Antichi, *Queen Mary University of London*  
 Gordon Brebner, *Xilinx Labs*  
-Marco Chiesa, *KTH*  
+Jon Crowcroft, *University of Cambridge*  
+Marco Chiesa, *KTH Royal Institute of Technology*  
 Mario Baldi, *Pensando Systems & Politecnico di Torino*  
 Mina Tahmasbi Arashloo, *Cornell University*  
 Nate Foster, *Cornell University*  
+Paolo Costa, *Microsoft Research*  
 Roberto Bifulco, *NEC Labs Europe*  
-Sandor Laki, *ELTE*  
+Sandor Laki, *Eötvös Loránd University*  
 Shir Landau Feibish, *Princeton University*  
+Theo Jepsen, *Stanford University*  
