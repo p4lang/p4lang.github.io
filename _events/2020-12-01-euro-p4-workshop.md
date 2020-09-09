@@ -55,8 +55,8 @@ Authors are required to present accepted papers at the workshop in order for the
 
 ### Program Chairs
 
-[Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
 [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon  
+[Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
 
 ### Technical Program Committee (tentative)
 
