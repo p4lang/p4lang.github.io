@@ -49,12 +49,14 @@ Authors are required to present accepted papers at the workshop in order for the
 [Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
 
 ### General Chairs
-* [Noa Zilberman](https://www.cl.cam.ac.uk/~nz247), University of Cambridge
-* [Robert Soulé](http://www.cs.yale.edu/homes/soule), Yale University
+
+[Noa Zilberman](https://www.cl.cam.ac.uk/~nz247), University of Cambridge  
+[Robert Soulé](http://www.cs.yale.edu/homes/soule), Yale University  
 
 ### Program Chairs
-* [Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics
-* [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon
+
+[Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
+[Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon  
 
 ### Technical Program Committee (tentative)
 
