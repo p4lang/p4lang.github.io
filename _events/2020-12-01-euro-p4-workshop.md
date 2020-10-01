@@ -7,7 +7,7 @@ header-img: assets/p4-background.png
 
 ### A presentation by the P4 Language Consortium and ONF in conjunction with CoNEXT 2020
 
-#### Held in Barcelona, Spain on December 1, 2020
+#### Held online on December 1, 2020
 
 EuroP4 2020 is the third P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
@@ -27,7 +27,7 @@ Topics of an interest include, but are not limited to:
 ~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
 ~~*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
 *Acceptance notification:* Monday, October 5th, 2020  
-*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)  
+~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~   
 *Posters and demos notification:* Monday, October 5th, 2020  
 *Camera ready:* Monday, October 26th, 2020 (11:59PM AoE)  
 
