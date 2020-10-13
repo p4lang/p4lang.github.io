@@ -35,15 +35,41 @@ Topics of an interest include, but are not limited to:
 
 As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details.
 
-### Submission instructions
+### Accepted papers
 
-EuroP4 solicits full-length technical papers (6 pages including all references and appendices) and short poster/demo papers (extended abstracts of 2 pages at most). Submissions should adhere to the ACM formatting requirements (2-column, 10pt ACM format). EuroP4 will use a double-blind review process.
+* *Comparative Evaluation of IP-Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch.* Harsh Gondaliya (SRM Institute of Science and Technology), Ganesh C. Sankaran (University of California, Davis), Krishna Sivalingam (Indian Institute of Technology Madras)
 
-Authors are required to present accepted papers at the workshop in order for the paper to appear in the proceedings and the ACM digital library. Exceptions from this policy for truly mitigating situations must be approved by the TPC Chairs before the beginning of the workshop.
+* *Falcon - Low Latency, Network-Accelerated Scheduling.* Ibrahim Kettaneh (University of Waterloo), Sreeharsha Udayashankar (University of Waterloo), Ashraf Abdel-hadi (University of Waterloo), Samer Al-Kiswany (University of Waterloo)
 
-### Submission website
+* *SYN Flood Defense in Programmable Data Planes.* Dominik Scholz (Technical University of Munich), Sebastian Gallenmüller (Technical University of Munich), 
+Henning Stubbe (Technical University of Munich), Georg Carle (Technical University of Munich)
 
-[https://europ4-20.hotcrp.com](https://europ4-20.hotcrp.com)
+* *Leveraging Target-specific Features Through P4.* Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.) 
+
+* *P4-Protect: 1+1 Path Protection for P4.* Steffen Lindner (University of Tuebingen), Daniel Merling (University of Tuebingen), Marco Häberle (University of Tuebingen), Michael Menth (University of Tuebingen)
+
+* *MTPSA: Multi-Tenant Programmable Switches.* Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
+
+* *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
+
+### Accepted demos
+
+* *A P4 Data Plane for the Quantum Internet* Wojciech Kozlowski (QuTech, Delft University of Technology), Fernando Kuipers (Delft University of Technology), Stephanie Wehner (QuTech, Delft University of Technology)
+
+* *Developing EFSM-based stateful applications with FlowBlaze.p4 and ONOS.* Daniele Moro (Politecnico di Milano), Davide Sanvito (NEC Laboratories Europe), Antonio Capone (Politecnico di Milano)
+
+* *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
+
+### Accepted posters
+
+* *Unleashing the performance of virtual BNG by offloading data plane to a programmable ASIC.* Tomasz Osiński (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs), Mateusz Pawlik (Orange Labs), Jan Palimąka (Orange Labs), Michał Sala (Orange Labs), Halina Tarasiuk (Warsaw University of Technology)
+
+* *Towards a Hybrid Next Generation NodeB.* Péter Vörös (Eötvös Loránd University), Gergely Pongrácz (Ericsson Research), Sándor Laki (Eötvös Loránd University)
+
+* *A perspective on P4-based data and control plane modularity for network automation.* Eder Ollora Zaballa (Technical University of Denmark), David Franco (University of the Basque Country), Michael Stübert Berger (Denmark Techinical University), Mariavi Higuero (University of the Basque Country)
+
+
+
 
 ### Registration
 [Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
@@ -58,7 +84,7 @@ Authors are required to present accepted papers at the workshop in order for the
 [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon  
 [Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
 
-### Technical Program Committee (tentative)
+### Technical Program Committee
 
 Aurojit Panda, *New York University*  
 Ben Pfaff, *VMware*  
