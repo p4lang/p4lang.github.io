@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "How P4 Benefits the Router for Academia, Research, and Education (RARE) Project"
-author: "Frédéric Loui"
 category: p4
 date: 2020-10-23
 header-img: assets/p4-background.png
