@@ -2,7 +2,7 @@
 layout: post
 title: "How P4 Benefits the Router for Academia, Research, and Education (RARE) Project"
 category: p4
-date: 2020-10-23
+date: 2020-10-29
 header-img: assets/p4-background.png
 ---
 
