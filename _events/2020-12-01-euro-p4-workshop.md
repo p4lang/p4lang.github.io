@@ -105,7 +105,7 @@ Theo Jepsen, *Stanford University*
 
 ### Sponsors
 
-<img src="/assets/aps-networks-logo.png" alt="APS Networks" width="400"/>
+<img src="/assets/aps-networks-logo.png" alt="APS Networks" width="300"/>
 
 ---
 
