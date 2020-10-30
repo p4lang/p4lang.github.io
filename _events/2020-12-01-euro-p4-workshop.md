@@ -102,3 +102,10 @@ Roberto Bifulco, *NEC Labs Europe*
 Sandor Laki, *Eötvös Loránd University*  
 Shir Landau Feibish, *Princeton University*  
 Theo Jepsen, *Stanford University*  
+
+### Sponsors
+
+<img src="/assets/aps-networks-logo.png" alt="APS Networks" width="200"/>
+
+---
+
