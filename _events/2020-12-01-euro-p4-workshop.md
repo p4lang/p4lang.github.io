@@ -27,9 +27,10 @@ Topics of an interest include, but are not limited to:
 ~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
 ~~*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
 ~~*Acceptance notification:* Monday, October 5th, 2020~~  
-~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~   
+~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
 ~~*Posters and demos notification:* Monday, October 5th, 2020.~~  
-*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)  
+~~*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)~~  
+*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)  
 
 ### Participation
 
