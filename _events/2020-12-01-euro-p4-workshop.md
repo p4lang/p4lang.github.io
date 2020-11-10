@@ -12,23 +12,6 @@ header-img: assets/p4-background.png
 EuroP4 2020 is the third P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-### Important Dates
-
-~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
-~~*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
-~~*Acceptance notification:* Monday, October 5th, 2020~~  
-~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
-~~*Posters and demos notification:* Monday, October 5th, 2020.~~  
-~~*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)~~  
-*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)  
-
-### Participation
-
-As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details.
-
-### Registration
-[Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
-
 ### EuroP4 Registration Grants
 
 We are pleased to offer a limited number of awards supporting registration expenses associated with participating at CoNEXT 2020 and EuroP4 2020. Attendees from traditionally under-represented groups, students and recent graduates, early-career researchers in industry and non-affiliated, are particularly encouraged to apply. Should we receive more applications than the funding can support, priority will be given to applicants not otherwise able to attend the conference, and/or from regions where financial resources may not be available to cover even the lower remote registration cost.
@@ -158,6 +141,23 @@ If you have any questions about the application process, please email the TPC Co
     Virtual social event
 
 ---
+
+### Important Dates
+
+~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
+~~*Abstract registration and Paper submission deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
+~~*Acceptance notification:* Monday, October 5th, 2020~~  
+~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
+~~*Posters and demos notification:* Monday, October 5th, 2020.~~  
+~~*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)~~  
+*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)  
+
+### Participation
+
+As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details.
+
+### Registration
+[Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
 
 ### General Chairs
 
