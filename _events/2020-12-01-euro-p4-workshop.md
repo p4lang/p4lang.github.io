@@ -12,16 +12,6 @@ header-img: assets/p4-background.png
 EuroP4 2020 is the third P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-Topics of an interest include, but are not limited to:
-* All aspects of P4-based network protocol research, including design, specification, verification, implementation, measurement, testing, and analysis.
-* Design, analysis, and evaluation of network architectures using P4 as a basis, e.g., specific algorithms and protocols for network virtualization or future Internet architectures.
-* New applications enabled by P4, including in-network computing and Big Data, Video and Virtual Reality, Mobile and Wireless Network Protocols and Applications, Ubiquitous computing, Internet-of-Things and Smart Cities.
-* Secure, reliable and dependable P4-based systems, including all aspects of monitoring, verification, debugging and troubleshooting networks enabled by P4.
-* P4-based and P4-NetFPGA based programmable data planes.
-* P4 end-host networking, offloading transport- and application-layer protocols to P4-enabled hardware.
-* Tools and frameworks for development using P4.
-* Contributions to the evolution of the P4 language.
-
 ### Important Dates
 
 ~~*Abstract registration:* Tuesday September 1st, 2020 (11:59PM AoE)~~  
@@ -159,7 +149,7 @@ If you have any questions about the application process, please email the TPC Co
 
 ---
 
-* __16:55 - 17:00, GMT__
+* __16:45 - 17:00, GMT__
 
     Closing words
 
