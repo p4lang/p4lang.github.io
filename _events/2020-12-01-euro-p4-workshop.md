@@ -59,8 +59,8 @@ If you have any questions about the application process, please email the TPC Co
 
 * __9:15 - 9:30, GMT__
 
-    * Welcome and Introductions  
-      Fernando Ramos and Gabor Retvari
+Welcome and Introductions  
+Fernando Ramos and Gabor Retvari
 
 ---
 
