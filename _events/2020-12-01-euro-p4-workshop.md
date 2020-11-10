@@ -66,8 +66,8 @@ If you have any questions about the application process, please email the TPC Co
 
 * __9:30 - 10:30, GMT__
 
-    Keynote: TBD  
-    Speaker: Laurent Vanbever (ETH Zürich)
+    Keynote talk by [Laurent Vanbever (ETH Zürich)](https://vanbever.eu)
+    Title: TBD
 
 ---
 
