@@ -163,7 +163,7 @@ If you have any questions about the application process, please email the TPC Co
 
     Closing words
 
-* __17:99 - 18:00, GMT__
+* __17:00 - 18:00, GMT__
 
     Virtual social event
 
