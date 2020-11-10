@@ -12,15 +12,135 @@ header-img: assets/p4-background.png
 EuroP4 2020 is the third P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-Topics of an interest include, but are not limited to:
-* All aspects of P4-based network protocol research, including design, specification, verification, implementation, measurement, testing, and analysis.
-* Design, analysis, and evaluation of network architectures using P4 as a basis, e.g., specific algorithms and protocols for network virtualization or future Internet architectures.
-* New applications enabled by P4, including in-network computing and Big Data, Video and Virtual Reality, Mobile and Wireless Network Protocols and Applications, Ubiquitous computing, Internet-of-Things and Smart Cities.
-* Secure, reliable and dependable P4-based systems, including all aspects of monitoring, verification, debugging and troubleshooting networks enabled by P4.
-* P4-based and P4-NetFPGA based programmable data planes.
-* P4 end-host networking, offloading transport- and application-layer protocols to P4-enabled hardware.
-* Tools and frameworks for development using P4.
-* Contributions to the evolution of the P4 language.
+### EuroP4 Registration Grants
+
+We are pleased to offer a limited number of awards supporting registration expenses associated with participating at CoNEXT 2020 and EuroP4 2020. Attendees from traditionally under-represented groups, students and recent graduates, early-career researchers in industry and non-affiliated, are particularly encouraged to apply. Should we receive more applications than the funding can support, priority will be given to applicants not otherwise able to attend the conference, and/or from regions where financial resources may not be available to cover even the lower remote registration cost.
+
+The intent of the registration grant is to encourage a broader diversity of participation, and, as a result, award selection will prioritize applicants who are not authors.  Though, everyone is encouraged to apply.
+
+Registration grants are funded by the generous support of our sponsor APS Networks.
+
+Award applications must be completed at the [CoNEXT 2020 site](https://conext20grant.hotcrp.com). Applications will be reviewed and awards will be offered starting from November 10th, 2020. However, we will keep accepting applications even after November 10th and award grants based on availability. The applicants need to provide a resume and a short statement indicating how they would benefit from attending EuroP4 2020.
+
+Each grant is for a nominal amount for registration for the virtual event. Details on payment/reimbursement will be announced soon.
+
+If you have any questions about the application process, please email the TPC Co-Chairs.
+
+### Preliminary Program
+
+---
+
+* __9:15 - 9:30, GMT__
+
+    Welcome and Introductions  
+    Fernando Ramos and Gabor Retvari
+
+---
+
+* __9:30 - 10:30, GMT__
+
+    Keynote talk by [Laurent Vanbever (ETH Zürich)](https://vanbever.eu)  
+    Title: TBD
+
+---
+
+* __10:30 - 11:00, GMT__
+
+    Virtual coffee break
+
+---
+
+* __11:00 - 12:30, GMT__
+
+    Session 1: Use Cases
+
+    * __11:00 - 11:15, GMT__  
+    *Comparative Evaluation of IP-Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch.* Harsh Gondaliya (SRM Institute of Science and Technology), Ganesh C. Sankaran (University of California, Davis), Krishna Sivalingam (Indian Institute of Technology Madras)
+
+    * __11:15 - 11:30, GMT__  
+    *Falcon - Low Latency, Network-Accelerated Scheduling.* Ibrahim Kettaneh (University of Waterloo), Sreeharsha Udayashankar (University of Waterloo), Ashraf Abdel-hadi (University of Waterloo), Samer Al-Kiswany (University of Waterloo)
+
+    * __11:30 - 11:45, GMT__  
+    *SYN Flood Defense in Programmable Data Planes.* Dominik Scholz (Technical University of Munich), Sebastian Gallenmüller (Technical University of Munich), Henning Stubbe (Technical University of Munich), Georg Carle (Technical University of Munich)
+
+    * __11:45 - 12:00, GMT__  
+    *P4-Protect: 1+1 Path Protection for P4.* Steffen Lindner (University of Tuebingen), Daniel Merling (University of Tuebingen), Marco Häberle (University of Tuebingen), Michael Menth (University of Tuebingen)
+
+    * __12:00 - 12:30, GMT__  
+    Panel discussion
+
+---
+
+* __12:30 - 13:30, GMT__
+
+    Lunch break
+
+---
+
+* __13:30 - 15:00, GMT__
+
+    Session 2: Posters and Demos
+
+    * Posters
+
+        * __13:30 - 13:40, GMT__  
+        *Unleashing the performance of virtual BNG by offloading data plane to a programmable ASIC.* Tomasz Osiński (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs), Mateusz Pawlik (Orange Labs), Jan Palimąka (Orange Labs), Michał Sala (Orange Labs), Halina Tarasiuk (Warsaw University of Technology)
+
+        * __13:40 - 13:50, GMT__  
+        *Towards a Hybrid Next Generation NodeB.* Péter Vörös (Eötvös Loránd University), Gergely Pongrácz (Ericsson Research), Sándor Laki (Eötvös Loránd University)
+
+        * __13:50 - 14:00, GMT__  
+        *A perspective on P4-based data and control plane modularity for network automation.* Eder Ollora Zaballa (Technical University of Denmark), David Franco (University of the Basque Country), Michael Stübert Berger (Denmark Techinical University), Mariavi Higuero (University of the Basque Country)
+
+    * Demos
+
+        * __14:00 - 14:10, GMT__  
+        *A P4 Data Plane for the Quantum Internet.* Wojciech Kozlowski (QuTech, Delft University of Technology), Fernando Kuipers (Delft University of Technology), Stephanie Wehner (QuTech, Delft University of Technology)
+
+        * __14:10 - 14:20, GMT__  
+        *Developing EFSM-based stateful applications with FlowBlaze.p4 and ONOS.* Daniele Moro (Politecnico di Milano), Davide Sanvito (NEC Laboratories Europe), Antonio Capone (Politecnico di Milano)
+
+        * __14:20 - 14:30, GMT__  
+        *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
+
+        * __14:30 - 15:00, GMT__  
+        Panel discussion
+
+---
+
+* __15:00 - 15:30, GMT__
+
+    Coffee break
+
+---
+
+* __15:30 - 16:45, GMT__
+
+    Session 3: Architectures and Platforms
+
+    * __15:30 - 15:45, GMT__  
+    *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
+
+    * __15:45 - 16:00, GMT__  
+    *Leveraging Target-specific Features Through P4.* Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.)
+
+    * __16:00 - 16:15, GMT__  
+    *MTPSA: Multi-Tenant Programmable Switches.* Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
+
+    * __16:15 - 16:45, GMT__  
+    Panel discussion
+
+---
+
+* __16:45 - 17:00, GMT__
+
+    Closing words
+
+* __17:00 - 18:00, GMT__
+
+    Virtual social event
+
+---
 
 ### Important Dates
 
@@ -35,42 +155,6 @@ Topics of an interest include, but are not limited to:
 ### Participation
 
 As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details.
-
-### Accepted papers
-
-* *Comparative Evaluation of IP-Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch.* Harsh Gondaliya (SRM Institute of Science and Technology), Ganesh C. Sankaran (University of California, Davis), Krishna Sivalingam (Indian Institute of Technology Madras)
-
-* *Falcon - Low Latency, Network-Accelerated Scheduling.* Ibrahim Kettaneh (University of Waterloo), Sreeharsha Udayashankar (University of Waterloo), Ashraf Abdel-hadi (University of Waterloo), Samer Al-Kiswany (University of Waterloo)
-
-* *SYN Flood Defense in Programmable Data Planes.* Dominik Scholz (Technical University of Munich), Sebastian Gallenmüller (Technical University of Munich), 
-Henning Stubbe (Technical University of Munich), Georg Carle (Technical University of Munich)
-
-* *Leveraging Target-specific Features Through P4.* Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.) 
-
-* *P4-Protect: 1+1 Path Protection for P4.* Steffen Lindner (University of Tuebingen), Daniel Merling (University of Tuebingen), Marco Häberle (University of Tuebingen), Michael Menth (University of Tuebingen)
-
-* *MTPSA: Multi-Tenant Programmable Switches.* Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
-
-* *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
-
-### Accepted demos
-
-* *A P4 Data Plane for the Quantum Internet* Wojciech Kozlowski (QuTech, Delft University of Technology), Fernando Kuipers (Delft University of Technology), Stephanie Wehner (QuTech, Delft University of Technology)
-
-* *Developing EFSM-based stateful applications with FlowBlaze.p4 and ONOS.* Daniele Moro (Politecnico di Milano), Davide Sanvito (NEC Laboratories Europe), Antonio Capone (Politecnico di Milano)
-
-* *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
-
-### Accepted posters
-
-* *Unleashing the performance of virtual BNG by offloading data plane to a programmable ASIC.* Tomasz Osiński (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs), Mateusz Pawlik (Orange Labs), Jan Palimąka (Orange Labs), Michał Sala (Orange Labs), Halina Tarasiuk (Warsaw University of Technology)
-
-* *Towards a Hybrid Next Generation NodeB.* Péter Vörös (Eötvös Loránd University), Gergely Pongrácz (Ericsson Research), Sándor Laki (Eötvös Loránd University)
-
-* *A perspective on P4-based data and control plane modularity for network automation.* Eder Ollora Zaballa (Technical University of Denmark), David Franco (University of the Basque Country), Michael Stübert Berger (Denmark Techinical University), Mariavi Higuero (University of the Basque Country)
-
-
-
 
 ### Registration
 [Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
