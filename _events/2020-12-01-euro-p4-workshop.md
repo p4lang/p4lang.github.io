@@ -26,7 +26,7 @@ Each grant is for a nominal amount for registration for the virtual event. Detai
 
 If you have any questions about the application process, please email the TPC Co-Chairs.
 
-### Preliminary Program
+### Program
 
 ---
 
@@ -103,8 +103,8 @@ If you have any questions about the application process, please email the TPC Co
         * __14:20 - 14:30, GMT__  
         *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
 
-        * __14:30 - 15:00, GMT__  
-        Panel discussion
+    * __14:30 - 15:00, GMT__  
+    Panel discussion
 
 ---
 
@@ -190,7 +190,7 @@ Theo Jepsen, *Stanford University*
 
 ### Sponsors
 
-<img src="/assets/aps-networks-logo.png" alt="APS Networks" width="300"/>
+<a href="http://www.aps-networks.com"><img src="/assets/aps-networks-logo.png" alt="APS Networks" width="300"/></a>
 
 ---
 
