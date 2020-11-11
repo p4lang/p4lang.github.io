@@ -26,7 +26,7 @@ Each grant is for a nominal amount for registration for the virtual event. Detai
 
 If you have any questions about the application process, please email the TPC Co-Chairs.
 
-### Preliminary Program
+### Program
 
 ---
 
