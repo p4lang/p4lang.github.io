@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Need for Standardization in a Thriving Network Ecosystem"
-subtitle: "The SmartNIC industry has made valuable strides in standardizing various interfaces of the infrastructure stack, but clearly there is a lot more work to be done as discussed above. Since its inception, Pensando has pursued a vision and focus on revolutionizing this space – including hardware, software, ecosystem, tools, manageability, standardization, and a push towards open source. Consequently, we are committed to contributing to an open and thriving SmartNIC ecosystem."
 category: p4
 date: 2020-11-13
 header-img: assets/p4-background.png
