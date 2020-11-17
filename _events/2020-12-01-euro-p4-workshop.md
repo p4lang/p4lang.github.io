@@ -33,7 +33,7 @@ If you have any questions about the application process, please email the TPC Co
 * __9:15 - 9:30, GMT__
 
     Welcome and Introductions  
-    Fernando Ramos and Gabor Retvari
+    Fernando Ramos and Gábor Rétvári
 
 ---
 
@@ -170,12 +170,12 @@ As a consequence of the current situation of the COVID-19 pandemic and similar t
 ### Program Chairs
 
 [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon  
-[Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
+[Gábor Rétvári](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
 
 ### Organizing Committee
 
 Salvatore Signorello, University of Lisbon  
-Gabor Retvari, Budapest University of Technology and Economics  
+Tamás Lévai, Budapest University of Technology and Economics  
 
 ### Technical Program Committee
 
