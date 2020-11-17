@@ -172,6 +172,11 @@ As a consequence of the current situation of the COVID-19 pandemic and similar t
 [Fernando Ramos](http://fvramos.at.di.fc.ul.pt), University of Lisbon  
 [Gabor Retvari](http://lendulet.tmit.bme.hu/~retvari), Budapest University of Technology and Economics  
 
+### Organizing Committee
+
+Salvatore Signorello, University of Lisbon  
+Gabor Retvari, Budapest University of Technology and Economics  
+
 ### Technical Program Committee
 
 Aurojit Panda, *New York University*  
