@@ -40,7 +40,10 @@ If you have any questions about the application process, please email the TPC Co
 * __9:30 - 10:30, GMT__
 
     Keynote talk by [Laurent Vanbever (ETH Zürich)](https://vanbever.eu)  
-    Title: TBD
+    *Title:* Programmable, Hardware-Based Routing and Scheduling  
+    *Abstract:* Routing and scheduling are two of the most fundamental tasks performed by any network. Routing determines the set of paths alongside which network traffic flows, while scheduling controls how traffic flows alongside these paths.  
+    Today, these two tasks strike different trade-offs in terms of flexibility and speed. As it runs in the control plane, in software, routing tends to be flexible... but slow. In contrast, as it runs in the data plane, most of the time in hardware, scheduling tends to be inflexible... but fast.  
+    In this talk, I will argue that this trade-off is not fundamental thanks to the recent advent of programmable data planes. More specifically, I will first argue about offloading (some) routing tasks to the hardware, so as to make them much faster. I will then argue about making packet scheduling programmable, so as to make it much more flexible. I will illustrate each proposal with examples of our recent works including Hardware-Accelerated Control Planes [HotNets'18], Blink [NSDI'19], and SP-PIFO [NSDI'20].
 
 ---
 
