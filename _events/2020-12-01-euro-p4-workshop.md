@@ -12,20 +12,6 @@ header-img: assets/p4-background.png
 EuroP4 2020 is the third P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-### EuroP4 Registration Grants
-
-We are pleased to offer a limited number of awards supporting registration expenses associated with participating at CoNEXT 2020 and EuroP4 2020. Attendees from traditionally under-represented groups, students and recent graduates, early-career researchers in industry and non-affiliated, are particularly encouraged to apply. Should we receive more applications than the funding can support, priority will be given to applicants not otherwise able to attend the conference, and/or from regions where financial resources may not be available to cover even the lower remote registration cost.
-
-The intent of the registration grant is to encourage a broader diversity of participation, and, as a result, award selection will prioritize applicants who are not authors.  Though, everyone is encouraged to apply.
-
-Registration grants are funded by the generous support of our sponsor APS Networks.
-
-Award applications must be completed at the [CoNEXT 2020 site](https://conext20grant.hotcrp.com). Applications will be reviewed and awards will be offered starting from November 10th, 2020. However, we will keep accepting applications even after November 10th and award grants based on availability. The applicants need to provide a resume and a short statement indicating how they would benefit from attending EuroP4 2020.
-
-Each grant is for a nominal amount for registration for the virtual event. Details on payment/reimbursement will be announced soon.
-
-If you have any questions about the application process, please email the TPC Co-Chairs.
-
 ### Program
 
 ---
