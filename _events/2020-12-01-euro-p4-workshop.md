@@ -106,40 +106,37 @@ If you have any questions about the application process, please email the TPC Co
         * __14:20 - 14:30, GMT__  
         *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
 
-    * __14:30 - 15:00, GMT__  
-    Panel discussion
-
 ---
 
-* __15:00 - 15:30, GMT__
+* __14:30 - 15:00, GMT__
 
     Coffee break
 
 ---
 
-* __15:30 - 16:45, GMT__
+* __15:00 - 16:15, GMT__
 
     Session 3: Architectures and Platforms
 
-    * __15:30 - 15:45, GMT__  
+    * __15:00 - 15:15, GMT__  
     *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
 
-    * __15:45 - 16:00, GMT__  
+    * __15:15 - 15:30, GMT__  
     *Leveraging Target-specific Features Through P4.* Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.)
 
-    * __16:00 - 16:15, GMT__  
+    * __15:30 - 15:45, GMT__  
     *MTPSA: Multi-Tenant Programmable Switches.* Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
 
-    * __16:15 - 16:45, GMT__  
+    * __15:45 - 16:15, GMT__  
     Panel discussion
 
 ---
 
-* __16:45 - 17:00, GMT__
+* __16:15 - 16:30, GMT__
 
     Closing words
 
-* __17:00 - 18:00, GMT__
+* __16:30 - 17:30, GMT__
 
     Virtual social event
 
@@ -153,7 +150,7 @@ If you have any questions about the application process, please email the TPC Co
 ~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
 ~~*Posters and demos notification:* Monday, October 5th, 2020.~~  
 ~~*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)~~  
-*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)  
+~~*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)~~  
 
 ### Participation
 
