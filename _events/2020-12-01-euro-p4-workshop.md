@@ -80,7 +80,7 @@ If you have any questions about the application process, please email the TPC Co
 
 ---
 
-* __13:30 - 15:00, GMT__
+* __13:30 - 14:30, GMT__
 
     Session 2: Posters and Demos
 
