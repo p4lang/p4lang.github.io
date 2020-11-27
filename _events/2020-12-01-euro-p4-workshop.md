@@ -12,20 +12,6 @@ header-img: assets/p4-background.png
 EuroP4 2020 is the third P4 Language Consortium event in Europe.
 It aims to bring together P4 and P4->NetFPGA researchers from Europe and from around the world, and to foster the growth of the P4 Community.
 
-### EuroP4 Registration Grants
-
-We are pleased to offer a limited number of awards supporting registration expenses associated with participating at CoNEXT 2020 and EuroP4 2020. Attendees from traditionally under-represented groups, students and recent graduates, early-career researchers in industry and non-affiliated, are particularly encouraged to apply. Should we receive more applications than the funding can support, priority will be given to applicants not otherwise able to attend the conference, and/or from regions where financial resources may not be available to cover even the lower remote registration cost.
-
-The intent of the registration grant is to encourage a broader diversity of participation, and, as a result, award selection will prioritize applicants who are not authors.  Though, everyone is encouraged to apply.
-
-Registration grants are funded by the generous support of our sponsor APS Networks.
-
-Award applications must be completed at the [CoNEXT 2020 site](https://conext20grant.hotcrp.com). Applications will be reviewed and awards will be offered starting from November 10th, 2020. However, we will keep accepting applications even after November 10th and award grants based on availability. The applicants need to provide a resume and a short statement indicating how they would benefit from attending EuroP4 2020.
-
-Each grant is for a nominal amount for registration for the virtual event. Details on payment/reimbursement will be announced soon.
-
-If you have any questions about the application process, please email the TPC Co-Chairs.
-
 ### Program
 
 ---
@@ -80,7 +66,7 @@ If you have any questions about the application process, please email the TPC Co
 
 ---
 
-* __13:30 - 15:00, GMT__
+* __13:30 - 14:30, GMT__
 
     Session 2: Posters and Demos
 
@@ -106,40 +92,37 @@ If you have any questions about the application process, please email the TPC Co
         * __14:20 - 14:30, GMT__  
         *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
 
-    * __14:30 - 15:00, GMT__  
-    Panel discussion
-
 ---
 
-* __15:00 - 15:30, GMT__
+* __14:30 - 15:00, GMT__
 
     Coffee break
 
 ---
 
-* __15:30 - 16:45, GMT__
+* __15:00 - 16:15, GMT__
 
     Session 3: Architectures and Platforms
 
-    * __15:30 - 15:45, GMT__  
+    * __15:00 - 15:15, GMT__  
     *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
 
-    * __15:45 - 16:00, GMT__  
+    * __15:15 - 15:30, GMT__  
     *Leveraging Target-specific Features Through P4.* Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.)
 
-    * __16:00 - 16:15, GMT__  
+    * __15:30 - 15:45, GMT__  
     *MTPSA: Multi-Tenant Programmable Switches.* Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
 
-    * __16:15 - 16:45, GMT__  
+    * __15:45 - 16:15, GMT__  
     Panel discussion
 
 ---
 
-* __16:45 - 17:00, GMT__
+* __16:15 - 16:30, GMT__
 
     Closing words
 
-* __17:00 - 18:00, GMT__
+* __16:30 - 17:30, GMT__
 
     Virtual social event
 
@@ -153,7 +136,7 @@ If you have any questions about the application process, please email the TPC Co
 ~~*Posters and demos deadline:* Tuesday, September 8th, 2020 (11:59PM AoE)~~  
 ~~*Posters and demos notification:* Monday, October 5th, 2020.~~  
 ~~*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)~~  
-*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)  
+~~*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)~~  
 
 ### Participation
 
