@@ -25,7 +25,8 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
 
 * __9:30 - 10:30, GMT__
 
-    Keynote talk by [Laurent Vanbever (ETH Zürich)](https://vanbever.eu)  
+    *Keynote talk* by [Laurent Vanbever (ETH Zürich)](https://vanbever.eu)  
+    *Session Chair:* Sándor Laki, *Eötvös Loránd University*  
     *Title:* Programmable, Hardware-Based Routing and Scheduling  
     *Abstract:* Routing and scheduling are two of the most fundamental tasks performed by any network. Routing determines the set of paths alongside which network traffic flows, while scheduling controls how traffic flows alongside these paths.  
     Today, these two tasks strike different trade-offs in terms of flexibility and speed. As it runs in the control plane, in software, routing tends to be flexible... but slow. In contrast, as it runs in the data plane, most of the time in hardware, scheduling tends to be inflexible... but fast.  
@@ -41,7 +42,8 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
 
 * __11:00 - 12:30, GMT__
 
-    Session 1: Use Cases
+    *Session 1:* Use Cases  
+    *Session Chair:* Noa Zilberman, *University of Oxford*
 
     * __11:00 - 11:15, GMT__  
     *Comparative Evaluation of IP-Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch.* Harsh Gondaliya (SRM Institute of Science and Technology), Ganesh C. Sankaran (University of California, Davis), Krishna Sivalingam (Indian Institute of Technology Madras)
@@ -68,7 +70,8 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
 
 * __13:30 - 14:30, GMT__
 
-    Session 2: Posters and Demos
+    *Session 2:* Posters and Demos  
+    *Session Chair:* Gianni Antichi, *Queen Mary University of London*
 
     * Posters
 
@@ -102,7 +105,8 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
 
 * __15:00 - 16:15, GMT__
 
-    Session 3: Architectures and Platforms
+    *Session 3:* Architectures and Platforms  
+    *Session Chair:* Robert Soulé, *Yale University*
 
     * __15:00 - 15:15, GMT__  
     *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
@@ -157,8 +161,8 @@ As a consequence of the current situation of the COVID-19 pandemic and similar t
 
 ### Organizing Committee
 
-Salvatore Signorello, University of Lisbon  
-Tamás Lévai, Budapest University of Technology and Economics  
+Salvatore Signorello, *University of Lisbon*  
+Tamás Lévai, *Budapest University of Technology and Economics*  
 
 ### Technical Program Committee
 
