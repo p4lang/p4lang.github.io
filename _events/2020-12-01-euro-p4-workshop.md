@@ -46,16 +46,20 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
     *Session Chair:* Noa Zilberman, *University of Oxford*
 
     * __11:00 - 11:15, GMT__  
-    *Comparative Evaluation of IP-Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch.* Harsh Gondaliya (SRM Institute of Science and Technology), Ganesh C. Sankaran (University of California, Davis), Krishna Sivalingam (Indian Institute of Technology Madras)
+    *Comparative Evaluation of IP-Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch.* ([https://drive.google.com/file/d/1NOsKZrtYPlwn7vhJHM5HFCIHkgIqlBku/view?usp=sharing](Paper))  
+    Harsh Gondaliya (SRM Institute of Science and Technology), Ganesh C. Sankaran (University of California, Davis), Krishna Sivalingam (Indian Institute of Technology Madras)
 
     * __11:15 - 11:30, GMT__  
-    *Falcon - Low Latency, Network-Accelerated Scheduling.* Ibrahim Kettaneh (University of Waterloo), Sreeharsha Udayashankar (University of Waterloo), Ashraf Abdel-hadi (University of Waterloo), Samer Al-Kiswany (University of Waterloo)
+    *Falcon - Low Latency, Network-Accelerated Scheduling.*  
+    Ibrahim Kettaneh (University of Waterloo), Sreeharsha Udayashankar (University of Waterloo), Ashraf Abdel-hadi (University of Waterloo), Samer Al-Kiswany (University of Waterloo)
 
     * __11:30 - 11:45, GMT__  
-    *SYN Flood Defense in Programmable Data Planes.* Dominik Scholz (Technical University of Munich), Sebastian Gallenmüller (Technical University of Munich), Henning Stubbe (Technical University of Munich), Georg Carle (Technical University of Munich)
+    *SYN Flood Defense in Programmable Data Planes.*  
+    Dominik Scholz (Technical University of Munich), Sebastian Gallenmüller (Technical University of Munich), Henning Stubbe (Technical University of Munich), Georg Carle (Technical University of Munich)
 
     * __11:45 - 12:00, GMT__  
-    *P4-Protect: 1+1 Path Protection for P4.* Steffen Lindner (University of Tuebingen), Daniel Merling (University of Tuebingen), Marco Häberle (University of Tuebingen), Michael Menth (University of Tuebingen)
+    *P4-Protect: 1+1 Path Protection for P4.*  
+    Steffen Lindner (University of Tuebingen), Daniel Merling (University of Tuebingen), Marco Häberle (University of Tuebingen), Michael Menth (University of Tuebingen)
 
     * __12:00 - 12:30, GMT__  
     Panel discussion
@@ -76,24 +80,30 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
     * Posters
 
         * __13:30 - 13:40, GMT__  
-        *Unleashing the performance of virtual BNG by offloading data plane to a programmable ASIC.* Tomasz Osiński (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs), Mateusz Pawlik (Orange Labs), Jan Palimąka (Orange Labs), Michał Sala (Orange Labs), Halina Tarasiuk (Warsaw University of Technology)
+        *Unleashing the performance of virtual BNG by offloading data plane to a programmable ASIC.*  
+        Tomasz Osiński (Orange Labs & Warsaw University of Technology), Mateusz Kossakowski (Orange Labs), Mateusz Pawlik (Orange Labs), Jan Palimąka (Orange Labs), Michał Sala (Orange Labs), Halina Tarasiuk (Warsaw University of Technology)
 
         * __13:40 - 13:50, GMT__  
-        *Towards a Hybrid Next Generation NodeB.* Péter Vörös (Eötvös Loránd University), Gergely Pongrácz (Ericsson Research), Sándor Laki (Eötvös Loránd University)
+        *Towards a Hybrid Next Generation NodeB.*  
+        Péter Vörös (Eötvös Loránd University), Gergely Pongrácz (Ericsson Research), Sándor Laki (Eötvös Loránd University)
 
         * __13:50 - 14:00, GMT__  
-        *A perspective on P4-based data and control plane modularity for network automation.* Eder Ollora Zaballa (Technical University of Denmark), David Franco (University of the Basque Country), Michael Stübert Berger (Denmark Techinical University), Mariavi Higuero (University of the Basque Country)
+        *A perspective on P4-based data and control plane modularity for network automation.*  
+        Eder Ollora Zaballa (Technical University of Denmark), David Franco (University of the Basque Country), Michael Stübert Berger (Denmark Techinical University), Mariavi Higuero (University of the Basque Country)
 
     * Demos
 
         * __14:00 - 14:10, GMT__  
-        *A P4 Data Plane for the Quantum Internet.* Wojciech Kozlowski (QuTech, Delft University of Technology), Fernando Kuipers (Delft University of Technology), Stephanie Wehner (QuTech, Delft University of Technology)
+        *A P4 Data Plane for the Quantum Internet.*  
+        Wojciech Kozlowski (QuTech, Delft University of Technology), Fernando Kuipers (Delft University of Technology), Stephanie Wehner (QuTech, Delft University of Technology)
 
         * __14:10 - 14:20, GMT__  
-        *Developing EFSM-based stateful applications with FlowBlaze.p4 and ONOS.* Daniele Moro (Politecnico di Milano), Davide Sanvito (NEC Laboratories Europe), Antonio Capone (Politecnico di Milano)
+        *Developing EFSM-based stateful applications with FlowBlaze.p4 and ONOS.*  
+        Daniele Moro (Politecnico di Milano), Davide Sanvito (NEC Laboratories Europe), Antonio Capone (Politecnico di Milano)
 
         * __14:20 - 14:30, GMT__  
-        *Pushing Network Programmability to the Limits with SRv6 uSID and P4.* Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
+        *Pushing Network Programmability to the Limits with SRv6 uSID and P4.*  
+        Ahmed Abdelsalam (Cisco Systems), Angelo Tulumello (University of Rome Tor Vergata), Marco Bonola (CNIT – National Inter University Consortium for Telecommunications), Stefano Salsano (University of Rome Tor Vergata), Clarence Filsfils (Cisco Systems)
 
 ---
 
@@ -109,13 +119,16 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
     *Session Chair:* Robert Soulé, *Yale University*
 
     * __15:00 - 15:15, GMT__  
-    *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.* Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
+    *Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms.*  
+    Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
 
     * __15:15 - 15:30, GMT__  
-    *Leveraging Target-specific Features Through P4.* Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.)
+    *Leveraging Target-specific Features Through P4.*  
+    Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.)
 
     * __15:30 - 15:45, GMT__  
-    *MTPSA: Multi-Tenant Programmable Switches.* Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
+    *MTPSA: Multi-Tenant Programmable Switches.*  
+    Radostin Stoyanov (University of Cambridge), Noa Zilberman (University of Oxford)
 
     * __15:45 - 16:15, GMT__  
     Panel discussion
