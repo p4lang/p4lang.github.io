@@ -123,7 +123,7 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
     Balázs Vass (Budapest University of Technology and Economics), Erika Bérczi-Kovács (Eötvös Loránd Science University), Costin Raiciu (University Politehnica of Bucharest), Gábor Rétvári (Budapest University of Technology and Economics)
 
     * __15:15 - 15:30, GMT__  
-    *Leveraging Target-specific Features Through P4.* ([Paper](https://drive.google.com/file/d/125TzyRnmxHLuNa321lHof_9ZNZSvAQ66/view?usp=sharing))  
+    *Leveraging P4 Flexibility to Expose Target-specific Features.* ([Paper](https://drive.google.com/file/d/125TzyRnmxHLuNa321lHof_9ZNZSvAQ66/view?usp=sharing))  
     Alex Seibulescu (Pensando Systems, Inc.), Mario Baldi (Pensando Systems, Inc.)
 
     * __15:30 - 15:45, GMT__  
