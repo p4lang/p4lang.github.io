@@ -174,8 +174,10 @@ As a consequence of the current situation of the COVID-19 pandemic and similar t
 
 ### Organizing Committee
 
-Salvatore Signorello, *University of Lisbon*  
-Tamás Lévai, *Budapest University of Technology and Economics*  
+Hotcrp Chair: Salvatore Signorello, *University of Lisbon*  
+Publicity Chair: Tamás Lévai, *Budapest University of Technology and Economics*  
+Slack Chair: João Amado, *University of Lisbon*  
+Mozilla Hub Chair: Gonçalo Matos, *University of Lisbon*  
 
 ### Technical Program Committee
 
