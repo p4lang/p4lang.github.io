@@ -155,12 +155,12 @@ It aims to bring together P4 and P4->NetFPGA researchers from Europe and from ar
 ~~*Camera ready:* Thursday, October 29th, 2020 (11:59PM AoE)~~  
 ~~*Video upload:* Wednesday, November 18th, 2020 (11:59PM AoE)~~  
 
-### Participation
+<!-- ### Participation -->
 
-As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details.
+<!-- As a consequence of the current situation of the COVID-19 pandemic and similar to CoNEXT'20, EuroP4'20 will be a fully virtual (online) event. Please follow the updates on the CoNEXT'20 and our website for the details. -->
 
-### Registration
-[Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/)
+<!-- ### Registration -->
+<!-- [Registration is through CoNEXT 2020](https://conferences2.sigcomm.org/co-next/2020/) -->
 
 ### General Chairs
 
