@@ -11,6 +11,10 @@ of the Working Groups by signing on to the mailing lists. Mailing list
 archives are available to the public, however membership is
 restricted. Please become a [member](/join-us/).
 
+Working group meetings are posted to the following public calendar.
+
+<iframe src="https://calendar.google.com/calendar/embed?src=j4to42rsjqtfks0qb7iah8gous%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 # Language Design Working Group
 - Mailing list: [Sign up](http://lists.p4.org/mailman/listinfo/p4-design_lists.p4.org), [Archive](http://lists.p4.org/pipermail/p4-design_lists.p4.org/)
 - GitHub: [https://github.com/p4lang/p4-spec/](https://github.com/p4lang/p4-spec/)
