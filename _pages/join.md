@@ -18,10 +18,10 @@ header-img: assets/p4-background.png
 Participation is all about getting started.  We recommend you start by joining appropriate mailing lists and getting your hands dirty with the [code](https://github.com/p4lang). 
 
 The P4 mailing lists are:
-* <a href="http://lists.p4.org/pipermail/p4-announce_lists.p4.org/">p4-announce</a> : general admin list: meeting schedules, announcements of significant contributions (low-volume, <a href="http://lists.p4.org/mailman/listinfo/p4-announce_lists.p4.org">subscribe here</a>)
-* <a href="http://lists.p4.org/pipermail/p4-dev_lists.p4.org/">p4-dev</a> : active list for coders and users of P4 (<a href="http://lists.p4.org/mailman/listinfo/p4-dev_lists.p4.org">subscribe here</a>)<br />
-* <a href="http://lists.p4.org/pipermail/p4-discuss_lists.p4.org/">p4-discuss</a> : open list for all issues that aren't directly related to development/code (<a href="http://lists.p4.org/mailman/listinfo/p4-discuss_lists.p4.org">subscribe here</a>)
-* <a href="http://lists.p4.org/pipermail/p4-design_lists.p4.org/">p4-design</a> : open list for discussing design of the P4 language (<a href="http://lists.p4.org/mailman/listinfo/p4-design_lists.p4.org">subscribe here</a>)
+* <a href="http://lists.p4.org/empathy/list/p4-announce.lists.p4.org/">p4-announce</a> : general admin list: meeting schedules, announcements of significant contributions (low-volume, <a href="http://lists.p4.org/list/p4-announce.lists.p4.org">subscribe here</a>)
+* <a href="http://lists.p4.org/empathy/list/p4-dev.lists.p4.org/">p4-dev</a> : active list for coders and users of P4 (<a href="http://lists.p4.org/list/p4-dev.lists.p4.org">subscribe here</a>)<br />
+* <a href="http://lists.p4.org/empathy/list/p4-discuss.lists.p4.org/">p4-discuss</a> : open list for all issues that aren't directly related to development/code (<a href="http://lists.p4.org/list/p4-discuss.lists.p4.org">subscribe here</a>)
+* <a href="http://lists.p4.org/empathy/list/p4-design.lists.p4.org/">p4-design</a> : open list for discussing design of the P4 language (<a href="http://lists.p4.org/list/p4-design.lists.p4.org">subscribe here</a>)
 
 #### ONF Membership
 
