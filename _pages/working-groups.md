@@ -33,15 +33,15 @@ Working group meetings are posted to the following public calendar.
 - Mailing list: [Sign up](http://lists.p4.org/list/p4-arch.lists.p4.org), [Archive](http://lists.p4.org/empathy/list/p4-arch.lists.p4.org/)
 - GitHub: [https://github.com/p4lang/p4-spec/tree/master/p4-16/psa](https://github.com/p4lang/p4-spec/tree/master/p4-16/psa)
 - Co-Chairs:
-    - Calin Cascaval (Barefoot)
-    - Andy Fingerhut (Cisco)
+    - Gordon Brebner (Xilinx)
+    - Andy Fingerhut (Intel)
 
 # Applications Working Group
 - Mailing list: [Sign up](http://lists.p4.org/list/p4-apps.lists.p4.org), [Archive](http://lists.p4.org/empathy/list/p4-apps.lists.p4.org/)
 - GitHub: [https://github.com/p4lang/p4-applications](https://github.com/p4lang/p4-applications)
 - Co-Chairs:
     - Mukesh Hira (VMware)
-    - JK Lee (Barefoot)
+    - JK Lee (Intel)
 
 # Education Working Group
 - Mailing list: [Sign up](http://lists.p4.org/list/p4-edu.lists.p4.org), [Archive](http://lists.p4.org/empathy/list/p4-edu.lists.p4.org/)
