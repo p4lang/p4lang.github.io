@@ -22,7 +22,42 @@ The 2021 P4 Workshop is an exciting and informative virtual event. It is intende
 
 This event is an opportunity for the P4 ecosystem to share knowledge and experiences with the broader community and to facilitate collaboration. It will include live keynotes May 18, 19 and 20, as well as on-demand presentations and panel discussions. There is no fee for participants to join and all presentations will be made publicly available after the event.<br/>
 <br/>
-For full details like CFP information, registration, agenda, and technical program committee, please visit the master event page on <b><a href="https://opennetworking.org/events/2021-p4-workshop/">ONF's website</a><b/>.<br/>
+For full details like CFP information, registration, agenda, and technical program committee, please visit ONF's website by clicking the button below:
+
+<!--DOCTYPE html-->
+<html>
+   <head>
+<style>
+         .button2 {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #9778c2; 5%, #476e9e 100%);
+	background-color:#3d83db;
+	border-radius:10px;
+	border:2px solid #84bbbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Avenir;
+	font-size:16px;
+	font-weight:bold;
+	padding: 10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+        .button2:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+        .button2:active {
+	position:relative;
+	top:1px;
+}
+      </style>
+   </head>
+   <body>
+      <a href="https://opennetworking.org/events/2021-p4-workshop/" class="button2">2021 P4 Workshop Details</a>
+   </body>
+</html>
 <br/>
 We look forward to 'seeing' you there! 
 <p/>
