@@ -103,7 +103,7 @@ It depends: everything else being equal, adding extra dataplane hops would incre
 This can be seen for Memcached GETs in the graph below (Figure 3). The graph shows the measurement response to the incremental activation of parts of a disaggregated program and adding external loss to simulate corruption.
 The Flightplan paper contains much more [evaluation detail](https://flightplan.cis.upenn.edu/flightplan.pdf#section.7).
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="https://flightplan.cis.upenn.edu/gradualactivation.png" alt="" width="500" /><strong>Figure 3: Measurements over disaggregated Crosspod.p4, appearing in the <a href="https://flightplan.cis.upenn.edu/flightplan.pdf#figure.caption.17">Flightplan's paper Figure 10</a> which details the graph's layout and contents. In outline, the graph shows the incremental activation of parts of the distributed program and how this affects system behaviour and measurements.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="https://flightplan.cis.upenn.edu/gradualactivation.png" alt="" width="500" /><strong>Figure 3: Measurements over disaggregated Crosspod.p4, appearing in the <a href="https://flightplan.cis.upenn.edu/flightplan.pdf#figure.caption.17">Flightplan paper's Figure 10</a> which details the graph's layout and contents. In outline, the graph shows the incremental activation of parts of the distributed program and how this affects system behaviour and measurements.</strong></p>
 
 **Won't Dataplane Disaggregation incur network overhead?**
 <br />
