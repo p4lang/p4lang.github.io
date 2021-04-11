@@ -79,7 +79,7 @@ Flightplan provides tools that:
 
 * [manage](https://flightplan.cis.upenn.edu/flightplan.pdf#section.5) running Flightplanned programs ([code](https://github.com/eniac/Flightplan/blob/master/Wharf/fpctl.py)), including [in-program runtime support](https://flightplan.cis.upenn.edu/flightplan.pdf#subsection.5.2) ([code](https://github.com/eniac/Flightplan/blob/master/Wharf/Sources/FPRuntime.p4)).
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="https://flightplan.cis.upenn.edu/highlightedsnippet.png" alt="(Code snippet)" width="500" /><strong>Figure 2: Example snippet of annotated Flightplan program, taken from [Crosspod.p4](https://github.com/eniac/Flightplan/blob/45bbe38e0bbcc13f7cdee738a95f53b20a3953a0/Wharf/splits2/ALV_Complete_1_hl3_unsplit/ALV_Complete_hl3_unsplit.p4#L359), showing segment annotations and resource-related program phrases.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="https://flightplan.cis.upenn.edu/highlightedsnippet.png" alt="(Code snippet)" width="500" /><strong>Figure 2: Example snippet of annotated Flightplan program, taken from <a href="https://github.com/eniac/Flightplan/blob/45bbe38e0bbcc13f7cdee738a95f53b20a3953a0/Wharf/splits2/ALV_Complete_1_hl3_unsplit/ALV_Complete_hl3_unsplit.p4#L359">Crosspod.p4</a>, showing segment annotations and resource-related program phrases.</strong></p>
 
 Using these tools you start with an annotated monolithic P4 program, such as that shown above (Figure 2).
 The monolithic program is reduced to [rules](https://flightplan.cis.upenn.edu/flightplan.pdf#subsection.4.1) that the planner will use in its analysis. This reduction is done automatically ([example output](https://github.com/eniac/Flightplan/blob/master/flightplan/analyser_scripts/flightplan_output/program20.json#L13)) by the code analyser---P4 programmers don't have to write rules.
@@ -103,7 +103,7 @@ It depends: everything else being equal, adding extra dataplane hops would incre
 This can be seen for Memcached GETs in the graph below (Figure 3). The graph shows the measurement response to the incremental activation of parts of a disaggregated program and adding external loss to simulate corruption.
 The Flightplan paper contains much more [evaluation detail](https://flightplan.cis.upenn.edu/flightplan.pdf#section.7).
 
-<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="https://flightplan.cis.upenn.edu/gradualactivation.png" alt="" width="500" /><strong>Figure 3: Measurements over disaggregated Crosspod.p4, appearing in the [Flightplan's paper Figure 10](https://flightplan.cis.upenn.edu/flightplan.pdf#figure.caption.17) which details the graph's layout and contents. In outline, the graph shows the incremental activation of parts of the distributed program and how this affects system behaviour and measurements.</strong></p>
+<p style="text-align:center;"><img style="display:block; margin:0 auto;" src="https://flightplan.cis.upenn.edu/gradualactivation.png" alt="" width="500" /><strong>Figure 3: Measurements over disaggregated Crosspod.p4, appearing in the <a href="https://flightplan.cis.upenn.edu/flightplan.pdf#figure.caption.17">Flightplan's paper Figure 10</a> which details the graph's layout and contents. In outline, the graph shows the incremental activation of parts of the distributed program and how this affects system behaviour and measurements.</strong></p>
 
 **Won't Dataplane Disaggregation incur network overhead?**
 <br />
