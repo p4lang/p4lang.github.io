@@ -84,7 +84,7 @@ license</a>.
 
 As your interest grows, we encourage you to participate and contribute
 your code. Please join the <a
-href="http://lists.p4.org/mailman/listinfo/p4-dev_lists.p4.org">P4
+href="https://lists.p4.org/list/p4-dev.lists.p4.org">P4
 Developer</a> mailing list to get updates, ask questions, and get
 answers.  Our <a href="projects.html">community projects</a> include a
 variety of tasks that can give you ideas on where to start
